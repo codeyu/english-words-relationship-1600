@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+        <!-- <script src="../../echarts/dist/echarts.js"></script> -->
+    </head>
+    <body>
+        <style>
+            html, body, #main {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+        </style>
+        <div id='box' style="width:100vw;height:100vh;"></div>
+        <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('box'));
+           var option = {
+          title: {
+              text: '关系图',
+              top: '12%',
+              left: 'center'
+          },
+          label: {
+              normal: {
+                  show: true
+              }
+          },
+          legend: {
+              x: "right",
+              show: true,
+              top: '20%',
+              data: ["男性", "女性"]
+          },
+          series: [
+              {
+                  type: 'graph',//关系图
+                  layout: 'force',//力导向图的布局
+                  symbolSize: 50,//节点大小
+                  focusNodeAdjacency: true,//鼠标悬停在节点上时，会隐藏和当前节点非直接连接的节点
+                  categories: [{ //节点类别
+                      name: '男性',
+                      itemStyle: {
+                          normal: {
+                              color: "#009800",
+                          }
+                      }
+                  }, {
+                      name: '女性',
+                      itemStyle: {
+                          normal: {
+                              color: "#4592FF",
+                          }
+                      }
+                  }],
+                  label: { //节点名称
+                      normal: {
+                          show: true,
+                          textStyle: {
+                              fontSize: 20 //节点名称显示大小
+                          },
+                      }
+                  },
+                  force: {
+                      repulsion: 1000 //节点之间的排斥力
+                  },
+                  edgeLabel: {
+                      normal: {
+                          show: true,
+                          textStyle: {
+                              fontSize: 10
+                          },
+                          formatter: "{c}"
+                      }
+                  },
+                  data: [{
+                      name: 'A',//节点名称
+                      category: 0,//节点类型
+                      draggable: true,//节点是否可拖动
+                  }, {
+                      name: 'B',
+                      category: 1,
+                      draggable: true,
+                  }, {
+                      name: 'C',
+                      category: 0,
+                      draggable: true,
+                  }, {
+                      name: 'D',
+                      category: 1,
+                      draggable: true,
+                  }, {
+                      name: 'E',
+                      category: 0,
+                      draggable: true,
+                  }, {
+                      name: 'F',
+                      category: 1,
+                      draggable: true,
+                  }, {
+                      name: 'G',
+                      category: 1,
+                      draggable: true,
+                  },{
+                      name: 'H',
+                      category: 1,
+                      draggable: true,
+                  }],
+                  links: [{
+                      source: 0,//关系的起点
+                      target: 1,//关系的终点
+                      value: '夫妻'//关系类型
+                  },{
+                      source: 0,
+                      target: 3,
+                      value: '父子'
+                  }, {
+                      source: 0,
+                      target: 5,
+                      value: '朋友'
+                  }, {
+                      source: 4,
+                      target: 5,
+                      value: '同事'
+                  }, {
+                      source: 2,
+                      target: 7,
+                      value: '夫妻'
+                  }, {
+                      source: 1,
+                      target: 7,
+                      value: '朋友'
+                  }, {
+                      source: 1,
+                      target: 4,
+                      value: '朋友'
+                  }, {
+                      source: 1,
+                      target: 6,
+                      value: '朋友'
+                  }
+                  ],
+                  lineStyle: { //关系连接线的样式设置
+                      normal: {
+                          opacity: 0.9,//关系连接线的不透明度为0.9
+                          width: 3,//关系连接线的宽度
+                          curveness: 0//关系连接线的弯曲程度
+                      }
+                  }
+              }
+          ]
+      };
+      
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+          </script>
+    </body>
+</html>

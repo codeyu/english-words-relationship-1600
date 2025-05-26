@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+        <!-- <script src="../../echarts/dist/echarts.js"></script> -->
+        <script src='../dist/echarts-wordcloud.js'></script>
+    </head>
+    <body>
+        <style>
+            html, body, #main {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+        </style>
+        <div id='box' style="width:100vw;height:100vh;"></div>
+        <script>
+            var myChart = echarts.init(document.getElementById('box'));
+            let datas = [{
+                name: "雨伞",
+                value: 30
+            },
+            {
+                name: "晴天",
+                value: 28
+            },
+            {
+                name: "电话",
+                value: 24
+            },
+            {
+                name: "手机",
+                value: 23
+            },
+            {
+                name: "下雨",
+                value: 22
+            },
+            {
+                name: "暴雨",
+                value: 21
+            },
+            {
+                name: "多云",
+                value: 20
+            },
+            {
+                name: "雨衣",
+                value: 29
+            },
+            {
+                name: "屋檐",
+                value: 28
+            },
+            {
+                name: "大风",
+                value: 27
+            },
+            {
+                name: "台风",
+                value: 26
+            },
+            {
+                name: "下雪",
+                value: 25
+            },
+            {
+                name: "打雷",
+                value: 24
+            },
+            {
+                name: "小雨",
+                value: 30
+            },
+            {
+                name: "中雨",
+                value: 18
+            },
+            {
+                name: "大雨",
+                value: 14
+            },
+            {
+                name: "雷阵雨",
+                value: 13
+            },
+            {
+                name: "下雪",
+                value: 12
+            },
+            {
+                name: "小雪",
+                value: 11
+            },
+            {
+                name: "中雪",
+                value: 10
+            },
+            {
+                name: "大雪",
+                value: 9
+            },
+            {
+                name: "暴雪",
+                value: 8
+            },
+            {
+                name: "东风",
+                value: 7
+            },
+            {
+                name: "南风",
+                value: 6
+            },
+            {
+                name: "西北风",
+                value: 5
+            },
+            {
+                name: "北风",
+                value: 4
+            },
+            {
+                name: "闪电",
+                value: 3
+            }
+            ];
+    
+            var option = {
+                tooltip: {},
+                series: [{
+                    type: "wordCloud",
+                    gridSize: 2,
+                    sizeRange: [12, 50],
+                    rotationRange: [-90, 90],
+                    shape: 'pentagon',
+                    width: 600,
+                    height: 400,
+                    drawOutOfBound: true,
+                    textStyle: {
+                        color: function () {
+                            return 'rgb(' + [
+                                Math.round(Math.random() * 160),
+                                Math.round(Math.random() * 160),
+                                Math.round(Math.random() * 160)
+                            ].join(',') + ')';
+                        }
+                    },
+                    emphasis: {
+                        textStyle: {
+                            shadowBlur: 10,
+                            shadowColor: '#333'
+                        }
+                    },
+                    data: datas
+                }]
+            };
+            myChart.setOption(option);
+
+            window.onresize = myChart.resize;
+        </script>
+    </body>
+</html>
