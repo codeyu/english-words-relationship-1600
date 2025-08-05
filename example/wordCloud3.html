@@ -31,7 +31,7 @@
               x: "right",
               show: true,
               top: '20%',
-              data: ["男性", "女性"]
+              data: ["root", "level-1", "level-2", "level-3"]
           },
           series: [
               {
@@ -40,14 +40,28 @@
                   symbolSize: 50,//节点大小
                   focusNodeAdjacency: true,//鼠标悬停在节点上时，会隐藏和当前节点非直接连接的节点
                   categories: [{ //节点类别
-                      name: '男性',
+                      name: 'root',
                       itemStyle: {
                           normal: {
                               color: "#009800",
                           }
                       }
                   }, {
-                      name: '女性',
+                      name:  'level-1',
+                      itemStyle: {
+                          normal: {
+                              color: "#4592FF",
+                          }
+                      }
+                  }, {
+                      name: 'level-2',
+                      itemStyle: {
+                          normal: {
+                              color: "#4592FF",
+                          }
+                      }
+                  }, {
+                      name: 'level-3',
                       itemStyle: {
                           normal: {
                               color: "#4592FF",
@@ -75,71 +89,94 @@
                       }
                   },
                   data: [{
-                      name: 'A',//节点名称
+                      name: 'best',//节点名称
+		            chinese:'最好的',
                       category: 0,//节点类型
-                      draggable: true,//节点是否可拖动
+                      draggable: false,//节点是否可拖动
                   }, {
-                      name: 'B',
+                      name: 'rest',
                       category: 1,
                       draggable: true,
                   }, {
-                      name: 'C',
-                      category: 0,
-                      draggable: true,
-                  }, {
-                      name: 'D',
+                      name: 'test',
                       category: 1,
                       draggable: true,
                   }, {
-                      name: 'E',
-                      category: 0,
-                      draggable: true,
-                  }, {
-                      name: 'F',
+                      name: 'vest',
                       category: 1,
                       draggable: true,
                   }, {
-                      name: 'G',
-                      category: 1,
+                      name: 'harvest',
+                      category: 2,
+                      draggable: true,
+                  }, {
+                      name: 'forest',
+                      category: 2,
+                      draggable: true,
+                  }, {
+                      name: 'restroom',
+                      category: 2,
                       draggable: true,
                   },{
-                      name: 'H',
-                      category: 1,
+                      name: 'restaurant',
+                      category: 3,
+                      draggable: true,
+                  },{
+                      name: 'restless',
+                      category: 3,
+                      draggable: true,
+                  },{
+                      name: 'text',
+                      category: 2,
+                      draggable: true,
+                  },{
+                      name: 'textbook',
+                      category: 3,
                       draggable: true,
                   }],
                   links: [{
                       source: 0,//关系的起点
                       target: 1,//关系的终点
-                      value: '夫妻'//关系类型
+                      value: '押韵'//关系类型
+                  },{
+                      source: 0,
+                      target: 2,
+                      value: '押韵'
                   },{
                       source: 0,
                       target: 3,
-                      value: '父子'
-                  }, {
-                      source: 0,
-                      target: 5,
-                      value: '朋友'
-                  }, {
-                      source: 4,
-                      target: 5,
-                      value: '同事'
-                  }, {
-                      source: 2,
-                      target: 7,
-                      value: '夫妻'
+                      value: '押韵'
                   }, {
                       source: 1,
-                      target: 7,
-                      value: '朋友'
-                  }, {
-                      source: 1,
-                      target: 4,
-                      value: '朋友'
+                      target: 5,
+                      value: '前缀'
                   }, {
                       source: 1,
                       target: 6,
-                      value: '朋友'
+                      value: '后缀'
+                  }, {
+                      source: 6,
+                      target: 7,
+                      value: '前缀'
+                  }, {
+                      source: 6,
+                      target: 8,
+                      value: '前缀'
+                  },  {
+                      source: 3,
+                      target: 4,
+                      value: '前缀'
+                  },  {
+                      source: 2,
+                      target: 9,
+                      value: '相似'
+                  },  {
+                      source: 9,
+                      target: 10,
+                      value: '前缀'
                   }
+
+
                   ],
                   lineStyle: { //关系连接线的样式设置
                       normal: {
