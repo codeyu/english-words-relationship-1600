@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>形近词图谱 · 速记1600单词 第1页</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#E9EFF6; --grid:rgba(31,95,208,.08); --panel:#FFFFFF; --line:#C9D5E6;
+  --ink:#14233D; --ink2:#5A6B86; --accent:#1F5FD0; --accent-soft:#DCE8FB;
+  --spell:#1F5FD0; --derive:#0C8A74; --compound:#B8690F; --hl:#D6336C;
+  --node:#FFFFFF; --node-line:#9FB4D6; --center:#14233D; --center-ink:#F4F8FF;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E2A22; --grid:rgba(255,255,255,.06); --panel:#143830; --line:#2B5A4D;
+    --ink:#EEF4EC; --ink2:#9DBBAE; --accent:#8FC1FF; --accent-soft:#1E4A5E;
+    --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --hl:#FF8FB4;
+    --node:#173F35; --node-line:#4E8676; --center:#EEF4EC; --center-ink:#0E2A22;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E2A22; --grid:rgba(255,255,255,.06); --panel:#143830; --line:#2B5A4D;
+  --ink:#EEF4EC; --ink2:#9DBBAE; --accent:#8FC1FF; --accent-soft:#1E4A5E;
+  --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --hl:#FF8FB4;
+  --node:#173F35; --node-line:#4E8676; --center:#EEF4EC; --center-ink:#0E2A22;
+}
+*{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
+  font-family:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 16px 40px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
+h1{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:700;font-size:clamp(28px,5vw,44px);line-height:1.05;margin:0;letter-spacing:-.01em}
+.sub{margin:6px 0 0;color:var(--ink2);font-size:14px}
+.search{display:flex;gap:8px;align-items:center}
+.search input{font:inherit;font-size:15px;padding:9px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);width:190px}
+.search input:focus-visible,button:focus-visible,g[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.files{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-bottom:6px}
+.filelabel{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink2)}
+.filelabel select{font:inherit;font-size:14px;padding:7px 10px;border-radius:8px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);max-width:260px}
+.hint{font-size:13px;color:var(--ink2)}
+.msg{margin:0 0 10px;font-size:13px;min-height:0;color:var(--ink2)}
+.msg:empty{display:none}
+.msg.err{color:var(--hl)}
+body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tab{font:inherit;cursor:pointer;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);
+  padding:7px 14px;border-radius:999px;display:flex;flex-direction:column;align-items:center;line-height:1.15;min-width:84px}
+.tab b{font-family:"Bricolage Grotesque",sans-serif;font-size:16px;font-weight:700}
+.tab span{font-size:12px;color:var(--ink2)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab[aria-selected="true"] span{color:var(--bg);opacity:.75}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:12px}
+.tog{font:inherit;font-size:14px;cursor:pointer;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 12px;border-radius:8px}
+.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin-left:auto}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend svg{width:34px;height:8px;overflow:visible}
+.board{border:1.5px solid var(--line);border-radius:16px;background-color:var(--panel);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:26px 26px;overflow-x:auto}
+#graph{display:block;width:100%;min-width:780px;height:auto}
+.link{fill:none;stroke-width:2.2;transition:opacity .2s}
+.link.s{stroke:var(--spell)} .link.d{stroke:var(--derive);stroke-dasharray:7 5} .link.c{stroke:var(--compound);stroke-dasharray:2 5;stroke-linecap:round}
+.link.dim{opacity:.22}
+.mk-s{fill:var(--spell)} .mk-d{fill:var(--derive)} .mk-c{fill:var(--compound)}
+.node{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
+.node.dragging{cursor:grabbing}
+.node.dragging rect,.node.dragging circle{stroke:var(--accent);stroke-width:3.2}
+.node rect,.node circle{fill:var(--node);stroke:var(--node-line);stroke-width:1.6;transition:stroke .15s,stroke-width .15s}
+.node:hover rect,.node:hover circle{stroke:var(--accent)}
+.node.sel rect,.node.sel circle{stroke:var(--accent);stroke-width:3.2}
+.node.center circle{fill:var(--center);stroke:var(--center)}
+.node .w{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:500;font-size:18px;fill:var(--ink);text-anchor:middle}
+.node .z{font-size:13px;fill:var(--ink2);text-anchor:middle}
+[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
+.node.center .w{fill:var(--center-ink);font-size:24px;font-weight:700}
+.node.center .z{fill:var(--center-ink);opacity:.8;font-size:14px}
+.node .hl{fill:var(--hl);font-weight:700}
+.node .z.hidden{opacity:.45;letter-spacing:.1em}
+.detail{margin-top:16px;border:1.5px solid var(--line);border-radius:16px;background:var(--panel);padding:18px 20px;display:grid;gap:12px}
+.dword{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px}
+.dword .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(32px,6vw,52px);line-height:1}
+.dword .zh{font-size:22px;font-weight:500}
+.dword .zh.hidden{color:var(--ink2)}
+.speak{font:inherit;font-size:14px;cursor:pointer;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:5px 12px;border-radius:8px}
+.speak:hover{border-color:var(--accent)}
+.path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;color:var(--ink2);font-size:14px}
+.path button{font:inherit;font-family:"Bricolage Grotesque",sans-serif;font-size:15px;cursor:pointer;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:2px 10px;border-radius:999px}
+.path button:hover{border-color:var(--accent)}
+.note{margin:0;font-size:14px;color:var(--ink2)}
+.note .hl{color:var(--hl);font-weight:700;font-family:"Bricolage Grotesque",sans-serif}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>形近词图谱</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="search">
+      <input id="q" type="search" placeholder="输入单词，如 mountain" aria-label="搜索单词" autocomplete="off" autocapitalize="none" spellcheck="false">
+    </div>
+  </header>
+
+  <div class="files">
+    <label class="filelabel">词表文件
+      <select id="ds" aria-label="选择词表文件"></select>
+    </label>
+    <button class="tog" id="tImport">导入 JSON</button>
+    <button class="tog" id="tDel" hidden>移除此文件</button>
+    <input id="file" type="file" accept=".json,application/json" multiple hidden>
+    <span class="hint">可一次选多个文件，也可以把文件直接拖进页面。</span>
+  </div>
+  <p class="msg" id="msg" role="status" aria-live="polite"></p>
+
+  <div class="tabs" id="tabs" role="tablist" aria-label="词簇"></div>
+
+  <div class="toolbar">
+    <button class="tog" id="tZh" aria-pressed="true">显示日文</button>
+    <button class="tog" id="tHl" aria-pressed="true">标出相同部分</button>
+    <button class="tog" id="tShake">摇一摇</button>
+    <button class="tog" id="tPin" aria-pressed="false" title="开启后，拖到哪里就停在哪里">固定位置</button>
+    <button class="tog" id="tReset">复位</button>
+    <div class="legend" aria-label="图例">
+      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--spell)" stroke-width="2.4"/></svg>拼写相近</span>
+      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--derive)" stroke-width="2.4" stroke-dasharray="7 5"/></svg>派生变形</span>
+      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--compound)" stroke-width="2.4" stroke-dasharray="2 5" stroke-linecap="round"/></svg>复合词</span>
+    </div>
+  </div>
+
+  <div class="board"><svg id="graph" role="img" aria-label="形近词关系图"></svg></div>
+
+  <section class="detail" id="detail" aria-live="polite"></section>
+</div>
+
+<script>
+// ---------- 数据 ----------
+const BUILTIN_W = {
+  best:"最高の、一番良い",rest:"休憩する、休む",restroom:"トイレ、化粧室",restaurant:"レストラン、飲食店",restless:"落ち着かない",forest:"森、森林",
+  harvest:"収穫、取り入れ",vest:"ベスト、チョッキ",test:"テスト、試験",text:"本文、テキスト",textbook:"教科書",
+  count:"数える、計算する",couple:"一組、夫婦",course:"コース、課程",cousin:"いとこ",country:"国、国家",countryside:"田舎、郊外",
+  discount:"割引",mount:"山、登る",mountain:"山、山脈",
+  fish:"魚",wish:"願う、望む",wise:"賢い、賢明な",with:"～と一緒に",witch:"魔女",without:"～なしで",
+  dish:"皿、料理",finish:"終える、完成する",punish:"罰する",
+  round:"丸い、円形の",around:"～の周りに",surround:"囲む、取り囲む",surrounding:"周囲の、周りの",ground:"地面、グラウンド",group:"グループ、組",
+  underground:"地下、地下鉄",under:"～の下に",found:"設立する、創立する",sound:"音、聞こえる",pound:"ポンド",
+  meal:"食事",meat:"肉",meet:"会う、出会う",meeting:"会議、集まり",mean:"意味する",meaning:"意味",
+  real:"本当の、現実の",really:"本当に",realistic:"現実的な",realize:"気づく、実現する",
+  arm:"腕",army:"軍隊、陸軍",alarm:"警報、目覚まし",far:"遠い、遠く",farther:"もっと遠い",farthest:"最も遠い",
+  farm:"農場",farmland:"農地、耕地",land:"陸地、土地",farming:"農業、耕作",farmer:"農民、農場主",
+  son:"息子",soon:"まもなく、すぐに",less:"より少ない",lesson:"授業、レッスン",reason:"理由、原因",reasonable:"合理的な、妥当な",
+  prison:"刑務所、監獄",person:"人、人物",personal:"個人の、個人的な",personally:"個人的に"
+};
+// [父, 子, 类型] s=拼写相近 d=派生变形 c=复合词
+const BUILTIN_CLUSTERS = [
+ {center:"best",edges:[["best","rest","s"],["rest","restroom","d"],["restroom","restaurant","d"],["restroom","restless","d"],["rest","forest","s"],["best","vest","s"],["vest","harvest","s"],["best","test","s"],["test","text","s"],["text","textbook","c"]]},
+ {center:"count",edges:[["count","couple","s"],["couple","course","s"],["couple","cousin","s"],["count","country","s"],["country","countryside","c"],["count","discount","d"],["discount","mount","s"],["mount","mountain","d"]]},
+ {center:"fish",edges:[["fish","wish","s"],["wish","wise","s"],["wish","with","s"],["with","witch","s"],["with","without","d"],["fish","dish","s"],["dish","finish","s"],["finish","punish","s"]]},
+ {center:"round",edges:[["round","around","s"],["round","surround","s"],["surround","surrounding","d"],["round","ground","s"],["ground","group","s"],["ground","underground","d"],["underground","under","d"],["round","found","s"],["found","sound","s"],["sound","pound","s"]]},
+ {center:"meal",edges:[["meal","meat","s"],["meat","meet","s"],["meet","meeting","d"],["meal","mean","s"],["mean","meaning","d"],["meal","real","s"],["real","really","d"],["real","realistic","d"],["real","realize","d"]]},
+ {center:"arm",edges:[["arm","army","s"],["arm","alarm","s"],["arm","far","s"],["far","farther","d"],["farther","farthest","d"],["arm","farm","s"],["farm","farmland","c"],["farmland","land","c"],["farm","farming","d"],["farm","farmer","d"]]},
+ {center:"son",edges:[["son","soon","s"],["son","lesson","s"],["lesson","less","s"],["son","reason","s"],["reason","reasonable","d"],["son","prison","s"],["prison","person","s"],["person","personal","d"],["personal","personally","d"]]}
+];
+const TYPE_NAME = {s:"拼写相近",d:"派生变形",c:"复合词"};
+let W = BUILTIN_W, CLUSTERS = BUILTIN_CLUSTERS, WORD2CLUSTER = {};
+function rebuildIndex(){
+  WORD2CLUSTER = {};
+  CLUSTERS.forEach((c,i)=>{ WORD2CLUSTER[c.center]=i; c.edges.forEach(e=>{ WORD2CLUSTER[e[1]]=i; }); });
+}
+
+// <normalize>
+const TYPE_MAP = {spelling:"s",derive:"d",compound:"c",s:"s",d:"d",c:"c"};
+function normalize(j, fallbackName){
+  if(!j || typeof j!=="object" || Array.isArray(j)) throw new Error("内容不是 JSON 对象");
+  if(!Array.isArray(j.words) || !Array.isArray(j.edges)) throw new Error("缺少 words 或 edges 数组");
+  const warn = [], Wd = {}, wordCl = {}, cl = {}, order = [];
+  const ensure = id => { if(!cl[id]){ cl[id]={id, center:null, edges:[]}; order.push(id); } return cl[id]; };
+  j.words.forEach(w=>{
+    if(!w || !w.id) return;
+    const id = String(w.id).toLowerCase();
+    Wd[id] = w.jp ? String(w.jp) : (w.zh ? String(w.zh) : "");
+    if(w.cluster!=null){ wordCl[id]=String(w.cluster); const c=ensure(String(w.cluster)); if(w.role==="center") c.center=id; }
+  });
+  (Array.isArray(j.clusters)?j.clusters:[]).forEach(c=>{
+    if(!c || c.id==null) return;
+    const cc = ensure(String(c.id));
+    if(c.center) cc.center = String(c.center).toLowerCase();
+  });
+  const seenChild = {};
+  j.edges.forEach(e=>{
+    if(!e || !e.from || !e.to) return;
+    const p = String(e.from).toLowerCase(), ch = String(e.to).toLowerCase();
+    [p,ch].forEach(x=>{ if(!(x in Wd)){ Wd[x]=""; warn.push(`单词 ${x} 不在 words 里，已补上（无释义）`); } });
+    const cid = wordCl[p] ?? wordCl[ch];
+    if(cid==null){ warn.push(`边 ${p}→${ch} 找不到所属词簇，已跳过`); return; }
+    const c = ensure(cid);
+    if(seenChild[cid+"|"+ch]){ warn.push(`${ch} 有多个上级，只保留第一条`); return; }
+    seenChild[cid+"|"+ch] = 1;
+    c.edges.push([p,ch,TYPE_MAP[e.type]||"s"]);
+  });
+  const out = [];
+  order.forEach(id=>{
+    const c = cl[id];
+    if(!c.edges.length) return;
+    if(!c.center){
+      const kids = new Set(c.edges.map(e=>e[1]));
+      const root = c.edges.map(e=>e[0]).find(p=>!kids.has(p));
+      if(!root){ warn.push(`词簇 ${id} 找不到中心词，已跳过`); return; }
+      c.center = root;
+    }
+    // 只保留从中心词可达的边
+    const reach = new Set([c.center]); let grew = true;
+    while(grew){ grew=false; c.edges.forEach(e=>{ if(reach.has(e[0]) && !reach.has(e[1])){ reach.add(e[1]); grew=true; } }); }
+    const kept = c.edges.filter(e=>reach.has(e[0]) && reach.has(e[1]) && e[1]!==c.center);
+    if(kept.length<c.edges.length) warn.push(`词簇 ${c.center}：有 ${c.edges.length-kept.length} 条边与中心词不相连，已忽略`);
+    if(kept.length) out.push({center:c.center, edges:kept});
+  });
+  if(!out.length) throw new Error("没有可显示的词簇（检查 edges 的 from/to 和 words 的 cluster）");
+  return {name: String(j.source || j.name || fallbackName || "未命名"), W:Wd, CLUSTERS:out, warn};
+}
+// </normalize>
+
+// ---------- 状态 ----------
+const state = {di:0, ci:0, sel:null, showZh:true, showHl:true, pin:false, revealed:new Set()};
+const $ = id => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+const REDUCED = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+function el(tag, attrs, parent, text){
+  const n = document.createElementNS(NS, tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function lcs(a,b){
+  let best="";
+  for(let i=0;i<a.length;i++) for(let j=i+2;j<=a.length;j++){
+    const s=a.slice(i,j); if(s.length>best.length && b.includes(s)) best=s;
+  }
+  return best;
+}
+
+// ---------- 建树与静止位置 ----------
+function buildTree(ci){
+  const c = CLUSTERS[ci], map = {};
+  const mk = w => map[w] || (map[w] = {w, kids:[], parent:null, type:null, depth:0});
+  mk(c.center);
+  c.edges.forEach(([p,ch,t])=>{ const P=mk(p), C=mk(ch); C.parent=P; C.type=t; P.kids.push(C); });
+  const root = map[c.center];
+  let maxD = 0, leaves = 0;
+  (function walk(n,d){ n.depth=d; maxD=Math.max(maxD,d); if(!n.kids.length) leaves++; n.kids.forEach(k=>walk(k,d+1)); })(root,0);
+  let idx = 0;
+  (function ang(n){
+    if(!n.kids.length){ n.a = (idx++ + .5)/leaves*Math.PI*2; return; }
+    n.kids.forEach(ang);
+    n.a = (n.kids[0].a + n.kids[n.kids.length-1].a)/2;
+  })(root);
+  const VW=1100, VH=820, cx=VW/2, cy=VH/2, R=350, sx=1.3;
+  const all = [];
+  (function place(n){
+    const r = n.depth/maxD*R;
+    n.hx = n===root ? cx : cx + Math.sin(n.a)*r*sx;   // 静止位置
+    n.hy = n===root ? cy : cy - Math.cos(n.a)*r;
+    n.zl = glossLines(W[n.w] || "");
+    const two = n.zl.length > 1;
+    if(n===root){
+      n.wy = two ? -6 : -2;
+      n.zy = two ? [16,30] : [22];
+      let r = Math.max(54, measure(n.w,F_CWORD)/2 + 12);
+      n.zl.forEach((t,i)=>{ r = Math.max(r, Math.hypot(measure(t,F_GLOSS)/2+8, Math.abs(n.zy[i])+6)); });
+      n.hw = n.hh = Math.round(r);
+    }else{
+      n.wy = two ? -10 : -3;
+      n.zy = two ? [6,19] : [15];
+      const gw = n.zl.reduce((m,t)=>Math.max(m, measure(t,F_GLOSS)), 0);
+      n.hw = Math.round(Math.max(38, measure(n.w,F_WORD)/2 + 15, gw/2 + 12));
+      n.hh = two ? 29 : 26;
+    }
+    n.ox=n.hx; n.oy=n.hy; n.x=n.hx; n.y=n.hy; n.vx=0; n.vy=0;
+    all.push(n); n.kids.forEach(place);
+  })(root);
+  all.forEach(n=>{ n.L = n.parent ? Math.hypot(n.hx-n.parent.hx, n.hy-n.parent.hy) : 0; });
+  return {root, all, map, VW, VH, cx, cy, ci};
+}
+// --- 文本测量：按真实字宽算框，日文释义过长时在「、」处折成两行 ---
+const F_WORD  = '500 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_CWORD = '700 24px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_GLOSS = '400 13px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
+const GLOSS_MAX = 110;                       // 单行释义最大宽度(px)
+const _mc = document.createElement("canvas").getContext("2d");
+function measure(t, font){ _mc.font = font; return _mc.measureText(t || "").width; }
+function glossLines(t){
+  if(!t) return [];
+  if(measure(t, F_GLOSS) <= GLOSS_MAX) return [t];
+  const wide = ls => Math.max(measure(ls[0],F_GLOSS), measure(ls[1],F_GLOSS));
+  const parts = t.split("、");
+  if(parts.length > 1){                      // 优先在顿号处断行，取最平衡的一处
+    let best = null;
+    for(let i=1;i<parts.length;i++){
+      const ls = [parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")];
+      if(!best || wide(ls) < wide(best)) best = ls;
+    }
+    return best;                             // 略宽也不从词中间切开
+  }
+  const NG = "ぁぃぅぇぉっゃゅょァィゥェォッャュョーヽ々、。）」";
+  let mid = Math.ceil(t.length/2);           // 没有顿号才按字数断，避开行首禁则字符
+  for(let k=0;k<3 && NG.includes(t[mid]); k++) mid++;
+  return [t.slice(0,mid), t.slice(mid)];
+}
+
+
+function exitDist(n, ux, uy){
+  if(n.depth===0) return n.hw + 4;
+  const tx = Math.abs(ux)>1e-6 ? n.hw/Math.abs(ux) : 1e9;
+  const ty = Math.abs(uy)>1e-6 ? n.hh/Math.abs(uy) : 1e9;
+  return Math.min(tx,ty) + 5;
+}
+
+// ---------- 渲染 ----------
+let tree = null, drag = null;
+function render(keep){
+  const svg = $("graph");
+  const old = (keep && tree && tree.ci===state.ci) ? tree.map : null;
+  svg.innerHTML = "";
+  tree = buildTree(state.ci);
+  svg.setAttribute("viewBox", `0 0 ${tree.VW} ${tree.VH}`);
+  const defs = el("defs",{},svg);
+  ["s","d","c"].forEach(t=>{
+    const m = el("marker",{id:"mk-"+t,viewBox:"0 0 10 10",refX:"8",refY:"5",markerWidth:"7",markerHeight:"7",orient:"auto-start-reverse"},defs);
+    el("path",{d:"M0,0 L10,5 L0,10 z",class:"mk-"+t},m);
+  });
+  const g = el("g",{},svg);
+  const linkG = el("g",{},g), nodeG = el("g",{},g);
+
+  tree.all.forEach(n=>{
+    const o = old && old[n.w];
+    if(o){ n.x=o.x; n.y=o.y; n.vx=o.vx; n.vy=o.vy; n.hx=o.hx; n.hy=o.hy; n.L=o.L; }
+    else if(!REDUCED){ n.x = tree.cx+(n.hx-tree.cx)*.06; n.y = tree.cy+(n.hy-tree.cy)*.06; } // 从中心弹开
+  });
+
+  tree.all.forEach(n=>{
+    if(n.parent) n.link = el("path",{class:"link "+n.type,"marker-end":`url(#mk-${n.type})`},linkG);
+  });
+
+  tree.all.forEach(n=>{
+    const isC = n.depth===0;
+    const grp = el("g",{class:"node"+(isC?" center":""),tabindex:"0",role:"button","aria-label":n.w+" "+W[n.w]},nodeG);
+    if(isC) el("circle",{r:n.hw},grp); else el("rect",{x:-n.hw,y:-n.hh,width:n.hw*2,height:n.hh*2,rx:14},grp);
+    const t = el("text",{class:"w",y:n.wy},grp);
+    const hl = (!isC && state.showHl && n.parent) ? lcs(n.w, n.parent.w) : "";
+    if(hl){
+      const i = n.w.indexOf(hl);
+      if(i>0) el("tspan",{},t,n.w.slice(0,i));
+      el("tspan",{class:"hl"},t,hl);
+      if(i+hl.length<n.w.length) el("tspan",{},t,n.w.slice(i+hl.length));
+    } else t.textContent = n.w;
+    n.zEl = el("text",{class:"z",lang:"ja"},grp);
+    setZh(n);
+    n.g = grp;
+    bindDrag(n);
+  });
+  applySelection();
+  updateView();
+  kick();
+}
+
+function setZh(n){
+  const show = state.showZh || state.revealed.has(n.w);
+  n.zEl.setAttribute("class","z"+(show?"":" hidden"));
+  n.zEl.textContent = "";
+  const lines = show ? (n.zl.length ? n.zl : [""]) : ["？？"];
+  const ys = lines.length === n.zy.length ? n.zy : [n.zy[0]];
+  lines.forEach((t,i)=> el("tspan",{x:0,y:ys[i]},n.zEl,t));
+}
+
+function updateView(){
+  tree.all.forEach(n=>{
+    n.g.setAttribute("transform",`translate(${n.x.toFixed(1)},${n.y.toFixed(1)})`);
+    if(!n.parent) return;
+    const p = n.parent, dx=n.x-p.x, dy=n.y-p.y, len=Math.hypot(dx,dy)||1, ux=dx/len, uy=dy/len;
+    const d1 = exitDist(p,ux,uy), d2 = exitDist(n,-ux,-uy)+3;
+    const x1=p.x+ux*d1, y1=p.y+uy*d1, x2=n.x-ux*d2, y2=n.y-uy*d2;
+    const mx=(x1+x2)/2 - uy*len*.05, my=(y1+y2)/2 + ux*len*.05;
+    n.link.setAttribute("d",`M${x1.toFixed(1)},${y1.toFixed(1)} Q${mx.toFixed(1)},${my.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`);
+  });
+}
+
+// ---------- 弹簧物理 ----------
+let raf = 0;
+function kick(){ if(!raf) raf = requestAnimationFrame(tick); }
+function step(){
+  const ns = tree.all;
+  ns.forEach(n=>{ n.fx=0; n.fy=0; });
+  // 回到静止位置的弱弹簧（中心词更强）
+  ns.forEach(n=>{ const k = n.depth===0 ? .05 : .014; n.fx += (n.hx-n.x)*k; n.fy += (n.hy-n.y)*k; });
+  // 父子之间的弹簧
+  ns.forEach(n=>{
+    if(!n.parent) return;
+    const p=n.parent, dx=n.x-p.x, dy=n.y-p.y, d=Math.hypot(dx,dy)||1, f=(d-n.L)*.035, ux=dx/d, uy=dy/d;
+    n.fx -= ux*f; n.fy -= uy*f; p.fx += ux*f; p.fy += uy*f;
+  });
+  // 互相排斥，避免叠在一起
+  for(let i=0;i<ns.length;i++) for(let j=i+1;j<ns.length;j++){
+    const a=ns[i], b=ns[j], dx=b.x-a.x, dy=b.y-a.y, d=Math.hypot(dx,dy)||1, min=(a.hw+b.hw)*.9+20;
+    if(d<min){ const f=(min-d)*.03, ux=dx/d, uy=dy/d; a.fx-=ux*f; a.fy-=uy*f; b.fx+=ux*f; b.fy+=uy*f; }
+  }
+  ns.forEach(n=>{
+    if(drag && drag.n===n){ n.vx=0; n.vy=0; return; }
+    n.vx = (n.vx+n.fx)*.9; n.vy = (n.vy+n.fy)*.9;
+    n.x += n.vx; n.y += n.vy;
+  });
+}
+function tick(){
+  raf = 0;
+  step(); updateView();
+  let e = 0;
+  tree.all.forEach(n=>{ e += n.vx*n.vx + n.vy*n.vy + ((n.hx-n.x)**2+(n.hy-n.y)**2)*.0004; });
+  if(drag || e > .03) kick();
+  else { tree.all.forEach(n=>{ n.vx=n.vy=0; }); }
+}
+
+// ---------- 拖拽 ----------
+function svgPoint(e){
+  const svg=$("graph"), pt=svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY;
+  return pt.matrixTransform(svg.getScreenCTM().inverse());
+}
+function bindDrag(n){
+  const g = n.g;
+  g.addEventListener("pointerdown",e=>{
+    e.preventDefault();
+    try{ g.setPointerCapture(e.pointerId); }catch(_){}
+    const p = svgPoint(e);
+    drag = {n, id:e.pointerId, ox:p.x-n.x, oy:p.y-n.y, cx:e.clientX, cy:e.clientY, moved:false};
+    kick();
+  });
+  g.addEventListener("pointermove",e=>{
+    if(!drag || drag.n!==n || drag.id!==e.pointerId) return;
+    if(!drag.moved && Math.hypot(e.clientX-drag.cx, e.clientY-drag.cy) > 4){ drag.moved=true; g.classList.add("dragging"); }
+    if(drag.moved){ const p=svgPoint(e); n.x=p.x-drag.ox; n.y=p.y-drag.oy; }
+  });
+  const end = e=>{
+    if(!drag || drag.n!==n || drag.id!==e.pointerId) return;
+    const wasClick = !drag.moved && e.type==="pointerup";
+    g.classList.remove("dragging");
+    const moved = drag.moved;
+    drag = null;
+    if(moved && state.pin) commitPin(n);
+    kick();
+    if(wasClick) pick(n.w);
+  };
+  g.addEventListener("pointerup",end);
+  g.addEventListener("pointercancel",end);
+  g.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); pick(n.w); } });
+}
+
+// ---------- 固定位置 ----------
+function descendants(n, out){ n.kids.forEach(k=>{ out.push(k); descendants(k,out); }); return out; }
+function recomputeL(){ tree.all.forEach(n=>{ if(n.parent) n.L = Math.hypot(n.hx-n.parent.hx, n.hy-n.parent.hy); }); }
+function commitPin(n){
+  const dx = n.x - n.hx, dy = n.y - n.hy;
+  n.hx += dx; n.hy += dy;
+  descendants(n, []).forEach(k=>{ k.hx += dx; k.hy += dy; });   // 子树跟着一起挪
+  recomputeL();
+}
+function resetHomes(){
+  tree.all.forEach(n=>{ n.hx=n.ox; n.hy=n.oy; });
+  recomputeL(); kick();
+}
+
+// ---------- 选中与详情 ----------
+function pathTo(n){ const p=[]; for(let x=n;x;x=x.parent) p.unshift(x); return p; }
+
+function applySelection(){
+  const sel = tree.map[state.sel] || tree.root;
+  const path = new Set(pathTo(sel));
+  tree.all.forEach(n=>{
+    n.g.classList.toggle("sel", n===sel);
+    if(n.link) n.link.classList.toggle("dim", !path.has(n));
+  });
+  renderDetail(sel);
+}
+
+function renderDetail(n){
+  const d = $("detail");
+  d.innerHTML = "";
+  const zshow = state.showZh || state.revealed.has(n.w);
+  const row = document.createElement("div"); row.className="dword";
+  const big = document.createElement("span"); big.className="big"; big.textContent=n.w; row.appendChild(big);
+  const zh = document.createElement("span"); zh.className="zh"+(zshow?"":" hidden"); zh.lang="ja"; zh.textContent = zshow?W[n.w]:"（点击图中单词显示日文）"; row.appendChild(zh);
+  const sp = document.createElement("button"); sp.className="speak"; sp.textContent="朗读";
+  sp.onclick=()=>{ try{ const u=new SpeechSynthesisUtterance(n.w); u.lang="en-US"; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){} };
+  row.appendChild(sp);
+  d.appendChild(row);
+
+  const chain = pathTo(n);
+  if(chain.length>1){
+    const pr = document.createElement("div"); pr.className="path";
+    pr.appendChild(document.createTextNode("记忆路径："));
+    chain.forEach((x,i)=>{
+      if(i>0) pr.appendChild(document.createTextNode("→"));
+      const b=document.createElement("button"); b.textContent=x.w; b.onclick=()=>pick(x.w); pr.appendChild(b);
+    });
+    d.appendChild(pr);
+    const hl = lcs(n.w, n.parent.w);
+    const note = document.createElement("p"); note.className="note";
+    note.append(`${n.w} 由 ${n.parent.w} 连出，关系：${TYPE_NAME[n.type]}。`);
+    if(hl){ note.append(" 相同部分："); const s=document.createElement("span"); s.className="hl"; s.textContent=hl; note.appendChild(s); note.append("。"); }
+    d.appendChild(note);
+  } else {
+    const note = document.createElement("p"); note.className="note";
+    note.textContent = `${n.w} 是这一组的中心词，共连出 ${tree.all.length-1} 个相关单词。拖动任意单词试试。`;
+    d.appendChild(note);
+  }
+}
+
+function pick(w){
+  const ci = WORD2CLUSTER[w];
+  if(ci===undefined) return;
+  state.revealed.add(w);
+  state.sel = w;
+  if(ci!==state.ci){ state.ci=ci; renderTabs(); render(false); return; }
+  setZh(tree.map[w]);
+  applySelection();
+}
+
+function renderTabs(){
+  const t=$("tabs"); t.innerHTML="";
+  CLUSTERS.forEach((c,i)=>{
+    const b=document.createElement("button");
+    b.className="tab"; b.setAttribute("role","tab"); b.setAttribute("aria-selected", i===state.ci);
+    const a=document.createElement("b"); a.textContent=c.center;
+    const z=document.createElement("span"); z.lang="ja"; z.textContent=state.showZh?W[c.center]:"？？";
+    b.append(a,z);
+    b.onclick=()=>{ state.ci=i; state.sel=c.center; renderTabs(); render(false); };
+    t.appendChild(b);
+  });
+}
+
+// ---------- 工具栏 ----------
+function bindToggle(id,key,after){
+  const b=$(id);
+  b.onclick=()=>{
+    state[key]=!state[key]; b.setAttribute("aria-pressed",state[key]);
+    if(key==="showZh") state.revealed.clear();
+    after();
+  };
+}
+bindToggle("tZh","showZh",()=>{ renderTabs(); render(true); });
+bindToggle("tHl","showHl",()=>{ render(true); });
+$("tPin").onclick=()=>{
+  state.pin=!state.pin; $("tPin").setAttribute("aria-pressed",state.pin);
+  if(!state.pin) resetHomes();
+};
+$("tReset").onclick=()=>{ resetHomes(); };
+$("tShake").onclick=()=>{
+  tree.all.forEach(n=>{ n.vx += (Math.random()-.5)*36; n.vy += (Math.random()-.5)*36; });
+  kick();
+};
+$("q").addEventListener("input",e=>{
+  const v=e.target.value.trim().toLowerCase();
+  if(WORD2CLUSTER[v]!==undefined && W[v]!==undefined){ state.ci=WORD2CLUSTER[v]; state.sel=v; state.revealed.add(v); renderTabs(); render(false); }
+});
+
+
+// ---------- 多个词表文件 ----------
+const STORE_KEY = "wc.datasets.v1";
+const datasets = [{name:"第 1 页（内置）", W:BUILTIN_W, CLUSTERS:BUILTIN_CLUSTERS, builtin:true}];
+function saveStore(){
+  try{ localStorage.setItem(STORE_KEY, JSON.stringify(datasets.filter(d=>!d.builtin).map(d=>({name:d.name, raw:d.raw})))); }catch(e){}
+}
+function loadStore(){
+  try{
+    const arr = JSON.parse(localStorage.getItem(STORE_KEY) || "[]");
+    arr.forEach(x=>{ try{ const d = normalize(x.raw, x.name); d.raw=x.raw; d.name=x.name||d.name; datasets.push(d); }catch(e){} });
+  }catch(e){}
+}
+function say(text, isErr){ const m=$("msg"); m.textContent=text||""; m.className="msg"+(isErr?" err":""); }
+function renderSelect(){
+  const sel=$("ds"); sel.innerHTML="";
+  datasets.forEach((d,i)=>{ const o=document.createElement("option"); o.value=i; o.textContent=d.name; sel.appendChild(o); });
+  sel.value = state.di;
+  $("tDel").hidden = !!datasets[state.di].builtin;
+}
+function setDataset(i){
+  state.di = i;
+  const d = datasets[i];
+  W = d.W; CLUSTERS = d.CLUSTERS; rebuildIndex();
+  state.ci = 0; state.sel = null; state.revealed.clear();
+  $("sub").textContent = `${d.name}，共 ${CLUSTERS.length} 组词簇。拖动单词会带着相连的词一起晃，松手后弹回原位（开启“固定位置”则停在原处）；点击单词查看关系。`;
+  document.title = "形近词图谱 · " + d.name;
+  renderSelect(); renderTabs(); render(false);
+}
+async function importFiles(files){
+  const msgs = []; let last = -1, ok = 0;
+  for(const f of files){
+    try{
+      const j = JSON.parse(await f.text());
+      const list = Array.isArray(j) ? j : [j];
+      list.forEach((item,k)=>{
+        const label = f.name.replace(/\.json$/i,"") + (list.length>1 ? "#"+(k+1) : "");
+        const d = normalize(item, label); d.raw = item;
+        if(!item.source && !item.name) d.name = label;
+        const at = datasets.findIndex(x=>!x.builtin && x.name===d.name);
+        if(at>=0){ datasets[at]=d; last=at; } else { datasets.push(d); last=datasets.length-1; }
+        ok++;
+        d.warn.forEach(w=>msgs.push(`${d.name}：${w}`));
+      });
+    }catch(e){
+      msgs.push(`${f.name}：读取失败，${e.message}`);
+    }
+  }
+  if(ok){ saveStore(); setDataset(last); }
+  const failed = msgs.some(m=>m.includes("读取失败"));
+  say((ok?`已导入 ${ok} 个词表。`:"") + (msgs.length?" "+msgs.slice(0,4).join("；")+(msgs.length>4?` 等 ${msgs.length} 条提示`:""):""), failed && !ok);
+}
+$("tImport").onclick = ()=>$("file").click();
+$("file").onchange = e=>{ importFiles([...e.target.files]); e.target.value=""; };
+$("ds").onchange = e=>{ say(""); setDataset(+e.target.value); };
+$("tDel").onclick = ()=>{
+  if(datasets[state.di].builtin) return;
+  const name = datasets[state.di].name;
+  datasets.splice(state.di,1); saveStore(); say(`已移除 ${name}。`); setDataset(0);
+};
+["dragenter","dragover"].forEach(t=>window.addEventListener(t,e=>{ if(e.dataTransfer && [...e.dataTransfer.types].includes("Files")){ e.preventDefault(); document.body.classList.add("dropping"); } }));
+["dragleave","drop"].forEach(t=>window.addEventListener(t,e=>{ if(t==="dragleave" && e.relatedTarget) return; document.body.classList.remove("dropping"); }));
+window.addEventListener("drop",e=>{
+  if(!e.dataTransfer || !e.dataTransfer.files.length) return;
+  e.preventDefault();
+  importFiles([...e.dataTransfer.files].filter(f=>/\.json$/i.test(f.name) || f.type==="application/json"));
+});
+
+state.di = 0;
+loadStore();
+setDataset(0);
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>{ if(tree) render(true); });
+</script>
+</body>
+</html>

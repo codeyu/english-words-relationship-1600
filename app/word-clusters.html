@@ -3,14 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>形近词图谱 · 速记1600单词 第1页</title>
+<title>形近词图谱 · 速记1600单词</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  box-sizing:border-box;
-  padding-top:env(safe-area-inset-top,0px);
-  padding-bottom:env(safe-area-inset-bottom,0px);
   --bg:#E9EFF6; --grid:rgba(31,95,208,.08); --panel:#FFFFFF; --line:#C9D5E6;
   --ink:#14233D; --ink2:#5A6B86; --accent:#1F5FD0; --accent-soft:#DCE8FB;
   --spell:#1F5FD0; --derive:#0C8A74; --compound:#B8690F; --hl:#D6336C;
@@ -31,43 +28,97 @@
   --node:#173F35; --node-line:#4E8676; --center:#EEF4EC; --center-ink:#0E2A22;
 }
 *{box-sizing:border-box}
-html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
-  font-family:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.5}
-.wrap{max-width:1180px;margin:0 auto;padding:22px 16px 40px}
-header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
-h1{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:700;font-size:clamp(28px,5vw,44px);line-height:1.05;margin:0;letter-spacing:-.01em}
-.sub{margin:6px 0 0;color:var(--ink2);font-size:14px}
-.search{display:flex;gap:8px;align-items:center}
-.search input{font:inherit;font-size:15px;padding:9px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);width:190px}
-.search input:focus-visible,button:focus-visible,g[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.files{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-bottom:6px}
-.filelabel{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink2)}
-.filelabel select{font:inherit;font-size:14px;padding:7px 10px;border-radius:8px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);max-width:260px}
-.hint{font-size:13px;color:var(--ink2)}
-.msg{margin:0 0 10px;font-size:13px;min-height:0;color:var(--ink2)}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
+  font-family:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
+button,input,select{font:inherit}
+button:focus-visible,input:focus-visible,g[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* ---------- 三列骨架 ---------- */
+.app{height:100%;display:grid;gap:14px;padding:14px;
+  --colL:clamp(220px,18vw,280px); --colR:clamp(280px,22vw,340px);
+  grid-template-columns:var(--colL) minmax(0,1fr) var(--colR);
+  transition:grid-template-columns .22s ease}
+body.l-closed .app{--colL:40px}
+body.r-closed .app{--colR:40px}
+body.l-closed .col-left .panel,body.r-closed .col-right .panel{display:none}
+.col-left .rail,.col-right .rail{display:none}
+body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
+.rail{flex:1;min-height:0;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+  writing-mode:vertical-rl;border:1.5px solid var(--line);border-radius:16px;background:var(--panel);
+  color:var(--ink2);font-size:13px;letter-spacing:.1em;padding:10px 0}
+.rail:hover{border-color:var(--accent);color:var(--ink)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.fold{border:0;background:transparent;color:var(--ink2);cursor:pointer;font-size:16px;line-height:1;
+  padding:2px 6px;border-radius:8px}
+.fold:hover{background:var(--accent-soft);color:var(--ink)}
+.col{min-height:0;display:flex;flex-direction:column;gap:10px}
+.panel{border:1.5px solid var(--line);border-radius:16px;background:var(--panel)}
+
+/* ---------- 左：单词一览 ---------- */
+.col-left .panel{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.lhead{padding:12px 14px 10px;border-bottom:1.5px solid var(--line);display:grid;gap:8px}
+.lhead h1{margin:0;font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-size:19px;line-height:1.2}
+.lhead .cnt{font-size:12px;color:var(--ink2)}
+.seg{display:flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{flex:1;border:0;background:transparent;color:var(--ink2);font-size:13px;padding:5px 0;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+.lhead input{width:100%;padding:7px 10px;border-radius:9px;border:1.5px solid var(--line);
+  background:var(--panel);color:var(--ink);font-size:13px}
+.list{flex:1;min-height:0;overflow:auto;padding:6px 6px 12px;scrollbar-width:thin}
+.grp{position:sticky;top:0;z-index:1;background:var(--panel);padding:6px 8px 4px;
+  font-family:"Bricolage Grotesque",sans-serif;font-size:12px;font-weight:700;color:var(--ink2);letter-spacing:.08em}
+.pg{width:100%;text-align:left;border:0;background:transparent;color:var(--ink);cursor:pointer;
+  padding:7px 8px;border-radius:9px;font-size:13px;font-weight:600;display:flex;justify-content:space-between;gap:6px}
+.pg:hover{background:var(--accent-soft)}
+.pg .n{color:var(--ink2);font-weight:400;font-size:12px}
+.pg.open{background:var(--accent-soft)}
+.wItem{width:100%;text-align:left;border:0;background:transparent;color:var(--ink);cursor:pointer;
+  padding:5px 8px;border-radius:9px;display:flex;align-items:baseline;gap:8px;line-height:1.3}
+.wItem:hover{background:var(--accent-soft)}
+.wItem b{font-family:"Bricolage Grotesque",sans-serif;font-weight:500;font-size:14px;flex:none}
+.wItem i{font-style:normal;font-size:11.5px;color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wItem.on{background:var(--ink);color:var(--bg)}
+.wItem.on i{color:var(--bg);opacity:.75}
+.wItem.cen b{font-weight:700}
+.sub-list{padding-left:6px;border-left:2px solid var(--line);margin:2px 0 8px 12px}
+.lfoot{padding:8px 12px;border-top:1.5px solid var(--line);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.mini{font-size:12px;cursor:pointer;border:1.5px solid var(--line);background:transparent;
+  color:var(--ink2);padding:3px 9px;border-radius:8px}
+.mini:hover{border-color:var(--accent);color:var(--ink)}
+.empty{padding:16px 10px;font-size:13px;color:var(--ink2)}
+
+/* ---------- 中：搜索 / 最近 / 工具栏 / 图 ---------- */
+.searchbar{display:flex;gap:8px;align-items:center}
+.searchbar input{flex:1;padding:10px 14px;border-radius:12px;border:1.5px solid var(--line);
+  background:var(--panel);color:var(--ink);font-size:15px}
+.recent{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-height:28px;font-size:12px;color:var(--ink2)}
+.recent .chip{font-family:"Bricolage Grotesque",sans-serif;font-size:13px;cursor:pointer;
+  border:1.5px solid var(--line);background:var(--panel);color:var(--ink);padding:2px 11px;border-radius:999px}
+.recent .chip:hover{border-color:var(--accent)}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.tog{font-size:13.5px;cursor:pointer;border:1.5px solid var(--line);background:var(--panel);
+  color:var(--ink);padding:6px 12px;border-radius:9px}
+.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin-left:auto}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend svg{width:30px;height:8px;overflow:visible}
+.crumb{font-size:12.5px;color:var(--ink2);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.crumb b{font-family:"Bricolage Grotesque",sans-serif;color:var(--ink);font-weight:700}
+.board{flex:1;min-height:0;border:1.5px solid var(--line);border-radius:16px;background-color:var(--panel);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:26px 26px;overflow:auto}
+#graph{display:block;width:100%;height:100%;min-width:760px;min-height:560px}
+body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
+.msg{font-size:12px;color:var(--ink2);margin:0}
 .msg:empty{display:none}
 .msg.err{color:var(--hl)}
-body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-.tab{font:inherit;cursor:pointer;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);
-  padding:7px 14px;border-radius:999px;display:flex;flex-direction:column;align-items:center;line-height:1.15;min-width:84px}
-.tab b{font-family:"Bricolage Grotesque",sans-serif;font-size:16px;font-weight:700}
-.tab span{font-size:12px;color:var(--ink2)}
-.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.tab[aria-selected="true"] span{color:var(--bg);opacity:.75}
-.toolbar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:12px}
-.tog{font:inherit;font-size:14px;cursor:pointer;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 12px;border-radius:8px}
-.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
-.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin-left:auto}
-.legend span{display:inline-flex;align-items:center;gap:6px}
-.legend svg{width:34px;height:8px;overflow:visible}
-.board{border:1.5px solid var(--line);border-radius:16px;background-color:var(--panel);
-  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
-  background-size:26px 26px;overflow-x:auto}
-#graph{display:block;width:100%;min-width:780px;height:auto}
+
+/* ---------- 图形 ---------- */
 .link{fill:none;stroke-width:2.2;transition:opacity .2s}
-.link.s{stroke:var(--spell)} .link.d{stroke:var(--derive);stroke-dasharray:7 5} .link.c{stroke:var(--compound);stroke-dasharray:2 5;stroke-linecap:round}
+.link.s{stroke:var(--spell)} .link.d{stroke:var(--derive);stroke-dasharray:7 5}
+.link.c{stroke:var(--compound);stroke-dasharray:2 5;stroke-linecap:round}
 .link.dim{opacity:.22}
 .mk-s{fill:var(--spell)} .mk-d{fill:var(--derive)} .mk-c{fill:var(--compound)}
 .node{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
@@ -79,105 +130,108 @@ body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
 .node.center circle{fill:var(--center);stroke:var(--center)}
 .node .w{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:500;font-size:18px;fill:var(--ink);text-anchor:middle}
 .node .z{font-size:13px;fill:var(--ink2);text-anchor:middle}
-[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
 .node.center .w{fill:var(--center-ink);font-size:24px;font-weight:700}
 .node.center .z{fill:var(--center-ink);opacity:.8;font-size:14px}
 .node .hl{fill:var(--hl);font-weight:700}
 .node .z.hidden{opacity:.45;letter-spacing:.1em}
-.detail{margin-top:16px;border:1.5px solid var(--line);border-radius:16px;background:var(--panel);padding:18px 20px;display:grid;gap:12px}
-.dword{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px}
-.dword .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(32px,6vw,52px);line-height:1}
-.dword .zh{font-size:22px;font-weight:500}
-.dword .zh.hidden{color:var(--ink2)}
-.speak{font:inherit;font-size:14px;cursor:pointer;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:5px 12px;border-radius:8px}
+
+/* ---------- 右：详情 ---------- */
+.col-right .panel{flex:1;min-height:0;overflow:auto;padding:16px 18px;position:relative}
+.col-right .fold{position:absolute;top:10px;right:10px}
+#detail{display:grid;gap:12px;align-content:start}
+.dword{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 12px}
+.dword .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(28px,2.4vw,40px);line-height:1.05}
+.zh{font-size:17px;font-weight:500}
+.zh.hidden{color:var(--ink2);font-size:13px}
+.speak{font-size:13px;cursor:pointer;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:4px 11px;border-radius:8px}
 .speak:hover{border-color:var(--accent)}
-.path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;color:var(--ink2);font-size:14px}
-.path button{font:inherit;font-family:"Bricolage Grotesque",sans-serif;font-size:15px;cursor:pointer;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:2px 10px;border-radius:999px}
-.path button:hover{border-color:var(--accent)}
-.note{margin:0;font-size:14px;color:var(--ink2)}
+.where{font-size:12.5px;color:var(--ink2)}
+.path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;color:var(--ink2);font-size:13px}
+.path button,.kids button{font-family:"Bricolage Grotesque",sans-serif;font-size:14px;cursor:pointer;
+  border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:2px 9px;border-radius:999px}
+.path button:hover,.kids button:hover{border-color:var(--accent)}
+.note{margin:0;font-size:13px;color:var(--ink2)}
 .note .hl{color:var(--hl);font-weight:700;font-family:"Bricolage Grotesque",sans-serif}
+.kids{display:flex;flex-wrap:wrap;gap:6px}
+h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--ink2)}
+
+@media (max-width:1180px){
+  .app{height:auto;grid-template-columns:1fr}
+  body.l-closed .app,body.r-closed .app{--colL:auto;--colR:auto}
+  .rail{writing-mode:horizontal-tb;flex:none;padding:8px 0}
+  .col-left .panel,.col-right .panel{max-height:60vh}
+  .board{height:70vh}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div>
-      <h1>形近词图谱</h1>
-      <p class="sub" id="sub"></p>
+<div class="app">
+
+  <!-- ============ 左：单词一览 ============ -->
+  <aside class="col col-left">
+    <button class="rail" id="railL" aria-expanded="false" title="展开单词一览">单词一览 »</button>
+    <div class="panel">
+      <div class="lhead">
+        <div class="hd">
+          <h1>形近词图谱</h1>
+          <button class="fold" id="foldL" title="收起单词一览" aria-label="收起单词一览">«</button>
+        </div>
+        <div class="seg" role="group" aria-label="排列方式">
+          <button id="mAbc" aria-pressed="true">字母顺序</button>
+          <button id="mCl" aria-pressed="false">按词簇</button>
+        </div>
+        <input id="filter" type="search" placeholder="筛选一览" aria-label="筛选单词一览" autocomplete="off" spellcheck="false">
+        <div class="cnt" id="cnt"></div>
+      </div>
+      <div class="list" id="list"></div>
+      <div class="lfoot">
+        <button class="mini" id="tImport">导入 JSON</button>
+        <button class="mini" id="tDel" hidden>移除导入</button>
+        <input id="file" type="file" accept=".json,application/json" multiple hidden>
+      </div>
     </div>
-    <div class="search">
-      <input id="q" type="search" placeholder="输入单词，如 mountain" aria-label="搜索单词" autocomplete="off" autocapitalize="none" spellcheck="false">
+  </aside>
+
+  <!-- ============ 中：搜索 + 图 ============ -->
+  <main class="col col-mid">
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="搜索单词，如 mountain" aria-label="搜索单词" autocomplete="off" autocapitalize="none" spellcheck="false">
     </div>
-  </header>
-
-  <div class="files">
-    <label class="filelabel">词表文件
-      <select id="ds" aria-label="选择词表文件"></select>
-    </label>
-    <button class="tog" id="tImport">导入 JSON</button>
-    <button class="tog" id="tDel" hidden>移除此文件</button>
-    <input id="file" type="file" accept=".json,application/json" multiple hidden>
-    <span class="hint">可一次选多个文件，也可以把文件直接拖进页面。</span>
-  </div>
-  <p class="msg" id="msg" role="status" aria-live="polite"></p>
-
-  <div class="tabs" id="tabs" role="tablist" aria-label="词簇"></div>
-
-  <div class="toolbar">
-    <button class="tog" id="tZh" aria-pressed="true">显示日文</button>
-    <button class="tog" id="tHl" aria-pressed="true">标出相同部分</button>
-    <button class="tog" id="tShake">摇一摇</button>
-    <button class="tog" id="tPin" aria-pressed="false" title="开启后，拖到哪里就停在哪里">固定位置</button>
-    <button class="tog" id="tReset">复位</button>
-    <div class="legend" aria-label="图例">
-      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--spell)" stroke-width="2.4"/></svg>拼写相近</span>
-      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--derive)" stroke-width="2.4" stroke-dasharray="7 5"/></svg>派生变形</span>
-      <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--compound)" stroke-width="2.4" stroke-dasharray="2 5" stroke-linecap="round"/></svg>复合词</span>
+    <div class="recent" id="recent" aria-label="最近查询"></div>
+    <div class="toolbar">
+      <button class="tog" id="tZh" aria-pressed="true">显示日文</button>
+      <button class="tog" id="tHl" aria-pressed="true">标出相同部分</button>
+      <button class="tog" id="tShake">摇一摇</button>
+      <button class="tog" id="tPin" aria-pressed="false" title="开启后，拖到哪里就停在哪里">固定位置</button>
+      <button class="tog" id="tReset">复位</button>
+      <div class="legend" aria-label="图例">
+        <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--spell)" stroke-width="2.4"/></svg>拼写相近</span>
+        <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--derive)" stroke-width="2.4" stroke-dasharray="7 5"/></svg>派生变形</span>
+        <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--compound)" stroke-width="2.4" stroke-dasharray="2 5" stroke-linecap="round"/></svg>复合词</span>
+      </div>
     </div>
-  </div>
+    <div class="crumb" id="crumb"></div>
+    <p class="msg" id="msg" role="status" aria-live="polite"></p>
+    <div class="board"><svg id="graph" role="img" aria-label="形近词关系图"></svg></div>
+  </main>
 
-  <div class="board"><svg id="graph" role="img" aria-label="形近词关系图"></svg></div>
+  <!-- ============ 右：词条详情 ============ -->
+  <aside class="col col-right">
+    <button class="rail" id="railR" aria-expanded="false" title="展开词条详情">词条 «</button>
+    <div class="panel">
+      <button class="fold" id="foldR" title="收起词条详情" aria-label="收起词条详情">×</button>
+      <div id="detail" aria-live="polite"></div>
+    </div>
+  </aside>
 
-  <section class="detail" id="detail" aria-live="polite"></section>
 </div>
 
+<script src="data.js"></script>
 <script>
-// ---------- 数据 ----------
-const BUILTIN_W = {
-  best:"最高の、一番良い",rest:"休憩する、休む",restroom:"トイレ、化粧室",restaurant:"レストラン、飲食店",restless:"落ち着かない",forest:"森、森林",
-  harvest:"収穫、取り入れ",vest:"ベスト、チョッキ",test:"テスト、試験",text:"本文、テキスト",textbook:"教科書",
-  count:"数える、計算する",couple:"一組、夫婦",course:"コース、課程",cousin:"いとこ",country:"国、国家",countryside:"田舎、郊外",
-  discount:"割引",mount:"山、登る",mountain:"山、山脈",
-  fish:"魚",wish:"願う、望む",wise:"賢い、賢明な",with:"～と一緒に",witch:"魔女",without:"～なしで",
-  dish:"皿、料理",finish:"終える、完成する",punish:"罰する",
-  round:"丸い、円形の",around:"～の周りに",surround:"囲む、取り囲む",surrounding:"周囲の、周りの",ground:"地面、グラウンド",group:"グループ、組",
-  underground:"地下、地下鉄",under:"～の下に",found:"設立する、創立する",sound:"音、聞こえる",pound:"ポンド",
-  meal:"食事",meat:"肉",meet:"会う、出会う",meeting:"会議、集まり",mean:"意味する",meaning:"意味",
-  real:"本当の、現実の",really:"本当に",realistic:"現実的な",realize:"気づく、実現する",
-  arm:"腕",army:"軍隊、陸軍",alarm:"警報、目覚まし",far:"遠い、遠く",farther:"もっと遠い",farthest:"最も遠い",
-  farm:"農場",farmland:"農地、耕地",land:"陸地、土地",farming:"農業、耕作",farmer:"農民、農場主",
-  son:"息子",soon:"まもなく、すぐに",less:"より少ない",lesson:"授業、レッスン",reason:"理由、原因",reasonable:"合理的な、妥当な",
-  prison:"刑務所、監獄",person:"人、人物",personal:"個人の、個人的な",personally:"個人的に"
-};
-// [父, 子, 类型] s=拼写相近 d=派生变形 c=复合词
-const BUILTIN_CLUSTERS = [
- {center:"best",edges:[["best","rest","s"],["rest","restroom","d"],["restroom","restaurant","d"],["restroom","restless","d"],["rest","forest","s"],["best","vest","s"],["vest","harvest","s"],["best","test","s"],["test","text","s"],["text","textbook","c"]]},
- {center:"count",edges:[["count","couple","s"],["couple","course","s"],["couple","cousin","s"],["count","country","s"],["country","countryside","c"],["count","discount","d"],["discount","mount","s"],["mount","mountain","d"]]},
- {center:"fish",edges:[["fish","wish","s"],["wish","wise","s"],["wish","with","s"],["with","witch","s"],["with","without","d"],["fish","dish","s"],["dish","finish","s"],["finish","punish","s"]]},
- {center:"round",edges:[["round","around","s"],["round","surround","s"],["surround","surrounding","d"],["round","ground","s"],["ground","group","s"],["ground","underground","d"],["underground","under","d"],["round","found","s"],["found","sound","s"],["sound","pound","s"]]},
- {center:"meal",edges:[["meal","meat","s"],["meat","meet","s"],["meet","meeting","d"],["meal","mean","s"],["mean","meaning","d"],["meal","real","s"],["real","really","d"],["real","realistic","d"],["real","realize","d"]]},
- {center:"arm",edges:[["arm","army","s"],["arm","alarm","s"],["arm","far","s"],["far","farther","d"],["farther","farthest","d"],["arm","farm","s"],["farm","farmland","c"],["farmland","land","c"],["farm","farming","d"],["farm","farmer","d"]]},
- {center:"son",edges:[["son","soon","s"],["son","lesson","s"],["lesson","less","s"],["son","reason","s"],["reason","reasonable","d"],["son","prison","s"],["prison","person","s"],["person","personal","d"],["personal","personally","d"]]}
-];
-const TYPE_NAME = {s:"拼写相近",d:"派生变形",c:"复合词"};
-let W = BUILTIN_W, CLUSTERS = BUILTIN_CLUSTERS, WORD2CLUSTER = {};
-function rebuildIndex(){
-  WORD2CLUSTER = {};
-  CLUSTERS.forEach((c,i)=>{ WORD2CLUSTER[c.center]=i; c.edges.forEach(e=>{ WORD2CLUSTER[e[1]]=i; }); });
-}
+// ---------- 词表：data.js 打包了 json/ 下的全部单元 ----------
+const TYPE_NAME = {s:"拼写相近", d:"派生变形", c:"复合词"};
+const TYPE_MAP  = {spelling:"s",derive:"d",compound:"c",s:"s",d:"d",c:"c"};
 
-// <normalize>
-const TYPE_MAP = {spelling:"s",derive:"d",compound:"c",s:"s",d:"d",c:"c"};
 function normalize(j, fallbackName){
   if(!j || typeof j!=="object" || Array.isArray(j)) throw new Error("内容不是 JSON 对象");
   if(!Array.isArray(j.words) || !Array.isArray(j.edges)) throw new Error("缺少 words 或 edges 数组");
@@ -216,7 +270,6 @@ function normalize(j, fallbackName){
       if(!root){ warn.push(`词簇 ${id} 找不到中心词，已跳过`); return; }
       c.center = root;
     }
-    // 只保留从中心词可达的边
     const reach = new Set([c.center]); let grew = true;
     while(grew){ grew=false; c.edges.forEach(e=>{ if(reach.has(e[0]) && !reach.has(e[1])){ reach.add(e[1]); grew=true; } }); }
     const kept = c.edges.filter(e=>reach.has(e[0]) && reach.has(e[1]) && e[1]!==c.center);
@@ -226,10 +279,36 @@ function normalize(j, fallbackName){
   if(!out.length) throw new Error("没有可显示的词簇（检查 edges 的 from/to 和 words 的 cluster）");
   return {name: String(j.source || j.name || fallbackName || "未命名"), W:Wd, CLUSTERS:out, warn};
 }
-// </normalize>
+
+// ---------- 全局索引：单词 → 单元 / 词簇 ----------
+const PAGES = [];          // {title, W, CLUSTERS, imported?}
+const INDEX = {};          // word -> {pi, ci, center}
+let ALL = [];              // 全部单词，按字母排序
+function buildPages(raw){
+  raw.forEach(p=>{
+    try{
+      const d = normalize(p, p.title || p.file);
+      d.title = p.title || d.name;
+      PAGES.push(d);
+    }catch(e){ console.warn("跳过", p && p.file, e.message); }
+  });
+}
+function reindex(){
+  for(const k in INDEX) delete INDEX[k];
+  PAGES.forEach((p,pi)=>{
+    p.CLUSTERS.forEach((c,ci)=>{
+      if(!INDEX[c.center]) INDEX[c.center] = {pi, ci, center:true};
+      c.edges.forEach(e=>{ if(!INDEX[e[1]]) INDEX[e[1]] = {pi, ci, center:false}; });
+    });
+  });
+  ALL = Object.keys(INDEX).sort();
+}
+function glossOf(w){ const at = INDEX[w]; return at ? (PAGES[at.pi].W[w] || "") : ""; }
 
 // ---------- 状态 ----------
-const state = {di:0, ci:0, sel:null, showZh:true, showHl:true, pin:false, revealed:new Set()};
+const state = {pi:0, ci:0, sel:null, showZh:true, showHl:true, pin:false,
+               revealed:new Set(), mode:"abc", openPage:0, leftOpen:true, rightOpen:false};
+let W = {}, CLUSTERS = [];
 const $ = id => document.getElementById(id);
 const NS = "http://www.w3.org/2000/svg";
 const REDUCED = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -246,6 +325,33 @@ function lcs(a,b){
     const s=a.slice(i,j); if(s.length>best.length && b.includes(s)) best=s;
   }
   return best;
+}
+function say(text, isErr){ const m=$("msg"); m.textContent=text||""; m.className="msg"+(isErr?" err":""); }
+
+// --- 文本测量：按真实字宽算框，日文释义过长时在「、」处折成两行 ---
+const F_WORD  = '500 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_CWORD = '700 24px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_GLOSS = '400 13px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
+const GLOSS_MAX = 110;
+const _mc = document.createElement("canvas").getContext("2d");
+function measure(t, font){ _mc.font = font; return _mc.measureText(t || "").width; }
+function glossLines(t){
+  if(!t) return [];
+  if(measure(t, F_GLOSS) <= GLOSS_MAX) return [t];
+  const wide = ls => Math.max(measure(ls[0],F_GLOSS), measure(ls[1],F_GLOSS));
+  const parts = t.split("、");
+  if(parts.length > 1){
+    let best = null;
+    for(let i=1;i<parts.length;i++){
+      const ls = [parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")];
+      if(!best || wide(ls) < wide(best)) best = ls;
+    }
+    return best;
+  }
+  const NG = "ぁぃぅぇぉっゃゅょァィゥェォッャュョーヽ々、。）」";
+  let mid = Math.ceil(t.length/2);
+  for(let k=0;k<3 && NG.includes(t[mid]); k++) mid++;
+  return [t.slice(0,mid), t.slice(mid)];
 }
 
 // ---------- 建树与静止位置 ----------
@@ -267,16 +373,16 @@ function buildTree(ci){
   const all = [];
   (function place(n){
     const r = n.depth/maxD*R;
-    n.hx = n===root ? cx : cx + Math.sin(n.a)*r*sx;   // 静止位置
+    n.hx = n===root ? cx : cx + Math.sin(n.a)*r*sx;
     n.hy = n===root ? cy : cy - Math.cos(n.a)*r;
     n.zl = glossLines(W[n.w] || "");
     const two = n.zl.length > 1;
     if(n===root){
       n.wy = two ? -6 : -2;
       n.zy = two ? [16,30] : [22];
-      let r = Math.max(54, measure(n.w,F_CWORD)/2 + 12);
-      n.zl.forEach((t,i)=>{ r = Math.max(r, Math.hypot(measure(t,F_GLOSS)/2+8, Math.abs(n.zy[i])+6)); });
-      n.hw = n.hh = Math.round(r);
+      let rr = Math.max(54, measure(n.w,F_CWORD)/2 + 12);
+      n.zl.forEach((t,i)=>{ rr = Math.max(rr, Math.hypot(measure(t,F_GLOSS)/2+8, Math.abs(n.zy[i])+6)); });
+      n.hw = n.hh = Math.round(rr);
     }else{
       n.wy = two ? -10 : -3;
       n.zy = two ? [6,19] : [15];
@@ -290,33 +396,6 @@ function buildTree(ci){
   all.forEach(n=>{ n.L = n.parent ? Math.hypot(n.hx-n.parent.hx, n.hy-n.parent.hy) : 0; });
   return {root, all, map, VW, VH, cx, cy, ci};
 }
-// --- 文本测量：按真实字宽算框，日文释义过长时在「、」处折成两行 ---
-const F_WORD  = '500 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
-const F_CWORD = '700 24px "Bricolage Grotesque","Noto Sans SC",sans-serif';
-const F_GLOSS = '400 13px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
-const GLOSS_MAX = 110;                       // 单行释义最大宽度(px)
-const _mc = document.createElement("canvas").getContext("2d");
-function measure(t, font){ _mc.font = font; return _mc.measureText(t || "").width; }
-function glossLines(t){
-  if(!t) return [];
-  if(measure(t, F_GLOSS) <= GLOSS_MAX) return [t];
-  const wide = ls => Math.max(measure(ls[0],F_GLOSS), measure(ls[1],F_GLOSS));
-  const parts = t.split("、");
-  if(parts.length > 1){                      // 优先在顿号处断行，取最平衡的一处
-    let best = null;
-    for(let i=1;i<parts.length;i++){
-      const ls = [parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")];
-      if(!best || wide(ls) < wide(best)) best = ls;
-    }
-    return best;                             // 略宽也不从词中间切开
-  }
-  const NG = "ぁぃぅぇぉっゃゅょァィゥェォッャュョーヽ々、。）」";
-  let mid = Math.ceil(t.length/2);           // 没有顿号才按字数断，避开行首禁则字符
-  for(let k=0;k<3 && NG.includes(t[mid]); k++) mid++;
-  return [t.slice(0,mid), t.slice(mid)];
-}
-
-
 function exitDist(n, ux, uy){
   if(n.depth===0) return n.hw + 4;
   const tx = Math.abs(ux)>1e-6 ? n.hw/Math.abs(ux) : 1e9;
@@ -343,16 +422,14 @@ function render(keep){
   tree.all.forEach(n=>{
     const o = old && old[n.w];
     if(o){ n.x=o.x; n.y=o.y; n.vx=o.vx; n.vy=o.vy; n.hx=o.hx; n.hy=o.hy; n.L=o.L; }
-    else if(!REDUCED){ n.x = tree.cx+(n.hx-tree.cx)*.06; n.y = tree.cy+(n.hy-tree.cy)*.06; } // 从中心弹开
+    else if(!REDUCED){ n.x = tree.cx+(n.hx-tree.cx)*.06; n.y = tree.cy+(n.hy-tree.cy)*.06; }
   });
-
   tree.all.forEach(n=>{
     if(n.parent) n.link = el("path",{class:"link "+n.type,"marker-end":`url(#mk-${n.type})`},linkG);
   });
-
   tree.all.forEach(n=>{
     const isC = n.depth===0;
-    const grp = el("g",{class:"node"+(isC?" center":""),tabindex:"0",role:"button","aria-label":n.w+" "+W[n.w]},nodeG);
+    const grp = el("g",{class:"node"+(isC?" center":""),tabindex:"0",role:"button","aria-label":n.w+" "+(W[n.w]||"")},nodeG);
     if(isC) el("circle",{r:n.hw},grp); else el("rect",{x:-n.hw,y:-n.hh,width:n.hw*2,height:n.hh*2,rx:14},grp);
     const t = el("text",{class:"w",y:n.wy},grp);
     const hl = (!isC && state.showHl && n.parent) ? lcs(n.w, n.parent.w) : "";
@@ -371,7 +448,6 @@ function render(keep){
   updateView();
   kick();
 }
-
 function setZh(n){
   const show = state.showZh || state.revealed.has(n.w);
   n.zEl.setAttribute("class","z"+(show?"":" hidden"));
@@ -380,7 +456,6 @@ function setZh(n){
   const ys = lines.length === n.zy.length ? n.zy : [n.zy[0]];
   lines.forEach((t,i)=> el("tspan",{x:0,y:ys[i]},n.zEl,t));
 }
-
 function updateView(){
   tree.all.forEach(n=>{
     n.g.setAttribute("transform",`translate(${n.x.toFixed(1)},${n.y.toFixed(1)})`);
@@ -399,15 +474,12 @@ function kick(){ if(!raf) raf = requestAnimationFrame(tick); }
 function step(){
   const ns = tree.all;
   ns.forEach(n=>{ n.fx=0; n.fy=0; });
-  // 回到静止位置的弱弹簧（中心词更强）
   ns.forEach(n=>{ const k = n.depth===0 ? .05 : .014; n.fx += (n.hx-n.x)*k; n.fy += (n.hy-n.y)*k; });
-  // 父子之间的弹簧
   ns.forEach(n=>{
     if(!n.parent) return;
     const p=n.parent, dx=n.x-p.x, dy=n.y-p.y, d=Math.hypot(dx,dy)||1, f=(d-n.L)*.035, ux=dx/d, uy=dy/d;
     n.fx -= ux*f; n.fy -= uy*f; p.fx += ux*f; p.fy += uy*f;
   });
-  // 互相排斥，避免叠在一起
   for(let i=0;i<ns.length;i++) for(let j=i+1;j<ns.length;j++){
     const a=ns[i], b=ns[j], dx=b.x-a.x, dy=b.y-a.y, d=Math.hypot(dx,dy)||1, min=(a.hw+b.hw)*.9+20;
     if(d<min){ const f=(min-d)*.03, ux=dx/d, uy=dy/d; a.fx-=ux*f; a.fy-=uy*f; b.fx+=ux*f; b.fy+=uy*f; }
@@ -454,11 +526,11 @@ function bindDrag(n){
     drag = null;
     if(moved && state.pin) commitPin(n);
     kick();
-    if(wasClick) pick(n.w);
+    if(wasClick) pick(n.w, true);
   };
   g.addEventListener("pointerup",end);
   g.addEventListener("pointercancel",end);
-  g.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); pick(n.w); } });
+  g.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); pick(n.w, true); } });
 }
 
 // ---------- 固定位置 ----------
@@ -467,7 +539,7 @@ function recomputeL(){ tree.all.forEach(n=>{ if(n.parent) n.L = Math.hypot(n.hx-
 function commitPin(n){
   const dx = n.x - n.hx, dy = n.y - n.hy;
   n.hx += dx; n.hy += dy;
-  descendants(n, []).forEach(k=>{ k.hx += dx; k.hy += dy; });   // 子树跟着一起挪
+  descendants(n, []).forEach(k=>{ k.hx += dx; k.hy += dy; });
   recomputeL();
 }
 function resetHomes(){
@@ -475,9 +547,8 @@ function resetHomes(){
   recomputeL(); kick();
 }
 
-// ---------- 选中与详情 ----------
+// ---------- 选中与详情（右列） ----------
 function pathTo(n){ const p=[]; for(let x=n;x;x=x.parent) p.unshift(x); return p; }
-
 function applySelection(){
   const sel = tree.map[state.sel] || tree.root;
   const path = new Set(pathTo(sel));
@@ -486,27 +557,35 @@ function applySelection(){
     if(n.link) n.link.classList.toggle("dim", !path.has(n));
   });
   renderDetail(sel);
+  markList();
 }
-
 function renderDetail(n){
   const d = $("detail");
   d.innerHTML = "";
   const zshow = state.showZh || state.revealed.has(n.w);
+
   const row = document.createElement("div"); row.className="dword";
   const big = document.createElement("span"); big.className="big"; big.textContent=n.w; row.appendChild(big);
-  const zh = document.createElement("span"); zh.className="zh"+(zshow?"":" hidden"); zh.lang="ja"; zh.textContent = zshow?W[n.w]:"（点击图中单词显示日文）"; row.appendChild(zh);
   const sp = document.createElement("button"); sp.className="speak"; sp.textContent="朗读";
   sp.onclick=()=>{ try{ const u=new SpeechSynthesisUtterance(n.w); u.lang="en-US"; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){} };
   row.appendChild(sp);
   d.appendChild(row);
 
+  const zh = document.createElement("div"); zh.className="zh"+(zshow?"":" hidden"); zh.lang="ja";
+  zh.textContent = zshow ? (W[n.w] || "（无释义）") : "（点击图中单词显示日文）";
+  d.appendChild(zh);
+
+  const where = document.createElement("div"); where.className="where";
+  where.textContent = `${PAGES[state.pi].title} · 词簇 ${CLUSTERS[state.ci].center}`;
+  d.appendChild(where);
+
   const chain = pathTo(n);
   if(chain.length>1){
+    const h = document.createElement("h3"); h.className="sec"; h.textContent="记忆路径"; d.appendChild(h);
     const pr = document.createElement("div"); pr.className="path";
-    pr.appendChild(document.createTextNode("记忆路径："));
     chain.forEach((x,i)=>{
       if(i>0) pr.appendChild(document.createTextNode("→"));
-      const b=document.createElement("button"); b.textContent=x.w; b.onclick=()=>pick(x.w); pr.appendChild(b);
+      const b=document.createElement("button"); b.textContent=x.w; b.title=W[x.w]||""; b.onclick=()=>pick(x.w); pr.appendChild(b);
     });
     d.appendChild(pr);
     const hl = lcs(n.w, n.parent.w);
@@ -519,28 +598,161 @@ function renderDetail(n){
     note.textContent = `${n.w} 是这一组的中心词，共连出 ${tree.all.length-1} 个相关单词。拖动任意单词试试。`;
     d.appendChild(note);
   }
+
+  if(n.kids.length){
+    const h = document.createElement("h3"); h.className="sec"; h.textContent="由它连出"; d.appendChild(h);
+    const ks = document.createElement("div"); ks.className="kids";
+    n.kids.forEach(k=>{ const b=document.createElement("button"); b.textContent=k.w; b.title=W[k.w]||""; b.onclick=()=>pick(k.w); ks.appendChild(b); });
+    d.appendChild(ks);
+  }
 }
 
-function pick(w){
-  const ci = WORD2CLUSTER[w];
-  if(ci===undefined) return;
-  state.revealed.add(w);
-  state.sel = w;
-  if(ci!==state.ci){ state.ci=ci; renderTabs(); render(false); return; }
-  setZh(tree.map[w]);
-  applySelection();
+// ---------- 单元 / 词簇切换 ----------
+function setPage(pi, keepSel){
+  state.pi = pi;
+  const p = PAGES[pi];
+  W = p.W; CLUSTERS = p.CLUSTERS;
+  if(!keepSel){ state.ci = 0; state.sel = CLUSTERS[0].center; }
+  state.revealed.clear();
+  $("tDel").hidden = !p.imported;
+  document.title = "形近词图谱 · " + p.title;
+}
+function crumb(){
+  const c = $("crumb");
+  c.textContent = "";
+  const p = PAGES[state.pi];
+  c.append(p.title + " · 词簇 ");
+  const b = document.createElement("b"); b.textContent = CLUSTERS[state.ci].center; c.appendChild(b);
+  c.append(`（第 ${state.ci+1}/${CLUSTERS.length} 组，${tree ? tree.all.length : 0} 个单词）`);
+}
+function goto(pi, ci, w){
+  if(pi !== state.pi) setPage(pi, true);
+  state.ci = ci; state.sel = w; state.revealed.add(w);
+  state.openPage = pi;
+  render(false); crumb(); renderList();
+}
+function pick(w, fromGraph){
+  w = String(w).toLowerCase();
+  if(fromGraph) setRight(true);
+  const here = CLUSTERS.findIndex(c=>c.center===w || c.edges.some(e=>e[1]===w));
+  if(here >= 0){
+    state.revealed.add(w); state.sel = w;
+    if(here !== state.ci){ state.ci = here; render(false); }
+    else { setZh(tree.map[w]); applySelection(); }
+    crumb();
+    return true;
+  }
+  const at = INDEX[w];
+  if(!at) return false;
+  goto(at.pi, at.ci, w);
+  return true;
 }
 
-function renderTabs(){
-  const t=$("tabs"); t.innerHTML="";
-  CLUSTERS.forEach((c,i)=>{
-    const b=document.createElement("button");
-    b.className="tab"; b.setAttribute("role","tab"); b.setAttribute("aria-selected", i===state.ci);
-    const a=document.createElement("b"); a.textContent=c.center;
-    const z=document.createElement("span"); z.lang="ja"; z.textContent=state.showZh?W[c.center]:"？？";
-    b.append(a,z);
-    b.onclick=()=>{ state.ci=i; state.sel=c.center; renderTabs(); render(false); };
-    t.appendChild(b);
+// ---------- 左列：单词一览 ----------
+function renderList(){
+  const box = $("list");
+  box.textContent = "";
+  const kw = $("filter").value.trim().toLowerCase();
+  const frag = document.createDocumentFragment();
+
+  if(state.mode === "abc"){
+    const words = kw ? ALL.filter(w=>w.includes(kw)) : ALL;
+    let letter = "";
+    words.forEach(w=>{
+      const L = w[0].toUpperCase();
+      if(L !== letter){ letter = L; const h=document.createElement("div"); h.className="grp"; h.textContent=L; frag.appendChild(h); }
+      frag.appendChild(wordButton(w, INDEX[w]));
+    });
+    $("cnt").textContent = `共 ${ALL.length} 个单词` + (kw ? `，筛出 ${words.length} 个` : "");
+    if(!words.length) frag.appendChild(emptyHint(kw));
+  }else{
+    let shown = 0;
+    PAGES.forEach((p,pi)=>{
+      const cls = p.CLUSTERS.filter(c=>!kw || c.center.includes(kw) || c.edges.some(e=>e[1].includes(kw)));
+      if(!cls.length) return;
+      shown += cls.length;
+      const head = document.createElement("button");
+      head.className = "pg" + (state.openPage===pi ? " open" : "");
+      head.append(p.title);
+      const n = document.createElement("span"); n.className="n"; n.textContent = `${p.CLUSTERS.length} 组`;
+      head.appendChild(n);
+      head.onclick = ()=>{ state.openPage = state.openPage===pi ? -1 : pi; renderList(); };
+      frag.appendChild(head);
+      if(state.openPage !== pi && !kw) return;
+      const sub = document.createElement("div"); sub.className="sub-list";
+      cls.forEach(c=>{
+        const ci = p.CLUSTERS.indexOf(c);
+        sub.appendChild(wordButton(c.center, {pi, ci, center:true}));
+        c.edges.forEach(e=>sub.appendChild(wordButton(e[1], {pi, ci})));
+      });
+      frag.appendChild(sub);
+    });
+    $("cnt").textContent = `共 ${PAGES.length} 单元` + (kw ? `，筛出 ${shown} 组` : "");
+    if(!shown) frag.appendChild(emptyHint(kw));
+  }
+  box.appendChild(frag);
+  markList();
+}
+function emptyHint(kw){
+  const e = document.createElement("p"); e.className="empty";
+  e.textContent = kw ? `没有匹配「${kw}」的单词。` : "没有词表数据。";
+  return e;
+}
+function wordButton(w, at){
+  const b = document.createElement("button");
+  b.className = "wItem" + (at && at.center ? " cen" : "");
+  b.dataset.w = w;
+  const s = document.createElement("b"); s.textContent = w;
+  const i = document.createElement("i"); i.lang = "ja";
+  i.textContent = (at ? (PAGES[at.pi].W[w] || "") : glossOf(w));
+  b.append(s, i);
+  b.onclick = ()=>{
+    if(at) goto(at.pi, at.ci, w); else pick(w);
+    pushRecent(w);
+    setLeft(false);          // 查完就收起，把地方让给图
+  };
+  return b;
+}
+function markList(){
+  document.querySelectorAll(".wItem").forEach(b=>b.classList.toggle("on", b.dataset.w === state.sel));
+}
+
+// ---------- 两侧栏折叠 ----------
+const UI_KEY = "wc.ui.v1";
+function setLeft(open){
+  state.leftOpen = open;
+  document.body.classList.toggle("l-closed", !open);
+  $("railL").setAttribute("aria-expanded", open);
+  try{ localStorage.setItem(UI_KEY, JSON.stringify({left:open})); }catch(e){}
+}
+function setRight(open){
+  state.rightOpen = open;
+  document.body.classList.toggle("r-closed", !open);
+  $("railR").setAttribute("aria-expanded", open);
+}
+$("foldL").onclick = ()=>setLeft(false);
+$("railL").onclick = ()=>setLeft(true);
+$("foldR").onclick = ()=>setRight(false);
+$("railR").onclick = ()=>setRight(true);
+
+// ---------- 最近查询（最多 5 个） ----------
+const RECENT_KEY = "wc.recent.v2";
+let recent = [];
+function loadRecent(){ try{ recent = (JSON.parse(localStorage.getItem(RECENT_KEY)) || []).slice(0,5); }catch(e){ recent = []; } }
+function pushRecent(w){
+  recent = [w, ...recent.filter(x=>x!==w)].slice(0,5);
+  try{ localStorage.setItem(RECENT_KEY, JSON.stringify(recent)); }catch(e){}
+  renderRecent();
+}
+function renderRecent(){
+  const r = $("recent"); r.textContent = "";
+  if(!recent.length){ r.append("最近查询会显示在这里（最多 5 个）"); return; }
+  r.append("最近：");
+  recent.forEach(w=>{
+    const b = document.createElement("button"); b.className="chip"; b.textContent = w;
+    b.title = glossOf(w) || "";
+    b.onclick = ()=>{ if(pick(w)) pushRecent(w); };
+    r.appendChild(b);
   });
 }
 
@@ -553,7 +765,7 @@ function bindToggle(id,key,after){
     after();
   };
 }
-bindToggle("tZh","showZh",()=>{ renderTabs(); render(true); });
+bindToggle("tZh","showZh",()=>{ render(true); });
 bindToggle("tHl","showHl",()=>{ render(true); });
 $("tPin").onclick=()=>{
   state.pin=!state.pin; $("tPin").setAttribute("aria-pressed",state.pin);
@@ -564,39 +776,43 @@ $("tShake").onclick=()=>{
   tree.all.forEach(n=>{ n.vx += (Math.random()-.5)*36; n.vy += (Math.random()-.5)*36; });
   kick();
 };
-$("q").addEventListener("input",e=>{
-  const v=e.target.value.trim().toLowerCase();
-  if(WORD2CLUSTER[v]!==undefined && W[v]!==undefined){ state.ci=WORD2CLUSTER[v]; state.sel=v; state.revealed.add(v); renderTabs(); render(false); }
-});
 
+// ---------- 搜索 ----------
+function search(v, remember){
+  v = String(v).trim().toLowerCase();
+  if(!v) return;
+  const hit = INDEX[v] ? v : (ALL.find(w=>w.startsWith(v)) || ALL.find(w=>w.includes(v)));
+  if(!hit){ say(`没有找到「${v}」。`, true); return; }
+  say("");
+  if(pick(hit)){ if(remember) pushRecent(hit); setLeft(false); }
+}
+$("q").addEventListener("input", e=>{ const v=e.target.value.trim().toLowerCase(); if(INDEX[v]) search(v, false); });
+$("q").addEventListener("keydown", e=>{ if(e.key==="Enter"){ e.preventDefault(); search(e.target.value, true); } });
+$("q").addEventListener("change", e=>search(e.target.value, true));
 
-// ---------- 多个词表文件 ----------
-const STORE_KEY = "wc.datasets.v1";
-const datasets = [{name:"第 1 页（内置）", W:BUILTIN_W, CLUSTERS:BUILTIN_CLUSTERS, builtin:true}];
+// ---------- 左列模式 / 筛选 ----------
+function setMode(m){
+  state.mode = m;
+  $("mAbc").setAttribute("aria-pressed", m==="abc");
+  $("mCl").setAttribute("aria-pressed", m==="cluster");
+  renderList();
+}
+$("mAbc").onclick = ()=>setMode("abc");
+$("mCl").onclick  = ()=>setMode("cluster");
+let ft = 0;
+$("filter").addEventListener("input", ()=>{ clearTimeout(ft); ft = setTimeout(renderList, 120); });
+
+// ---------- 导入自定义词表 ----------
+const STORE_KEY = "wc.datasets.v2";
 function saveStore(){
-  try{ localStorage.setItem(STORE_KEY, JSON.stringify(datasets.filter(d=>!d.builtin).map(d=>({name:d.name, raw:d.raw})))); }catch(e){}
+  try{ localStorage.setItem(STORE_KEY, JSON.stringify(PAGES.filter(p=>p.imported).map(p=>({name:p.title, raw:p.raw})))); }catch(e){}
 }
 function loadStore(){
   try{
-    const arr = JSON.parse(localStorage.getItem(STORE_KEY) || "[]");
-    arr.forEach(x=>{ try{ const d = normalize(x.raw, x.name); d.raw=x.raw; d.name=x.name||d.name; datasets.push(d); }catch(e){} });
+    (JSON.parse(localStorage.getItem(STORE_KEY)) || []).forEach(x=>{
+      try{ const d = normalize(x.raw, x.name); d.title = x.name || d.name; d.raw = x.raw; d.imported = true; PAGES.push(d); }catch(e){}
+    });
   }catch(e){}
-}
-function say(text, isErr){ const m=$("msg"); m.textContent=text||""; m.className="msg"+(isErr?" err":""); }
-function renderSelect(){
-  const sel=$("ds"); sel.innerHTML="";
-  datasets.forEach((d,i)=>{ const o=document.createElement("option"); o.value=i; o.textContent=d.name; sel.appendChild(o); });
-  sel.value = state.di;
-  $("tDel").hidden = !!datasets[state.di].builtin;
-}
-function setDataset(i){
-  state.di = i;
-  const d = datasets[i];
-  W = d.W; CLUSTERS = d.CLUSTERS; rebuildIndex();
-  state.ci = 0; state.sel = null; state.revealed.clear();
-  $("sub").textContent = `${d.name}，共 ${CLUSTERS.length} 组词簇。拖动单词会带着相连的词一起晃，松手后弹回原位（开启“固定位置”则停在原处）；点击单词查看关系。`;
-  document.title = "形近词图谱 · " + d.name;
-  renderSelect(); renderTabs(); render(false);
 }
 async function importFiles(files){
   const msgs = []; let last = -1, ok = 0;
@@ -606,28 +822,31 @@ async function importFiles(files){
       const list = Array.isArray(j) ? j : [j];
       list.forEach((item,k)=>{
         const label = f.name.replace(/\.json$/i,"") + (list.length>1 ? "#"+(k+1) : "");
-        const d = normalize(item, label); d.raw = item;
-        if(!item.source && !item.name) d.name = label;
-        const at = datasets.findIndex(x=>!x.builtin && x.name===d.name);
-        if(at>=0){ datasets[at]=d; last=at; } else { datasets.push(d); last=datasets.length-1; }
+        const d = normalize(item, label);
+        d.title = item.source || item.name || label; d.raw = item; d.imported = true;
+        const at = PAGES.findIndex(x=>x.imported && x.title===d.title);
+        if(at>=0){ PAGES[at]=d; last=at; } else { PAGES.push(d); last=PAGES.length-1; }
         ok++;
-        d.warn.forEach(w=>msgs.push(`${d.name}：${w}`));
+        d.warn.forEach(w=>msgs.push(`${d.title}：${w}`));
       });
-    }catch(e){
-      msgs.push(`${f.name}：读取失败，${e.message}`);
-    }
+    }catch(e){ msgs.push(`${f.name}：读取失败，${e.message}`); }
   }
-  if(ok){ saveStore(); setDataset(last); }
+  if(ok){
+    saveStore(); reindex();
+    setPage(last); state.openPage = last;
+    setMode("cluster"); render(false); crumb(); renderList();
+  }
   const failed = msgs.some(m=>m.includes("读取失败"));
-  say((ok?`已导入 ${ok} 个词表。`:"") + (msgs.length?" "+msgs.slice(0,4).join("；")+(msgs.length>4?` 等 ${msgs.length} 条提示`:""):""), failed && !ok);
+  say((ok?`已导入 ${ok} 个词表。`:"") + (msgs.length?" "+msgs.slice(0,3).join("；")+(msgs.length>3?` 等 ${msgs.length} 条`:""):""), failed && !ok);
 }
 $("tImport").onclick = ()=>$("file").click();
 $("file").onchange = e=>{ importFiles([...e.target.files]); e.target.value=""; };
-$("ds").onchange = e=>{ say(""); setDataset(+e.target.value); };
 $("tDel").onclick = ()=>{
-  if(datasets[state.di].builtin) return;
-  const name = datasets[state.di].name;
-  datasets.splice(state.di,1); saveStore(); say(`已移除 ${name}。`); setDataset(0);
+  const p = PAGES[state.pi];
+  if(!p.imported) return;
+  PAGES.splice(state.pi,1); saveStore(); reindex();
+  say(`已移除 ${p.title}。`);
+  setPage(0); state.openPage = 0; render(false); crumb(); renderList();
 };
 ["dragenter","dragover"].forEach(t=>window.addEventListener(t,e=>{ if(e.dataTransfer && [...e.dataTransfer.types].includes("Files")){ e.preventDefault(); document.body.classList.add("dropping"); } }));
 ["dragleave","drop"].forEach(t=>window.addEventListener(t,e=>{ if(t==="dragleave" && e.relatedTarget) return; document.body.classList.remove("dropping"); }));
@@ -637,9 +856,20 @@ window.addEventListener("drop",e=>{
   importFiles([...e.dataTransfer.files].filter(f=>/\.json$/i.test(f.name) || f.type==="application/json"));
 });
 
-state.di = 0;
+// ---------- 启动 ----------
+buildPages(window.WC_PAGES || []);
 loadStore();
-setDataset(0);
+reindex();
+loadRecent(); renderRecent();
+let ui = {}; try{ ui = JSON.parse(localStorage.getItem(UI_KEY)) || {}; }catch(e){}
+setLeft(ui.left !== false);   // 左列记住上次的开合
+setRight(false);              // 右列默认收起，点图里的单词才展开
+if(!PAGES.length){
+  say("没读到词表数据（app/data.js）。请运行：python tools/build_data.py", true);
+}else{
+  setPage(0);
+  render(false); crumb(); renderList();
+}
 if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>{ if(tree) render(true); });
 </script>
 </body>
