@@ -1,0 +1,738 @@
+{
+  "source": "速记1600单词 每周一页 第13页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "way"
+    },
+    {
+      "id": "c2",
+      "center": "while"
+    },
+    {
+      "id": "c3",
+      "center": "bit"
+    },
+    {
+      "id": "c4",
+      "center": "under"
+    },
+    {
+      "id": "c5",
+      "center": "she"
+    },
+    {
+      "id": "c6",
+      "center": "it"
+    },
+    {
+      "id": "c7",
+      "center": "trade"
+    },
+    {
+      "id": "c8",
+      "center": "pan"
+    }
+  ],
+  "words": [
+    {
+      "id": "way",
+      "zh": "路",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "away",
+      "zh": "离开",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "always",
+      "zh": "总是",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "awful",
+      "zh": "可恶的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "pay",
+      "zh": "付钱",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "paw",
+      "zh": "爪子",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "may",
+      "zh": "五月",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "maybe",
+      "zh": "也许",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "while",
+      "zh": "当...时候",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "smile",
+      "zh": "微笑",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "similar",
+      "zh": "相似的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mobile",
+      "zh": "移动的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "whale",
+      "zh": "鲸",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "white",
+      "zh": "白色",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "which",
+      "zh": "哪一个",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "whisper",
+      "zh": "低声说",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "bit",
+      "zh": "少量",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "bite",
+      "zh": "咬",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "invite",
+      "zh": "v.邀请",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "invitation",
+      "zh": "n.邀请",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "kite",
+      "zh": "风筝",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "kitchen",
+      "zh": "厨房",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "habit",
+      "zh": "习惯",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "orbit",
+      "zh": "轨道",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "rabbit",
+      "zh": "兔子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "under",
+      "zh": "在...下",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "underneath",
+      "zh": "在下面",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "undersea",
+      "zh": "海底的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "uncle",
+      "zh": "叔叔",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ladder",
+      "zh": "梯子",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "lady",
+      "zh": "女士",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "glad",
+      "zh": "高兴",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "wonder",
+      "zh": "惊奇",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "wonderful",
+      "zh": "惊奇的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "she",
+      "zh": "她",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "shell",
+      "zh": "贝壳",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shelf",
+      "zh": "架子",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "myself",
+      "zh": "我自己",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "self-respect",
+      "zh": "自尊",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shellfish",
+      "zh": "贝类",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "fish",
+      "zh": "鱼",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "selfish",
+      "zh": "自私的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "it",
+      "zh": "它",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "its",
+      "zh": "它的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "itself",
+      "zh": "它自己",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "italy",
+      "zh": "意大利",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "italian",
+      "zh": "意大利人",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "australian",
+      "zh": "澳大利亚人",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "australia",
+      "zh": "澳大利亚",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "trade",
+      "zh": "贸易",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "travel",
+      "zh": "旅行",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "traveller",
+      "zh": "旅行者",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "brave",
+      "zh": "勇敢的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "tradition",
+      "zh": "传统",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "traditional",
+      "zh": "传统的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "condition",
+      "zh": "条件",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "conductor",
+      "zh": "售票员",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "pan",
+      "zh": "平底锅",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "panic",
+      "zh": "恐慌",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "picnic",
+      "zh": "野餐",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "panda",
+      "zh": "熊猫",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "japan",
+      "zh": "日本",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "japanese",
+      "zh": "日本人",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "chinese",
+      "zh": "中国人",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "china",
+      "zh": "中国",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "chin",
+      "zh": "下巴",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "cheese",
+      "zh": "奶酪",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "way",
+      "to": "away",
+      "type": "compound"
+    },
+    {
+      "from": "away",
+      "to": "always",
+      "type": "spelling"
+    },
+    {
+      "from": "away",
+      "to": "awful",
+      "type": "spelling"
+    },
+    {
+      "from": "way",
+      "to": "pay",
+      "type": "spelling"
+    },
+    {
+      "from": "pay",
+      "to": "paw",
+      "type": "spelling"
+    },
+    {
+      "from": "way",
+      "to": "may",
+      "type": "spelling"
+    },
+    {
+      "from": "may",
+      "to": "maybe",
+      "type": "compound"
+    },
+    {
+      "from": "while",
+      "to": "smile",
+      "type": "spelling"
+    },
+    {
+      "from": "smile",
+      "to": "similar",
+      "type": "spelling"
+    },
+    {
+      "from": "smile",
+      "to": "mobile",
+      "type": "spelling"
+    },
+    {
+      "from": "while",
+      "to": "whale",
+      "type": "spelling"
+    },
+    {
+      "from": "while",
+      "to": "white",
+      "type": "spelling"
+    },
+    {
+      "from": "white",
+      "to": "which",
+      "type": "spelling"
+    },
+    {
+      "from": "white",
+      "to": "whisper",
+      "type": "spelling"
+    },
+    {
+      "from": "bit",
+      "to": "bite",
+      "type": "spelling"
+    },
+    {
+      "from": "bite",
+      "to": "invite",
+      "type": "spelling"
+    },
+    {
+      "from": "invite",
+      "to": "invitation",
+      "type": "derive"
+    },
+    {
+      "from": "bite",
+      "to": "kite",
+      "type": "spelling"
+    },
+    {
+      "from": "kite",
+      "to": "kitchen",
+      "type": "spelling"
+    },
+    {
+      "from": "bit",
+      "to": "habit",
+      "type": "spelling"
+    },
+    {
+      "from": "habit",
+      "to": "orbit",
+      "type": "spelling"
+    },
+    {
+      "from": "orbit",
+      "to": "rabbit",
+      "type": "spelling"
+    },
+    {
+      "from": "under",
+      "to": "underneath",
+      "type": "compound"
+    },
+    {
+      "from": "under",
+      "to": "undersea",
+      "type": "compound"
+    },
+    {
+      "from": "under",
+      "to": "uncle",
+      "type": "spelling"
+    },
+    {
+      "from": "under",
+      "to": "ladder",
+      "type": "spelling"
+    },
+    {
+      "from": "ladder",
+      "to": "lady",
+      "type": "spelling"
+    },
+    {
+      "from": "ladder",
+      "to": "glad",
+      "type": "spelling"
+    },
+    {
+      "from": "under",
+      "to": "wonder",
+      "type": "spelling"
+    },
+    {
+      "from": "wonder",
+      "to": "wonderful",
+      "type": "derive"
+    },
+    {
+      "from": "she",
+      "to": "shell",
+      "type": "spelling"
+    },
+    {
+      "from": "shell",
+      "to": "shelf",
+      "type": "spelling"
+    },
+    {
+      "from": "shelf",
+      "to": "myself",
+      "type": "spelling"
+    },
+    {
+      "from": "myself",
+      "to": "self-respect",
+      "type": "compound"
+    },
+    {
+      "from": "shell",
+      "to": "shellfish",
+      "type": "compound"
+    },
+    {
+      "from": "shellfish",
+      "to": "fish",
+      "type": "compound"
+    },
+    {
+      "from": "fish",
+      "to": "selfish",
+      "type": "spelling"
+    },
+    {
+      "from": "it",
+      "to": "its",
+      "type": "derive"
+    },
+    {
+      "from": "its",
+      "to": "itself",
+      "type": "compound"
+    },
+    {
+      "from": "it",
+      "to": "italy",
+      "type": "spelling"
+    },
+    {
+      "from": "italy",
+      "to": "italian",
+      "type": "derive"
+    },
+    {
+      "from": "italian",
+      "to": "australian",
+      "type": "spelling"
+    },
+    {
+      "from": "australian",
+      "to": "australia",
+      "type": "derive"
+    },
+    {
+      "from": "trade",
+      "to": "travel",
+      "type": "spelling"
+    },
+    {
+      "from": "travel",
+      "to": "traveller",
+      "type": "derive"
+    },
+    {
+      "from": "trade",
+      "to": "brave",
+      "type": "spelling"
+    },
+    {
+      "from": "trade",
+      "to": "tradition",
+      "type": "spelling"
+    },
+    {
+      "from": "tradition",
+      "to": "traditional",
+      "type": "derive"
+    },
+    {
+      "from": "tradition",
+      "to": "condition",
+      "type": "spelling"
+    },
+    {
+      "from": "condition",
+      "to": "conductor",
+      "type": "spelling"
+    },
+    {
+      "from": "pan",
+      "to": "panic",
+      "type": "spelling"
+    },
+    {
+      "from": "panic",
+      "to": "picnic",
+      "type": "spelling"
+    },
+    {
+      "from": "pan",
+      "to": "panda",
+      "type": "spelling"
+    },
+    {
+      "from": "pan",
+      "to": "japan",
+      "type": "spelling"
+    },
+    {
+      "from": "japan",
+      "to": "japanese",
+      "type": "derive"
+    },
+    {
+      "from": "japanese",
+      "to": "chinese",
+      "type": "spelling"
+    },
+    {
+      "from": "chinese",
+      "to": "china",
+      "type": "derive"
+    },
+    {
+      "from": "china",
+      "to": "chin",
+      "type": "spelling"
+    },
+    {
+      "from": "chinese",
+      "to": "cheese",
+      "type": "spelling"
+    }
+  ]
+}

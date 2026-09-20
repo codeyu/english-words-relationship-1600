@@ -1,0 +1,925 @@
+{
+  "source": "速记1600单词 每周一页 第5页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "monkey"
+    },
+    {
+      "id": "c2",
+      "center": "tire"
+    },
+    {
+      "id": "c3",
+      "center": "warm"
+    },
+    {
+      "id": "c4",
+      "center": "green"
+    },
+    {
+      "id": "c5",
+      "center": "dress"
+    },
+    {
+      "id": "c6",
+      "center": "act"
+    },
+    {
+      "id": "c7",
+      "center": "man"
+    },
+    {
+      "id": "c8",
+      "center": "turn"
+    }
+  ],
+  "words": [
+    {
+      "id": "monkey",
+      "zh": "猴子",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "money",
+      "zh": "钱",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "honey",
+      "zh": "蜂蜜",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "honest",
+      "zh": "诚实的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "dishonest",
+      "zh": "不诚实的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "journey",
+      "zh": "旅行",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "journalist",
+      "zh": "新闻记者",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "key",
+      "zh": "钥匙",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "keyboard",
+      "zh": "键盘",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "turkey",
+      "zh": "火鸡",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "board",
+      "zh": "木板，甲板",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "cupboard",
+      "zh": "碗橱",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "tire",
+      "zh": "劳累",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "direct",
+      "zh": "直接的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "directly",
+      "zh": "径直地",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "correct",
+      "zh": "正确的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fire",
+      "zh": "火",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fireplace",
+      "zh": "壁炉",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "firework",
+      "zh": "烟火",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "firecracker",
+      "zh": "鞭炮",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "cracker",
+      "zh": "饼干",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "tired",
+      "zh": "累的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "tiring",
+      "zh": "累人的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "warm",
+      "zh": "温暖的",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "ward",
+      "zh": "病房",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "wardrobe",
+      "zh": "衣橱",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "warn",
+      "zh": "警告",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "war",
+      "zh": "战争",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "harm",
+      "zh": "伤害",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "hard",
+      "zh": "困难的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "hardly",
+      "zh": "几乎不",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "hard-working",
+      "zh": "努力工作的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "green",
+      "zh": "绿色",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "grey",
+      "zh": "灰色",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "greenhouse",
+      "zh": "温室",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "screen",
+      "zh": "显示屏",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "greet",
+      "zh": "问候",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "greeting",
+      "zh": "祝贺",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "great",
+      "zh": "太棒了",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "street",
+      "zh": "街道",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "stress",
+      "zh": "强调",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "dress",
+      "zh": "连衣裙",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "dress",
+      "zh": "连衣裙",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "address",
+      "zh": "地址",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "add",
+      "zh": "添加",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "addition",
+      "zh": "增加",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "press",
+      "zh": "按、压",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "express",
+      "zh": "v.表达",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "expression",
+      "zh": "n.表达",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "impress",
+      "zh": "给...留下印象",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "impression",
+      "zh": "印象",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "progress",
+      "zh": "进步",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "programme",
+      "zh": "计划，节目",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "act",
+      "zh": "表演",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "actually",
+      "zh": "实际上",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "action",
+      "zh": "行动",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "active",
+      "zh": "活跃的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "activity",
+      "zh": "活动",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "attract",
+      "zh": "吸引",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "attack",
+      "zh": "进攻",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "attention",
+      "zh": "注意",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "mention",
+      "zh": "说起",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "actor",
+      "zh": "男演员",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "actress",
+      "zh": "女演员",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "tractor",
+      "zh": "拖拉机",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "man",
+      "zh": "男人",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "milkman",
+      "zh": "牛奶工",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "milk",
+      "zh": "牛奶",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "englishman",
+      "zh": "英国男人",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "english",
+      "zh": "英国人",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "human",
+      "zh": "人类",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "woman",
+      "zh": "女人",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "women",
+      "zh": "女人（复数）",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "men",
+      "zh": "男人（复数）",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "menu",
+      "zh": "菜单",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "mend",
+      "zh": "修理",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "turn",
+      "zh": "转动",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "turning",
+      "zh": "转弯处",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "turtle",
+      "zh": "海龟",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "return",
+      "zh": "归还",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "burn",
+      "zh": "烧伤，烧毁",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "burnt",
+      "zh": "烧坏的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "born",
+      "zh": "出生",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "bury",
+      "zh": "隐藏",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "monkey",
+      "to": "money",
+      "type": "spelling"
+    },
+    {
+      "from": "money",
+      "to": "honey",
+      "type": "spelling"
+    },
+    {
+      "from": "honey",
+      "to": "honest",
+      "type": "spelling"
+    },
+    {
+      "from": "honest",
+      "to": "dishonest",
+      "type": "derive"
+    },
+    {
+      "from": "money",
+      "to": "journey",
+      "type": "spelling"
+    },
+    {
+      "from": "journey",
+      "to": "journalist",
+      "type": "derive"
+    },
+    {
+      "from": "monkey",
+      "to": "key",
+      "type": "spelling"
+    },
+    {
+      "from": "key",
+      "to": "keyboard",
+      "type": "compound"
+    },
+    {
+      "from": "key",
+      "to": "turkey",
+      "type": "spelling"
+    },
+    {
+      "from": "keyboard",
+      "to": "board",
+      "type": "compound"
+    },
+    {
+      "from": "board",
+      "to": "cupboard",
+      "type": "compound"
+    },
+    {
+      "from": "tire",
+      "to": "direct",
+      "type": "spelling"
+    },
+    {
+      "from": "direct",
+      "to": "directly",
+      "type": "derive"
+    },
+    {
+      "from": "direct",
+      "to": "correct",
+      "type": "spelling"
+    },
+    {
+      "from": "tire",
+      "to": "fire",
+      "type": "spelling"
+    },
+    {
+      "from": "fire",
+      "to": "fireplace",
+      "type": "compound"
+    },
+    {
+      "from": "fire",
+      "to": "firework",
+      "type": "compound"
+    },
+    {
+      "from": "firework",
+      "to": "firecracker",
+      "type": "compound"
+    },
+    {
+      "from": "firecracker",
+      "to": "cracker",
+      "type": "compound"
+    },
+    {
+      "from": "tire",
+      "to": "tired",
+      "type": "derive"
+    },
+    {
+      "from": "tired",
+      "to": "tiring",
+      "type": "derive"
+    },
+    {
+      "from": "warm",
+      "to": "ward",
+      "type": "spelling"
+    },
+    {
+      "from": "ward",
+      "to": "wardrobe",
+      "type": "compound"
+    },
+    {
+      "from": "warm",
+      "to": "warn",
+      "type": "spelling"
+    },
+    {
+      "from": "warn",
+      "to": "war",
+      "type": "spelling"
+    },
+    {
+      "from": "warm",
+      "to": "harm",
+      "type": "spelling"
+    },
+    {
+      "from": "harm",
+      "to": "hard",
+      "type": "spelling"
+    },
+    {
+      "from": "hard",
+      "to": "hardly",
+      "type": "derive"
+    },
+    {
+      "from": "hard",
+      "to": "hard-working",
+      "type": "compound"
+    },
+    {
+      "from": "green",
+      "to": "grey",
+      "type": "spelling"
+    },
+    {
+      "from": "green",
+      "to": "greenhouse",
+      "type": "compound"
+    },
+    {
+      "from": "green",
+      "to": "screen",
+      "type": "spelling"
+    },
+    {
+      "from": "green",
+      "to": "greet",
+      "type": "spelling"
+    },
+    {
+      "from": "greet",
+      "to": "greeting",
+      "type": "derive"
+    },
+    {
+      "from": "greet",
+      "to": "great",
+      "type": "spelling"
+    },
+    {
+      "from": "greet",
+      "to": "street",
+      "type": "spelling"
+    },
+    {
+      "from": "street",
+      "to": "stress",
+      "type": "spelling"
+    },
+    {
+      "from": "stress",
+      "to": "dress",
+      "type": "spelling"
+    },
+    {
+      "from": "dress",
+      "to": "address",
+      "type": "spelling"
+    },
+    {
+      "from": "address",
+      "to": "add",
+      "type": "spelling"
+    },
+    {
+      "from": "add",
+      "to": "addition",
+      "type": "derive"
+    },
+    {
+      "from": "dress",
+      "to": "press",
+      "type": "spelling"
+    },
+    {
+      "from": "press",
+      "to": "express",
+      "type": "spelling"
+    },
+    {
+      "from": "express",
+      "to": "expression",
+      "type": "derive"
+    },
+    {
+      "from": "press",
+      "to": "impress",
+      "type": "spelling"
+    },
+    {
+      "from": "impress",
+      "to": "impression",
+      "type": "derive"
+    },
+    {
+      "from": "dress",
+      "to": "progress",
+      "type": "spelling"
+    },
+    {
+      "from": "progress",
+      "to": "programme",
+      "type": "spelling"
+    },
+    {
+      "from": "act",
+      "to": "actually",
+      "type": "spelling"
+    },
+    {
+      "from": "actually",
+      "to": "action",
+      "type": "spelling"
+    },
+    {
+      "from": "action",
+      "to": "active",
+      "type": "spelling"
+    },
+    {
+      "from": "active",
+      "to": "activity",
+      "type": "derive"
+    },
+    {
+      "from": "act",
+      "to": "attract",
+      "type": "spelling"
+    },
+    {
+      "from": "attract",
+      "to": "attack",
+      "type": "spelling"
+    },
+    {
+      "from": "attract",
+      "to": "attention",
+      "type": "spelling"
+    },
+    {
+      "from": "attention",
+      "to": "mention",
+      "type": "spelling"
+    },
+    {
+      "from": "act",
+      "to": "actor",
+      "type": "derive"
+    },
+    {
+      "from": "actor",
+      "to": "actress",
+      "type": "derive"
+    },
+    {
+      "from": "actor",
+      "to": "tractor",
+      "type": "spelling"
+    },
+    {
+      "from": "man",
+      "to": "milkman",
+      "type": "compound"
+    },
+    {
+      "from": "milkman",
+      "to": "milk",
+      "type": "compound"
+    },
+    {
+      "from": "man",
+      "to": "englishman",
+      "type": "compound"
+    },
+    {
+      "from": "englishman",
+      "to": "english",
+      "type": "compound"
+    },
+    {
+      "from": "man",
+      "to": "human",
+      "type": "spelling"
+    },
+    {
+      "from": "man",
+      "to": "woman",
+      "type": "compound"
+    },
+    {
+      "from": "woman",
+      "to": "women",
+      "type": "derive"
+    },
+    {
+      "from": "women",
+      "to": "men",
+      "type": "spelling"
+    },
+    {
+      "from": "men",
+      "to": "menu",
+      "type": "spelling"
+    },
+    {
+      "from": "men",
+      "to": "mend",
+      "type": "spelling"
+    },
+    {
+      "from": "turn",
+      "to": "turning",
+      "type": "derive"
+    },
+    {
+      "from": "turn",
+      "to": "turtle",
+      "type": "spelling"
+    },
+    {
+      "from": "turn",
+      "to": "return",
+      "type": "compound"
+    },
+    {
+      "from": "turn",
+      "to": "burn",
+      "type": "spelling"
+    },
+    {
+      "from": "burn",
+      "to": "burnt",
+      "type": "derive"
+    },
+    {
+      "from": "burn",
+      "to": "born",
+      "type": "spelling"
+    },
+    {
+      "from": "burn",
+      "to": "bury",
+      "type": "spelling"
+    }
+  ]
+}

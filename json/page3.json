@@ -1,0 +1,892 @@
+{
+  "source": "速记1600单词 每周一页 第3页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "dear"
+    },
+    {
+      "id": "c2",
+      "center": "head"
+    },
+    {
+      "id": "c3",
+      "center": "tea"
+    },
+    {
+      "id": "c4",
+      "center": "read"
+    },
+    {
+      "id": "c5",
+      "center": "now"
+    },
+    {
+      "id": "c6",
+      "center": "your"
+    },
+    {
+      "id": "c7",
+      "center": "sea"
+    },
+    {
+      "id": "c8",
+      "center": "father"
+    }
+  ],
+  "words": [
+    {
+      "id": "dear",
+      "zh": "亲爱的",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "idea",
+      "zh": "主意",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "deal",
+      "zh": "处理",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "deaf",
+      "zh": "聋的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "dead",
+      "zh": "死的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "death",
+      "zh": "死亡",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lead",
+      "zh": "领导",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "league",
+      "zh": "联盟",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "leaf",
+      "zh": "树叶",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "leaflet",
+      "zh": "传单",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "head",
+      "zh": "头部",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "heat",
+      "zh": "加热",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "heavy",
+      "zh": "重的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "heal",
+      "zh": "治愈",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "health",
+      "zh": "健康",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "healthy",
+      "zh": "健康的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "unhealthy",
+      "zh": "不健康的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "headache",
+      "zh": "头痛",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "headmaster",
+      "zh": "校长",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "tea",
+      "zh": "茶",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "team",
+      "zh": "队",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "teamwork",
+      "zh": "小组合作",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "teapot",
+      "zh": "茶壶",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "teach",
+      "zh": "教书",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "teacher",
+      "zh": "教师",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "each",
+      "zh": "每一",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "beach",
+      "zh": "沙滩",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "peach",
+      "zh": "桃子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "reach",
+      "zh": "到达",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "read",
+      "zh": "读",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "ready",
+      "zh": "准备好",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "already",
+      "zh": "已经",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "bread",
+      "zh": "面包",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "break",
+      "zh": "打破，打碎",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "breakfast",
+      "zh": "早餐",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fast",
+      "zh": "快速的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "breath",
+      "zh": "呼吸",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "spread",
+      "zh": "展开",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "now",
+      "zh": "现在",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "new",
+      "zh": "新的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "news",
+      "zh": "新闻",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "newspaper",
+      "zh": "报纸",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "paper",
+      "zh": "纸",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "renew",
+      "zh": "恢复",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "know",
+      "zh": "知道",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "knowledge",
+      "zh": "知识",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "snow",
+      "zh": "下雪",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "snowy",
+      "zh": "下雪的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "snowman",
+      "zh": "雪人",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "your",
+      "zh": "你的",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "our",
+      "zh": "我们的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "hour",
+      "zh": "小时",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "colour",
+      "zh": "颜色",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "colourful",
+      "zh": "彩色的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "four",
+      "zh": "四",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fourteen",
+      "zh": "十四",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "forty",
+      "zh": "四十",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "forth",
+      "zh": "第四",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "flour",
+      "zh": "面粉",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "yourself",
+      "zh": "你自己",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "yourselves",
+      "zh": "你们自己",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "sea",
+      "zh": "海",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "seaside",
+      "zh": "海滨",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "search",
+      "zh": "搜索",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "season",
+      "zh": "季节",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "seal",
+      "zh": "海豹",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "steal",
+      "zh": "偷",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "steam",
+      "zh": "蒸汽",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "seat",
+      "zh": "座位",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "sweat",
+      "zh": "汗",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "sweet",
+      "zh": "甜的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "sweep",
+      "zh": "扫地",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "sweater",
+      "zh": "毛衣",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "father",
+      "zh": "父亲",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "grandfather",
+      "zh": "爷爷",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "grand",
+      "zh": "重大的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "rather",
+      "zh": "宁愿",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "feather",
+      "zh": "羽毛",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "leather",
+      "zh": "皮革",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "weather",
+      "zh": "天气",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "whether",
+      "zh": "是否",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "dear",
+      "to": "idea",
+      "type": "spelling"
+    },
+    {
+      "from": "idea",
+      "to": "deal",
+      "type": "spelling"
+    },
+    {
+      "from": "deal",
+      "to": "deaf",
+      "type": "spelling"
+    },
+    {
+      "from": "dear",
+      "to": "dead",
+      "type": "spelling"
+    },
+    {
+      "from": "dead",
+      "to": "death",
+      "type": "derive"
+    },
+    {
+      "from": "dead",
+      "to": "lead",
+      "type": "spelling"
+    },
+    {
+      "from": "lead",
+      "to": "league",
+      "type": "spelling"
+    },
+    {
+      "from": "lead",
+      "to": "leaf",
+      "type": "spelling"
+    },
+    {
+      "from": "leaf",
+      "to": "leaflet",
+      "type": "derive"
+    },
+    {
+      "from": "head",
+      "to": "heat",
+      "type": "spelling"
+    },
+    {
+      "from": "heat",
+      "to": "heavy",
+      "type": "spelling"
+    },
+    {
+      "from": "head",
+      "to": "heal",
+      "type": "spelling"
+    },
+    {
+      "from": "heal",
+      "to": "health",
+      "type": "derive"
+    },
+    {
+      "from": "health",
+      "to": "healthy",
+      "type": "derive"
+    },
+    {
+      "from": "healthy",
+      "to": "unhealthy",
+      "type": "derive"
+    },
+    {
+      "from": "head",
+      "to": "headache",
+      "type": "compound"
+    },
+    {
+      "from": "headache",
+      "to": "headmaster",
+      "type": "spelling"
+    },
+    {
+      "from": "tea",
+      "to": "team",
+      "type": "spelling"
+    },
+    {
+      "from": "team",
+      "to": "teamwork",
+      "type": "compound"
+    },
+    {
+      "from": "tea",
+      "to": "teapot",
+      "type": "compound"
+    },
+    {
+      "from": "tea",
+      "to": "teach",
+      "type": "spelling"
+    },
+    {
+      "from": "teach",
+      "to": "teacher",
+      "type": "derive"
+    },
+    {
+      "from": "teach",
+      "to": "each",
+      "type": "spelling"
+    },
+    {
+      "from": "each",
+      "to": "beach",
+      "type": "spelling"
+    },
+    {
+      "from": "each",
+      "to": "peach",
+      "type": "spelling"
+    },
+    {
+      "from": "each",
+      "to": "reach",
+      "type": "spelling"
+    },
+    {
+      "from": "read",
+      "to": "ready",
+      "type": "spelling"
+    },
+    {
+      "from": "ready",
+      "to": "already",
+      "type": "spelling"
+    },
+    {
+      "from": "read",
+      "to": "bread",
+      "type": "spelling"
+    },
+    {
+      "from": "bread",
+      "to": "break",
+      "type": "spelling"
+    },
+    {
+      "from": "break",
+      "to": "breakfast",
+      "type": "compound"
+    },
+    {
+      "from": "breakfast",
+      "to": "fast",
+      "type": "compound"
+    },
+    {
+      "from": "bread",
+      "to": "breath",
+      "type": "spelling"
+    },
+    {
+      "from": "read",
+      "to": "spread",
+      "type": "spelling"
+    },
+    {
+      "from": "now",
+      "to": "new",
+      "type": "spelling"
+    },
+    {
+      "from": "new",
+      "to": "news",
+      "type": "derive"
+    },
+    {
+      "from": "news",
+      "to": "newspaper",
+      "type": "compound"
+    },
+    {
+      "from": "newspaper",
+      "to": "paper",
+      "type": "compound"
+    },
+    {
+      "from": "new",
+      "to": "renew",
+      "type": "derive"
+    },
+    {
+      "from": "now",
+      "to": "know",
+      "type": "spelling"
+    },
+    {
+      "from": "know",
+      "to": "knowledge",
+      "type": "derive"
+    },
+    {
+      "from": "now",
+      "to": "snow",
+      "type": "spelling"
+    },
+    {
+      "from": "snow",
+      "to": "snowy",
+      "type": "derive"
+    },
+    {
+      "from": "snowy",
+      "to": "snowman",
+      "type": "compound"
+    },
+    {
+      "from": "your",
+      "to": "our",
+      "type": "spelling"
+    },
+    {
+      "from": "our",
+      "to": "hour",
+      "type": "spelling"
+    },
+    {
+      "from": "our",
+      "to": "colour",
+      "type": "spelling"
+    },
+    {
+      "from": "colour",
+      "to": "colourful",
+      "type": "derive"
+    },
+    {
+      "from": "your",
+      "to": "four",
+      "type": "spelling"
+    },
+    {
+      "from": "four",
+      "to": "fourteen",
+      "type": "derive"
+    },
+    {
+      "from": "fourteen",
+      "to": "forty",
+      "type": "spelling"
+    },
+    {
+      "from": "fourteen",
+      "to": "forth",
+      "type": "spelling"
+    },
+    {
+      "from": "four",
+      "to": "flour",
+      "type": "spelling"
+    },
+    {
+      "from": "your",
+      "to": "yourself",
+      "type": "compound"
+    },
+    {
+      "from": "yourself",
+      "to": "yourselves",
+      "type": "derive"
+    },
+    {
+      "from": "sea",
+      "to": "seaside",
+      "type": "compound"
+    },
+    {
+      "from": "seaside",
+      "to": "search",
+      "type": "spelling"
+    },
+    {
+      "from": "sea",
+      "to": "season",
+      "type": "spelling"
+    },
+    {
+      "from": "sea",
+      "to": "seal",
+      "type": "spelling"
+    },
+    {
+      "from": "seal",
+      "to": "steal",
+      "type": "spelling"
+    },
+    {
+      "from": "steal",
+      "to": "steam",
+      "type": "spelling"
+    },
+    {
+      "from": "sea",
+      "to": "seat",
+      "type": "spelling"
+    },
+    {
+      "from": "seat",
+      "to": "sweat",
+      "type": "spelling"
+    },
+    {
+      "from": "sweat",
+      "to": "sweet",
+      "type": "spelling"
+    },
+    {
+      "from": "sweet",
+      "to": "sweep",
+      "type": "spelling"
+    },
+    {
+      "from": "sweat",
+      "to": "sweater",
+      "type": "derive"
+    },
+    {
+      "from": "father",
+      "to": "grandfather",
+      "type": "compound"
+    },
+    {
+      "from": "grandfather",
+      "to": "grand",
+      "type": "compound"
+    },
+    {
+      "from": "father",
+      "to": "rather",
+      "type": "spelling"
+    },
+    {
+      "from": "father",
+      "to": "feather",
+      "type": "spelling"
+    },
+    {
+      "from": "feather",
+      "to": "leather",
+      "type": "spelling"
+    },
+    {
+      "from": "leather",
+      "to": "weather",
+      "type": "spelling"
+    },
+    {
+      "from": "weather",
+      "to": "whether",
+      "type": "spelling"
+    }
+  ]
+}

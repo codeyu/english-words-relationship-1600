@@ -1,0 +1,859 @@
+{
+  "source": "速记1600单词 每周一页 第10页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "like"
+    },
+    {
+      "id": "c2",
+      "center": "main"
+    },
+    {
+      "id": "c3",
+      "center": "orange"
+    },
+    {
+      "id": "c4",
+      "center": "ski"
+    },
+    {
+      "id": "c5",
+      "center": "smell"
+    },
+    {
+      "id": "c6",
+      "center": "age"
+    },
+    {
+      "id": "c7",
+      "center": "room"
+    },
+    {
+      "id": "c8",
+      "center": "start"
+    }
+  ],
+  "words": [
+    {
+      "id": "like",
+      "zh": "喜欢",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "hike",
+      "zh": "远足",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "high",
+      "zh": "高的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "hide",
+      "zh": "隐藏",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "alike",
+      "zh": "相像",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "unlike",
+      "zh": "与...不像",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "dislike",
+      "zh": "不喜欢",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "bike",
+      "zh": "自行车",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "motorbike",
+      "zh": "摩托车",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "main",
+      "zh": "主要的",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "mainly",
+      "zh": "主要地",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mainland",
+      "zh": "大陆",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "again",
+      "zh": "再一次",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "against",
+      "zh": "与...相反",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pain",
+      "zh": "痛苦",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "painful",
+      "zh": "痛苦的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "paint",
+      "zh": "绘画，油漆",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "painting",
+      "zh": "绘画",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "painter",
+      "zh": "画家",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mail",
+      "zh": "邮件",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mailbox",
+      "zh": "信箱",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "orange",
+      "zh": "橘子",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "angel",
+      "zh": "天使",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "angry",
+      "zh": "生气的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "hungry",
+      "zh": "饿的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "strange",
+      "zh": "陌生的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "stranger",
+      "zh": "陌生人",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "change",
+      "zh": "改变",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "danger",
+      "zh": "危险",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "dangerous",
+      "zh": "危险的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "ski",
+      "zh": "滑雪",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "skip",
+      "zh": "跳",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ship",
+      "zh": "轮船",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "skin",
+      "zh": "皮肤",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "skill",
+      "zh": "技能",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "sky",
+      "zh": "天空",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "shy",
+      "zh": "害羞的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "skirt",
+      "zh": "短裙",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "shirt",
+      "zh": "衬衫",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "short",
+      "zh": "短的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "shore",
+      "zh": "岸",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "smell",
+      "zh": "闻，气味",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "small",
+      "zh": "小的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "smelly",
+      "zh": "有臭味的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "sell",
+      "zh": "卖",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "seller",
+      "zh": "销售商",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spell",
+      "zh": "v.拼写",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spelling",
+      "zh": "n.拼写",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "age",
+      "zh": "年龄",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "manage",
+      "zh": "管理",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "manager",
+      "zh": "管理人",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "teenage",
+      "zh": "青少年的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "teenager",
+      "zh": "青少年",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "village",
+      "zh": "村庄",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "villager",
+      "zh": "村民",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "advantage",
+      "zh": "有利条件",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "room",
+      "zh": "房间",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "bathroom",
+      "zh": "浴室",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bath",
+      "zh": "沐浴",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "broom",
+      "zh": "扫帚",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bedroom",
+      "zh": "卧室",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bed",
+      "zh": "床",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "washroom",
+      "zh": "洗手间",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wash",
+      "zh": "洗",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "cash",
+      "zh": "现金",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "crash",
+      "zh": "猛撞",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "crazy",
+      "zh": "疯狂的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "washington",
+      "zh": "华盛顿",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "start",
+      "zh": "开始",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "star",
+      "zh": "星星",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "stay",
+      "zh": "停留",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "stage",
+      "zh": "阶段",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "say",
+      "zh": "说",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "stare",
+      "zh": "凝视",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "state",
+      "zh": "国家",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "statement",
+      "zh": "声明",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "station",
+      "zh": "站，局",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "skate",
+      "zh": "滑冰",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "like",
+      "to": "hike",
+      "type": "spelling"
+    },
+    {
+      "from": "hike",
+      "to": "high",
+      "type": "spelling"
+    },
+    {
+      "from": "hike",
+      "to": "hide",
+      "type": "spelling"
+    },
+    {
+      "from": "like",
+      "to": "alike",
+      "type": "compound"
+    },
+    {
+      "from": "alike",
+      "to": "unlike",
+      "type": "derive"
+    },
+    {
+      "from": "alike",
+      "to": "dislike",
+      "type": "derive"
+    },
+    {
+      "from": "like",
+      "to": "bike",
+      "type": "spelling"
+    },
+    {
+      "from": "bike",
+      "to": "motorbike",
+      "type": "compound"
+    },
+    {
+      "from": "main",
+      "to": "mainly",
+      "type": "derive"
+    },
+    {
+      "from": "main",
+      "to": "mainland",
+      "type": "compound"
+    },
+    {
+      "from": "main",
+      "to": "again",
+      "type": "spelling"
+    },
+    {
+      "from": "again",
+      "to": "against",
+      "type": "derive"
+    },
+    {
+      "from": "main",
+      "to": "pain",
+      "type": "spelling"
+    },
+    {
+      "from": "pain",
+      "to": "painful",
+      "type": "derive"
+    },
+    {
+      "from": "pain",
+      "to": "paint",
+      "type": "spelling"
+    },
+    {
+      "from": "paint",
+      "to": "painting",
+      "type": "derive"
+    },
+    {
+      "from": "paint",
+      "to": "painter",
+      "type": "derive"
+    },
+    {
+      "from": "main",
+      "to": "mail",
+      "type": "spelling"
+    },
+    {
+      "from": "mail",
+      "to": "mailbox",
+      "type": "compound"
+    },
+    {
+      "from": "orange",
+      "to": "angel",
+      "type": "spelling"
+    },
+    {
+      "from": "angel",
+      "to": "angry",
+      "type": "spelling"
+    },
+    {
+      "from": "angry",
+      "to": "hungry",
+      "type": "spelling"
+    },
+    {
+      "from": "orange",
+      "to": "strange",
+      "type": "spelling"
+    },
+    {
+      "from": "strange",
+      "to": "stranger",
+      "type": "derive"
+    },
+    {
+      "from": "strange",
+      "to": "change",
+      "type": "spelling"
+    },
+    {
+      "from": "orange",
+      "to": "danger",
+      "type": "spelling"
+    },
+    {
+      "from": "danger",
+      "to": "dangerous",
+      "type": "derive"
+    },
+    {
+      "from": "ski",
+      "to": "skip",
+      "type": "spelling"
+    },
+    {
+      "from": "skip",
+      "to": "ship",
+      "type": "spelling"
+    },
+    {
+      "from": "skip",
+      "to": "skin",
+      "type": "spelling"
+    },
+    {
+      "from": "ski",
+      "to": "skill",
+      "type": "spelling"
+    },
+    {
+      "from": "ski",
+      "to": "sky",
+      "type": "spelling"
+    },
+    {
+      "from": "sky",
+      "to": "shy",
+      "type": "spelling"
+    },
+    {
+      "from": "ski",
+      "to": "skirt",
+      "type": "spelling"
+    },
+    {
+      "from": "skirt",
+      "to": "shirt",
+      "type": "spelling"
+    },
+    {
+      "from": "shirt",
+      "to": "short",
+      "type": "spelling"
+    },
+    {
+      "from": "short",
+      "to": "shore",
+      "type": "spelling"
+    },
+    {
+      "from": "smell",
+      "to": "small",
+      "type": "spelling"
+    },
+    {
+      "from": "smell",
+      "to": "smelly",
+      "type": "derive"
+    },
+    {
+      "from": "smell",
+      "to": "sell",
+      "type": "spelling"
+    },
+    {
+      "from": "sell",
+      "to": "seller",
+      "type": "derive"
+    },
+    {
+      "from": "smell",
+      "to": "spell",
+      "type": "spelling"
+    },
+    {
+      "from": "spell",
+      "to": "spelling",
+      "type": "derive"
+    },
+    {
+      "from": "age",
+      "to": "manage",
+      "type": "compound"
+    },
+    {
+      "from": "manage",
+      "to": "manager",
+      "type": "derive"
+    },
+    {
+      "from": "age",
+      "to": "teenage",
+      "type": "compound"
+    },
+    {
+      "from": "teenage",
+      "to": "teenager",
+      "type": "derive"
+    },
+    {
+      "from": "age",
+      "to": "village",
+      "type": "compound"
+    },
+    {
+      "from": "village",
+      "to": "villager",
+      "type": "derive"
+    },
+    {
+      "from": "villager",
+      "to": "advantage",
+      "type": "spelling"
+    },
+    {
+      "from": "room",
+      "to": "bathroom",
+      "type": "compound"
+    },
+    {
+      "from": "bathroom",
+      "to": "bath",
+      "type": "compound"
+    },
+    {
+      "from": "bathroom",
+      "to": "broom",
+      "type": "spelling"
+    },
+    {
+      "from": "room",
+      "to": "bedroom",
+      "type": "compound"
+    },
+    {
+      "from": "bedroom",
+      "to": "bed",
+      "type": "compound"
+    },
+    {
+      "from": "room",
+      "to": "washroom",
+      "type": "compound"
+    },
+    {
+      "from": "washroom",
+      "to": "wash",
+      "type": "compound"
+    },
+    {
+      "from": "wash",
+      "to": "cash",
+      "type": "spelling"
+    },
+    {
+      "from": "cash",
+      "to": "crash",
+      "type": "spelling"
+    },
+    {
+      "from": "crash",
+      "to": "crazy",
+      "type": "spelling"
+    },
+    {
+      "from": "wash",
+      "to": "washington",
+      "type": "compound"
+    },
+    {
+      "from": "start",
+      "to": "star",
+      "type": "spelling"
+    },
+    {
+      "from": "star",
+      "to": "stay",
+      "type": "spelling"
+    },
+    {
+      "from": "stay",
+      "to": "stage",
+      "type": "spelling"
+    },
+    {
+      "from": "stay",
+      "to": "say",
+      "type": "spelling"
+    },
+    {
+      "from": "start",
+      "to": "stare",
+      "type": "spelling"
+    },
+    {
+      "from": "stare",
+      "to": "state",
+      "type": "spelling"
+    },
+    {
+      "from": "state",
+      "to": "statement",
+      "type": "derive"
+    },
+    {
+      "from": "statement",
+      "to": "station",
+      "type": "spelling"
+    },
+    {
+      "from": "state",
+      "to": "skate",
+      "type": "spelling"
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "source": "速记1600单词 每周一页 第12页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "low"
+    },
+    {
+      "id": "c2",
+      "center": "how"
+    },
+    {
+      "id": "c3",
+      "center": "row"
+    },
+    {
+      "id": "c4",
+      "center": "coke"
+    },
+    {
+      "id": "c5",
+      "center": "rob"
+    },
+    {
+      "id": "c6",
+      "center": "complain"
+    },
+    {
+      "id": "c7",
+      "center": "rub"
+    },
+    {
+      "id": "c8",
+      "center": "chess"
+    }
+  ],
+  "words": [
+    {
+      "id": "low",
+      "zh": "低的",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "slow",
+      "zh": "慢的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "slowly",
+      "zh": "慢慢地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "blow",
+      "zh": "吹",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "allow",
+      "zh": "允许",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "yellow",
+      "zh": "黄色的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "below",
+      "zh": "低于",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "follow",
+      "zh": "跟随",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "following",
+      "zh": "紧接着",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "how",
+      "zh": "怎样",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "however",
+      "zh": "然而",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "bow",
+      "zh": "弓",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "bowl",
+      "zh": "碗",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "cow",
+      "zh": "奶牛",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "row",
+      "zh": "行",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "crowd",
+      "zh": "人群",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "crowded",
+      "zh": "拥挤的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "crop",
+      "zh": "庄稼",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "throw",
+      "zh": "扔",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "thrown",
+      "zh": "扔（过去分词）",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "arrow",
+      "zh": "箭",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "narrow",
+      "zh": "窄的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sparrow",
+      "zh": "麻雀",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "tomorrow",
+      "zh": "明天",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "borrow",
+      "zh": "借",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "coke",
+      "zh": "焦炭",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "cookie",
+      "zh": "饼干",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "joke",
+      "zh": "玩笑",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "broke",
+      "zh": "破产了的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "broken",
+      "zh": "坏的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "smoke",
+      "zh": "吸烟",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "smoker",
+      "zh": "吸烟者",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "smog",
+      "zh": "烟雾",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "model",
+      "zh": "模型",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "modem",
+      "zh": "调制解调器",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "modern",
+      "zh": "现代的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "rob",
+      "zh": "抢劫",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "robber",
+      "zh": "抢劫犯",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "robbery",
+      "zh": "抢劫案",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "hobby",
+      "zh": "爱好",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "robot",
+      "zh": "机器人",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "job",
+      "zh": "工作",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "join",
+      "zh": "参加",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "sob",
+      "zh": "抽泣",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "complain",
+      "zh": "抱怨",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "company",
+      "zh": "公司",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "compete",
+      "zh": "v.竞赛",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "complete",
+      "zh": "完整的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "competition",
+      "zh": "n.竞赛",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "explain",
+      "zh": "解释",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "explore",
+      "zh": "探测",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "explorer",
+      "zh": "探险家",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "rub",
+      "zh": "擦，揉",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "rubbish",
+      "zh": "垃圾",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "british",
+      "zh": "英国人",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "britain",
+      "zh": "英国",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "rule",
+      "zh": "规则",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "rude",
+      "zh": "粗鲁的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "ruler",
+      "zh": "尺",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "chess",
+      "zh": "棋",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "chef",
+      "zh": "厨师",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "cheap",
+      "zh": "便宜",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "cheater",
+      "zh": "骗子",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "check",
+      "zh": "检查",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "success",
+      "zh": "成功",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "successful",
+      "zh": "成功的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "guess",
+      "zh": "猜",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "unless",
+      "zh": "除非",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "low",
+      "to": "slow",
+      "type": "spelling"
+    },
+    {
+      "from": "slow",
+      "to": "slowly",
+      "type": "derive"
+    },
+    {
+      "from": "slow",
+      "to": "blow",
+      "type": "spelling"
+    },
+    {
+      "from": "low",
+      "to": "allow",
+      "type": "spelling"
+    },
+    {
+      "from": "allow",
+      "to": "yellow",
+      "type": "spelling"
+    },
+    {
+      "from": "low",
+      "to": "below",
+      "type": "compound"
+    },
+    {
+      "from": "low",
+      "to": "follow",
+      "type": "spelling"
+    },
+    {
+      "from": "follow",
+      "to": "following",
+      "type": "derive"
+    },
+    {
+      "from": "how",
+      "to": "however",
+      "type": "compound"
+    },
+    {
+      "from": "how",
+      "to": "bow",
+      "type": "spelling"
+    },
+    {
+      "from": "bow",
+      "to": "bowl",
+      "type": "spelling"
+    },
+    {
+      "from": "how",
+      "to": "cow",
+      "type": "spelling"
+    },
+    {
+      "from": "row",
+      "to": "crowd",
+      "type": "spelling"
+    },
+    {
+      "from": "crowd",
+      "to": "crowded",
+      "type": "derive"
+    },
+    {
+      "from": "crowded",
+      "to": "crop",
+      "type": "spelling"
+    },
+    {
+      "from": "row",
+      "to": "throw",
+      "type": "spelling"
+    },
+    {
+      "from": "throw",
+      "to": "thrown",
+      "type": "derive"
+    },
+    {
+      "from": "row",
+      "to": "arrow",
+      "type": "spelling"
+    },
+    {
+      "from": "arrow",
+      "to": "narrow",
+      "type": "spelling"
+    },
+    {
+      "from": "arrow",
+      "to": "sparrow",
+      "type": "spelling"
+    },
+    {
+      "from": "sparrow",
+      "to": "tomorrow",
+      "type": "spelling"
+    },
+    {
+      "from": "sparrow",
+      "to": "borrow",
+      "type": "spelling"
+    },
+    {
+      "from": "coke",
+      "to": "cookie",
+      "type": "spelling"
+    },
+    {
+      "from": "coke",
+      "to": "joke",
+      "type": "spelling"
+    },
+    {
+      "from": "coke",
+      "to": "broke",
+      "type": "spelling"
+    },
+    {
+      "from": "broke",
+      "to": "broken",
+      "type": "derive"
+    },
+    {
+      "from": "coke",
+      "to": "smoke",
+      "type": "spelling"
+    },
+    {
+      "from": "smoke",
+      "to": "smoker",
+      "type": "derive"
+    },
+    {
+      "from": "smoker",
+      "to": "smog",
+      "type": "spelling"
+    },
+    {
+      "from": "coke",
+      "to": "model",
+      "type": "spelling"
+    },
+    {
+      "from": "model",
+      "to": "modem",
+      "type": "spelling"
+    },
+    {
+      "from": "model",
+      "to": "modern",
+      "type": "spelling"
+    },
+    {
+      "from": "rob",
+      "to": "robber",
+      "type": "derive"
+    },
+    {
+      "from": "robber",
+      "to": "robbery",
+      "type": "derive"
+    },
+    {
+      "from": "robber",
+      "to": "hobby",
+      "type": "spelling"
+    },
+    {
+      "from": "rob",
+      "to": "robot",
+      "type": "spelling"
+    },
+    {
+      "from": "rob",
+      "to": "job",
+      "type": "spelling"
+    },
+    {
+      "from": "job",
+      "to": "join",
+      "type": "spelling"
+    },
+    {
+      "from": "job",
+      "to": "sob",
+      "type": "spelling"
+    },
+    {
+      "from": "complain",
+      "to": "company",
+      "type": "spelling"
+    },
+    {
+      "from": "complain",
+      "to": "compete",
+      "type": "spelling"
+    },
+    {
+      "from": "compete",
+      "to": "complete",
+      "type": "spelling"
+    },
+    {
+      "from": "compete",
+      "to": "competition",
+      "type": "derive"
+    },
+    {
+      "from": "complain",
+      "to": "explain",
+      "type": "spelling"
+    },
+    {
+      "from": "explain",
+      "to": "explore",
+      "type": "spelling"
+    },
+    {
+      "from": "explore",
+      "to": "explorer",
+      "type": "derive"
+    },
+    {
+      "from": "rub",
+      "to": "rubbish",
+      "type": "spelling"
+    },
+    {
+      "from": "rubbish",
+      "to": "british",
+      "type": "spelling"
+    },
+    {
+      "from": "british",
+      "to": "britain",
+      "type": "derive"
+    },
+    {
+      "from": "rub",
+      "to": "rule",
+      "type": "spelling"
+    },
+    {
+      "from": "rule",
+      "to": "rude",
+      "type": "spelling"
+    },
+    {
+      "from": "rule",
+      "to": "ruler",
+      "type": "derive"
+    },
+    {
+      "from": "chess",
+      "to": "chef",
+      "type": "spelling"
+    },
+    {
+      "from": "chess",
+      "to": "cheap",
+      "type": "spelling"
+    },
+    {
+      "from": "cheap",
+      "to": "cheater",
+      "type": "spelling"
+    },
+    {
+      "from": "cheap",
+      "to": "check",
+      "type": "spelling"
+    },
+    {
+      "from": "chess",
+      "to": "success",
+      "type": "spelling"
+    },
+    {
+      "from": "success",
+      "to": "successful",
+      "type": "derive"
+    },
+    {
+      "from": "chess",
+      "to": "guess",
+      "type": "spelling"
+    },
+    {
+      "from": "guess",
+      "to": "unless",
+      "type": "spelling"
+    }
+  ]
+}

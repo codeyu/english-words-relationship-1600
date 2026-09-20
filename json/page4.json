@@ -1,0 +1,903 @@
+{
+  "source": "速记1600单词 每周一页 第4页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "keep"
+    },
+    {
+      "id": "c2",
+      "center": "eight"
+    },
+    {
+      "id": "c3",
+      "center": "light"
+    },
+    {
+      "id": "c4",
+      "center": "right"
+    },
+    {
+      "id": "c5",
+      "center": "here"
+    },
+    {
+      "id": "c6",
+      "center": "tool"
+    },
+    {
+      "id": "c7",
+      "center": "cool"
+    },
+    {
+      "id": "c8",
+      "center": "foot"
+    }
+  ],
+  "words": [
+    {
+      "id": "keep",
+      "zh": "保持",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "jeep",
+      "zh": "吉普",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "deep",
+      "zh": "深深的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sheep",
+      "zh": "绵羊",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "steep",
+      "zh": "陡峭的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "step",
+      "zh": "步骤",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "steer",
+      "zh": "驾驶",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sleep",
+      "zh": "睡觉",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sleepy",
+      "zh": "想睡的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "asleep",
+      "zh": "睡着的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "eight",
+      "zh": "八",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "eighteen",
+      "zh": "十八",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "eighty",
+      "zh": "八十",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "eighth",
+      "zh": "第八",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "height",
+      "zh": "高度",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "high",
+      "zh": "高的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "weight",
+      "zh": "重量",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "weigh",
+      "zh": "称重",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "light",
+      "zh": "灯",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "delight",
+      "zh": "高兴",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "delighted",
+      "zh": "高兴的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sunlight",
+      "zh": "阳光",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "flight",
+      "zh": "飞机，航班",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "daylight",
+      "zh": "白天",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "moonlight",
+      "zh": "月光",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "moon",
+      "zh": "月亮",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "noon",
+      "zh": "正午",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "mooncake",
+      "zh": "月饼",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "moor",
+      "zh": "沼泽，荒野",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "right",
+      "zh": "正确",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "bright",
+      "zh": "明亮的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "brightly",
+      "zh": "明亮地",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "straight",
+      "zh": "笔直的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fight",
+      "zh": "争吵，打斗",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fighting",
+      "zh": "打架，格斗",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fright",
+      "zh": "吃惊，惊吓",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "frighten",
+      "zh": "使惊恐",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "frightened",
+      "zh": "惊恐的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "here",
+      "zh": "这里",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "her",
+      "zh": "她（she的宾格）",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "hero",
+      "zh": "英雄，男主角",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "hers",
+      "zh": "她的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "herself",
+      "zh": "她自己",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "there",
+      "zh": "那里",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "these",
+      "zh": "这些",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "those",
+      "zh": "那些",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "where",
+      "zh": "哪里",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "somewhere",
+      "zh": "某处",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "wherever",
+      "zh": "无论何处",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "anywhere",
+      "zh": "任何地方",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tool",
+      "zh": "工具",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "fool",
+      "zh": "蠢人",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "tooth",
+      "zh": "牙齿",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "smooth",
+      "zh": "平滑的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "school",
+      "zh": "学校",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "schoolbag",
+      "zh": "书包",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "schoolboy",
+      "zh": "（中小学的）男生，男童",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "schoolyard",
+      "zh": "校园",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "yard",
+      "zh": "院子",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "cool",
+      "zh": "冰爽的",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "cook",
+      "zh": "烹饪",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "cookie",
+      "zh": "小煎饼",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "uncooked",
+      "zh": "未煮过的，生的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "pool",
+      "zh": "水塘",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "poor",
+      "zh": "穷的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wool",
+      "zh": "羊毛",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "woollen",
+      "zh": "羊毛制的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wood",
+      "zh": "木头",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wooden",
+      "zh": "木制的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "food",
+      "zh": "食物",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "foot",
+      "zh": "脚",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "football",
+      "zh": "足球",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "food",
+      "zh": "食物",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "goodness",
+      "zh": "仁慈",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "noodle",
+      "zh": "面条",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "flood",
+      "zh": "洪水",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "floor",
+      "zh": "地板",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "blood",
+      "zh": "血",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "bloom",
+      "zh": "开花",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "root",
+      "zh": "根",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "roof",
+      "zh": "屋顶",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "rooster",
+      "zh": "公鸡",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "keep",
+      "to": "jeep",
+      "type": "spelling"
+    },
+    {
+      "from": "keep",
+      "to": "deep",
+      "type": "spelling"
+    },
+    {
+      "from": "keep",
+      "to": "sheep",
+      "type": "spelling"
+    },
+    {
+      "from": "sheep",
+      "to": "steep",
+      "type": "spelling"
+    },
+    {
+      "from": "steep",
+      "to": "step",
+      "type": "spelling"
+    },
+    {
+      "from": "steep",
+      "to": "steer",
+      "type": "spelling"
+    },
+    {
+      "from": "sheep",
+      "to": "sleep",
+      "type": "spelling"
+    },
+    {
+      "from": "sleep",
+      "to": "sleepy",
+      "type": "derive"
+    },
+    {
+      "from": "sleep",
+      "to": "asleep",
+      "type": "derive"
+    },
+    {
+      "from": "eight",
+      "to": "eighteen",
+      "type": "derive"
+    },
+    {
+      "from": "eighteen",
+      "to": "eighty",
+      "type": "spelling"
+    },
+    {
+      "from": "eighty",
+      "to": "eighth",
+      "type": "spelling"
+    },
+    {
+      "from": "eight",
+      "to": "height",
+      "type": "spelling"
+    },
+    {
+      "from": "height",
+      "to": "high",
+      "type": "spelling"
+    },
+    {
+      "from": "eight",
+      "to": "weight",
+      "type": "spelling"
+    },
+    {
+      "from": "weight",
+      "to": "weigh",
+      "type": "spelling"
+    },
+    {
+      "from": "light",
+      "to": "delight",
+      "type": "spelling"
+    },
+    {
+      "from": "delight",
+      "to": "delighted",
+      "type": "derive"
+    },
+    {
+      "from": "light",
+      "to": "sunlight",
+      "type": "compound"
+    },
+    {
+      "from": "light",
+      "to": "flight",
+      "type": "spelling"
+    },
+    {
+      "from": "flight",
+      "to": "daylight",
+      "type": "spelling"
+    },
+    {
+      "from": "light",
+      "to": "moonlight",
+      "type": "compound"
+    },
+    {
+      "from": "moonlight",
+      "to": "moon",
+      "type": "compound"
+    },
+    {
+      "from": "moon",
+      "to": "noon",
+      "type": "spelling"
+    },
+    {
+      "from": "moon",
+      "to": "mooncake",
+      "type": "compound"
+    },
+    {
+      "from": "moon",
+      "to": "moor",
+      "type": "spelling"
+    },
+    {
+      "from": "right",
+      "to": "bright",
+      "type": "spelling"
+    },
+    {
+      "from": "bright",
+      "to": "brightly",
+      "type": "derive"
+    },
+    {
+      "from": "right",
+      "to": "straight",
+      "type": "spelling"
+    },
+    {
+      "from": "right",
+      "to": "fight",
+      "type": "spelling"
+    },
+    {
+      "from": "fight",
+      "to": "fighting",
+      "type": "derive"
+    },
+    {
+      "from": "right",
+      "to": "fright",
+      "type": "spelling"
+    },
+    {
+      "from": "fright",
+      "to": "frighten",
+      "type": "derive"
+    },
+    {
+      "from": "frighten",
+      "to": "frightened",
+      "type": "derive"
+    },
+    {
+      "from": "here",
+      "to": "her",
+      "type": "spelling"
+    },
+    {
+      "from": "her",
+      "to": "hero",
+      "type": "spelling"
+    },
+    {
+      "from": "her",
+      "to": "hers",
+      "type": "derive"
+    },
+    {
+      "from": "her",
+      "to": "herself",
+      "type": "compound"
+    },
+    {
+      "from": "here",
+      "to": "there",
+      "type": "spelling"
+    },
+    {
+      "from": "there",
+      "to": "these",
+      "type": "spelling"
+    },
+    {
+      "from": "these",
+      "to": "those",
+      "type": "spelling"
+    },
+    {
+      "from": "there",
+      "to": "where",
+      "type": "spelling"
+    },
+    {
+      "from": "where",
+      "to": "somewhere",
+      "type": "compound"
+    },
+    {
+      "from": "where",
+      "to": "wherever",
+      "type": "derive"
+    },
+    {
+      "from": "where",
+      "to": "anywhere",
+      "type": "compound"
+    },
+    {
+      "from": "tool",
+      "to": "fool",
+      "type": "spelling"
+    },
+    {
+      "from": "tool",
+      "to": "tooth",
+      "type": "spelling"
+    },
+    {
+      "from": "tooth",
+      "to": "smooth",
+      "type": "spelling"
+    },
+    {
+      "from": "tool",
+      "to": "school",
+      "type": "spelling"
+    },
+    {
+      "from": "school",
+      "to": "schoolbag",
+      "type": "compound"
+    },
+    {
+      "from": "schoolbag",
+      "to": "schoolboy",
+      "type": "compound"
+    },
+    {
+      "from": "schoolbag",
+      "to": "schoolyard",
+      "type": "compound"
+    },
+    {
+      "from": "schoolyard",
+      "to": "yard",
+      "type": "compound"
+    },
+    {
+      "from": "cool",
+      "to": "cook",
+      "type": "spelling"
+    },
+    {
+      "from": "cook",
+      "to": "cookie",
+      "type": "spelling"
+    },
+    {
+      "from": "cook",
+      "to": "uncooked",
+      "type": "derive"
+    },
+    {
+      "from": "cool",
+      "to": "pool",
+      "type": "spelling"
+    },
+    {
+      "from": "pool",
+      "to": "poor",
+      "type": "spelling"
+    },
+    {
+      "from": "cool",
+      "to": "wool",
+      "type": "spelling"
+    },
+    {
+      "from": "wool",
+      "to": "woollen",
+      "type": "derive"
+    },
+    {
+      "from": "wool",
+      "to": "wood",
+      "type": "spelling"
+    },
+    {
+      "from": "wood",
+      "to": "wooden",
+      "type": "derive"
+    },
+    {
+      "from": "wood",
+      "to": "food",
+      "type": "spelling"
+    },
+    {
+      "from": "foot",
+      "to": "football",
+      "type": "compound"
+    },
+    {
+      "from": "foot",
+      "to": "food",
+      "type": "spelling"
+    },
+    {
+      "from": "food",
+      "to": "goodness",
+      "type": "spelling"
+    },
+    {
+      "from": "food",
+      "to": "noodle",
+      "type": "spelling"
+    },
+    {
+      "from": "food",
+      "to": "flood",
+      "type": "spelling"
+    },
+    {
+      "from": "flood",
+      "to": "floor",
+      "type": "spelling"
+    },
+    {
+      "from": "flood",
+      "to": "blood",
+      "type": "spelling"
+    },
+    {
+      "from": "blood",
+      "to": "bloom",
+      "type": "spelling"
+    },
+    {
+      "from": "foot",
+      "to": "root",
+      "type": "spelling"
+    },
+    {
+      "from": "root",
+      "to": "roof",
+      "type": "spelling"
+    },
+    {
+      "from": "roof",
+      "to": "rooster",
+      "type": "spelling"
+    }
+  ]
+}

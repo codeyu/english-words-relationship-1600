@@ -1,0 +1,793 @@
+{
+  "source": "速记1600单词 每周一页 第18页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "pen"
+    },
+    {
+      "id": "c2",
+      "center": "hole"
+    },
+    {
+      "id": "c3",
+      "center": "grate"
+    },
+    {
+      "id": "c4",
+      "center": "ware"
+    },
+    {
+      "id": "c5",
+      "center": "some"
+    },
+    {
+      "id": "c6",
+      "center": "name"
+    },
+    {
+      "id": "c7",
+      "center": "form"
+    },
+    {
+      "id": "c8",
+      "center": "even"
+    }
+  ],
+  "words": [
+    {
+      "id": "pen",
+      "zh": "钢笔",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "pencil",
+      "zh": "铅笔",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "penny",
+      "zh": "便士",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "penguin",
+      "zh": "企鹅",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "pen friend",
+      "zh": "笔友",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "happen",
+      "zh": "发生",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "happy",
+      "zh": "高兴的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "unhappy",
+      "zh": "不开心的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "happily",
+      "zh": "高兴地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "open",
+      "zh": "打开",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "opera",
+      "zh": "歌剧",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "operate",
+      "zh": "v.操作",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "operation",
+      "zh": "n.操作",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "hole",
+      "zh": "洞",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "hold",
+      "zh": "举行",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pole",
+      "zh": "柱，杆",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "whole",
+      "zh": "整个的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "hope",
+      "zh": "希望",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "role",
+      "zh": "角色",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "rose",
+      "zh": "玫瑰花",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "roller-skating",
+      "zh": "滑旱冰",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "grate",
+      "zh": "压碎",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "frustrate",
+      "zh": "挫败",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "frustrated",
+      "zh": "泄气的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "celebrate",
+      "zh": "v.庆祝",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "celebration",
+      "zh": "n.庆祝",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "grateful",
+      "zh": "感激的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "decorate",
+      "zh": "v.装饰",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "decoration",
+      "zh": "n.装饰",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "grade",
+      "zh": "年级",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "centigrade",
+      "zh": "摄氏",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "grace",
+      "zh": "优美",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "ware",
+      "zh": "器皿",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "rare",
+      "zh": "稀有的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "software",
+      "zh": "软件",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "soft",
+      "zh": "软的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "softball",
+      "zh": "垒球",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "scare",
+      "zh": "使害怕",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "scary",
+      "zh": "吓人的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "square",
+      "zh": "正方形",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "score",
+      "zh": "得分",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "store",
+      "zh": "商店",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "drugstore",
+      "zh": "药店",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "some",
+      "zh": "一些",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "someone",
+      "zh": "某人",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "somebody",
+      "zh": "某人",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "something",
+      "zh": "某事",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "sometime",
+      "zh": "某个时候",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "sometimes",
+      "zh": "有时候",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "name",
+      "zh": "名字",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "game",
+      "zh": "游戏",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "camera",
+      "zh": "照相机",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "same",
+      "zh": "相同的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "sample",
+      "zh": "样品",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "form",
+      "zh": "形式，形成",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "inform",
+      "zh": "告诉",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "information",
+      "zh": "信息",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "platform",
+      "zh": "平台",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "perform",
+      "zh": "v.表演",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "performance",
+      "zh": "n.表演",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "perfect",
+      "zh": "完美的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "perhaps",
+      "zh": "也许",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "even",
+      "zh": "甚至",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "seven",
+      "zh": "七",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "seventh",
+      "zh": "第七",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "seventy",
+      "zh": "七十",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "evening",
+      "zh": "晚上",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "event",
+      "zh": "事件",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "invent",
+      "zh": "发明",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "invention",
+      "zh": "发明",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "inventor",
+      "zh": "发明者",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "prevent",
+      "zh": "预防",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pen",
+      "to": "pencil",
+      "type": "compound"
+    },
+    {
+      "from": "pencil",
+      "to": "penny",
+      "type": "spelling"
+    },
+    {
+      "from": "penny",
+      "to": "penguin",
+      "type": "spelling"
+    },
+    {
+      "from": "pencil",
+      "to": "pen friend",
+      "type": "compound"
+    },
+    {
+      "from": "pen",
+      "to": "happen",
+      "type": "spelling"
+    },
+    {
+      "from": "happen",
+      "to": "happy",
+      "type": "spelling"
+    },
+    {
+      "from": "happy",
+      "to": "unhappy",
+      "type": "derive"
+    },
+    {
+      "from": "unhappy",
+      "to": "happily",
+      "type": "spelling"
+    },
+    {
+      "from": "pen",
+      "to": "open",
+      "type": "spelling"
+    },
+    {
+      "from": "open",
+      "to": "opera",
+      "type": "spelling"
+    },
+    {
+      "from": "opera",
+      "to": "operate",
+      "type": "spelling"
+    },
+    {
+      "from": "operate",
+      "to": "operation",
+      "type": "derive"
+    },
+    {
+      "from": "hole",
+      "to": "hold",
+      "type": "spelling"
+    },
+    {
+      "from": "hole",
+      "to": "pole",
+      "type": "spelling"
+    },
+    {
+      "from": "hole",
+      "to": "whole",
+      "type": "spelling"
+    },
+    {
+      "from": "whole",
+      "to": "hope",
+      "type": "spelling"
+    },
+    {
+      "from": "hole",
+      "to": "role",
+      "type": "spelling"
+    },
+    {
+      "from": "role",
+      "to": "rose",
+      "type": "spelling"
+    },
+    {
+      "from": "role",
+      "to": "roller-skating",
+      "type": "spelling"
+    },
+    {
+      "from": "grate",
+      "to": "frustrate",
+      "type": "spelling"
+    },
+    {
+      "from": "frustrate",
+      "to": "frustrated",
+      "type": "derive"
+    },
+    {
+      "from": "grate",
+      "to": "celebrate",
+      "type": "spelling"
+    },
+    {
+      "from": "celebrate",
+      "to": "celebration",
+      "type": "derive"
+    },
+    {
+      "from": "grate",
+      "to": "grateful",
+      "type": "derive"
+    },
+    {
+      "from": "grate",
+      "to": "decorate",
+      "type": "spelling"
+    },
+    {
+      "from": "decorate",
+      "to": "decoration",
+      "type": "derive"
+    },
+    {
+      "from": "grate",
+      "to": "grade",
+      "type": "spelling"
+    },
+    {
+      "from": "grade",
+      "to": "centigrade",
+      "type": "compound"
+    },
+    {
+      "from": "grade",
+      "to": "grace",
+      "type": "spelling"
+    },
+    {
+      "from": "ware",
+      "to": "rare",
+      "type": "spelling"
+    },
+    {
+      "from": "ware",
+      "to": "software",
+      "type": "compound"
+    },
+    {
+      "from": "software",
+      "to": "soft",
+      "type": "compound"
+    },
+    {
+      "from": "soft",
+      "to": "softball",
+      "type": "compound"
+    },
+    {
+      "from": "ware",
+      "to": "scare",
+      "type": "spelling"
+    },
+    {
+      "from": "scare",
+      "to": "scary",
+      "type": "derive"
+    },
+    {
+      "from": "scare",
+      "to": "square",
+      "type": "spelling"
+    },
+    {
+      "from": "scare",
+      "to": "score",
+      "type": "spelling"
+    },
+    {
+      "from": "score",
+      "to": "store",
+      "type": "spelling"
+    },
+    {
+      "from": "store",
+      "to": "drugstore",
+      "type": "compound"
+    },
+    {
+      "from": "some",
+      "to": "someone",
+      "type": "compound"
+    },
+    {
+      "from": "someone",
+      "to": "somebody",
+      "type": "compound"
+    },
+    {
+      "from": "some",
+      "to": "something",
+      "type": "compound"
+    },
+    {
+      "from": "some",
+      "to": "sometime",
+      "type": "compound"
+    },
+    {
+      "from": "sometime",
+      "to": "sometimes",
+      "type": "derive"
+    },
+    {
+      "from": "name",
+      "to": "game",
+      "type": "spelling"
+    },
+    {
+      "from": "name",
+      "to": "camera",
+      "type": "spelling"
+    },
+    {
+      "from": "name",
+      "to": "same",
+      "type": "spelling"
+    },
+    {
+      "from": "same",
+      "to": "sample",
+      "type": "spelling"
+    },
+    {
+      "from": "form",
+      "to": "inform",
+      "type": "compound"
+    },
+    {
+      "from": "inform",
+      "to": "information",
+      "type": "derive"
+    },
+    {
+      "from": "inform",
+      "to": "platform",
+      "type": "spelling"
+    },
+    {
+      "from": "form",
+      "to": "perform",
+      "type": "compound"
+    },
+    {
+      "from": "perform",
+      "to": "performance",
+      "type": "derive"
+    },
+    {
+      "from": "perform",
+      "to": "perfect",
+      "type": "spelling"
+    },
+    {
+      "from": "perfect",
+      "to": "perhaps",
+      "type": "spelling"
+    },
+    {
+      "from": "even",
+      "to": "seven",
+      "type": "spelling"
+    },
+    {
+      "from": "seven",
+      "to": "seventh",
+      "type": "derive"
+    },
+    {
+      "from": "seven",
+      "to": "seventy",
+      "type": "derive"
+    },
+    {
+      "from": "even",
+      "to": "evening",
+      "type": "derive"
+    },
+    {
+      "from": "even",
+      "to": "event",
+      "type": "spelling"
+    },
+    {
+      "from": "event",
+      "to": "invent",
+      "type": "spelling"
+    },
+    {
+      "from": "invent",
+      "to": "invention",
+      "type": "derive"
+    },
+    {
+      "from": "invent",
+      "to": "inventor",
+      "type": "derive"
+    },
+    {
+      "from": "event",
+      "to": "prevent",
+      "type": "spelling"
+    }
+  ]
+}

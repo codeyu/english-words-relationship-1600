@@ -1,0 +1,661 @@
+{
+  "source": "速记1600单词 每周一页 第21页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "frog"
+    },
+    {
+      "id": "c2",
+      "center": "fix"
+    },
+    {
+      "id": "c3",
+      "center": "must"
+    },
+    {
+      "id": "c4",
+      "center": "nature"
+    },
+    {
+      "id": "c5",
+      "center": "after"
+    },
+    {
+      "id": "c6",
+      "center": "record"
+    },
+    {
+      "id": "c7",
+      "center": "granny"
+    },
+    {
+      "id": "c8",
+      "center": "clap"
+    }
+  ],
+  "words": [
+    {
+      "id": "frog",
+      "zh": "青蛙",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "from",
+      "zh": "来自",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "front",
+      "zh": "在...前面",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "fruit",
+      "zh": "水果",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "fog",
+      "zh": "雾",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "foggy",
+      "zh": "有雾的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "fix",
+      "zh": "修理",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "fox",
+      "zh": "狐狸",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "foxy",
+      "zh": "狡猾的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fax",
+      "zh": "传真（机）",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fan",
+      "zh": "迷",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fit",
+      "zh": "健康的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "must",
+      "zh": "必须",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "just",
+      "zh": "刚刚",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "august",
+      "zh": "八月",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "aunt",
+      "zh": "阿姨",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "music",
+      "zh": "音乐",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "musician",
+      "zh": "音乐家",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "museum",
+      "zh": "博物馆",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "dust",
+      "zh": "灰尘",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "dustbin",
+      "zh": "垃圾桶",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "duty",
+      "zh": "值日",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "nature",
+      "zh": "大自然",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "picture",
+      "zh": "图片",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "adventure",
+      "zh": "冒险",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "natural",
+      "zh": "自然的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "future",
+      "zh": "将来",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "temperature",
+      "zh": "温度",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "culture",
+      "zh": "文化",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "cultural",
+      "zh": "文化的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "after",
+      "zh": "在...以后",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "afford",
+      "zh": "提供",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "afternoon",
+      "zh": "下午",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "afraid",
+      "zh": "害怕的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "paid",
+      "zh": "付费的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "unpaid",
+      "zh": "未付的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "record",
+      "zh": "记录",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "recorder",
+      "zh": "录音机",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "recording",
+      "zh": "记录",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "according",
+      "zh": "依照",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "regard",
+      "zh": "看待",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "order",
+      "zh": "顺序",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "ordinary",
+      "zh": "普通的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "elder",
+      "zh": "年长的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "granny",
+      "zh": "奶奶，外婆",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "grandmother",
+      "zh": "（外）祖母",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "grab",
+      "zh": "抓住",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "organ",
+      "zh": "器官",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "organize",
+      "zh": "组织",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "organization",
+      "zh": "组织",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "conversation",
+      "zh": "谈话",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "clap",
+      "zh": "拍手",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "lap",
+      "zh": "重叠；一圈",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "laptop",
+      "zh": "便携式电脑",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "rap",
+      "zh": "说唱音乐",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "radio",
+      "zh": "收音机",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "slap",
+      "zh": "拍打",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "soap",
+      "zh": "肥皂",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "soup",
+      "zh": "汤",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "sour",
+      "zh": "酸的",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "frog",
+      "to": "from",
+      "type": "spelling"
+    },
+    {
+      "from": "from",
+      "to": "front",
+      "type": "spelling"
+    },
+    {
+      "from": "front",
+      "to": "fruit",
+      "type": "spelling"
+    },
+    {
+      "from": "frog",
+      "to": "fog",
+      "type": "spelling"
+    },
+    {
+      "from": "fog",
+      "to": "foggy",
+      "type": "derive"
+    },
+    {
+      "from": "fix",
+      "to": "fox",
+      "type": "spelling"
+    },
+    {
+      "from": "fox",
+      "to": "foxy",
+      "type": "derive"
+    },
+    {
+      "from": "fix",
+      "to": "fax",
+      "type": "spelling"
+    },
+    {
+      "from": "fax",
+      "to": "fan",
+      "type": "spelling"
+    },
+    {
+      "from": "fix",
+      "to": "fit",
+      "type": "spelling"
+    },
+    {
+      "from": "must",
+      "to": "just",
+      "type": "spelling"
+    },
+    {
+      "from": "just",
+      "to": "august",
+      "type": "spelling"
+    },
+    {
+      "from": "just",
+      "to": "aunt",
+      "type": "spelling"
+    },
+    {
+      "from": "must",
+      "to": "music",
+      "type": "spelling"
+    },
+    {
+      "from": "music",
+      "to": "musician",
+      "type": "derive"
+    },
+    {
+      "from": "music",
+      "to": "museum",
+      "type": "spelling"
+    },
+    {
+      "from": "must",
+      "to": "dust",
+      "type": "spelling"
+    },
+    {
+      "from": "dust",
+      "to": "dustbin",
+      "type": "compound"
+    },
+    {
+      "from": "dust",
+      "to": "duty",
+      "type": "spelling"
+    },
+    {
+      "from": "nature",
+      "to": "picture",
+      "type": "spelling"
+    },
+    {
+      "from": "nature",
+      "to": "adventure",
+      "type": "spelling"
+    },
+    {
+      "from": "nature",
+      "to": "natural",
+      "type": "spelling"
+    },
+    {
+      "from": "nature",
+      "to": "future",
+      "type": "spelling"
+    },
+    {
+      "from": "future",
+      "to": "temperature",
+      "type": "spelling"
+    },
+    {
+      "from": "future",
+      "to": "culture",
+      "type": "spelling"
+    },
+    {
+      "from": "culture",
+      "to": "cultural",
+      "type": "derive"
+    },
+    {
+      "from": "after",
+      "to": "afford",
+      "type": "spelling"
+    },
+    {
+      "from": "after",
+      "to": "afternoon",
+      "type": "compound"
+    },
+    {
+      "from": "after",
+      "to": "afraid",
+      "type": "spelling"
+    },
+    {
+      "from": "afraid",
+      "to": "paid",
+      "type": "spelling"
+    },
+    {
+      "from": "paid",
+      "to": "unpaid",
+      "type": "derive"
+    },
+    {
+      "from": "record",
+      "to": "recorder",
+      "type": "derive"
+    },
+    {
+      "from": "recorder",
+      "to": "recording",
+      "type": "spelling"
+    },
+    {
+      "from": "recording",
+      "to": "according",
+      "type": "spelling"
+    },
+    {
+      "from": "record",
+      "to": "regard",
+      "type": "spelling"
+    },
+    {
+      "from": "record",
+      "to": "order",
+      "type": "spelling"
+    },
+    {
+      "from": "order",
+      "to": "ordinary",
+      "type": "spelling"
+    },
+    {
+      "from": "order",
+      "to": "elder",
+      "type": "spelling"
+    },
+    {
+      "from": "granny",
+      "to": "grandmother",
+      "type": "spelling"
+    },
+    {
+      "from": "granny",
+      "to": "grab",
+      "type": "spelling"
+    },
+    {
+      "from": "granny",
+      "to": "organ",
+      "type": "spelling"
+    },
+    {
+      "from": "organ",
+      "to": "organize",
+      "type": "derive"
+    },
+    {
+      "from": "organize",
+      "to": "organization",
+      "type": "derive"
+    },
+    {
+      "from": "organization",
+      "to": "conversation",
+      "type": "spelling"
+    },
+    {
+      "from": "clap",
+      "to": "lap",
+      "type": "spelling"
+    },
+    {
+      "from": "lap",
+      "to": "laptop",
+      "type": "compound"
+    },
+    {
+      "from": "lap",
+      "to": "rap",
+      "type": "spelling"
+    },
+    {
+      "from": "rap",
+      "to": "radio",
+      "type": "spelling"
+    },
+    {
+      "from": "clap",
+      "to": "slap",
+      "type": "spelling"
+    },
+    {
+      "from": "slap",
+      "to": "soap",
+      "type": "spelling"
+    },
+    {
+      "from": "soap",
+      "to": "soup",
+      "type": "spelling"
+    },
+    {
+      "from": "soup",
+      "to": "sour",
+      "type": "spelling"
+    }
+  ]
+}

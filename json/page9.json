@@ -1,0 +1,826 @@
+{
+  "source": "速记1600单词 每周一页 第9页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "world"
+    },
+    {
+      "id": "c2",
+      "center": "our"
+    },
+    {
+      "id": "c3",
+      "center": "night"
+    },
+    {
+      "id": "c4",
+      "center": "ant"
+    },
+    {
+      "id": "c5",
+      "center": "lay"
+    },
+    {
+      "id": "c6",
+      "center": "book"
+    },
+    {
+      "id": "c7",
+      "center": "part"
+    },
+    {
+      "id": "c8",
+      "center": "shame"
+    }
+  ],
+  "words": [
+    {
+      "id": "world",
+      "zh": "世界",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "word",
+      "zh": "单词",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "work",
+      "zh": "工作",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "workplace",
+      "zh": "工作场所",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "workshop",
+      "zh": "车间",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "worker",
+      "zh": "工人",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "would",
+      "zh": "将会",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "could",
+      "zh": "能",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "should",
+      "zh": "应该",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "shoulder",
+      "zh": "肩膀",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "our",
+      "zh": "我们的",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "tour",
+      "zh": "旅游",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "tourist",
+      "zh": "旅游者",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "tourism",
+      "zh": "旅游业",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "labour",
+      "zh": "劳动",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "ours",
+      "zh": "我们的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "ourselves",
+      "zh": "我们自己",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "label",
+      "zh": "标签，把....称为",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "sour",
+      "zh": "酸的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "soup",
+      "zh": "汤",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pour",
+      "zh": "涌出",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "night",
+      "zh": "晚上",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "tonight",
+      "zh": "今晚",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "midnight",
+      "zh": "午夜",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "nightmare",
+      "zh": "噩梦",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "might",
+      "zh": "可以",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "tight",
+      "zh": "紧的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sight",
+      "zh": "视力",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sightseeing",
+      "zh": "观光",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "ant",
+      "zh": "蚂蚁",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "want",
+      "zh": "想",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "plant",
+      "zh": "种植",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "plan",
+      "zh": "计划",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "plane",
+      "zh": "飞机",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "planet",
+      "zh": "星球",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "aeroplane",
+      "zh": "飞机",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "place",
+      "zh": "地点",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "palace",
+      "zh": "宫殿",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "lay",
+      "zh": "放置",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "lazy",
+      "zh": "懒惰的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "delay",
+      "zh": "耽搁",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "relay",
+      "zh": "接力赛",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "relax",
+      "zh": "放松",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "relaxing",
+      "zh": "令人放松的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "galaxy",
+      "zh": "星系",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "relative",
+      "zh": "相对的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "relation",
+      "zh": "关系",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "book",
+      "zh": "书",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "bookmark",
+      "zh": "书签",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "bookshop",
+      "zh": "书店",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "spoon",
+      "zh": "勺子",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "bush",
+      "zh": "灌木丛",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "boot",
+      "zh": "长筒靴",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "notebook",
+      "zh": "笔记簿",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "note",
+      "zh": "笔记",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "guidebook",
+      "zh": "旅行指南",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "guide",
+      "zh": "导游",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "part",
+      "zh": "部分",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "partner",
+      "zh": "同伴",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "part-time",
+      "zh": "兼职的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "apart",
+      "zh": "分开的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "depart",
+      "zh": "离开",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "department",
+      "zh": "部，系",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "party",
+      "zh": "聚会",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "park",
+      "zh": "停车",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "parking",
+      "zh": "停车场",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "shame",
+      "zh": "蒙羞",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "shake",
+      "zh": "摇动",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "snake",
+      "zh": "蛇",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "shook",
+      "zh": "shake过去式",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "shape",
+      "zh": "形状",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "share",
+      "zh": "分享",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "shark",
+      "zh": "鲨鱼",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "sharp",
+      "zh": "削尖",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "sharpener",
+      "zh": "卷笔刀",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "world",
+      "to": "word",
+      "type": "spelling"
+    },
+    {
+      "from": "word",
+      "to": "work",
+      "type": "spelling"
+    },
+    {
+      "from": "work",
+      "to": "workplace",
+      "type": "compound"
+    },
+    {
+      "from": "work",
+      "to": "workshop",
+      "type": "compound"
+    },
+    {
+      "from": "work",
+      "to": "worker",
+      "type": "derive"
+    },
+    {
+      "from": "world",
+      "to": "would",
+      "type": "spelling"
+    },
+    {
+      "from": "would",
+      "to": "could",
+      "type": "spelling"
+    },
+    {
+      "from": "would",
+      "to": "should",
+      "type": "spelling"
+    },
+    {
+      "from": "should",
+      "to": "shoulder",
+      "type": "spelling"
+    },
+    {
+      "from": "our",
+      "to": "tour",
+      "type": "spelling"
+    },
+    {
+      "from": "tour",
+      "to": "tourist",
+      "type": "derive"
+    },
+    {
+      "from": "tourist",
+      "to": "tourism",
+      "type": "spelling"
+    },
+    {
+      "from": "our",
+      "to": "labour",
+      "type": "spelling"
+    },
+    {
+      "from": "labour",
+      "to": "ours",
+      "type": "spelling"
+    },
+    {
+      "from": "ours",
+      "to": "ourselves",
+      "type": "derive"
+    },
+    {
+      "from": "labour",
+      "to": "label",
+      "type": "spelling"
+    },
+    {
+      "from": "our",
+      "to": "sour",
+      "type": "spelling"
+    },
+    {
+      "from": "sour",
+      "to": "soup",
+      "type": "spelling"
+    },
+    {
+      "from": "sour",
+      "to": "pour",
+      "type": "spelling"
+    },
+    {
+      "from": "night",
+      "to": "tonight",
+      "type": "compound"
+    },
+    {
+      "from": "tonight",
+      "to": "midnight",
+      "type": "spelling"
+    },
+    {
+      "from": "night",
+      "to": "nightmare",
+      "type": "compound"
+    },
+    {
+      "from": "night",
+      "to": "might",
+      "type": "spelling"
+    },
+    {
+      "from": "might",
+      "to": "tight",
+      "type": "spelling"
+    },
+    {
+      "from": "night",
+      "to": "sight",
+      "type": "spelling"
+    },
+    {
+      "from": "sight",
+      "to": "sightseeing",
+      "type": "compound"
+    },
+    {
+      "from": "ant",
+      "to": "want",
+      "type": "spelling"
+    },
+    {
+      "from": "ant",
+      "to": "plant",
+      "type": "spelling"
+    },
+    {
+      "from": "plant",
+      "to": "plan",
+      "type": "spelling"
+    },
+    {
+      "from": "plant",
+      "to": "plane",
+      "type": "spelling"
+    },
+    {
+      "from": "plane",
+      "to": "planet",
+      "type": "spelling"
+    },
+    {
+      "from": "plane",
+      "to": "aeroplane",
+      "type": "compound"
+    },
+    {
+      "from": "plane",
+      "to": "place",
+      "type": "spelling"
+    },
+    {
+      "from": "place",
+      "to": "palace",
+      "type": "spelling"
+    },
+    {
+      "from": "lay",
+      "to": "lazy",
+      "type": "spelling"
+    },
+    {
+      "from": "lay",
+      "to": "delay",
+      "type": "spelling"
+    },
+    {
+      "from": "lay",
+      "to": "relay",
+      "type": "spelling"
+    },
+    {
+      "from": "relay",
+      "to": "relax",
+      "type": "spelling"
+    },
+    {
+      "from": "relax",
+      "to": "relaxing",
+      "type": "derive"
+    },
+    {
+      "from": "relax",
+      "to": "galaxy",
+      "type": "spelling"
+    },
+    {
+      "from": "relay",
+      "to": "relative",
+      "type": "spelling"
+    },
+    {
+      "from": "relative",
+      "to": "relation",
+      "type": "derive"
+    },
+    {
+      "from": "book",
+      "to": "bookmark",
+      "type": "compound"
+    },
+    {
+      "from": "bookmark",
+      "to": "bookshop",
+      "type": "compound"
+    },
+    {
+      "from": "book",
+      "to": "spoon",
+      "type": "spelling"
+    },
+    {
+      "from": "book",
+      "to": "bush",
+      "type": "spelling"
+    },
+    {
+      "from": "book",
+      "to": "boot",
+      "type": "spelling"
+    },
+    {
+      "from": "book",
+      "to": "notebook",
+      "type": "compound"
+    },
+    {
+      "from": "notebook",
+      "to": "note",
+      "type": "compound"
+    },
+    {
+      "from": "notebook",
+      "to": "guidebook",
+      "type": "compound"
+    },
+    {
+      "from": "guidebook",
+      "to": "guide",
+      "type": "compound"
+    },
+    {
+      "from": "part",
+      "to": "partner",
+      "type": "derive"
+    },
+    {
+      "from": "partner",
+      "to": "part-time",
+      "type": "compound"
+    },
+    {
+      "from": "part",
+      "to": "apart",
+      "type": "compound"
+    },
+    {
+      "from": "apart",
+      "to": "depart",
+      "type": "spelling"
+    },
+    {
+      "from": "depart",
+      "to": "department",
+      "type": "spelling"
+    },
+    {
+      "from": "apart",
+      "to": "party",
+      "type": "spelling"
+    },
+    {
+      "from": "part",
+      "to": "park",
+      "type": "spelling"
+    },
+    {
+      "from": "park",
+      "to": "parking",
+      "type": "derive"
+    },
+    {
+      "from": "shame",
+      "to": "shake",
+      "type": "spelling"
+    },
+    {
+      "from": "shake",
+      "to": "snake",
+      "type": "spelling"
+    },
+    {
+      "from": "shake",
+      "to": "shook",
+      "type": "derive"
+    },
+    {
+      "from": "shame",
+      "to": "shape",
+      "type": "spelling"
+    },
+    {
+      "from": "shame",
+      "to": "share",
+      "type": "spelling"
+    },
+    {
+      "from": "share",
+      "to": "shark",
+      "type": "spelling"
+    },
+    {
+      "from": "share",
+      "to": "sharp",
+      "type": "spelling"
+    },
+    {
+      "from": "sharp",
+      "to": "sharpener",
+      "type": "derive"
+    }
+  ]
+}

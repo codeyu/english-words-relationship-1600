@@ -1,0 +1,793 @@
+{
+  "source": "速记1600单词 每周一页 第25页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "come"
+    },
+    {
+      "id": "c2",
+      "center": "nine"
+    },
+    {
+      "id": "c3",
+      "center": "nose"
+    },
+    {
+      "id": "c4",
+      "center": "doll"
+    },
+    {
+      "id": "c5",
+      "center": "ring"
+    },
+    {
+      "id": "c6",
+      "center": "last"
+    },
+    {
+      "id": "c7",
+      "center": "tie"
+    },
+    {
+      "id": "c8",
+      "center": "rain"
+    }
+  ],
+  "words": [
+    {
+      "id": "come",
+      "zh": "来",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "welcome",
+      "zh": "欢迎",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "become",
+      "zh": "成为",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "camp",
+      "zh": "营地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lamp",
+      "zh": "台灯",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lamb",
+      "zh": "小绵羊",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "stamp",
+      "zh": "邮票",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "bamboo",
+      "zh": "竹子",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "nine",
+      "zh": "九",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "ninety",
+      "zh": "九十",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "nineteen",
+      "zh": "十九",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "ninth",
+      "zh": "第九",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "fine",
+      "zh": "好的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "define",
+      "zh": "确定",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "find",
+      "zh": "找到",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "kind",
+      "zh": "亲切的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "behind",
+      "zh": "在...后面",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "kind-hearted",
+      "zh": "仁慈的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "kid",
+      "zh": "小孩",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "heart",
+      "zh": "心脏",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "nose",
+      "zh": "鼻子",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "noise",
+      "zh": "噪音",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "noisy",
+      "zh": "嘈杂的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "daisy",
+      "zh": "极好的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "daily",
+      "zh": "日常的，每日",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "those",
+      "zh": "那些",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "whose",
+      "zh": "谁的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "these",
+      "zh": "这些",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "doll",
+      "zh": "玩偶",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "dull",
+      "zh": "钝的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "full",
+      "zh": "满的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fuel",
+      "zh": "燃料",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "pull",
+      "zh": "拉",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "dollar",
+      "zh": "美元",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "poll",
+      "zh": "投票",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "pollute",
+      "zh": "污染",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "pollution",
+      "zh": "污染",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "polluted",
+      "zh": "污染的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ring",
+      "zh": "戒指",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "spring",
+      "zh": "春季",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "bring",
+      "zh": "带来",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "boring",
+      "zh": "无趣的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "bored",
+      "zh": "感到无聊的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "red",
+      "zh": "红的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "during",
+      "zh": "在...期间",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "drum",
+      "zh": "鼓",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "last",
+      "zh": "最后",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "fast",
+      "zh": "快的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fat",
+      "zh": "胖的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "castle",
+      "zh": "城堡",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "vast",
+      "zh": "巨大的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "vase",
+      "zh": "花瓶",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "base",
+      "zh": "基础",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "baseball",
+      "zh": "棒球",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "tie",
+      "zh": "领带",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "pie",
+      "zh": "馅饼",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "piece",
+      "zh": "片",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "die",
+      "zh": "死亡",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "time",
+      "zh": "时间",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "timetable",
+      "zh": "时间表",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "toe",
+      "zh": "脚趾",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "dime",
+      "zh": "少量的钱",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "dim",
+      "zh": "暗淡的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "rain",
+      "zh": "下雨",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "rail",
+      "zh": "围栏",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "railway",
+      "zh": "铁路",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "train",
+      "zh": "火车",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "training",
+      "zh": "训练",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "trainer",
+      "zh": "教练",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "rainy",
+      "zh": "下雨的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "rainfall",
+      "zh": "降雨",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "raincoat",
+      "zh": "雨衣",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "come",
+      "to": "welcome",
+      "type": "compound"
+    },
+    {
+      "from": "come",
+      "to": "become",
+      "type": "compound"
+    },
+    {
+      "from": "come",
+      "to": "camp",
+      "type": "spelling"
+    },
+    {
+      "from": "camp",
+      "to": "lamp",
+      "type": "spelling"
+    },
+    {
+      "from": "lamp",
+      "to": "lamb",
+      "type": "spelling"
+    },
+    {
+      "from": "camp",
+      "to": "stamp",
+      "type": "spelling"
+    },
+    {
+      "from": "stamp",
+      "to": "bamboo",
+      "type": "spelling"
+    },
+    {
+      "from": "nine",
+      "to": "ninety",
+      "type": "spelling"
+    },
+    {
+      "from": "ninety",
+      "to": "nineteen",
+      "type": "spelling"
+    },
+    {
+      "from": "ninety",
+      "to": "ninth",
+      "type": "spelling"
+    },
+    {
+      "from": "nine",
+      "to": "fine",
+      "type": "spelling"
+    },
+    {
+      "from": "fine",
+      "to": "define",
+      "type": "spelling"
+    },
+    {
+      "from": "fine",
+      "to": "find",
+      "type": "spelling"
+    },
+    {
+      "from": "find",
+      "to": "kind",
+      "type": "spelling"
+    },
+    {
+      "from": "kind",
+      "to": "behind",
+      "type": "spelling"
+    },
+    {
+      "from": "kind",
+      "to": "kind-hearted",
+      "type": "compound"
+    },
+    {
+      "from": "kind-hearted",
+      "to": "kid",
+      "type": "spelling"
+    },
+    {
+      "from": "kind-hearted",
+      "to": "heart",
+      "type": "compound"
+    },
+    {
+      "from": "nose",
+      "to": "noise",
+      "type": "spelling"
+    },
+    {
+      "from": "noise",
+      "to": "noisy",
+      "type": "derive"
+    },
+    {
+      "from": "noisy",
+      "to": "daisy",
+      "type": "spelling"
+    },
+    {
+      "from": "daisy",
+      "to": "daily",
+      "type": "spelling"
+    },
+    {
+      "from": "nose",
+      "to": "those",
+      "type": "spelling"
+    },
+    {
+      "from": "those",
+      "to": "whose",
+      "type": "spelling"
+    },
+    {
+      "from": "those",
+      "to": "these",
+      "type": "spelling"
+    },
+    {
+      "from": "doll",
+      "to": "dull",
+      "type": "spelling"
+    },
+    {
+      "from": "dull",
+      "to": "full",
+      "type": "spelling"
+    },
+    {
+      "from": "full",
+      "to": "fuel",
+      "type": "spelling"
+    },
+    {
+      "from": "dull",
+      "to": "pull",
+      "type": "spelling"
+    },
+    {
+      "from": "doll",
+      "to": "dollar",
+      "type": "derive"
+    },
+    {
+      "from": "doll",
+      "to": "poll",
+      "type": "spelling"
+    },
+    {
+      "from": "poll",
+      "to": "pollute",
+      "type": "spelling"
+    },
+    {
+      "from": "pollute",
+      "to": "pollution",
+      "type": "derive"
+    },
+    {
+      "from": "pollute",
+      "to": "polluted",
+      "type": "derive"
+    },
+    {
+      "from": "ring",
+      "to": "spring",
+      "type": "spelling"
+    },
+    {
+      "from": "ring",
+      "to": "bring",
+      "type": "spelling"
+    },
+    {
+      "from": "bring",
+      "to": "boring",
+      "type": "spelling"
+    },
+    {
+      "from": "boring",
+      "to": "bored",
+      "type": "derive"
+    },
+    {
+      "from": "bored",
+      "to": "red",
+      "type": "spelling"
+    },
+    {
+      "from": "boring",
+      "to": "during",
+      "type": "spelling"
+    },
+    {
+      "from": "during",
+      "to": "drum",
+      "type": "spelling"
+    },
+    {
+      "from": "last",
+      "to": "fast",
+      "type": "spelling"
+    },
+    {
+      "from": "fast",
+      "to": "fat",
+      "type": "spelling"
+    },
+    {
+      "from": "last",
+      "to": "castle",
+      "type": "spelling"
+    },
+    {
+      "from": "last",
+      "to": "vast",
+      "type": "spelling"
+    },
+    {
+      "from": "vast",
+      "to": "vase",
+      "type": "spelling"
+    },
+    {
+      "from": "vase",
+      "to": "base",
+      "type": "spelling"
+    },
+    {
+      "from": "base",
+      "to": "baseball",
+      "type": "compound"
+    },
+    {
+      "from": "tie",
+      "to": "pie",
+      "type": "spelling"
+    },
+    {
+      "from": "pie",
+      "to": "piece",
+      "type": "spelling"
+    },
+    {
+      "from": "pie",
+      "to": "die",
+      "type": "spelling"
+    },
+    {
+      "from": "tie",
+      "to": "time",
+      "type": "spelling"
+    },
+    {
+      "from": "time",
+      "to": "timetable",
+      "type": "compound"
+    },
+    {
+      "from": "tie",
+      "to": "toe",
+      "type": "spelling"
+    },
+    {
+      "from": "time",
+      "to": "dime",
+      "type": "spelling"
+    },
+    {
+      "from": "dime",
+      "to": "dim",
+      "type": "spelling"
+    },
+    {
+      "from": "rain",
+      "to": "rail",
+      "type": "spelling"
+    },
+    {
+      "from": "rail",
+      "to": "railway",
+      "type": "compound"
+    },
+    {
+      "from": "rain",
+      "to": "train",
+      "type": "spelling"
+    },
+    {
+      "from": "train",
+      "to": "training",
+      "type": "derive"
+    },
+    {
+      "from": "train",
+      "to": "trainer",
+      "type": "derive"
+    },
+    {
+      "from": "rain",
+      "to": "rainy",
+      "type": "derive"
+    },
+    {
+      "from": "rainy",
+      "to": "rainfall",
+      "type": "compound"
+    },
+    {
+      "from": "rainy",
+      "to": "raincoat",
+      "type": "compound"
+    }
+  ]
+}

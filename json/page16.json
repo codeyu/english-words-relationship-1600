@@ -1,0 +1,639 @@
+{
+  "source": "速记1600单词 每周一页 第16页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "library"
+    },
+    {
+      "id": "c2",
+      "center": "blue"
+    },
+    {
+      "id": "c3",
+      "center": "nation"
+    },
+    {
+      "id": "c4",
+      "center": "day"
+    },
+    {
+      "id": "c5",
+      "center": "popular"
+    },
+    {
+      "id": "c6",
+      "center": "able"
+    },
+    {
+      "id": "c7",
+      "center": "table"
+    },
+    {
+      "id": "c8",
+      "center": "trouble"
+    }
+  ],
+  "words": [
+    {
+      "id": "library",
+      "zh": "图书馆",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "dictionary",
+      "zh": "字典",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "february",
+      "zh": "二月",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "librarian",
+      "zh": "图书管理员",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "necessary",
+      "zh": "必须的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "primary",
+      "zh": "初级的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "vocabulary",
+      "zh": "词汇",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "blue",
+      "zh": "蓝色的",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "blues",
+      "zh": "布鲁斯歌曲",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "june",
+      "zh": "六月",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "junior",
+      "zh": "低级的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "senior",
+      "zh": "高级的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "july",
+      "zh": "七月",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "nation",
+      "zh": "国家",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "intonation",
+      "zh": "语调",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "into",
+      "zh": "到...里",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "national",
+      "zh": "国家的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "onion",
+      "zh": "洋葱",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "only",
+      "zh": "仅仅",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "onto",
+      "zh": "到...上",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "opinion",
+      "zh": "意见",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "day",
+      "zh": "白天",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "today",
+      "zh": "今天",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "holiday",
+      "zh": "假期",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "midday",
+      "zh": "中午",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "daytime",
+      "zh": "白天",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "tuesday",
+      "zh": "周二",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "saturday",
+      "zh": "周六",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "thursday",
+      "zh": "周四",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "popular",
+      "zh": "流行的",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "population",
+      "zh": "人口",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "punctuation",
+      "zh": "标点符号",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "large",
+      "zh": "大的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "unpopular",
+      "zh": "不流行的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "pop",
+      "zh": "流行音乐",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "able",
+      "zh": "能",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "cable",
+      "zh": "电缆",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "cabin",
+      "zh": "小木屋",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "table",
+      "zh": "桌子",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "unable",
+      "zh": "不能的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "believable",
+      "zh": "可信的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "belief",
+      "zh": "n.相信",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "thief",
+      "zh": "小偷",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "believe",
+      "zh": "v.相信",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "table",
+      "zh": "桌子",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "suitable",
+      "zh": "适当地",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "suit",
+      "zh": "一套衣服",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "vegetable",
+      "zh": "蔬菜",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "comfortable",
+      "zh": "舒适的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "uncomfortable",
+      "zh": "不舒适的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "unforgettable",
+      "zh": "难忘的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "comfort",
+      "zh": "安慰",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "trouble",
+      "zh": "困难",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "double",
+      "zh": "双人的，翻倍",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "trousers",
+      "zh": "裤子",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "terrible",
+      "zh": "可怕的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "terrific",
+      "zh": "极好的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "terrorist",
+      "zh": "恐怖分子",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "library",
+      "to": "dictionary",
+      "type": "spelling"
+    },
+    {
+      "from": "dictionary",
+      "to": "february",
+      "type": "spelling"
+    },
+    {
+      "from": "library",
+      "to": "librarian",
+      "type": "spelling"
+    },
+    {
+      "from": "library",
+      "to": "necessary",
+      "type": "spelling"
+    },
+    {
+      "from": "necessary",
+      "to": "primary",
+      "type": "spelling"
+    },
+    {
+      "from": "necessary",
+      "to": "vocabulary",
+      "type": "spelling"
+    },
+    {
+      "from": "blue",
+      "to": "blues",
+      "type": "derive"
+    },
+    {
+      "from": "blue",
+      "to": "june",
+      "type": "spelling"
+    },
+    {
+      "from": "june",
+      "to": "junior",
+      "type": "spelling"
+    },
+    {
+      "from": "junior",
+      "to": "senior",
+      "type": "spelling"
+    },
+    {
+      "from": "june",
+      "to": "july",
+      "type": "spelling"
+    },
+    {
+      "from": "nation",
+      "to": "intonation",
+      "type": "compound"
+    },
+    {
+      "from": "intonation",
+      "to": "into",
+      "type": "compound"
+    },
+    {
+      "from": "intonation",
+      "to": "national",
+      "type": "spelling"
+    },
+    {
+      "from": "nation",
+      "to": "onion",
+      "type": "spelling"
+    },
+    {
+      "from": "onion",
+      "to": "only",
+      "type": "spelling"
+    },
+    {
+      "from": "only",
+      "to": "onto",
+      "type": "spelling"
+    },
+    {
+      "from": "onion",
+      "to": "opinion",
+      "type": "spelling"
+    },
+    {
+      "from": "day",
+      "to": "today",
+      "type": "compound"
+    },
+    {
+      "from": "today",
+      "to": "holiday",
+      "type": "spelling"
+    },
+    {
+      "from": "day",
+      "to": "midday",
+      "type": "compound"
+    },
+    {
+      "from": "midday",
+      "to": "daytime",
+      "type": "compound"
+    },
+    {
+      "from": "day",
+      "to": "tuesday",
+      "type": "compound"
+    },
+    {
+      "from": "tuesday",
+      "to": "saturday",
+      "type": "spelling"
+    },
+    {
+      "from": "tuesday",
+      "to": "thursday",
+      "type": "spelling"
+    },
+    {
+      "from": "popular",
+      "to": "population",
+      "type": "spelling"
+    },
+    {
+      "from": "population",
+      "to": "punctuation",
+      "type": "spelling"
+    },
+    {
+      "from": "popular",
+      "to": "large",
+      "type": "spelling"
+    },
+    {
+      "from": "popular",
+      "to": "unpopular",
+      "type": "derive"
+    },
+    {
+      "from": "popular",
+      "to": "pop",
+      "type": "spelling"
+    },
+    {
+      "from": "able",
+      "to": "cable",
+      "type": "spelling"
+    },
+    {
+      "from": "cable",
+      "to": "cabin",
+      "type": "spelling"
+    },
+    {
+      "from": "able",
+      "to": "table",
+      "type": "spelling"
+    },
+    {
+      "from": "able",
+      "to": "unable",
+      "type": "derive"
+    },
+    {
+      "from": "able",
+      "to": "believable",
+      "type": "compound"
+    },
+    {
+      "from": "believable",
+      "to": "belief",
+      "type": "spelling"
+    },
+    {
+      "from": "belief",
+      "to": "thief",
+      "type": "spelling"
+    },
+    {
+      "from": "believable",
+      "to": "believe",
+      "type": "derive"
+    },
+    {
+      "from": "table",
+      "to": "suitable",
+      "type": "compound"
+    },
+    {
+      "from": "suitable",
+      "to": "suit",
+      "type": "spelling"
+    },
+    {
+      "from": "table",
+      "to": "vegetable",
+      "type": "compound"
+    },
+    {
+      "from": "table",
+      "to": "comfortable",
+      "type": "compound"
+    },
+    {
+      "from": "comfortable",
+      "to": "uncomfortable",
+      "type": "derive"
+    },
+    {
+      "from": "uncomfortable",
+      "to": "unforgettable",
+      "type": "spelling"
+    },
+    {
+      "from": "comfortable",
+      "to": "comfort",
+      "type": "derive"
+    },
+    {
+      "from": "trouble",
+      "to": "double",
+      "type": "spelling"
+    },
+    {
+      "from": "trouble",
+      "to": "trousers",
+      "type": "spelling"
+    },
+    {
+      "from": "trouble",
+      "to": "terrible",
+      "type": "spelling"
+    },
+    {
+      "from": "terrible",
+      "to": "terrific",
+      "type": "spelling"
+    },
+    {
+      "from": "terrible",
+      "to": "terrorist",
+      "type": "spelling"
+    }
+  ]
+}

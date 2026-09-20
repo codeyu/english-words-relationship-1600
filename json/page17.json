@@ -1,0 +1,694 @@
+{
+  "source": "速记1600单词 每周一页 第17页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "desk"
+    },
+    {
+      "id": "c2",
+      "center": "subject"
+    },
+    {
+      "id": "c3",
+      "center": "sail"
+    },
+    {
+      "id": "c4",
+      "center": "bridge"
+    },
+    {
+      "id": "c5",
+      "center": "expect"
+    },
+    {
+      "id": "c6",
+      "center": "him"
+    },
+    {
+      "id": "c7",
+      "center": "collect"
+    },
+    {
+      "id": "c8",
+      "center": "pea"
+    }
+  ],
+  "words": [
+    {
+      "id": "desk",
+      "zh": "课桌",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "design",
+      "zh": "设计",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sign",
+      "zh": "符号",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "describe",
+      "zh": "v.描述",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "description",
+      "zh": "n.描述",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "destroy",
+      "zh": "破坏",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "destination",
+      "zh": "目的地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "festival",
+      "zh": "节日",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "subject",
+      "zh": "学科，主题",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "adjective",
+      "zh": "形容词",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "inject",
+      "zh": "v.注射",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "injection",
+      "zh": "n.注射",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "project",
+      "zh": "项目",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "protect",
+      "zh": "保护",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "protection",
+      "zh": "保护",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "object",
+      "zh": "物体，目标",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "sail",
+      "zh": "v.航行",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "tail",
+      "zh": "尾巴",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "tailor",
+      "zh": "裁缝",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sailor",
+      "zh": "水手",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sailing",
+      "zh": "n.航行",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "dumpling",
+      "zh": "饺子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "pumpkin",
+      "zh": "南瓜",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "jump",
+      "zh": "跳",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "jumper",
+      "zh": "跳跃者",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "bridge",
+      "zh": "桥",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "porridge",
+      "zh": "粥",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "fridge",
+      "zh": "冰箱",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "friday",
+      "zh": "周五",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "hedge",
+      "zh": "篱笆，回避",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "edge",
+      "zh": "边缘",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "judge",
+      "zh": "法官",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "expect",
+      "zh": "期盼，预料",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "inspect",
+      "zh": "检查",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "inspector",
+      "zh": "检查员",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "insect",
+      "zh": "昆虫",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "expert",
+      "zh": "专家",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "experience",
+      "zh": "经验",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "expensive",
+      "zh": "贵的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "him",
+      "zh": "他",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "rim",
+      "zh": "圆形物的边缘",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "himself",
+      "zh": "他自己",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "hit",
+      "zh": "打击",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "swim",
+      "zh": "v.游泳",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "swimsuit",
+      "zh": "游泳衣",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "swimming",
+      "zh": "n.游泳",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "collect",
+      "zh": "收集",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "collection",
+      "zh": "收集",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "college",
+      "zh": "大学",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "collapse",
+      "zh": "倒塌",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "connect",
+      "zh": "连接",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "correct",
+      "zh": "正确的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "pea",
+      "zh": "豌豆",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "peace",
+      "zh": "和平",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "per",
+      "zh": "每",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "pear",
+      "zh": "梨",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "year",
+      "zh": "年",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "near",
+      "zh": "在附近",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "nearby",
+      "zh": "附近的，在附近",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "nearly",
+      "zh": "几乎",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "appear",
+      "zh": "出现",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "disappear",
+      "zh": "消失",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "disappearance",
+      "zh": "消失",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "desk",
+      "to": "design",
+      "type": "spelling"
+    },
+    {
+      "from": "design",
+      "to": "sign",
+      "type": "spelling"
+    },
+    {
+      "from": "desk",
+      "to": "describe",
+      "type": "spelling"
+    },
+    {
+      "from": "describe",
+      "to": "description",
+      "type": "derive"
+    },
+    {
+      "from": "desk",
+      "to": "destroy",
+      "type": "spelling"
+    },
+    {
+      "from": "destroy",
+      "to": "destination",
+      "type": "spelling"
+    },
+    {
+      "from": "destroy",
+      "to": "festival",
+      "type": "spelling"
+    },
+    {
+      "from": "subject",
+      "to": "adjective",
+      "type": "spelling"
+    },
+    {
+      "from": "subject",
+      "to": "inject",
+      "type": "spelling"
+    },
+    {
+      "from": "inject",
+      "to": "injection",
+      "type": "derive"
+    },
+    {
+      "from": "subject",
+      "to": "project",
+      "type": "spelling"
+    },
+    {
+      "from": "project",
+      "to": "protect",
+      "type": "spelling"
+    },
+    {
+      "from": "protect",
+      "to": "protection",
+      "type": "derive"
+    },
+    {
+      "from": "subject",
+      "to": "object",
+      "type": "spelling"
+    },
+    {
+      "from": "sail",
+      "to": "tail",
+      "type": "spelling"
+    },
+    {
+      "from": "tail",
+      "to": "tailor",
+      "type": "spelling"
+    },
+    {
+      "from": "sail",
+      "to": "sailor",
+      "type": "spelling"
+    },
+    {
+      "from": "sail",
+      "to": "sailing",
+      "type": "derive"
+    },
+    {
+      "from": "sailing",
+      "to": "dumpling",
+      "type": "spelling"
+    },
+    {
+      "from": "dumpling",
+      "to": "pumpkin",
+      "type": "spelling"
+    },
+    {
+      "from": "pumpkin",
+      "to": "jump",
+      "type": "spelling"
+    },
+    {
+      "from": "jump",
+      "to": "jumper",
+      "type": "derive"
+    },
+    {
+      "from": "bridge",
+      "to": "porridge",
+      "type": "spelling"
+    },
+    {
+      "from": "bridge",
+      "to": "fridge",
+      "type": "spelling"
+    },
+    {
+      "from": "fridge",
+      "to": "friday",
+      "type": "spelling"
+    },
+    {
+      "from": "bridge",
+      "to": "hedge",
+      "type": "spelling"
+    },
+    {
+      "from": "hedge",
+      "to": "edge",
+      "type": "spelling"
+    },
+    {
+      "from": "hedge",
+      "to": "judge",
+      "type": "spelling"
+    },
+    {
+      "from": "expect",
+      "to": "inspect",
+      "type": "spelling"
+    },
+    {
+      "from": "inspect",
+      "to": "inspector",
+      "type": "derive"
+    },
+    {
+      "from": "inspect",
+      "to": "insect",
+      "type": "spelling"
+    },
+    {
+      "from": "expect",
+      "to": "expert",
+      "type": "spelling"
+    },
+    {
+      "from": "expert",
+      "to": "experience",
+      "type": "spelling"
+    },
+    {
+      "from": "expert",
+      "to": "expensive",
+      "type": "spelling"
+    },
+    {
+      "from": "him",
+      "to": "rim",
+      "type": "spelling"
+    },
+    {
+      "from": "him",
+      "to": "himself",
+      "type": "compound"
+    },
+    {
+      "from": "him",
+      "to": "hit",
+      "type": "spelling"
+    },
+    {
+      "from": "him",
+      "to": "swim",
+      "type": "spelling"
+    },
+    {
+      "from": "swim",
+      "to": "swimsuit",
+      "type": "compound"
+    },
+    {
+      "from": "swim",
+      "to": "swimming",
+      "type": "derive"
+    },
+    {
+      "from": "collect",
+      "to": "collection",
+      "type": "derive"
+    },
+    {
+      "from": "collect",
+      "to": "college",
+      "type": "spelling"
+    },
+    {
+      "from": "college",
+      "to": "collapse",
+      "type": "spelling"
+    },
+    {
+      "from": "collect",
+      "to": "connect",
+      "type": "spelling"
+    },
+    {
+      "from": "connect",
+      "to": "correct",
+      "type": "spelling"
+    },
+    {
+      "from": "pea",
+      "to": "peace",
+      "type": "spelling"
+    },
+    {
+      "from": "peace",
+      "to": "per",
+      "type": "spelling"
+    },
+    {
+      "from": "per",
+      "to": "pear",
+      "type": "spelling"
+    },
+    {
+      "from": "pear",
+      "to": "year",
+      "type": "spelling"
+    },
+    {
+      "from": "year",
+      "to": "near",
+      "type": "spelling"
+    },
+    {
+      "from": "near",
+      "to": "nearby",
+      "type": "derive"
+    },
+    {
+      "from": "nearby",
+      "to": "nearly",
+      "type": "spelling"
+    },
+    {
+      "from": "pea",
+      "to": "appear",
+      "type": "spelling"
+    },
+    {
+      "from": "appear",
+      "to": "disappear",
+      "type": "derive"
+    },
+    {
+      "from": "disappear",
+      "to": "disappearance",
+      "type": "derive"
+    }
+  ]
+}

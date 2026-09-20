@@ -1,0 +1,826 @@
+{
+  "source": "速记1600单词 每周一页 第7页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "watch"
+    },
+    {
+      "id": "c2",
+      "center": "five"
+    },
+    {
+      "id": "c3",
+      "center": "old"
+    },
+    {
+      "id": "c4",
+      "center": "end"
+    },
+    {
+      "id": "c5",
+      "center": "shop"
+    },
+    {
+      "id": "c6",
+      "center": "coat"
+    },
+    {
+      "id": "c7",
+      "center": "cake"
+    },
+    {
+      "id": "c8",
+      "center": "all"
+    }
+  ],
+  "words": [
+    {
+      "id": "watch",
+      "zh": "观看",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "watchtower",
+      "zh": "瞭望塔",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "tower",
+      "zh": "塔",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "power",
+      "zh": "能力",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "flower",
+      "zh": "花",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "match",
+      "zh": "比赛",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "math",
+      "zh": "数学",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "maths",
+      "zh": "数学",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "catch",
+      "zh": "抓住",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "cat",
+      "zh": "猫",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "five",
+      "zh": "五",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "give",
+      "zh": "给",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "dive",
+      "zh": "跳水",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "drive",
+      "zh": "驾驶",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "driver",
+      "zh": "司机",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "river",
+      "zh": "河",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "arrive",
+      "zh": "到达",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "divide",
+      "zh": "分离",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "diver",
+      "zh": "跳水运动员",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "old",
+      "zh": "老的",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "cold",
+      "zh": "冷的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "soldier",
+      "zh": "士兵",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "bold",
+      "zh": "大胆的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "gold",
+      "zh": "金子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "golden",
+      "zh": "金黄的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "golf",
+      "zh": "高尔夫",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "wolf",
+      "zh": "狼",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "end",
+      "zh": "结束",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "send",
+      "zh": "送",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "lend",
+      "zh": "借出",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "spend",
+      "zh": "花费",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "depend",
+      "zh": "依靠",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ending",
+      "zh": "结局",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "friend",
+      "zh": "朋友",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "friendly",
+      "zh": "友好的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "unfriendly",
+      "zh": "不友好的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "friendship",
+      "zh": "友谊",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "shop",
+      "zh": "商店",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "shopping",
+      "zh": "购物",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "show",
+      "zh": "展示",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shoe",
+      "zh": "鞋",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shower",
+      "zh": "阵雨",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "showery",
+      "zh": "阵雨的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shot",
+      "zh": "开枪",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shout",
+      "zh": "喊",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shoot",
+      "zh": "射击，开枪",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "short",
+      "zh": "短的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "shut",
+      "zh": "关上",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "coat",
+      "zh": "外套",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "boat",
+      "zh": "小船",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "boating",
+      "zh": "划船",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "goat",
+      "zh": "羊",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "goal",
+      "zh": "目标",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "coal",
+      "zh": "煤",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "coach",
+      "zh": "教练",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "cake",
+      "zh": "蛋糕",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "take",
+      "zh": "带走",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "task",
+      "zh": "任务",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "ask",
+      "zh": "问",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "lake",
+      "zh": "湖",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "cafe",
+      "zh": "咖啡馆",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wake",
+      "zh": "唤醒",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "awake",
+      "zh": "醒着的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "make",
+      "zh": "制作",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bake",
+      "zh": "烘培",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "all",
+      "zh": "全部",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "ball",
+      "zh": "球",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "call",
+      "zh": "喊",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "ballet",
+      "zh": "芭蕾舞",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "allow",
+      "zh": "允许",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "swallow",
+      "zh": "吞下",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "hall",
+      "zh": "大厅",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "wall",
+      "zh": "墙",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "wallet",
+      "zh": "钱夹",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "shall",
+      "zh": "将要",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "watch",
+      "to": "watchtower",
+      "type": "compound"
+    },
+    {
+      "from": "watchtower",
+      "to": "tower",
+      "type": "compound"
+    },
+    {
+      "from": "tower",
+      "to": "power",
+      "type": "spelling"
+    },
+    {
+      "from": "tower",
+      "to": "flower",
+      "type": "spelling"
+    },
+    {
+      "from": "watch",
+      "to": "match",
+      "type": "spelling"
+    },
+    {
+      "from": "match",
+      "to": "math",
+      "type": "spelling"
+    },
+    {
+      "from": "math",
+      "to": "maths",
+      "type": "derive"
+    },
+    {
+      "from": "watch",
+      "to": "catch",
+      "type": "spelling"
+    },
+    {
+      "from": "catch",
+      "to": "cat",
+      "type": "compound"
+    },
+    {
+      "from": "five",
+      "to": "give",
+      "type": "spelling"
+    },
+    {
+      "from": "five",
+      "to": "dive",
+      "type": "spelling"
+    },
+    {
+      "from": "dive",
+      "to": "drive",
+      "type": "spelling"
+    },
+    {
+      "from": "drive",
+      "to": "driver",
+      "type": "derive"
+    },
+    {
+      "from": "driver",
+      "to": "river",
+      "type": "spelling"
+    },
+    {
+      "from": "drive",
+      "to": "arrive",
+      "type": "spelling"
+    },
+    {
+      "from": "dive",
+      "to": "divide",
+      "type": "spelling"
+    },
+    {
+      "from": "dive",
+      "to": "diver",
+      "type": "derive"
+    },
+    {
+      "from": "old",
+      "to": "cold",
+      "type": "spelling"
+    },
+    {
+      "from": "old",
+      "to": "soldier",
+      "type": "spelling"
+    },
+    {
+      "from": "old",
+      "to": "bold",
+      "type": "spelling"
+    },
+    {
+      "from": "bold",
+      "to": "gold",
+      "type": "spelling"
+    },
+    {
+      "from": "gold",
+      "to": "golden",
+      "type": "derive"
+    },
+    {
+      "from": "gold",
+      "to": "golf",
+      "type": "spelling"
+    },
+    {
+      "from": "golf",
+      "to": "wolf",
+      "type": "spelling"
+    },
+    {
+      "from": "end",
+      "to": "send",
+      "type": "spelling"
+    },
+    {
+      "from": "send",
+      "to": "lend",
+      "type": "spelling"
+    },
+    {
+      "from": "send",
+      "to": "spend",
+      "type": "spelling"
+    },
+    {
+      "from": "spend",
+      "to": "depend",
+      "type": "spelling"
+    },
+    {
+      "from": "end",
+      "to": "ending",
+      "type": "derive"
+    },
+    {
+      "from": "end",
+      "to": "friend",
+      "type": "spelling"
+    },
+    {
+      "from": "friend",
+      "to": "friendly",
+      "type": "derive"
+    },
+    {
+      "from": "friendly",
+      "to": "unfriendly",
+      "type": "derive"
+    },
+    {
+      "from": "friend",
+      "to": "friendship",
+      "type": "derive"
+    },
+    {
+      "from": "shop",
+      "to": "shopping",
+      "type": "derive"
+    },
+    {
+      "from": "shop",
+      "to": "show",
+      "type": "spelling"
+    },
+    {
+      "from": "show",
+      "to": "shoe",
+      "type": "spelling"
+    },
+    {
+      "from": "show",
+      "to": "shower",
+      "type": "spelling"
+    },
+    {
+      "from": "shower",
+      "to": "showery",
+      "type": "derive"
+    },
+    {
+      "from": "shop",
+      "to": "shot",
+      "type": "spelling"
+    },
+    {
+      "from": "shot",
+      "to": "shout",
+      "type": "spelling"
+    },
+    {
+      "from": "shout",
+      "to": "shoot",
+      "type": "spelling"
+    },
+    {
+      "from": "shot",
+      "to": "short",
+      "type": "spelling"
+    },
+    {
+      "from": "shot",
+      "to": "shut",
+      "type": "spelling"
+    },
+    {
+      "from": "coat",
+      "to": "boat",
+      "type": "spelling"
+    },
+    {
+      "from": "boat",
+      "to": "boating",
+      "type": "derive"
+    },
+    {
+      "from": "coat",
+      "to": "goat",
+      "type": "spelling"
+    },
+    {
+      "from": "goat",
+      "to": "goal",
+      "type": "spelling"
+    },
+    {
+      "from": "goal",
+      "to": "coal",
+      "type": "spelling"
+    },
+    {
+      "from": "coal",
+      "to": "coach",
+      "type": "spelling"
+    },
+    {
+      "from": "cake",
+      "to": "take",
+      "type": "spelling"
+    },
+    {
+      "from": "take",
+      "to": "task",
+      "type": "spelling"
+    },
+    {
+      "from": "task",
+      "to": "ask",
+      "type": "spelling"
+    },
+    {
+      "from": "take",
+      "to": "lake",
+      "type": "spelling"
+    },
+    {
+      "from": "cake",
+      "to": "cafe",
+      "type": "spelling"
+    },
+    {
+      "from": "cake",
+      "to": "wake",
+      "type": "spelling"
+    },
+    {
+      "from": "wake",
+      "to": "awake",
+      "type": "derive"
+    },
+    {
+      "from": "wake",
+      "to": "make",
+      "type": "spelling"
+    },
+    {
+      "from": "make",
+      "to": "bake",
+      "type": "spelling"
+    },
+    {
+      "from": "all",
+      "to": "ball",
+      "type": "spelling"
+    },
+    {
+      "from": "ball",
+      "to": "call",
+      "type": "spelling"
+    },
+    {
+      "from": "ball",
+      "to": "ballet",
+      "type": "spelling"
+    },
+    {
+      "from": "all",
+      "to": "allow",
+      "type": "spelling"
+    },
+    {
+      "from": "allow",
+      "to": "swallow",
+      "type": "spelling"
+    },
+    {
+      "from": "all",
+      "to": "hall",
+      "type": "spelling"
+    },
+    {
+      "from": "hall",
+      "to": "wall",
+      "type": "spelling"
+    },
+    {
+      "from": "wall",
+      "to": "wallet",
+      "type": "spelling"
+    },
+    {
+      "from": "hall",
+      "to": "shall",
+      "type": "spelling"
+    }
+  ]
+}

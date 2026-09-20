@@ -1,0 +1,639 @@
+{
+  "source": "速记1600单词 每周一页 第23页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "sun"
+    },
+    {
+      "id": "c2",
+      "center": "purse"
+    },
+    {
+      "id": "c3",
+      "center": "exam"
+    },
+    {
+      "id": "c4",
+      "center": "sale"
+    },
+    {
+      "id": "c5",
+      "center": "talk"
+    },
+    {
+      "id": "c6",
+      "center": "his"
+    },
+    {
+      "id": "c7",
+      "center": "letter"
+    },
+    {
+      "id": "c8",
+      "center": "bus"
+    }
+  ],
+  "words": [
+    {
+      "id": "sun",
+      "zh": "太阳",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "sunday",
+      "zh": "周日",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sunny",
+      "zh": "晴朗的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sunshine",
+      "zh": "阳光",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "shine",
+      "zh": "发光",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sunrise",
+      "zh": "黎明",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "rise",
+      "zh": "上升",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sunset",
+      "zh": "日落",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "set",
+      "zh": "落下",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "purse",
+      "zh": "钱包",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "purpose",
+      "zh": "目的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "nurse",
+      "zh": "护士",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "purple",
+      "zh": "紫色的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "people",
+      "zh": "人们",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "exam",
+      "zh": "考试",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "example",
+      "zh": "例子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "temple",
+      "zh": "寺",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "simple",
+      "zh": "简单的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "simply",
+      "zh": "仅仅",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sample",
+      "zh": "样品",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "sale",
+      "zh": "出售",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "salt",
+      "zh": "盐",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "salty",
+      "zh": "咸的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "salad",
+      "zh": "沙拉",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "salesgirl",
+      "zh": "女售货员",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "safe",
+      "zh": "安全的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "safely",
+      "zh": "安全地",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "safety",
+      "zh": "安全",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "talk",
+      "zh": "谈话",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "walk",
+      "zh": "散步",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "waltz",
+      "zh": "华尔兹",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "chalk",
+      "zh": "粉笔",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tale",
+      "zh": "故事",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tape",
+      "zh": "磁带",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "grape",
+      "zh": "葡萄",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "grade",
+      "zh": "分数",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "his",
+      "zh": "他的",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "history",
+      "zh": "历史",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "story",
+      "zh": "故事",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "victory",
+      "zh": "胜利",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "factory",
+      "zh": "工厂",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fact",
+      "zh": "事实",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "letter",
+      "zh": "信",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "matter",
+      "zh": "事情",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "battery",
+      "zh": "电池",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "litter",
+      "zh": "小的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "little",
+      "zh": "小的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "better",
+      "zh": "更好",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "butter",
+      "zh": "黄油",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "but",
+      "zh": "但是",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "button",
+      "zh": "按钮",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bus",
+      "zh": "公共汽车",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "business",
+      "zh": "生意",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "businessman",
+      "zh": "商人",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "minibus",
+      "zh": "小型公共汽车",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "busy",
+      "zh": "忙的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "buy",
+      "zh": "买",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "guy",
+      "zh": "家伙",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "sun",
+      "to": "sunday",
+      "type": "compound"
+    },
+    {
+      "from": "sunday",
+      "to": "sunny",
+      "type": "spelling"
+    },
+    {
+      "from": "sun",
+      "to": "sunshine",
+      "type": "compound"
+    },
+    {
+      "from": "sunshine",
+      "to": "shine",
+      "type": "compound"
+    },
+    {
+      "from": "sun",
+      "to": "sunrise",
+      "type": "compound"
+    },
+    {
+      "from": "sunrise",
+      "to": "rise",
+      "type": "compound"
+    },
+    {
+      "from": "sunrise",
+      "to": "sunset",
+      "type": "compound"
+    },
+    {
+      "from": "sunset",
+      "to": "set",
+      "type": "compound"
+    },
+    {
+      "from": "purse",
+      "to": "purpose",
+      "type": "spelling"
+    },
+    {
+      "from": "purse",
+      "to": "nurse",
+      "type": "spelling"
+    },
+    {
+      "from": "purse",
+      "to": "purple",
+      "type": "spelling"
+    },
+    {
+      "from": "purple",
+      "to": "people",
+      "type": "spelling"
+    },
+    {
+      "from": "exam",
+      "to": "example",
+      "type": "spelling"
+    },
+    {
+      "from": "example",
+      "to": "temple",
+      "type": "spelling"
+    },
+    {
+      "from": "temple",
+      "to": "simple",
+      "type": "spelling"
+    },
+    {
+      "from": "simple",
+      "to": "simply",
+      "type": "derive"
+    },
+    {
+      "from": "simple",
+      "to": "sample",
+      "type": "spelling"
+    },
+    {
+      "from": "sale",
+      "to": "salt",
+      "type": "spelling"
+    },
+    {
+      "from": "salt",
+      "to": "salty",
+      "type": "derive"
+    },
+    {
+      "from": "sale",
+      "to": "salad",
+      "type": "spelling"
+    },
+    {
+      "from": "sale",
+      "to": "salesgirl",
+      "type": "compound"
+    },
+    {
+      "from": "sale",
+      "to": "safe",
+      "type": "spelling"
+    },
+    {
+      "from": "safe",
+      "to": "safely",
+      "type": "derive"
+    },
+    {
+      "from": "safe",
+      "to": "safety",
+      "type": "derive"
+    },
+    {
+      "from": "talk",
+      "to": "walk",
+      "type": "spelling"
+    },
+    {
+      "from": "walk",
+      "to": "waltz",
+      "type": "spelling"
+    },
+    {
+      "from": "walk",
+      "to": "chalk",
+      "type": "spelling"
+    },
+    {
+      "from": "talk",
+      "to": "tale",
+      "type": "spelling"
+    },
+    {
+      "from": "tale",
+      "to": "tape",
+      "type": "spelling"
+    },
+    {
+      "from": "tape",
+      "to": "grape",
+      "type": "spelling"
+    },
+    {
+      "from": "grape",
+      "to": "grade",
+      "type": "spelling"
+    },
+    {
+      "from": "his",
+      "to": "history",
+      "type": "spelling"
+    },
+    {
+      "from": "history",
+      "to": "story",
+      "type": "spelling"
+    },
+    {
+      "from": "history",
+      "to": "victory",
+      "type": "spelling"
+    },
+    {
+      "from": "victory",
+      "to": "factory",
+      "type": "spelling"
+    },
+    {
+      "from": "factory",
+      "to": "fact",
+      "type": "spelling"
+    },
+    {
+      "from": "letter",
+      "to": "matter",
+      "type": "spelling"
+    },
+    {
+      "from": "matter",
+      "to": "battery",
+      "type": "spelling"
+    },
+    {
+      "from": "letter",
+      "to": "litter",
+      "type": "spelling"
+    },
+    {
+      "from": "litter",
+      "to": "little",
+      "type": "spelling"
+    },
+    {
+      "from": "letter",
+      "to": "better",
+      "type": "spelling"
+    },
+    {
+      "from": "better",
+      "to": "butter",
+      "type": "spelling"
+    },
+    {
+      "from": "butter",
+      "to": "but",
+      "type": "spelling"
+    },
+    {
+      "from": "butter",
+      "to": "button",
+      "type": "spelling"
+    },
+    {
+      "from": "bus",
+      "to": "business",
+      "type": "spelling"
+    },
+    {
+      "from": "business",
+      "to": "businessman",
+      "type": "compound"
+    },
+    {
+      "from": "bus",
+      "to": "minibus",
+      "type": "compound"
+    },
+    {
+      "from": "bus",
+      "to": "busy",
+      "type": "spelling"
+    },
+    {
+      "from": "busy",
+      "to": "buy",
+      "type": "spelling"
+    },
+    {
+      "from": "buy",
+      "to": "guy",
+      "type": "spelling"
+    }
+  ]
+}

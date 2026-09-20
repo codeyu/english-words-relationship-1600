@@ -1,0 +1,727 @@
+{
+  "source": "速记1600单词 每周一页 第11页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "life"
+    },
+    {
+      "id": "c2",
+      "center": "sing"
+    },
+    {
+      "id": "c3",
+      "center": "ear"
+    },
+    {
+      "id": "c4",
+      "center": "ever"
+    },
+    {
+      "id": "c5",
+      "center": "over"
+    },
+    {
+      "id": "c6",
+      "center": "love"
+    },
+    {
+      "id": "c7",
+      "center": "member"
+    },
+    {
+      "id": "c8",
+      "center": "low"
+    }
+  ],
+  "words": [
+    {
+      "id": "life",
+      "zh": "生命",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "lie",
+      "zh": "躺，说谎",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "wife",
+      "zh": "妻子",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "knife",
+      "zh": "小刀",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lifeboat",
+      "zh": "救生船",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lifetime",
+      "zh": "一生",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "wildlife",
+      "zh": "野生动植物",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lift",
+      "zh": "举起",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "gift",
+      "zh": "礼物",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sing",
+      "zh": "唱歌",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "singer",
+      "zh": "歌唱家",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "single",
+      "zh": "单一的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "raise",
+      "zh": "增加，喂养",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "sink",
+      "zh": "沉没",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pink",
+      "zh": "粉红色的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "drink",
+      "zh": "喝",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "ear",
+      "zh": "耳朵",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "clean",
+      "zh": "打扫",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "cleaner",
+      "zh": "清洁工",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "clear",
+      "zh": "清楚的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "clearly",
+      "zh": "清楚地",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "early",
+      "zh": "早",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "earlier",
+      "zh": "更早",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "earth",
+      "zh": "地球",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "earthquake",
+      "zh": "地震",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "ever",
+      "zh": "曾经",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "never",
+      "zh": "从不",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "clever",
+      "zh": "聪明的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "forever",
+      "zh": "永远",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "every",
+      "zh": "每",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "everybody",
+      "zh": "每个人",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "everything",
+      "zh": "每件事",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "everywhere",
+      "zh": "每个地方",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "several",
+      "zh": "几个",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "severely",
+      "zh": "严重地，严厉地",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "over",
+      "zh": "结束",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "govern",
+      "zh": "管理",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "government",
+      "zh": "政府",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "cover",
+      "zh": "盖上",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "discover",
+      "zh": "v.发现",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "discovery",
+      "zh": "n.发现",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "poverty",
+      "zh": "贫困",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "love",
+      "zh": "爱",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "novel",
+      "zh": "小说",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "lovely",
+      "zh": "可爱的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "move",
+      "zh": "移动",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "moving",
+      "zh": "移动的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "movie",
+      "zh": "电影",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "glove",
+      "zh": "手套",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "globe",
+      "zh": "地球",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "above",
+      "zh": "在...上",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "member",
+      "zh": "成员",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "remember",
+      "zh": "记得",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "memory",
+      "zh": "记忆",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "memorial",
+      "zh": "纪念碑",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "number",
+      "zh": "数字",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "september",
+      "zh": "9月",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "november",
+      "zh": "11月",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "december",
+      "zh": "12月",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "low",
+      "zh": "低的",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "cloud",
+      "zh": "云",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "cloudy",
+      "zh": "多云的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "loudly",
+      "zh": "大声地",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "loudspeaker",
+      "zh": "扬声器",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "aloud",
+      "zh": "大声地",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "proud",
+      "zh": "自豪的",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "life",
+      "to": "lie",
+      "type": "spelling"
+    },
+    {
+      "from": "life",
+      "to": "wife",
+      "type": "spelling"
+    },
+    {
+      "from": "life",
+      "to": "knife",
+      "type": "spelling"
+    },
+    {
+      "from": "life",
+      "to": "lifeboat",
+      "type": "compound"
+    },
+    {
+      "from": "life",
+      "to": "lifetime",
+      "type": "compound"
+    },
+    {
+      "from": "life",
+      "to": "wildlife",
+      "type": "compound"
+    },
+    {
+      "from": "wildlife",
+      "to": "lift",
+      "type": "spelling"
+    },
+    {
+      "from": "lift",
+      "to": "gift",
+      "type": "spelling"
+    },
+    {
+      "from": "sing",
+      "to": "singer",
+      "type": "derive"
+    },
+    {
+      "from": "singer",
+      "to": "single",
+      "type": "spelling"
+    },
+    {
+      "from": "singer",
+      "to": "raise",
+      "type": "spelling"
+    },
+    {
+      "from": "sing",
+      "to": "sink",
+      "type": "spelling"
+    },
+    {
+      "from": "sink",
+      "to": "pink",
+      "type": "spelling"
+    },
+    {
+      "from": "pink",
+      "to": "drink",
+      "type": "spelling"
+    },
+    {
+      "from": "ear",
+      "to": "clean",
+      "type": "spelling"
+    },
+    {
+      "from": "clean",
+      "to": "cleaner",
+      "type": "derive"
+    },
+    {
+      "from": "ear",
+      "to": "clear",
+      "type": "spelling"
+    },
+    {
+      "from": "clear",
+      "to": "clearly",
+      "type": "derive"
+    },
+    {
+      "from": "ear",
+      "to": "early",
+      "type": "spelling"
+    },
+    {
+      "from": "early",
+      "to": "earlier",
+      "type": "derive"
+    },
+    {
+      "from": "early",
+      "to": "earth",
+      "type": "spelling"
+    },
+    {
+      "from": "earth",
+      "to": "earthquake",
+      "type": "compound"
+    },
+    {
+      "from": "ever",
+      "to": "never",
+      "type": "compound"
+    },
+    {
+      "from": "never",
+      "to": "clever",
+      "type": "spelling"
+    },
+    {
+      "from": "never",
+      "to": "forever",
+      "type": "spelling"
+    },
+    {
+      "from": "ever",
+      "to": "every",
+      "type": "compound"
+    },
+    {
+      "from": "every",
+      "to": "everybody",
+      "type": "compound"
+    },
+    {
+      "from": "every",
+      "to": "everything",
+      "type": "compound"
+    },
+    {
+      "from": "everything",
+      "to": "everywhere",
+      "type": "compound"
+    },
+    {
+      "from": "ever",
+      "to": "several",
+      "type": "spelling"
+    },
+    {
+      "from": "several",
+      "to": "severely",
+      "type": "derive"
+    },
+    {
+      "from": "over",
+      "to": "govern",
+      "type": "spelling"
+    },
+    {
+      "from": "govern",
+      "to": "government",
+      "type": "derive"
+    },
+    {
+      "from": "over",
+      "to": "cover",
+      "type": "spelling"
+    },
+    {
+      "from": "cover",
+      "to": "discover",
+      "type": "spelling"
+    },
+    {
+      "from": "discover",
+      "to": "discovery",
+      "type": "derive"
+    },
+    {
+      "from": "over",
+      "to": "poverty",
+      "type": "spelling"
+    },
+    {
+      "from": "love",
+      "to": "novel",
+      "type": "spelling"
+    },
+    {
+      "from": "love",
+      "to": "lovely",
+      "type": "derive"
+    },
+    {
+      "from": "love",
+      "to": "move",
+      "type": "spelling"
+    },
+    {
+      "from": "move",
+      "to": "moving",
+      "type": "derive"
+    },
+    {
+      "from": "move",
+      "to": "movie",
+      "type": "spelling"
+    },
+    {
+      "from": "love",
+      "to": "glove",
+      "type": "spelling"
+    },
+    {
+      "from": "glove",
+      "to": "globe",
+      "type": "spelling"
+    },
+    {
+      "from": "glove",
+      "to": "above",
+      "type": "spelling"
+    },
+    {
+      "from": "member",
+      "to": "remember",
+      "type": "derive"
+    },
+    {
+      "from": "remember",
+      "to": "memory",
+      "type": "spelling"
+    },
+    {
+      "from": "memory",
+      "to": "memorial",
+      "type": "spelling"
+    },
+    {
+      "from": "remember",
+      "to": "number",
+      "type": "spelling"
+    },
+    {
+      "from": "member",
+      "to": "september",
+      "type": "compound"
+    },
+    {
+      "from": "september",
+      "to": "november",
+      "type": "spelling"
+    },
+    {
+      "from": "november",
+      "to": "december",
+      "type": "spelling"
+    },
+    {
+      "from": "low",
+      "to": "cloud",
+      "type": "spelling"
+    },
+    {
+      "from": "cloud",
+      "to": "cloudy",
+      "type": "derive"
+    },
+    {
+      "from": "low",
+      "to": "loudly",
+      "type": "spelling"
+    },
+    {
+      "from": "loudly",
+      "to": "loudspeaker",
+      "type": "compound"
+    },
+    {
+      "from": "low",
+      "to": "aloud",
+      "type": "spelling"
+    },
+    {
+      "from": "aloud",
+      "to": "proud",
+      "type": "spelling"
+    }
+  ]
+}

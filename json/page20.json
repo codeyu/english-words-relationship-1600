@@ -1,0 +1,727 @@
+{
+  "source": "速记1600单词 每周一页 第20页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "dry"
+    },
+    {
+      "id": "c2",
+      "center": "soil"
+    },
+    {
+      "id": "c3",
+      "center": "pig"
+    },
+    {
+      "id": "c4",
+      "center": "different"
+    },
+    {
+      "id": "c5",
+      "center": "top"
+    },
+    {
+      "id": "c6",
+      "center": "boy"
+    },
+    {
+      "id": "c7",
+      "center": "empty"
+    },
+    {
+      "id": "c8",
+      "center": "for"
+    }
+  ],
+  "words": [
+    {
+      "id": "dry",
+      "zh": "干的",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "draw",
+      "zh": "画",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "drum",
+      "zh": "鼓",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "drop",
+      "zh": "落下",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "try",
+      "zh": "尝试",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "trap",
+      "zh": "诱骗",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "dragon",
+      "zh": "龙",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "wrap",
+      "zh": "包、裹",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "trip",
+      "zh": "旅行",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "cry",
+      "zh": "哭",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "crag",
+      "zh": "悬崖",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "soil",
+      "zh": "土壤",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "spoil",
+      "zh": "变质",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "oil",
+      "zh": "石油",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "toilet",
+      "zh": "卫生间",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "solo",
+      "zh": "独唱曲",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "solve",
+      "zh": "解决",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "solar",
+      "zh": "日光的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "polar",
+      "zh": "极地的；两级的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pig",
+      "zh": "猪",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "dig",
+      "zh": "挖",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "digital",
+      "zh": "数字的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "spit",
+      "zh": "吐痰",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "spirit",
+      "zh": "精神",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "pity",
+      "zh": "同情",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "city",
+      "zh": "城市",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "electricity",
+      "zh": "电",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "electronic",
+      "zh": "电子的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "different",
+      "zh": "不同的",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "difference",
+      "zh": "不同",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "difficult",
+      "zh": "困难的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "difficulty",
+      "zh": "困难",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "top",
+      "zh": "顶部",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "topic",
+      "zh": "话题",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tomb",
+      "zh": "墓穴",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tomato",
+      "zh": "西红柿",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "potato",
+      "zh": "马铃薯",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "comb",
+      "zh": "梳子",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "boy",
+      "zh": "男孩",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "toy",
+      "zh": "玩具",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "box",
+      "zh": "盒子",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "body",
+      "zh": "身体",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "nobody",
+      "zh": "没人",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "nothing",
+      "zh": "没什么",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "nor",
+      "zh": "也不",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "enjoy",
+      "zh": "喜欢",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "enjoyment",
+      "zh": "娱乐",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "enjoyable",
+      "zh": "愉快的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "empty",
+      "zh": "空的",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "enemy",
+      "zh": "仇敌",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "energy",
+      "zh": "活力",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "energetic",
+      "zh": "充满活力的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "emperor",
+      "zh": "皇帝",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "employee",
+      "zh": "雇员",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "employer",
+      "zh": "雇主",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "employ",
+      "zh": "v.雇用",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "employment",
+      "zh": "n.雇用",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "for",
+      "zh": "曾经",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "forget",
+      "zh": "忘记",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "forgettable",
+      "zh": "可以忘记的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "forward",
+      "zh": "前进，向前",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "forwards",
+      "zh": "向前方",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "toward",
+      "zh": "朝",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "before",
+      "zh": "在...之前",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "foreign",
+      "zh": "国外的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "foreigner",
+      "zh": "外国人",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "dry",
+      "to": "draw",
+      "type": "spelling"
+    },
+    {
+      "from": "draw",
+      "to": "drum",
+      "type": "spelling"
+    },
+    {
+      "from": "draw",
+      "to": "drop",
+      "type": "spelling"
+    },
+    {
+      "from": "dry",
+      "to": "try",
+      "type": "spelling"
+    },
+    {
+      "from": "try",
+      "to": "trap",
+      "type": "spelling"
+    },
+    {
+      "from": "trap",
+      "to": "dragon",
+      "type": "spelling"
+    },
+    {
+      "from": "trap",
+      "to": "wrap",
+      "type": "spelling"
+    },
+    {
+      "from": "try",
+      "to": "trip",
+      "type": "spelling"
+    },
+    {
+      "from": "dry",
+      "to": "cry",
+      "type": "spelling"
+    },
+    {
+      "from": "cry",
+      "to": "crag",
+      "type": "spelling"
+    },
+    {
+      "from": "soil",
+      "to": "spoil",
+      "type": "spelling"
+    },
+    {
+      "from": "soil",
+      "to": "oil",
+      "type": "spelling"
+    },
+    {
+      "from": "soil",
+      "to": "toilet",
+      "type": "spelling"
+    },
+    {
+      "from": "soil",
+      "to": "solo",
+      "type": "spelling"
+    },
+    {
+      "from": "solo",
+      "to": "solve",
+      "type": "spelling"
+    },
+    {
+      "from": "solve",
+      "to": "solar",
+      "type": "spelling"
+    },
+    {
+      "from": "solar",
+      "to": "polar",
+      "type": "spelling"
+    },
+    {
+      "from": "pig",
+      "to": "dig",
+      "type": "spelling"
+    },
+    {
+      "from": "dig",
+      "to": "digital",
+      "type": "spelling"
+    },
+    {
+      "from": "pig",
+      "to": "spit",
+      "type": "spelling"
+    },
+    {
+      "from": "spit",
+      "to": "spirit",
+      "type": "spelling"
+    },
+    {
+      "from": "pig",
+      "to": "pity",
+      "type": "spelling"
+    },
+    {
+      "from": "pity",
+      "to": "city",
+      "type": "spelling"
+    },
+    {
+      "from": "city",
+      "to": "electricity",
+      "type": "compound"
+    },
+    {
+      "from": "electricity",
+      "to": "electronic",
+      "type": "spelling"
+    },
+    {
+      "from": "different",
+      "to": "difference",
+      "type": "derive"
+    },
+    {
+      "from": "different",
+      "to": "difficult",
+      "type": "spelling"
+    },
+    {
+      "from": "difficult",
+      "to": "difficulty",
+      "type": "derive"
+    },
+    {
+      "from": "top",
+      "to": "topic",
+      "type": "spelling"
+    },
+    {
+      "from": "top",
+      "to": "tomb",
+      "type": "spelling"
+    },
+    {
+      "from": "tomb",
+      "to": "tomato",
+      "type": "spelling"
+    },
+    {
+      "from": "tomato",
+      "to": "potato",
+      "type": "spelling"
+    },
+    {
+      "from": "tomb",
+      "to": "comb",
+      "type": "spelling"
+    },
+    {
+      "from": "boy",
+      "to": "toy",
+      "type": "spelling"
+    },
+    {
+      "from": "boy",
+      "to": "box",
+      "type": "spelling"
+    },
+    {
+      "from": "boy",
+      "to": "body",
+      "type": "spelling"
+    },
+    {
+      "from": "body",
+      "to": "nobody",
+      "type": "compound"
+    },
+    {
+      "from": "nobody",
+      "to": "nothing",
+      "type": "spelling"
+    },
+    {
+      "from": "nothing",
+      "to": "nor",
+      "type": "spelling"
+    },
+    {
+      "from": "boy",
+      "to": "enjoy",
+      "type": "compound"
+    },
+    {
+      "from": "enjoy",
+      "to": "enjoyment",
+      "type": "derive"
+    },
+    {
+      "from": "enjoyment",
+      "to": "enjoyable",
+      "type": "derive"
+    },
+    {
+      "from": "empty",
+      "to": "enemy",
+      "type": "spelling"
+    },
+    {
+      "from": "enemy",
+      "to": "energy",
+      "type": "spelling"
+    },
+    {
+      "from": "energy",
+      "to": "energetic",
+      "type": "derive"
+    },
+    {
+      "from": "empty",
+      "to": "emperor",
+      "type": "spelling"
+    },
+    {
+      "from": "emperor",
+      "to": "employee",
+      "type": "spelling"
+    },
+    {
+      "from": "employee",
+      "to": "employer",
+      "type": "spelling"
+    },
+    {
+      "from": "employer",
+      "to": "employ",
+      "type": "derive"
+    },
+    {
+      "from": "employ",
+      "to": "employment",
+      "type": "derive"
+    },
+    {
+      "from": "for",
+      "to": "forget",
+      "type": "compound"
+    },
+    {
+      "from": "forget",
+      "to": "forgettable",
+      "type": "derive"
+    },
+    {
+      "from": "for",
+      "to": "forward",
+      "type": "compound"
+    },
+    {
+      "from": "forward",
+      "to": "forwards",
+      "type": "derive"
+    },
+    {
+      "from": "forward",
+      "to": "toward",
+      "type": "spelling"
+    },
+    {
+      "from": "for",
+      "to": "before",
+      "type": "compound"
+    },
+    {
+      "from": "for",
+      "to": "foreign",
+      "type": "spelling"
+    },
+    {
+      "from": "foreign",
+      "to": "foreigner",
+      "type": "derive"
+    }
+  ]
+}

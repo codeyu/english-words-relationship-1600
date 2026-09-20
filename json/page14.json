@@ -1,0 +1,727 @@
+{
+  "source": "速记1600单词 每周一页 第14页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "write"
+    },
+    {
+      "id": "c2",
+      "center": "warm"
+    },
+    {
+      "id": "c3",
+      "center": "wait"
+    },
+    {
+      "id": "c4",
+      "center": "any"
+    },
+    {
+      "id": "c5",
+      "center": "sit"
+    },
+    {
+      "id": "c6",
+      "center": "six"
+    },
+    {
+      "id": "c7",
+      "center": "bag"
+    },
+    {
+      "id": "c8",
+      "center": "bird"
+    }
+  ],
+  "words": [
+    {
+      "id": "write",
+      "zh": "写",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "wrist",
+      "zh": "手腕",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "risk",
+      "zh": "冒险",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "risky",
+      "zh": "冒险的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "rewrite",
+      "zh": "改写",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "favorite",
+      "zh": "最喜欢",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "writer",
+      "zh": "作家",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "writing",
+      "zh": "作品",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "warm",
+      "zh": "温暖的",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "wear",
+      "zh": "穿",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "warmth",
+      "zh": "温暖",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "worm",
+      "zh": "蠕虫",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "worn",
+      "zh": "疲惫的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "worst",
+      "zh": "最坏的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "worse",
+      "zh": "更坏的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "corn",
+      "zh": "谷物",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "corner",
+      "zh": "角落",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "wait",
+      "zh": "等待",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "waist",
+      "zh": "腰",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "waste",
+      "zh": "浪费",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "west",
+      "zh": "西方",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "waiter",
+      "zh": "男服务员",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "waitress",
+      "zh": "女服务员",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "monitor",
+      "zh": "班长",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "waiting",
+      "zh": "等待",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "any",
+      "zh": "任何",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "anyway",
+      "zh": "总之，而且",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "anybody",
+      "zh": "任何人",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "anything",
+      "zh": "任何事",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "anytime",
+      "zh": "任何时候",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "anyone",
+      "zh": "任何人",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "sit",
+      "zh": "坐",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "sir",
+      "zh": "先生",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "visit",
+      "zh": "拜访",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "visitor",
+      "zh": "拜访者",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "situation",
+      "zh": "处境",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "opposite",
+      "zh": "相反的，对面的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "pop",
+      "zh": "流行音乐",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "popular",
+      "zh": "受欢迎的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "six",
+      "zh": "六",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "sixteen",
+      "zh": "十六",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "sixty",
+      "zh": "六十",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "sixth",
+      "zh": "第六",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fifth",
+      "zh": "第五",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fifteen",
+      "zh": "十五",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "fifty",
+      "zh": "五十",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "twelfth",
+      "zh": "第十二",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "twelve",
+      "zh": "十二",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "bag",
+      "zh": "书包",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "bet",
+      "zh": "打赌",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "belt",
+      "zh": "皮带",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "between",
+      "zh": "在...之间",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "beg",
+      "zh": "乞求",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "begin",
+      "zh": "开始",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "beginning",
+      "zh": "开头",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bad",
+      "zh": "坏的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "badly",
+      "zh": "拙劣地，差",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "badminton",
+      "zh": "羽毛球",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "bird",
+      "zh": "鸟",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "birth",
+      "zh": "出生",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "birthday",
+      "zh": "生日",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "third",
+      "zh": "第三",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "thirteen",
+      "zh": "十三",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "thirty",
+      "zh": "三十",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "thirsty",
+      "zh": "口渴的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "dirty",
+      "zh": "脏的",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "write",
+      "to": "wrist",
+      "type": "spelling"
+    },
+    {
+      "from": "wrist",
+      "to": "risk",
+      "type": "spelling"
+    },
+    {
+      "from": "risk",
+      "to": "risky",
+      "type": "derive"
+    },
+    {
+      "from": "write",
+      "to": "rewrite",
+      "type": "compound"
+    },
+    {
+      "from": "rewrite",
+      "to": "favorite",
+      "type": "spelling"
+    },
+    {
+      "from": "write",
+      "to": "writer",
+      "type": "derive"
+    },
+    {
+      "from": "writer",
+      "to": "writing",
+      "type": "derive"
+    },
+    {
+      "from": "warm",
+      "to": "wear",
+      "type": "spelling"
+    },
+    {
+      "from": "warm",
+      "to": "warmth",
+      "type": "derive"
+    },
+    {
+      "from": "warm",
+      "to": "worm",
+      "type": "spelling"
+    },
+    {
+      "from": "worm",
+      "to": "worn",
+      "type": "spelling"
+    },
+    {
+      "from": "worm",
+      "to": "worst",
+      "type": "spelling"
+    },
+    {
+      "from": "worst",
+      "to": "worse",
+      "type": "spelling"
+    },
+    {
+      "from": "worm",
+      "to": "corn",
+      "type": "spelling"
+    },
+    {
+      "from": "corn",
+      "to": "corner",
+      "type": "derive"
+    },
+    {
+      "from": "wait",
+      "to": "waist",
+      "type": "spelling"
+    },
+    {
+      "from": "waist",
+      "to": "waste",
+      "type": "spelling"
+    },
+    {
+      "from": "waste",
+      "to": "west",
+      "type": "spelling"
+    },
+    {
+      "from": "wait",
+      "to": "waiter",
+      "type": "derive"
+    },
+    {
+      "from": "waiter",
+      "to": "waitress",
+      "type": "derive"
+    },
+    {
+      "from": "waitress",
+      "to": "monitor",
+      "type": "spelling"
+    },
+    {
+      "from": "wait",
+      "to": "waiting",
+      "type": "derive"
+    },
+    {
+      "from": "any",
+      "to": "anyway",
+      "type": "compound"
+    },
+    {
+      "from": "any",
+      "to": "anybody",
+      "type": "compound"
+    },
+    {
+      "from": "anybody",
+      "to": "anything",
+      "type": "compound"
+    },
+    {
+      "from": "anybody",
+      "to": "anytime",
+      "type": "compound"
+    },
+    {
+      "from": "anybody",
+      "to": "anyone",
+      "type": "compound"
+    },
+    {
+      "from": "sit",
+      "to": "sir",
+      "type": "spelling"
+    },
+    {
+      "from": "sit",
+      "to": "visit",
+      "type": "spelling"
+    },
+    {
+      "from": "visit",
+      "to": "visitor",
+      "type": "derive"
+    },
+    {
+      "from": "sit",
+      "to": "situation",
+      "type": "spelling"
+    },
+    {
+      "from": "situation",
+      "to": "opposite",
+      "type": "spelling"
+    },
+    {
+      "from": "opposite",
+      "to": "pop",
+      "type": "spelling"
+    },
+    {
+      "from": "pop",
+      "to": "popular",
+      "type": "spelling"
+    },
+    {
+      "from": "six",
+      "to": "sixteen",
+      "type": "derive"
+    },
+    {
+      "from": "sixteen",
+      "to": "sixty",
+      "type": "spelling"
+    },
+    {
+      "from": "sixteen",
+      "to": "sixth",
+      "type": "spelling"
+    },
+    {
+      "from": "sixth",
+      "to": "fifth",
+      "type": "spelling"
+    },
+    {
+      "from": "fifth",
+      "to": "fifteen",
+      "type": "derive"
+    },
+    {
+      "from": "fifteen",
+      "to": "fifty",
+      "type": "spelling"
+    },
+    {
+      "from": "fifth",
+      "to": "twelfth",
+      "type": "spelling"
+    },
+    {
+      "from": "twelfth",
+      "to": "twelve",
+      "type": "derive"
+    },
+    {
+      "from": "bag",
+      "to": "bet",
+      "type": "spelling"
+    },
+    {
+      "from": "bet",
+      "to": "belt",
+      "type": "spelling"
+    },
+    {
+      "from": "bet",
+      "to": "between",
+      "type": "compound"
+    },
+    {
+      "from": "bag",
+      "to": "beg",
+      "type": "spelling"
+    },
+    {
+      "from": "beg",
+      "to": "begin",
+      "type": "spelling"
+    },
+    {
+      "from": "begin",
+      "to": "beginning",
+      "type": "derive"
+    },
+    {
+      "from": "bag",
+      "to": "bad",
+      "type": "spelling"
+    },
+    {
+      "from": "bad",
+      "to": "badly",
+      "type": "derive"
+    },
+    {
+      "from": "bad",
+      "to": "badminton",
+      "type": "compound"
+    },
+    {
+      "from": "bird",
+      "to": "birth",
+      "type": "spelling"
+    },
+    {
+      "from": "birth",
+      "to": "birthday",
+      "type": "compound"
+    },
+    {
+      "from": "bird",
+      "to": "third",
+      "type": "spelling"
+    },
+    {
+      "from": "third",
+      "to": "thirteen",
+      "type": "derive"
+    },
+    {
+      "from": "third",
+      "to": "thirty",
+      "type": "spelling"
+    },
+    {
+      "from": "thirty",
+      "to": "thirsty",
+      "type": "spelling"
+    },
+    {
+      "from": "thirty",
+      "to": "dirty",
+      "type": "spelling"
+    }
+  ]
+}

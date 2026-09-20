@@ -1,0 +1,793 @@
+{
+  "source": "速记1600单词 每周一页 第8页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "port"
+    },
+    {
+      "id": "c2",
+      "center": "late"
+    },
+    {
+      "id": "c3",
+      "center": "police"
+    },
+    {
+      "id": "c4",
+      "center": "quick"
+    },
+    {
+      "id": "c5",
+      "center": "live"
+    },
+    {
+      "id": "c6",
+      "center": "hen"
+    },
+    {
+      "id": "c7",
+      "center": "are"
+    },
+    {
+      "id": "c8",
+      "center": "ice"
+    }
+  ],
+  "words": [
+    {
+      "id": "port",
+      "zh": "港口",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "sport",
+      "zh": "运动",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "transport",
+      "zh": "运输（英式）",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "transportation",
+      "zh": "运输（美式）",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "support",
+      "zh": "支持",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "suppose",
+      "zh": "猜想",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "report",
+      "zh": "报道",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "late",
+      "zh": "迟到",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "lately",
+      "zh": "近来",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "plate",
+      "zh": "盘子",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "rate",
+      "zh": "价格",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "chocolate",
+      "zh": "巧克力",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "translate",
+      "zh": "翻译",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "later",
+      "zh": "以后，随后",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "latest",
+      "zh": "最近的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "water",
+      "zh": "水",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "waterfall",
+      "zh": "瀑布",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "waterpolo",
+      "zh": "水球",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "police",
+      "zh": "警察",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "policeman",
+      "zh": "男警察",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "polite",
+      "zh": "有礼貌的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "politely",
+      "zh": "有礼貌地",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "policy",
+      "zh": "政策",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "voice",
+      "zh": "噪音",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "advice",
+      "zh": "劝告",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "advise",
+      "zh": "劝告",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "choice",
+      "zh": "选择",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "twice",
+      "zh": "两次",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "quick",
+      "zh": "快的",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "quickly",
+      "zh": "快地",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "sick",
+      "zh": "不舒服的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "sickly",
+      "zh": "常生病的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "pick",
+      "zh": "拾起",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "tick",
+      "zh": "记号",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "stick",
+      "zh": "棍棒",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "chopstick",
+      "zh": "筷子",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ticket",
+      "zh": "票",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "live",
+      "zh": "生存，居住",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "alive",
+      "zh": "活着的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "lively",
+      "zh": "活泼的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "living",
+      "zh": "活着的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "line",
+      "zh": "线条",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "online",
+      "zh": "联机的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "mine",
+      "zh": "我的，矿井",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "mind",
+      "zh": "想法",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "hen",
+      "zh": "母鸡",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "when",
+      "zh": "什么时候",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "whenever",
+      "zh": "无论何时",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "hey",
+      "zh": "喂",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "then",
+      "zh": "然后",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "them",
+      "zh": "他们",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "themselves",
+      "zh": "他们自己",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "theme",
+      "zh": "主题",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "they",
+      "zh": "他们",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "are",
+      "zh": "是",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "dare",
+      "zh": "敢",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "dark",
+      "zh": "黑暗的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "area",
+      "zh": "范围",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "compare",
+      "zh": "比较",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "comparative",
+      "zh": "相比的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "comparison",
+      "zh": "对照",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "prepare",
+      "zh": "准备",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "ice",
+      "zh": "冰",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "iceberg",
+      "zh": "冰山",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "icon",
+      "zh": "偶像",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "nice",
+      "zh": "漂亮",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "notice",
+      "zh": "注意",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "juice",
+      "zh": "果汁",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "office",
+      "zh": "办公室",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "officer",
+      "zh": "官员",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "offer",
+      "zh": "提供",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "off",
+      "zh": "离开",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "port",
+      "to": "sport",
+      "type": "spelling"
+    },
+    {
+      "from": "sport",
+      "to": "transport",
+      "type": "spelling"
+    },
+    {
+      "from": "transport",
+      "to": "transportation",
+      "type": "derive"
+    },
+    {
+      "from": "port",
+      "to": "support",
+      "type": "spelling"
+    },
+    {
+      "from": "support",
+      "to": "suppose",
+      "type": "spelling"
+    },
+    {
+      "from": "port",
+      "to": "report",
+      "type": "spelling"
+    },
+    {
+      "from": "late",
+      "to": "lately",
+      "type": "derive"
+    },
+    {
+      "from": "lately",
+      "to": "plate",
+      "type": "spelling"
+    },
+    {
+      "from": "late",
+      "to": "rate",
+      "type": "spelling"
+    },
+    {
+      "from": "late",
+      "to": "chocolate",
+      "type": "spelling"
+    },
+    {
+      "from": "late",
+      "to": "translate",
+      "type": "spelling"
+    },
+    {
+      "from": "late",
+      "to": "later",
+      "type": "derive"
+    },
+    {
+      "from": "later",
+      "to": "latest",
+      "type": "derive"
+    },
+    {
+      "from": "later",
+      "to": "water",
+      "type": "spelling"
+    },
+    {
+      "from": "water",
+      "to": "waterfall",
+      "type": "compound"
+    },
+    {
+      "from": "water",
+      "to": "waterpolo",
+      "type": "compound"
+    },
+    {
+      "from": "police",
+      "to": "policeman",
+      "type": "compound"
+    },
+    {
+      "from": "police",
+      "to": "polite",
+      "type": "spelling"
+    },
+    {
+      "from": "polite",
+      "to": "politely",
+      "type": "derive"
+    },
+    {
+      "from": "police",
+      "to": "policy",
+      "type": "spelling"
+    },
+    {
+      "from": "police",
+      "to": "voice",
+      "type": "spelling"
+    },
+    {
+      "from": "voice",
+      "to": "advice",
+      "type": "spelling"
+    },
+    {
+      "from": "advice",
+      "to": "advise",
+      "type": "spelling"
+    },
+    {
+      "from": "voice",
+      "to": "choice",
+      "type": "spelling"
+    },
+    {
+      "from": "police",
+      "to": "twice",
+      "type": "spelling"
+    },
+    {
+      "from": "quick",
+      "to": "quickly",
+      "type": "derive"
+    },
+    {
+      "from": "quick",
+      "to": "sick",
+      "type": "spelling"
+    },
+    {
+      "from": "sick",
+      "to": "sickly",
+      "type": "derive"
+    },
+    {
+      "from": "quick",
+      "to": "pick",
+      "type": "spelling"
+    },
+    {
+      "from": "quick",
+      "to": "tick",
+      "type": "spelling"
+    },
+    {
+      "from": "tick",
+      "to": "stick",
+      "type": "spelling"
+    },
+    {
+      "from": "stick",
+      "to": "chopstick",
+      "type": "compound"
+    },
+    {
+      "from": "tick",
+      "to": "ticket",
+      "type": "spelling"
+    },
+    {
+      "from": "live",
+      "to": "alive",
+      "type": "derive"
+    },
+    {
+      "from": "alive",
+      "to": "lively",
+      "type": "spelling"
+    },
+    {
+      "from": "alive",
+      "to": "living",
+      "type": "spelling"
+    },
+    {
+      "from": "live",
+      "to": "line",
+      "type": "spelling"
+    },
+    {
+      "from": "line",
+      "to": "online",
+      "type": "compound"
+    },
+    {
+      "from": "line",
+      "to": "mine",
+      "type": "spelling"
+    },
+    {
+      "from": "mine",
+      "to": "mind",
+      "type": "spelling"
+    },
+    {
+      "from": "hen",
+      "to": "when",
+      "type": "spelling"
+    },
+    {
+      "from": "when",
+      "to": "whenever",
+      "type": "derive"
+    },
+    {
+      "from": "hen",
+      "to": "hey",
+      "type": "spelling"
+    },
+    {
+      "from": "hen",
+      "to": "then",
+      "type": "spelling"
+    },
+    {
+      "from": "then",
+      "to": "them",
+      "type": "spelling"
+    },
+    {
+      "from": "them",
+      "to": "themselves",
+      "type": "compound"
+    },
+    {
+      "from": "them",
+      "to": "theme",
+      "type": "spelling"
+    },
+    {
+      "from": "then",
+      "to": "they",
+      "type": "spelling"
+    },
+    {
+      "from": "are",
+      "to": "dare",
+      "type": "spelling"
+    },
+    {
+      "from": "dare",
+      "to": "dark",
+      "type": "spelling"
+    },
+    {
+      "from": "are",
+      "to": "area",
+      "type": "spelling"
+    },
+    {
+      "from": "are",
+      "to": "compare",
+      "type": "spelling"
+    },
+    {
+      "from": "compare",
+      "to": "comparative",
+      "type": "derive"
+    },
+    {
+      "from": "comparative",
+      "to": "comparison",
+      "type": "derive"
+    },
+    {
+      "from": "compare",
+      "to": "prepare",
+      "type": "spelling"
+    },
+    {
+      "from": "ice",
+      "to": "iceberg",
+      "type": "compound"
+    },
+    {
+      "from": "iceberg",
+      "to": "icon",
+      "type": "spelling"
+    },
+    {
+      "from": "ice",
+      "to": "nice",
+      "type": "spelling"
+    },
+    {
+      "from": "nice",
+      "to": "notice",
+      "type": "spelling"
+    },
+    {
+      "from": "ice",
+      "to": "juice",
+      "type": "spelling"
+    },
+    {
+      "from": "ice",
+      "to": "office",
+      "type": "spelling"
+    },
+    {
+      "from": "office",
+      "to": "officer",
+      "type": "derive"
+    },
+    {
+      "from": "officer",
+      "to": "offer",
+      "type": "spelling"
+    },
+    {
+      "from": "offer",
+      "to": "off",
+      "type": "compound"
+    }
+  ]
+}

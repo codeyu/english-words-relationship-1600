@@ -1,0 +1,848 @@
+{
+  "source": "速记1600单词 每周一页 第24页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "duck"
+    },
+    {
+      "id": "c2",
+      "center": "prove"
+    },
+    {
+      "id": "c3",
+      "center": "thank"
+    },
+    {
+      "id": "c4",
+      "center": "seek"
+    },
+    {
+      "id": "c5",
+      "center": "face"
+    },
+    {
+      "id": "c6",
+      "center": "post"
+    },
+    {
+      "id": "c7",
+      "center": "air"
+    },
+    {
+      "id": "c8",
+      "center": "tell"
+    }
+  ],
+  "words": [
+    {
+      "id": "duck",
+      "zh": "鸭子",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "luck",
+      "zh": "运气",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lucky",
+      "zh": "幸运的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "luckily",
+      "zh": "幸运地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "truck",
+      "zh": "卡车",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "true",
+      "zh": "真实的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "truly",
+      "zh": "真实地",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "truth",
+      "zh": "事实",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "trumpet",
+      "zh": "小喇叭",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "prove",
+      "zh": "证明",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "improve",
+      "zh": "改善",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "grove",
+      "zh": "树丛",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "provide",
+      "zh": "提供",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "proverb",
+      "zh": "谚语",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "verb",
+      "zh": "动词",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "adverb",
+      "zh": "副词",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "thank",
+      "zh": "谢谢",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "that",
+      "zh": "那个",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "what",
+      "zh": "什么",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "than",
+      "zh": "比",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "thanks",
+      "zh": "感谢",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "thanksgiving",
+      "zh": "感恩节",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "thankful",
+      "zh": "感谢的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "bank",
+      "zh": "河岸",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "bang",
+      "zh": "猛击",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "seek",
+      "zh": "寻找",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "see",
+      "zh": "看见",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "seem",
+      "zh": "似乎",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "week",
+      "zh": "星期",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "weak",
+      "zh": "弱的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "speak",
+      "zh": "说",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "speaker",
+      "zh": "扩音器",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "wear",
+      "zh": "穿",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "weekly",
+      "zh": "每周的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "weekday",
+      "zh": "工作日",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "weekend",
+      "zh": "周末",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "face",
+      "zh": "面对",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "race",
+      "zh": "比赛",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "space",
+      "zh": "太空",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spaceship",
+      "zh": "宇宙飞船",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spacecraft",
+      "zh": "航天器",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spade",
+      "zh": "铲子",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "spare",
+      "zh": "节省",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "surface",
+      "zh": "表面",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "surf",
+      "zh": "冲浪",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "surfer",
+      "zh": "冲浪运动员",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "surfing",
+      "zh": "冲浪运动",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "post",
+      "zh": "邮寄",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "postal",
+      "zh": "邮政的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "poster",
+      "zh": "海报",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "postman",
+      "zh": "邮递员",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "postcard",
+      "zh": "明信片",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "pot",
+      "zh": "壶",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "potato",
+      "zh": "马铃薯",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "tomato",
+      "zh": "西红柿",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "cost",
+      "zh": "价格",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "costume",
+      "zh": "戏装",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "coast",
+      "zh": "海岸",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "ghost",
+      "zh": "幽灵",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "air",
+      "zh": "天空，空气",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "fair",
+      "zh": "公平的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "fail",
+      "zh": "在...失败",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "airport",
+      "zh": "机场",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "hair",
+      "zh": "头发",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "pair",
+      "zh": "一双",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "repair",
+      "zh": "修理",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "haircut",
+      "zh": "理发",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "chair",
+      "zh": "椅子",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "chain",
+      "zh": "链子",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "chairman",
+      "zh": "主席",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "tell",
+      "zh": "告诉",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "tall",
+      "zh": "高的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "fall",
+      "zh": "落下",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "fell",
+      "zh": "落下（fall的过去式）",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "well",
+      "zh": "好地",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "bell",
+      "zh": "铃",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "retell",
+      "zh": "重述",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "duck",
+      "to": "luck",
+      "type": "spelling"
+    },
+    {
+      "from": "luck",
+      "to": "lucky",
+      "type": "derive"
+    },
+    {
+      "from": "lucky",
+      "to": "luckily",
+      "type": "derive"
+    },
+    {
+      "from": "duck",
+      "to": "truck",
+      "type": "spelling"
+    },
+    {
+      "from": "truck",
+      "to": "true",
+      "type": "spelling"
+    },
+    {
+      "from": "true",
+      "to": "truly",
+      "type": "derive"
+    },
+    {
+      "from": "true",
+      "to": "truth",
+      "type": "derive"
+    },
+    {
+      "from": "truck",
+      "to": "trumpet",
+      "type": "spelling"
+    },
+    {
+      "from": "prove",
+      "to": "improve",
+      "type": "spelling"
+    },
+    {
+      "from": "prove",
+      "to": "grove",
+      "type": "spelling"
+    },
+    {
+      "from": "prove",
+      "to": "provide",
+      "type": "spelling"
+    },
+    {
+      "from": "prove",
+      "to": "proverb",
+      "type": "spelling"
+    },
+    {
+      "from": "proverb",
+      "to": "verb",
+      "type": "compound"
+    },
+    {
+      "from": "verb",
+      "to": "adverb",
+      "type": "spelling"
+    },
+    {
+      "from": "thank",
+      "to": "that",
+      "type": "spelling"
+    },
+    {
+      "from": "that",
+      "to": "what",
+      "type": "spelling"
+    },
+    {
+      "from": "that",
+      "to": "than",
+      "type": "spelling"
+    },
+    {
+      "from": "thank",
+      "to": "thanks",
+      "type": "derive"
+    },
+    {
+      "from": "thanks",
+      "to": "thanksgiving",
+      "type": "compound"
+    },
+    {
+      "from": "thanks",
+      "to": "thankful",
+      "type": "derive"
+    },
+    {
+      "from": "thank",
+      "to": "bank",
+      "type": "spelling"
+    },
+    {
+      "from": "bank",
+      "to": "bang",
+      "type": "spelling"
+    },
+    {
+      "from": "seek",
+      "to": "see",
+      "type": "spelling"
+    },
+    {
+      "from": "see",
+      "to": "seem",
+      "type": "spelling"
+    },
+    {
+      "from": "seek",
+      "to": "week",
+      "type": "spelling"
+    },
+    {
+      "from": "week",
+      "to": "weak",
+      "type": "spelling"
+    },
+    {
+      "from": "weak",
+      "to": "speak",
+      "type": "spelling"
+    },
+    {
+      "from": "speak",
+      "to": "speaker",
+      "type": "derive"
+    },
+    {
+      "from": "weak",
+      "to": "wear",
+      "type": "spelling"
+    },
+    {
+      "from": "week",
+      "to": "weekly",
+      "type": "derive"
+    },
+    {
+      "from": "week",
+      "to": "weekday",
+      "type": "compound"
+    },
+    {
+      "from": "weekday",
+      "to": "weekend",
+      "type": "spelling"
+    },
+    {
+      "from": "face",
+      "to": "race",
+      "type": "spelling"
+    },
+    {
+      "from": "face",
+      "to": "space",
+      "type": "spelling"
+    },
+    {
+      "from": "space",
+      "to": "spaceship",
+      "type": "compound"
+    },
+    {
+      "from": "spaceship",
+      "to": "spacecraft",
+      "type": "spelling"
+    },
+    {
+      "from": "space",
+      "to": "spade",
+      "type": "spelling"
+    },
+    {
+      "from": "spade",
+      "to": "spare",
+      "type": "spelling"
+    },
+    {
+      "from": "face",
+      "to": "surface",
+      "type": "compound"
+    },
+    {
+      "from": "surface",
+      "to": "surf",
+      "type": "compound"
+    },
+    {
+      "from": "surf",
+      "to": "surfer",
+      "type": "derive"
+    },
+    {
+      "from": "surface",
+      "to": "surfing",
+      "type": "spelling"
+    },
+    {
+      "from": "post",
+      "to": "postal",
+      "type": "derive"
+    },
+    {
+      "from": "postal",
+      "to": "poster",
+      "type": "spelling"
+    },
+    {
+      "from": "poster",
+      "to": "postman",
+      "type": "spelling"
+    },
+    {
+      "from": "postal",
+      "to": "postcard",
+      "type": "compound"
+    },
+    {
+      "from": "post",
+      "to": "pot",
+      "type": "spelling"
+    },
+    {
+      "from": "pot",
+      "to": "potato",
+      "type": "spelling"
+    },
+    {
+      "from": "potato",
+      "to": "tomato",
+      "type": "spelling"
+    },
+    {
+      "from": "post",
+      "to": "cost",
+      "type": "spelling"
+    },
+    {
+      "from": "cost",
+      "to": "costume",
+      "type": "spelling"
+    },
+    {
+      "from": "cost",
+      "to": "coast",
+      "type": "spelling"
+    },
+    {
+      "from": "cost",
+      "to": "ghost",
+      "type": "spelling"
+    },
+    {
+      "from": "air",
+      "to": "fair",
+      "type": "spelling"
+    },
+    {
+      "from": "fair",
+      "to": "fail",
+      "type": "spelling"
+    },
+    {
+      "from": "air",
+      "to": "airport",
+      "type": "compound"
+    },
+    {
+      "from": "air",
+      "to": "hair",
+      "type": "spelling"
+    },
+    {
+      "from": "hair",
+      "to": "pair",
+      "type": "spelling"
+    },
+    {
+      "from": "pair",
+      "to": "repair",
+      "type": "spelling"
+    },
+    {
+      "from": "hair",
+      "to": "haircut",
+      "type": "compound"
+    },
+    {
+      "from": "air",
+      "to": "chair",
+      "type": "spelling"
+    },
+    {
+      "from": "chair",
+      "to": "chain",
+      "type": "spelling"
+    },
+    {
+      "from": "chair",
+      "to": "chairman",
+      "type": "compound"
+    },
+    {
+      "from": "tell",
+      "to": "tall",
+      "type": "spelling"
+    },
+    {
+      "from": "tall",
+      "to": "fall",
+      "type": "spelling"
+    },
+    {
+      "from": "fall",
+      "to": "fell",
+      "type": "derive"
+    },
+    {
+      "from": "tell",
+      "to": "well",
+      "type": "spelling"
+    },
+    {
+      "from": "well",
+      "to": "bell",
+      "type": "spelling"
+    },
+    {
+      "from": "tell",
+      "to": "retell",
+      "type": "compound"
+    }
+  ]
+}

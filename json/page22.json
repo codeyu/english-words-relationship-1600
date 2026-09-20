@@ -1,0 +1,683 @@
+{
+  "source": "速记1600单词 每周一页 第22页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "sure"
+    },
+    {
+      "id": "c2",
+      "center": "let"
+    },
+    {
+      "id": "c3",
+      "center": "rush"
+    },
+    {
+      "id": "c4",
+      "center": "pub"
+    },
+    {
+      "id": "c5",
+      "center": "ten"
+    },
+    {
+      "id": "c6",
+      "center": "exit"
+    },
+    {
+      "id": "c7",
+      "center": "was"
+    },
+    {
+      "id": "c8",
+      "center": "ill"
+    }
+  ],
+  "words": [
+    {
+      "id": "sure",
+      "zh": "确信的",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "leisure",
+      "zh": "悠闲",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "survey",
+      "zh": "调查",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "unsure",
+      "zh": "不确定的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "pleasure",
+      "zh": "愉快",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "please",
+      "zh": "请",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "pleased",
+      "zh": "高兴的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "pleasant",
+      "zh": "令人愉快的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "let",
+      "zh": "让",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "leg",
+      "zh": "腿",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "left",
+      "zh": "左边",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "vet",
+      "zh": "兽医",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "very",
+      "zh": "非常",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "set",
+      "zh": "摆放",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "rush",
+      "zh": "冲",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "push",
+      "zh": "推",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "brush",
+      "zh": "刷",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "toothbrush",
+      "zh": "牙刷",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "russian",
+      "zh": "俄罗斯人",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "pub",
+      "zh": "酒吧",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "put",
+      "zh": "放",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "nut",
+      "zh": "坚果",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "public",
+      "zh": "公共的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "cub",
+      "zh": "幼兽",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "club",
+      "zh": "俱乐部",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "climb",
+      "zh": "爬",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "climate",
+      "zh": "气候",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "scuba",
+      "zh": "水肺",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "ten",
+      "zh": "十",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "sentence",
+      "zh": "句子",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "senior",
+      "zh": "资深的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "term",
+      "zh": "学期",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tennis",
+      "zh": "网球",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "often",
+      "zh": "经常",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "tent",
+      "zh": "帐篷",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "cent",
+      "zh": "一分钱硬币",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "century",
+      "zh": "世纪",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "centre",
+      "zh": "中心",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "extent",
+      "zh": "程度",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "exit",
+      "zh": "出口",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "excite",
+      "zh": "使兴奋",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "excited",
+      "zh": "兴奋的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "exciting",
+      "zh": "令人兴奋的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "exercise",
+      "zh": "练习",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "except",
+      "zh": "除了",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "accept",
+      "zh": "接受",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "accident",
+      "zh": "事故",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "excellent",
+      "zh": "优秀的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "was",
+      "zh": "是",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "wag",
+      "zh": "摇摆",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wave",
+      "zh": "挥手",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "leave",
+      "zh": "离开",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "pavement",
+      "zh": "人行道",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "avenue",
+      "zh": "林荫道",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "ill",
+      "zh": "病的",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "brilliant",
+      "zh": "优秀的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "thriller",
+      "zh": "惊险小说",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "kill",
+      "zh": "杀",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "kilo",
+      "zh": "千克",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "kilometer",
+      "zh": "千米",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "meter",
+      "zh": "米",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "metal",
+      "zh": "金属",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "sure",
+      "to": "leisure",
+      "type": "spelling"
+    },
+    {
+      "from": "leisure",
+      "to": "survey",
+      "type": "spelling"
+    },
+    {
+      "from": "sure",
+      "to": "unsure",
+      "type": "derive"
+    },
+    {
+      "from": "sure",
+      "to": "pleasure",
+      "type": "spelling"
+    },
+    {
+      "from": "pleasure",
+      "to": "please",
+      "type": "spelling"
+    },
+    {
+      "from": "please",
+      "to": "pleased",
+      "type": "derive"
+    },
+    {
+      "from": "pleasure",
+      "to": "pleasant",
+      "type": "spelling"
+    },
+    {
+      "from": "let",
+      "to": "leg",
+      "type": "spelling"
+    },
+    {
+      "from": "let",
+      "to": "left",
+      "type": "spelling"
+    },
+    {
+      "from": "let",
+      "to": "vet",
+      "type": "spelling"
+    },
+    {
+      "from": "vet",
+      "to": "very",
+      "type": "spelling"
+    },
+    {
+      "from": "let",
+      "to": "set",
+      "type": "spelling"
+    },
+    {
+      "from": "rush",
+      "to": "push",
+      "type": "spelling"
+    },
+    {
+      "from": "rush",
+      "to": "brush",
+      "type": "spelling"
+    },
+    {
+      "from": "brush",
+      "to": "toothbrush",
+      "type": "compound"
+    },
+    {
+      "from": "brush",
+      "to": "russian",
+      "type": "spelling"
+    },
+    {
+      "from": "pub",
+      "to": "put",
+      "type": "spelling"
+    },
+    {
+      "from": "put",
+      "to": "nut",
+      "type": "spelling"
+    },
+    {
+      "from": "pub",
+      "to": "public",
+      "type": "spelling"
+    },
+    {
+      "from": "pub",
+      "to": "cub",
+      "type": "spelling"
+    },
+    {
+      "from": "cub",
+      "to": "club",
+      "type": "spelling"
+    },
+    {
+      "from": "club",
+      "to": "climb",
+      "type": "spelling"
+    },
+    {
+      "from": "climb",
+      "to": "climate",
+      "type": "spelling"
+    },
+    {
+      "from": "cub",
+      "to": "scuba",
+      "type": "spelling"
+    },
+    {
+      "from": "ten",
+      "to": "sentence",
+      "type": "spelling"
+    },
+    {
+      "from": "sentence",
+      "to": "senior",
+      "type": "spelling"
+    },
+    {
+      "from": "sentence",
+      "to": "term",
+      "type": "spelling"
+    },
+    {
+      "from": "ten",
+      "to": "tennis",
+      "type": "spelling"
+    },
+    {
+      "from": "tennis",
+      "to": "often",
+      "type": "spelling"
+    },
+    {
+      "from": "ten",
+      "to": "tent",
+      "type": "spelling"
+    },
+    {
+      "from": "tent",
+      "to": "cent",
+      "type": "spelling"
+    },
+    {
+      "from": "cent",
+      "to": "century",
+      "type": "spelling"
+    },
+    {
+      "from": "cent",
+      "to": "centre",
+      "type": "spelling"
+    },
+    {
+      "from": "tent",
+      "to": "extent",
+      "type": "spelling"
+    },
+    {
+      "from": "exit",
+      "to": "excite",
+      "type": "spelling"
+    },
+    {
+      "from": "excite",
+      "to": "excited",
+      "type": "derive"
+    },
+    {
+      "from": "excite",
+      "to": "exciting",
+      "type": "derive"
+    },
+    {
+      "from": "excite",
+      "to": "exercise",
+      "type": "spelling"
+    },
+    {
+      "from": "exit",
+      "to": "except",
+      "type": "spelling"
+    },
+    {
+      "from": "except",
+      "to": "accept",
+      "type": "spelling"
+    },
+    {
+      "from": "accept",
+      "to": "accident",
+      "type": "spelling"
+    },
+    {
+      "from": "except",
+      "to": "excellent",
+      "type": "spelling"
+    },
+    {
+      "from": "was",
+      "to": "wag",
+      "type": "spelling"
+    },
+    {
+      "from": "was",
+      "to": "wave",
+      "type": "spelling"
+    },
+    {
+      "from": "wave",
+      "to": "leave",
+      "type": "spelling"
+    },
+    {
+      "from": "wave",
+      "to": "pavement",
+      "type": "spelling"
+    },
+    {
+      "from": "pavement",
+      "to": "avenue",
+      "type": "spelling"
+    },
+    {
+      "from": "ill",
+      "to": "brilliant",
+      "type": "spelling"
+    },
+    {
+      "from": "brilliant",
+      "to": "thriller",
+      "type": "spelling"
+    },
+    {
+      "from": "ill",
+      "to": "kill",
+      "type": "spelling"
+    },
+    {
+      "from": "kill",
+      "to": "kilo",
+      "type": "spelling"
+    },
+    {
+      "from": "kilo",
+      "to": "kilometer",
+      "type": "compound"
+    },
+    {
+      "from": "kilometer",
+      "to": "meter",
+      "type": "compound"
+    },
+    {
+      "from": "meter",
+      "to": "metal",
+      "type": "spelling"
+    }
+  ]
+}

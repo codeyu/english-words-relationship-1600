@@ -1,0 +1,903 @@
+{
+  "source": "速记1600单词 每周一页 第2页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "long"
+    },
+    {
+      "id": "c2",
+      "center": "play"
+    },
+    {
+      "id": "c3",
+      "center": "have"
+    },
+    {
+      "id": "c4",
+      "center": "deer"
+    },
+    {
+      "id": "c5",
+      "center": "other"
+    },
+    {
+      "id": "c6",
+      "center": "out"
+    },
+    {
+      "id": "c7",
+      "center": "use"
+    },
+    {
+      "id": "c8",
+      "center": "east"
+    }
+  ],
+  "words": [
+    {
+      "id": "long",
+      "zh": "长的",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "along",
+      "zh": "沿着",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "alone",
+      "zh": "独自的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "among",
+      "zh": "在...之中",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lonely",
+      "zh": "孤独的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "belong",
+      "zh": "属于",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "song",
+      "zh": "歌",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "strong",
+      "zh": "强壮的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "string",
+      "zh": "线、弦",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "wrong",
+      "zh": "错误的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "play",
+      "zh": "玩",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "playground",
+      "zh": "操场",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "display",
+      "zh": "展出",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "player",
+      "zh": "运动员",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "playhouse",
+      "zh": "剧院",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "house",
+      "zh": "房子",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "housewife",
+      "zh": "家庭主妇",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "wife",
+      "zh": "妻子",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "housework",
+      "zh": "家务",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mouse",
+      "zh": "老鼠",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "have",
+      "zh": "有",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "hate",
+      "zh": "憎恨",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "gate",
+      "zh": "大门",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "gatekeeper",
+      "zh": "门卫",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "delegate",
+      "zh": "代表",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "delete",
+      "zh": "删除",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "save",
+      "zh": "储存，挽救",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "hat",
+      "zh": "帽子",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "date",
+      "zh": "日期",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "deer",
+      "zh": "鹿",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "beer",
+      "zh": "啤酒",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "bee",
+      "zh": "蜜蜂",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "beef",
+      "zh": "牛肉",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "cheer",
+      "zh": "欢呼",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "cheese",
+      "zh": "奶酪",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "choose",
+      "zh": "选择",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "cheerful",
+      "zh": "兴高采烈的",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "engineer",
+      "zh": "工程师",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "pioneer",
+      "zh": "先驱",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "engine",
+      "zh": "发动机",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "other",
+      "zh": "其他的",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "brother",
+      "zh": "兄弟",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "together",
+      "zh": "一起",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "gather",
+      "zh": "收集、聚集",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "mother",
+      "zh": "妈妈",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "motherland",
+      "zh": "祖国",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "another",
+      "zh": "另一个",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "either",
+      "zh": "两者之一",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "neither",
+      "zh": "两者都不",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "neighbour",
+      "zh": "邻居",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "neighbourhood",
+      "zh": "街区，社区",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "out",
+      "zh": "在外面",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "outdoor",
+      "zh": "户外",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "door",
+      "zh": "门",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "doormat",
+      "zh": "门垫",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "door-bell",
+      "zh": "门铃",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "sprout",
+      "zh": "萌芽",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "about",
+      "zh": "关于",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "outlook",
+      "zh": "景色",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "outline",
+      "zh": "轮廓",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "outside",
+      "zh": "在外边",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "use",
+      "zh": "使用",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "pause",
+      "zh": "暂停",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "blouse",
+      "zh": "女衬衫",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "refuse",
+      "zh": "拒绝",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "excuse",
+      "zh": "打扰，借口",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "cause",
+      "zh": "原因",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "because",
+      "zh": "因为",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "used",
+      "zh": "用过的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "useful",
+      "zh": "有用的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "useless",
+      "zh": "无用的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "user",
+      "zh": "使用者",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "east",
+      "zh": "东方",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "south",
+      "zh": "南方",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "mouth",
+      "zh": "嘴",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "north",
+      "zh": "北方",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "northern",
+      "zh": "北方的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "west",
+      "zh": "西方",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "western",
+      "zh": "西方的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "easter",
+      "zh": "复活节",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "easy",
+      "zh": "容易的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "least",
+      "zh": "最少的",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "long",
+      "to": "along",
+      "type": "spelling"
+    },
+    {
+      "from": "along",
+      "to": "alone",
+      "type": "spelling"
+    },
+    {
+      "from": "along",
+      "to": "among",
+      "type": "spelling"
+    },
+    {
+      "from": "alone",
+      "to": "lonely",
+      "type": "spelling"
+    },
+    {
+      "from": "long",
+      "to": "belong",
+      "type": "spelling"
+    },
+    {
+      "from": "belong",
+      "to": "song",
+      "type": "spelling"
+    },
+    {
+      "from": "song",
+      "to": "strong",
+      "type": "spelling"
+    },
+    {
+      "from": "strong",
+      "to": "string",
+      "type": "spelling"
+    },
+    {
+      "from": "strong",
+      "to": "wrong",
+      "type": "spelling"
+    },
+    {
+      "from": "play",
+      "to": "playground",
+      "type": "compound"
+    },
+    {
+      "from": "playground",
+      "to": "display",
+      "type": "spelling"
+    },
+    {
+      "from": "play",
+      "to": "player",
+      "type": "derive"
+    },
+    {
+      "from": "play",
+      "to": "playhouse",
+      "type": "compound"
+    },
+    {
+      "from": "playhouse",
+      "to": "house",
+      "type": "compound"
+    },
+    {
+      "from": "house",
+      "to": "housewife",
+      "type": "compound"
+    },
+    {
+      "from": "housewife",
+      "to": "wife",
+      "type": "compound"
+    },
+    {
+      "from": "house",
+      "to": "housework",
+      "type": "compound"
+    },
+    {
+      "from": "house",
+      "to": "mouse",
+      "type": "spelling"
+    },
+    {
+      "from": "have",
+      "to": "hate",
+      "type": "spelling"
+    },
+    {
+      "from": "hate",
+      "to": "gate",
+      "type": "spelling"
+    },
+    {
+      "from": "gate",
+      "to": "gatekeeper",
+      "type": "compound"
+    },
+    {
+      "from": "gate",
+      "to": "delegate",
+      "type": "spelling"
+    },
+    {
+      "from": "delegate",
+      "to": "delete",
+      "type": "spelling"
+    },
+    {
+      "from": "have",
+      "to": "save",
+      "type": "spelling"
+    },
+    {
+      "from": "hate",
+      "to": "hat",
+      "type": "spelling"
+    },
+    {
+      "from": "hate",
+      "to": "date",
+      "type": "spelling"
+    },
+    {
+      "from": "deer",
+      "to": "beer",
+      "type": "spelling"
+    },
+    {
+      "from": "beer",
+      "to": "bee",
+      "type": "spelling"
+    },
+    {
+      "from": "bee",
+      "to": "beef",
+      "type": "spelling"
+    },
+    {
+      "from": "beer",
+      "to": "cheer",
+      "type": "spelling"
+    },
+    {
+      "from": "cheer",
+      "to": "cheese",
+      "type": "spelling"
+    },
+    {
+      "from": "cheese",
+      "to": "choose",
+      "type": "spelling"
+    },
+    {
+      "from": "cheer",
+      "to": "cheerful",
+      "type": "derive"
+    },
+    {
+      "from": "deer",
+      "to": "engineer",
+      "type": "spelling"
+    },
+    {
+      "from": "engineer",
+      "to": "pioneer",
+      "type": "spelling"
+    },
+    {
+      "from": "engineer",
+      "to": "engine",
+      "type": "spelling"
+    },
+    {
+      "from": "other",
+      "to": "brother",
+      "type": "spelling"
+    },
+    {
+      "from": "brother",
+      "to": "together",
+      "type": "spelling"
+    },
+    {
+      "from": "together",
+      "to": "gather",
+      "type": "spelling"
+    },
+    {
+      "from": "other",
+      "to": "mother",
+      "type": "spelling"
+    },
+    {
+      "from": "mother",
+      "to": "motherland",
+      "type": "compound"
+    },
+    {
+      "from": "other",
+      "to": "another",
+      "type": "derive"
+    },
+    {
+      "from": "other",
+      "to": "either",
+      "type": "spelling"
+    },
+    {
+      "from": "either",
+      "to": "neither",
+      "type": "derive"
+    },
+    {
+      "from": "neither",
+      "to": "neighbour",
+      "type": "spelling"
+    },
+    {
+      "from": "neighbour",
+      "to": "neighbourhood",
+      "type": "derive"
+    },
+    {
+      "from": "out",
+      "to": "outdoor",
+      "type": "compound"
+    },
+    {
+      "from": "outdoor",
+      "to": "door",
+      "type": "compound"
+    },
+    {
+      "from": "door",
+      "to": "doormat",
+      "type": "compound"
+    },
+    {
+      "from": "door",
+      "to": "door-bell",
+      "type": "compound"
+    },
+    {
+      "from": "out",
+      "to": "sprout",
+      "type": "spelling"
+    },
+    {
+      "from": "out",
+      "to": "about",
+      "type": "spelling"
+    },
+    {
+      "from": "out",
+      "to": "outlook",
+      "type": "compound"
+    },
+    {
+      "from": "outlook",
+      "to": "outline",
+      "type": "spelling"
+    },
+    {
+      "from": "outline",
+      "to": "outside",
+      "type": "spelling"
+    },
+    {
+      "from": "use",
+      "to": "pause",
+      "type": "spelling"
+    },
+    {
+      "from": "pause",
+      "to": "blouse",
+      "type": "spelling"
+    },
+    {
+      "from": "blouse",
+      "to": "refuse",
+      "type": "spelling"
+    },
+    {
+      "from": "refuse",
+      "to": "excuse",
+      "type": "spelling"
+    },
+    {
+      "from": "use",
+      "to": "cause",
+      "type": "spelling"
+    },
+    {
+      "from": "cause",
+      "to": "because",
+      "type": "compound"
+    },
+    {
+      "from": "use",
+      "to": "used",
+      "type": "derive"
+    },
+    {
+      "from": "used",
+      "to": "useful",
+      "type": "spelling"
+    },
+    {
+      "from": "useful",
+      "to": "useless",
+      "type": "derive"
+    },
+    {
+      "from": "useless",
+      "to": "user",
+      "type": "spelling"
+    },
+    {
+      "from": "east",
+      "to": "south",
+      "type": "spelling"
+    },
+    {
+      "from": "south",
+      "to": "mouth",
+      "type": "spelling"
+    },
+    {
+      "from": "south",
+      "to": "north",
+      "type": "spelling"
+    },
+    {
+      "from": "north",
+      "to": "northern",
+      "type": "derive"
+    },
+    {
+      "from": "east",
+      "to": "west",
+      "type": "spelling"
+    },
+    {
+      "from": "west",
+      "to": "western",
+      "type": "derive"
+    },
+    {
+      "from": "east",
+      "to": "easter",
+      "type": "derive"
+    },
+    {
+      "from": "easter",
+      "to": "easy",
+      "type": "spelling"
+    },
+    {
+      "from": "easy",
+      "to": "least",
+      "type": "spelling"
+    }
+  ]
+}

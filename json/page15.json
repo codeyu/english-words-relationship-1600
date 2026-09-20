@@ -1,0 +1,749 @@
+{
+  "source": "速记1600单词 每周一页 第15页",
+  "clusters": [
+    {
+      "id": "c1",
+      "center": "lunch"
+    },
+    {
+      "id": "c2",
+      "center": "sad"
+    },
+    {
+      "id": "c3",
+      "center": "pardon"
+    },
+    {
+      "id": "c4",
+      "center": "back"
+    },
+    {
+      "id": "c5",
+      "center": "famous"
+    },
+    {
+      "id": "c6",
+      "center": "proper"
+    },
+    {
+      "id": "c7",
+      "center": "child"
+    },
+    {
+      "id": "c8",
+      "center": "prefer"
+    }
+  ],
+  "words": [
+    {
+      "id": "lunch",
+      "zh": "午饭",
+      "cluster": "c1",
+      "role": "center"
+    },
+    {
+      "id": "much",
+      "zh": "非常",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "such",
+      "zh": "如此",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "lunchtime",
+      "zh": "午饭时间",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "laugh",
+      "zh": "笑，大笑",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "tough",
+      "zh": "坚强的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "touch",
+      "zh": "触摸",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "cough",
+      "zh": "咳嗽",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "launch",
+      "zh": "发动",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "naughty",
+      "zh": "淘气的",
+      "cluster": "c1",
+      "role": "member"
+    },
+    {
+      "id": "sad",
+      "zh": "伤心的",
+      "cluster": "c2",
+      "role": "center"
+    },
+    {
+      "id": "sadly",
+      "zh": "伤心地",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "mad",
+      "zh": "狂热的",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "madam",
+      "zh": "女士",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "map",
+      "zh": "地图",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "many",
+      "zh": "许多",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "germany",
+      "zh": "德国",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "german",
+      "zh": "德国人",
+      "cluster": "c2",
+      "role": "member"
+    },
+    {
+      "id": "pardon",
+      "zh": "原谅",
+      "cluster": "c3",
+      "role": "center"
+    },
+    {
+      "id": "parliament",
+      "zh": "国会",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "paris",
+      "zh": "巴黎",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "london",
+      "zh": "伦敦",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "garden",
+      "zh": "花园",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "pond",
+      "zh": "池塘",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "beyond",
+      "zh": "在那边，超出",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "obey",
+      "zh": "遵守",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "second",
+      "zh": "第二",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "secondhand",
+      "zh": "二手的",
+      "cluster": "c3",
+      "role": "member"
+    },
+    {
+      "id": "back",
+      "zh": "后面/背",
+      "cluster": "c4",
+      "role": "center"
+    },
+    {
+      "id": "neck",
+      "zh": "脖子",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "necklace",
+      "zh": "项链",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "backyard",
+      "zh": "后院",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "record",
+      "zh": "记录",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "recognize",
+      "zh": "认出",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "receive",
+      "zh": "收到",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "accept",
+      "zh": "接受",
+      "cluster": "c4",
+      "role": "member"
+    },
+    {
+      "id": "famous",
+      "zh": "著名的",
+      "cluster": "c5",
+      "role": "center"
+    },
+    {
+      "id": "nervous",
+      "zh": "担忧的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "serious",
+      "zh": "严肃的",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "servant",
+      "zh": "佣人",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "serve",
+      "zh": "服务",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "reserve",
+      "zh": "保留",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "deserve",
+      "zh": "应得",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "desert",
+      "zh": "沙漠",
+      "cluster": "c5",
+      "role": "member"
+    },
+    {
+      "id": "proper",
+      "zh": "适当地",
+      "cluster": "c6",
+      "role": "center"
+    },
+    {
+      "id": "problem",
+      "zh": "问题",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "probably",
+      "zh": "大概",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "properly",
+      "zh": "适当的",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "provide",
+      "zh": "提供",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "produce",
+      "zh": "生产",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "promise",
+      "zh": "承诺",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "introduce",
+      "zh": "v.介绍",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "introduction",
+      "zh": "n.介绍",
+      "cluster": "c6",
+      "role": "member"
+    },
+    {
+      "id": "child",
+      "zh": "孩子",
+      "cluster": "c7",
+      "role": "center"
+    },
+    {
+      "id": "chill",
+      "zh": "冷的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "challenge",
+      "zh": "挑战",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "chips",
+      "zh": "薯条",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "build",
+      "zh": "建立",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "building",
+      "zh": "建筑物",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wild",
+      "zh": "野生的",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "wildlife",
+      "zh": "野生生物",
+      "cluster": "c7",
+      "role": "member"
+    },
+    {
+      "id": "prefer",
+      "zh": "更喜欢",
+      "cluster": "c8",
+      "role": "center"
+    },
+    {
+      "id": "present",
+      "zh": "到场的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "president",
+      "zh": "总统",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "predict",
+      "zh": "预言/预测",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "strict",
+      "zh": "严格的，严厉的",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "strike",
+      "zh": "罢工",
+      "cluster": "c8",
+      "role": "member"
+    },
+    {
+      "id": "pretty",
+      "zh": "漂亮的",
+      "cluster": "c8",
+      "role": "member"
+    }
+  ],
+  "edges": [
+    {
+      "from": "lunch",
+      "to": "much",
+      "type": "spelling"
+    },
+    {
+      "from": "much",
+      "to": "such",
+      "type": "spelling"
+    },
+    {
+      "from": "lunch",
+      "to": "lunchtime",
+      "type": "compound"
+    },
+    {
+      "from": "lunch",
+      "to": "laugh",
+      "type": "spelling"
+    },
+    {
+      "from": "laugh",
+      "to": "tough",
+      "type": "spelling"
+    },
+    {
+      "from": "tough",
+      "to": "touch",
+      "type": "spelling"
+    },
+    {
+      "from": "tough",
+      "to": "cough",
+      "type": "spelling"
+    },
+    {
+      "from": "laugh",
+      "to": "launch",
+      "type": "spelling"
+    },
+    {
+      "from": "laugh",
+      "to": "naughty",
+      "type": "spelling"
+    },
+    {
+      "from": "sad",
+      "to": "sadly",
+      "type": "derive"
+    },
+    {
+      "from": "sad",
+      "to": "mad",
+      "type": "spelling"
+    },
+    {
+      "from": "mad",
+      "to": "madam",
+      "type": "spelling"
+    },
+    {
+      "from": "mad",
+      "to": "map",
+      "type": "spelling"
+    },
+    {
+      "from": "map",
+      "to": "many",
+      "type": "spelling"
+    },
+    {
+      "from": "many",
+      "to": "germany",
+      "type": "spelling"
+    },
+    {
+      "from": "germany",
+      "to": "german",
+      "type": "derive"
+    },
+    {
+      "from": "pardon",
+      "to": "parliament",
+      "type": "spelling"
+    },
+    {
+      "from": "parliament",
+      "to": "paris",
+      "type": "spelling"
+    },
+    {
+      "from": "pardon",
+      "to": "london",
+      "type": "spelling"
+    },
+    {
+      "from": "pardon",
+      "to": "garden",
+      "type": "spelling"
+    },
+    {
+      "from": "pardon",
+      "to": "pond",
+      "type": "spelling"
+    },
+    {
+      "from": "pond",
+      "to": "beyond",
+      "type": "spelling"
+    },
+    {
+      "from": "beyond",
+      "to": "obey",
+      "type": "spelling"
+    },
+    {
+      "from": "pond",
+      "to": "second",
+      "type": "spelling"
+    },
+    {
+      "from": "second",
+      "to": "secondhand",
+      "type": "compound"
+    },
+    {
+      "from": "back",
+      "to": "neck",
+      "type": "spelling"
+    },
+    {
+      "from": "neck",
+      "to": "necklace",
+      "type": "derive"
+    },
+    {
+      "from": "back",
+      "to": "backyard",
+      "type": "compound"
+    },
+    {
+      "from": "backyard",
+      "to": "record",
+      "type": "spelling"
+    },
+    {
+      "from": "record",
+      "to": "recognize",
+      "type": "spelling"
+    },
+    {
+      "from": "recognize",
+      "to": "receive",
+      "type": "spelling"
+    },
+    {
+      "from": "receive",
+      "to": "accept",
+      "type": "spelling"
+    },
+    {
+      "from": "famous",
+      "to": "nervous",
+      "type": "spelling"
+    },
+    {
+      "from": "famous",
+      "to": "serious",
+      "type": "spelling"
+    },
+    {
+      "from": "serious",
+      "to": "servant",
+      "type": "spelling"
+    },
+    {
+      "from": "servant",
+      "to": "serve",
+      "type": "spelling"
+    },
+    {
+      "from": "serve",
+      "to": "reserve",
+      "type": "spelling"
+    },
+    {
+      "from": "serve",
+      "to": "deserve",
+      "type": "spelling"
+    },
+    {
+      "from": "deserve",
+      "to": "desert",
+      "type": "spelling"
+    },
+    {
+      "from": "proper",
+      "to": "problem",
+      "type": "spelling"
+    },
+    {
+      "from": "problem",
+      "to": "probably",
+      "type": "spelling"
+    },
+    {
+      "from": "proper",
+      "to": "properly",
+      "type": "derive"
+    },
+    {
+      "from": "proper",
+      "to": "provide",
+      "type": "spelling"
+    },
+    {
+      "from": "proper",
+      "to": "produce",
+      "type": "spelling"
+    },
+    {
+      "from": "produce",
+      "to": "promise",
+      "type": "spelling"
+    },
+    {
+      "from": "produce",
+      "to": "introduce",
+      "type": "spelling"
+    },
+    {
+      "from": "introduce",
+      "to": "introduction",
+      "type": "derive"
+    },
+    {
+      "from": "child",
+      "to": "chill",
+      "type": "spelling"
+    },
+    {
+      "from": "chill",
+      "to": "challenge",
+      "type": "spelling"
+    },
+    {
+      "from": "child",
+      "to": "chips",
+      "type": "spelling"
+    },
+    {
+      "from": "child",
+      "to": "build",
+      "type": "spelling"
+    },
+    {
+      "from": "build",
+      "to": "building",
+      "type": "derive"
+    },
+    {
+      "from": "child",
+      "to": "wild",
+      "type": "spelling"
+    },
+    {
+      "from": "wild",
+      "to": "wildlife",
+      "type": "compound"
+    },
+    {
+      "from": "prefer",
+      "to": "present",
+      "type": "spelling"
+    },
+    {
+      "from": "present",
+      "to": "president",
+      "type": "spelling"
+    },
+    {
+      "from": "prefer",
+      "to": "predict",
+      "type": "spelling"
+    },
+    {
+      "from": "predict",
+      "to": "strict",
+      "type": "spelling"
+    },
+    {
+      "from": "strict",
+      "to": "strike",
+      "type": "spelling"
+    },
+    {
+      "from": "prefer",
+      "to": "pretty",
+      "type": "spelling"
+    }
+  ]
+}
