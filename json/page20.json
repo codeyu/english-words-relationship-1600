@@ -37,396 +37,462 @@
   "words": [
     {
       "id": "dry",
+      "jp": "乾いた、乾かす",
       "zh": "干的",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "draw",
+      "jp": "描く、引く",
       "zh": "画",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "drum",
+      "jp": "ドラム、太鼓",
       "zh": "鼓",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "drop",
+      "jp": "落ちる、落とす",
       "zh": "落下",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "try",
+      "jp": "試す、やってみる",
       "zh": "尝试",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "trap",
+      "jp": "わな、わなにかける",
       "zh": "诱骗",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "dragon",
+      "jp": "竜、ドラゴン",
       "zh": "龙",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "wrap",
+      "jp": "包む、巻く",
       "zh": "包、裹",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "trip",
+      "jp": "旅行、小旅行",
       "zh": "旅行",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "cry",
+      "jp": "泣く、叫ぶ",
       "zh": "哭",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "crag",
+      "jp": "岩山、切り立った岩",
       "zh": "悬崖",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "soil",
+      "jp": "土、土壌",
       "zh": "土壤",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "spoil",
+      "jp": "だめにする、甘やかす",
       "zh": "变质",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "oil",
+      "jp": "油、石油",
       "zh": "石油",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "toilet",
+      "jp": "トイレ、便所",
       "zh": "卫生间",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "solo",
+      "jp": "独奏、単独の",
       "zh": "独唱曲",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "solve",
+      "jp": "解く、解決する",
       "zh": "解决",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "solar",
+      "jp": "太陽の",
       "zh": "日光的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "polar",
+      "jp": "極地の、極の",
       "zh": "极地的；两级的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pig",
+      "jp": "豚",
       "zh": "猪",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "dig",
+      "jp": "掘る",
       "zh": "挖",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "digital",
+      "jp": "デジタルの",
       "zh": "数字的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "spit",
+      "jp": "つばを吐く",
       "zh": "吐痰",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "spirit",
+      "jp": "精神、心",
       "zh": "精神",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "pity",
+      "jp": "哀れみ、残念なこと",
       "zh": "同情",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "city",
+      "jp": "都市、市",
       "zh": "城市",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "electricity",
+      "jp": "電気、電力",
       "zh": "电",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "electronic",
+      "jp": "電子の",
       "zh": "电子的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "different",
+      "jp": "違う、異なる",
       "zh": "不同的",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "difference",
+      "jp": "違い、差",
       "zh": "不同",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "difficult",
+      "jp": "難しい、困難な",
       "zh": "困难的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "difficulty",
+      "jp": "困難、難しさ",
       "zh": "困难",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "top",
+      "jp": "頂上、いちばん上",
       "zh": "顶部",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "topic",
+      "jp": "話題、テーマ",
       "zh": "话题",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tomb",
+      "jp": "墓、墓地",
       "zh": "墓穴",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tomato",
+      "jp": "トマト",
       "zh": "西红柿",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "potato",
+      "jp": "ジャガイモ",
       "zh": "马铃薯",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "comb",
+      "jp": "くし、髪をとかす",
       "zh": "梳子",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "boy",
+      "jp": "男の子、少年",
       "zh": "男孩",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "toy",
+      "jp": "おもちゃ",
       "zh": "玩具",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "box",
+      "jp": "箱",
       "zh": "盒子",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "body",
+      "jp": "体、身体",
       "zh": "身体",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "nobody",
+      "jp": "誰も～ない",
       "zh": "没人",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "nothing",
+      "jp": "何も～ない",
       "zh": "没什么",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "nor",
+      "jp": "～もまた～ない",
       "zh": "也不",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "enjoy",
+      "jp": "楽しむ",
       "zh": "喜欢",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "enjoyment",
+      "jp": "楽しみ、喜び",
       "zh": "娱乐",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "enjoyable",
+      "jp": "楽しい、愉快な",
       "zh": "愉快的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "empty",
+      "jp": "空の、からっぽの",
       "zh": "空的",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "enemy",
+      "jp": "敵",
       "zh": "仇敌",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "energy",
+      "jp": "エネルギー、活力",
       "zh": "活力",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "energetic",
+      "jp": "精力的な、活発な",
       "zh": "充满活力的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "emperor",
+      "jp": "皇帝、天皇",
       "zh": "皇帝",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "employee",
+      "jp": "従業員、社員",
       "zh": "雇员",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "employer",
+      "jp": "雇い主、経営者",
       "zh": "雇主",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "employ",
+      "jp": "雇う、使う",
       "zh": "v.雇用",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "employment",
+      "jp": "雇用、仕事",
       "zh": "n.雇用",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "for",
+      "jp": "～のために、～の間",
       "zh": "曾经",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "forget",
+      "jp": "忘れる",
       "zh": "忘记",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "forgettable",
+      "jp": "忘れやすい、印象に残らない",
       "zh": "可以忘记的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "forward",
+      "jp": "前へ、転送する",
       "zh": "前进，向前",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "forwards",
+      "jp": "前方へ",
       "zh": "向前方",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "toward",
+      "jp": "～のほうへ、～に向かって",
       "zh": "朝",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "before",
+      "jp": "～の前に、以前に",
       "zh": "在...之前",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "foreign",
+      "jp": "外国の",
       "zh": "国外的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "foreigner",
+      "jp": "外国人",
       "zh": "外国人",
       "cluster": "c8",
       "role": "member"

@@ -37,468 +37,546 @@
   "words": [
     {
       "id": "like",
+      "jp": "好む、～のような",
       "zh": "喜欢",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "hike",
+      "jp": "ハイキングする",
       "zh": "远足",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "high",
+      "jp": "高い",
       "zh": "高的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "hide",
+      "jp": "隠す、隠れる",
       "zh": "隐藏",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "alike",
+      "jp": "似ている、同様に",
       "zh": "相像",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "unlike",
+      "jp": "～と違って",
       "zh": "与...不像",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "dislike",
+      "jp": "嫌う、嫌い",
       "zh": "不喜欢",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "bike",
+      "jp": "自転車",
       "zh": "自行车",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "motorbike",
+      "jp": "オートバイ",
       "zh": "摩托车",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "main",
+      "jp": "主な、主要な",
       "zh": "主要的",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "mainly",
+      "jp": "主に、主として",
       "zh": "主要地",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "mainland",
+      "jp": "本土、大陸",
       "zh": "大陆",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "again",
+      "jp": "再び、もう一度",
       "zh": "再一次",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "against",
+      "jp": "～に反対して、～に対して",
       "zh": "与...相反",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pain",
+      "jp": "痛み、苦痛",
       "zh": "痛苦",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "painful",
+      "jp": "痛い、つらい",
       "zh": "痛苦的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "paint",
+      "jp": "絵を描く、ペンキを塗る",
       "zh": "绘画，油漆",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "painting",
+      "jp": "絵、絵画",
       "zh": "绘画",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "painter",
+      "jp": "画家、ペンキ屋",
       "zh": "画家",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "mail",
+      "jp": "郵便、メール",
       "zh": "邮件",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "mailbox",
+      "jp": "郵便受け、ポスト",
       "zh": "信箱",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "orange",
+      "jp": "オレンジ、みかん",
       "zh": "橘子",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "angel",
+      "jp": "天使",
       "zh": "天使",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "angry",
+      "jp": "怒った、腹を立てた",
       "zh": "生气的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "hungry",
+      "jp": "空腹の、おなかがすいた",
       "zh": "饿的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "strange",
+      "jp": "奇妙な、見知らぬ",
       "zh": "陌生的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "stranger",
+      "jp": "見知らぬ人、他人",
       "zh": "陌生人",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "change",
+      "jp": "変える、変化",
       "zh": "改变",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "danger",
+      "jp": "危険",
       "zh": "危险",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "dangerous",
+      "jp": "危険な",
       "zh": "危险的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "ski",
+      "jp": "スキーをする、スキー板",
       "zh": "滑雪",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "skip",
+      "jp": "跳ぶ、飛ばす",
       "zh": "跳",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "ship",
+      "jp": "船",
       "zh": "轮船",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "skin",
+      "jp": "肌、皮膚",
       "zh": "皮肤",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "skill",
+      "jp": "技術、技能",
       "zh": "技能",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "sky",
+      "jp": "空",
       "zh": "天空",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "shy",
+      "jp": "恥ずかしがりの、内気な",
       "zh": "害羞的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "skirt",
+      "jp": "スカート",
       "zh": "短裙",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "shirt",
+      "jp": "シャツ",
       "zh": "衬衫",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "short",
+      "jp": "短い、背が低い",
       "zh": "短的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "shore",
+      "jp": "岸、海岸",
       "zh": "岸",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "smell",
+      "jp": "においがする、におい",
       "zh": "闻，气味",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "small",
+      "jp": "小さい",
       "zh": "小的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "smelly",
+      "jp": "臭い、悪臭のする",
       "zh": "有臭味的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "sell",
+      "jp": "売る",
       "zh": "卖",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "seller",
+      "jp": "売り手、販売者",
       "zh": "销售商",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spell",
+      "jp": "つづる、スペルを言う",
       "zh": "v.拼写",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spelling",
+      "jp": "つづり、スペリング",
       "zh": "n.拼写",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "age",
+      "jp": "年齢、時代",
       "zh": "年龄",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "manage",
+      "jp": "管理する、何とかやり遂げる",
       "zh": "管理",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "manager",
+      "jp": "経営者、支配人",
       "zh": "管理人",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "teenage",
+      "jp": "十代の",
       "zh": "青少年的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "teenager",
+      "jp": "十代の若者",
       "zh": "青少年",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "village",
+      "jp": "村",
       "zh": "村庄",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "villager",
+      "jp": "村人",
       "zh": "村民",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "advantage",
+      "jp": "利点、有利な点",
       "zh": "有利条件",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "room",
+      "jp": "部屋、空間",
       "zh": "房间",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "bathroom",
+      "jp": "浴室、洗面所",
       "zh": "浴室",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "bath",
+      "jp": "入浴、風呂",
       "zh": "沐浴",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "broom",
+      "jp": "ほうき",
       "zh": "扫帚",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "bedroom",
+      "jp": "寝室",
       "zh": "卧室",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "bed",
+      "jp": "ベッド、寝床",
       "zh": "床",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "washroom",
+      "jp": "洗面所、トイレ",
       "zh": "洗手间",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "wash",
+      "jp": "洗う",
       "zh": "洗",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "cash",
+      "jp": "現金",
       "zh": "现金",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "crash",
+      "jp": "衝突する、墜落する",
       "zh": "猛撞",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "crazy",
+      "jp": "気が狂った、夢中の",
       "zh": "疯狂的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "washington",
+      "jp": "ワシントン",
       "zh": "华盛顿",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "start",
+      "jp": "始める、出発する",
       "zh": "开始",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "star",
+      "jp": "星、スター",
       "zh": "星星",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "stay",
+      "jp": "滞在する、とどまる",
       "zh": "停留",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "stage",
+      "jp": "段階、舞台",
       "zh": "阶段",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "say",
+      "jp": "言う、話す",
       "zh": "说",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "stare",
+      "jp": "じっと見つめる",
       "zh": "凝视",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "state",
+      "jp": "州、状態",
       "zh": "国家",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "statement",
+      "jp": "声明、陳述",
       "zh": "声明",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "station",
+      "jp": "駅、署",
       "zh": "站，局",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "skate",
+      "jp": "スケートをする",
       "zh": "滑冰",
       "cluster": "c8",
       "role": "member"

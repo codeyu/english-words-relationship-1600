@@ -37,348 +37,406 @@
   "words": [
     {
       "id": "sun",
+      "jp": "太陽",
       "zh": "太阳",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "sunday",
+      "jp": "日曜日",
       "zh": "周日",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sunny",
+      "jp": "晴れた、日当たりのよい",
       "zh": "晴朗的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sunshine",
+      "jp": "日光、日ざし",
       "zh": "阳光",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "shine",
+      "jp": "輝く、光る",
       "zh": "发光",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sunrise",
+      "jp": "日の出",
       "zh": "黎明",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "rise",
+      "jp": "上がる、昇る",
       "zh": "上升",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sunset",
+      "jp": "日没、夕日",
       "zh": "日落",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "set",
+      "jp": "置く、セット",
       "zh": "落下",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "purse",
+      "jp": "財布、ハンドバッグ",
       "zh": "钱包",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "purpose",
+      "jp": "目的、意図",
       "zh": "目的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "nurse",
+      "jp": "看護師",
       "zh": "护士",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "purple",
+      "jp": "紫、紫色の",
       "zh": "紫色的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "people",
+      "jp": "人々、人たち",
       "zh": "人们",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "exam",
+      "jp": "試験、テスト",
       "zh": "考试",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "example",
+      "jp": "例、手本",
       "zh": "例子",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "temple",
+      "jp": "寺、寺院",
       "zh": "寺",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "simple",
+      "jp": "簡単な、単純な",
       "zh": "简单的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "simply",
+      "jp": "単に、簡単に",
       "zh": "仅仅",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sample",
+      "jp": "見本、サンプル",
       "zh": "样品",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sale",
+      "jp": "販売、セール",
       "zh": "出售",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "salt",
+      "jp": "塩",
       "zh": "盐",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "salty",
+      "jp": "塩辛い、しょっぱい",
       "zh": "咸的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "salad",
+      "jp": "サラダ",
       "zh": "沙拉",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "salesgirl",
+      "jp": "女性店員",
       "zh": "女售货员",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "safe",
+      "jp": "安全な、金庫",
       "zh": "安全的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "safely",
+      "jp": "安全に、無事に",
       "zh": "安全地",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "safety",
+      "jp": "安全、無事",
       "zh": "安全",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "talk",
+      "jp": "話す、会話",
       "zh": "谈话",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "walk",
+      "jp": "歩く、散歩",
       "zh": "散步",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "waltz",
+      "jp": "ワルツ",
       "zh": "华尔兹",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "chalk",
+      "jp": "チョーク",
       "zh": "粉笔",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tale",
+      "jp": "物語、話",
       "zh": "故事",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tape",
+      "jp": "テープ",
       "zh": "磁带",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "grape",
+      "jp": "ブドウ",
       "zh": "葡萄",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "grade",
+      "jp": "学年、成績",
       "zh": "分数",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "his",
+      "jp": "彼の、彼のもの",
       "zh": "他的",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "history",
+      "jp": "歴史",
       "zh": "历史",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "story",
+      "jp": "物語、話",
       "zh": "故事",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "victory",
+      "jp": "勝利",
       "zh": "胜利",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "factory",
+      "jp": "工場",
       "zh": "工厂",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "fact",
+      "jp": "事実",
       "zh": "事实",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "letter",
+      "jp": "手紙、文字",
       "zh": "信",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "matter",
+      "jp": "問題、重要である",
       "zh": "事情",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "battery",
+      "jp": "電池、バッテリー",
       "zh": "电池",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "litter",
+      "jp": "ごみ、散らかす",
       "zh": "小的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "little",
+      "jp": "小さい、少しの",
       "zh": "小的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "better",
+      "jp": "よりよい、もっとうまく",
       "zh": "更好",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "butter",
+      "jp": "バター",
       "zh": "黄油",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "but",
+      "jp": "しかし、でも",
       "zh": "但是",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "button",
+      "jp": "ボタン",
       "zh": "按钮",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "bus",
+      "jp": "バス",
       "zh": "公共汽车",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "business",
+      "jp": "仕事、商売",
       "zh": "生意",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "businessman",
+      "jp": "実業家、ビジネスマン",
       "zh": "商人",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "minibus",
+      "jp": "マイクロバス、小型バス",
       "zh": "小型公共汽车",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "busy",
+      "jp": "忙しい",
       "zh": "忙的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "buy",
+      "jp": "買う",
       "zh": "买",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "guy",
+      "jp": "男、やつ",
       "zh": "家伙",
       "cluster": "c8",
       "role": "member"

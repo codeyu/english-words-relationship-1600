@@ -37,360 +37,420 @@
   "words": [
     {
       "id": "frog",
+      "jp": "カエル",
       "zh": "青蛙",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "from",
+      "jp": "～から",
       "zh": "来自",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "front",
+      "jp": "前、正面",
       "zh": "在...前面",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "fruit",
+      "jp": "果物、フルーツ",
       "zh": "水果",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "fog",
+      "jp": "霧",
       "zh": "雾",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "foggy",
+      "jp": "霧の深い",
       "zh": "有雾的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "fix",
+      "jp": "修理する、固定する",
       "zh": "修理",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "fox",
+      "jp": "キツネ",
       "zh": "狐狸",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "foxy",
+      "jp": "ずる賢い、狡猾な",
       "zh": "狡猾的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "fax",
+      "jp": "ファックス、ファックスを送る",
       "zh": "传真（机）",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "fan",
+      "jp": "ファン、扇風機",
       "zh": "迷",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "fit",
+      "jp": "合う、健康な",
       "zh": "健康的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "must",
+      "jp": "～しなければならない",
       "zh": "必须",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "just",
+      "jp": "ちょうど、たった今",
       "zh": "刚刚",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "august",
+      "jp": "8月",
       "zh": "八月",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "aunt",
+      "jp": "おば、おばさん",
       "zh": "阿姨",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "music",
+      "jp": "音楽",
       "zh": "音乐",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "musician",
+      "jp": "音楽家、ミュージシャン",
       "zh": "音乐家",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "museum",
+      "jp": "博物館、美術館",
       "zh": "博物馆",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "dust",
+      "jp": "ほこり、ちり",
       "zh": "灰尘",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "dustbin",
+      "jp": "ごみ箱",
       "zh": "垃圾桶",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "duty",
+      "jp": "義務、職務",
       "zh": "值日",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "nature",
+      "jp": "自然、性質",
       "zh": "大自然",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "picture",
+      "jp": "絵、写真",
       "zh": "图片",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "adventure",
+      "jp": "冒険",
       "zh": "冒险",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "natural",
+      "jp": "自然の、当然の",
       "zh": "自然的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "future",
+      "jp": "未来、将来",
       "zh": "将来",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "temperature",
+      "jp": "温度、気温",
       "zh": "温度",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "culture",
+      "jp": "文化、教養",
       "zh": "文化",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "cultural",
+      "jp": "文化の、文化的な",
       "zh": "文化的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "after",
+      "jp": "～の後に",
       "zh": "在...以后",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "afford",
+      "jp": "～する余裕がある",
       "zh": "提供",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "afternoon",
+      "jp": "午後",
       "zh": "下午",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "afraid",
+      "jp": "恐れて、心配して",
       "zh": "害怕的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "paid",
+      "jp": "支払い済みの、有給の",
       "zh": "付费的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "unpaid",
+      "jp": "未払いの、無給の",
       "zh": "未付的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "record",
+      "jp": "記録する、レコード",
       "zh": "记录",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "recorder",
+      "jp": "録音機、レコーダー",
       "zh": "录音机",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "recording",
+      "jp": "録音、記録",
       "zh": "记录",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "according",
+      "jp": "～によれば",
       "zh": "依照",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "regard",
+      "jp": "みなす、考慮",
       "zh": "看待",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "order",
+      "jp": "順序、注文する",
       "zh": "顺序",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "ordinary",
+      "jp": "普通の、平凡な",
       "zh": "普通的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "elder",
+      "jp": "年上の、年長者",
       "zh": "年长的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "granny",
+      "jp": "おばあちゃん",
       "zh": "奶奶，外婆",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "grandmother",
+      "jp": "祖母、おばあさん",
       "zh": "（外）祖母",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "grab",
+      "jp": "つかむ、ひったくる",
       "zh": "抓住",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "organ",
+      "jp": "臓器、オルガン",
       "zh": "器官",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "organize",
+      "jp": "組織する、準備する",
       "zh": "组织",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "organization",
+      "jp": "組織、団体",
       "zh": "组织",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "conversation",
+      "jp": "会話、対話",
       "zh": "谈话",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "clap",
+      "jp": "拍手する、手をたたく",
       "zh": "拍手",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "lap",
+      "jp": "ひざ、一周",
       "zh": "重叠；一圈",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "laptop",
+      "jp": "ノートパソコン",
       "zh": "便携式电脑",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "rap",
+      "jp": "ラップ、コツコツたたく",
       "zh": "说唱音乐",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "radio",
+      "jp": "ラジオ、無線",
       "zh": "收音机",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "slap",
+      "jp": "平手で打つ、ぴしゃりと打つ",
       "zh": "拍打",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "soap",
+      "jp": "石けん",
       "zh": "肥皂",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "soup",
+      "jp": "スープ",
       "zh": "汤",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "sour",
+      "jp": "酸っぱい",
       "zh": "酸的",
       "cluster": "c8",
       "role": "member"

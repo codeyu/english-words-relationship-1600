@@ -37,432 +37,504 @@
   "words": [
     {
       "id": "pen",
+      "jp": "ペン、万年筆",
       "zh": "钢笔",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "pencil",
+      "jp": "鉛筆",
       "zh": "铅笔",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "penny",
+      "jp": "ペニー、1セント",
       "zh": "便士",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "penguin",
+      "jp": "ペンギン",
       "zh": "企鹅",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "pen friend",
+      "jp": "文通相手、ペンフレンド",
       "zh": "笔友",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "happen",
+      "jp": "起こる、生じる",
       "zh": "发生",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "happy",
+      "jp": "幸せな、うれしい",
       "zh": "高兴的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "unhappy",
+      "jp": "不幸な、悲しい",
       "zh": "不开心的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "happily",
+      "jp": "楽しそうに、幸せに",
       "zh": "高兴地",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "open",
+      "jp": "開ける、開いている",
       "zh": "打开",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "opera",
+      "jp": "オペラ、歌劇",
       "zh": "歌剧",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "operate",
+      "jp": "操作する、手術する",
       "zh": "v.操作",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "operation",
+      "jp": "操作、手術",
       "zh": "n.操作",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "hole",
+      "jp": "穴",
       "zh": "洞",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "hold",
+      "jp": "持つ、開催する",
       "zh": "举行",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pole",
+      "jp": "棒、極",
       "zh": "柱，杆",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "whole",
+      "jp": "全体の、すべての",
       "zh": "整个的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "hope",
+      "jp": "望む、希望",
       "zh": "希望",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "role",
+      "jp": "役割、役",
       "zh": "角色",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "rose",
+      "jp": "バラ",
       "zh": "玫瑰花",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "roller-skating",
+      "jp": "ローラースケート",
       "zh": "滑旱冰",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "grate",
+      "jp": "すりおろす、鉄格子",
       "zh": "压碎",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "frustrate",
+      "jp": "挫折させる、いらだたせる",
       "zh": "挫败",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "frustrated",
+      "jp": "いらだった、失望した",
       "zh": "泄气的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "celebrate",
+      "jp": "祝う",
       "zh": "v.庆祝",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "celebration",
+      "jp": "祝賀、お祝い",
       "zh": "n.庆祝",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "grateful",
+      "jp": "感謝している、ありがたく思う",
       "zh": "感激的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "decorate",
+      "jp": "飾る、装飾する",
       "zh": "v.装饰",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "decoration",
+      "jp": "装飾、飾り",
       "zh": "n.装饰",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "grade",
+      "jp": "学年、成績",
       "zh": "年级",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "centigrade",
+      "jp": "摂氏の",
       "zh": "摄氏",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "grace",
+      "jp": "優雅さ、気品",
       "zh": "优美",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "ware",
+      "jp": "製品、器物",
       "zh": "器皿",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "rare",
+      "jp": "まれな、珍しい",
       "zh": "稀有的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "software",
+      "jp": "ソフトウェア",
       "zh": "软件",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "soft",
+      "jp": "柔らかい、優しい",
       "zh": "软的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "softball",
+      "jp": "ソフトボール",
       "zh": "垒球",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "scare",
+      "jp": "怖がらせる、おびえ",
       "zh": "使害怕",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "scary",
+      "jp": "怖い、恐ろしい",
       "zh": "吓人的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "square",
+      "jp": "正方形、広場",
       "zh": "正方形",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "score",
+      "jp": "得点、点を取る",
       "zh": "得分",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "store",
+      "jp": "店、蓄える",
       "zh": "商店",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "drugstore",
+      "jp": "薬局、ドラッグストア",
       "zh": "药店",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "some",
+      "jp": "いくつかの、ある",
       "zh": "一些",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "someone",
+      "jp": "誰か、ある人",
       "zh": "某人",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "somebody",
+      "jp": "誰か、ある人",
       "zh": "某人",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "something",
+      "jp": "何か、あるもの",
       "zh": "某事",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "sometime",
+      "jp": "いつか、そのうち",
       "zh": "某个时候",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "sometimes",
+      "jp": "時々、たまに",
       "zh": "有时候",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "name",
+      "jp": "名前、名づける",
       "zh": "名字",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "game",
+      "jp": "ゲーム、試合",
       "zh": "游戏",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "camera",
+      "jp": "カメラ",
       "zh": "照相机",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "same",
+      "jp": "同じ、同一の",
       "zh": "相同的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "sample",
+      "jp": "見本、サンプル",
       "zh": "样品",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "form",
+      "jp": "形、形づくる",
       "zh": "形式，形成",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "inform",
+      "jp": "知らせる、通知する",
       "zh": "告诉",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "information",
+      "jp": "情報、知らせ",
       "zh": "信息",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "platform",
+      "jp": "プラットホーム、壇",
       "zh": "平台",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "perform",
+      "jp": "演じる、上演する",
       "zh": "v.表演",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "performance",
+      "jp": "演技、公演",
       "zh": "n.表演",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "perfect",
+      "jp": "完璧な、申し分ない",
       "zh": "完美的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "perhaps",
+      "jp": "たぶん、もしかすると",
       "zh": "也许",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "even",
+      "jp": "～でさえ、偶数の",
       "zh": "甚至",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "seven",
+      "jp": "七、7",
       "zh": "七",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "seventh",
+      "jp": "七番目の、第七",
       "zh": "第七",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "seventy",
+      "jp": "七十、70",
       "zh": "七十",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "evening",
+      "jp": "夕方、晩",
       "zh": "晚上",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "event",
+      "jp": "出来事、行事",
       "zh": "事件",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "invent",
+      "jp": "発明する",
       "zh": "发明",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "invention",
+      "jp": "発明、発明品",
       "zh": "发明",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "inventor",
+      "jp": "発明家",
       "zh": "发明者",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "prevent",
+      "jp": "防ぐ、妨げる",
       "zh": "预防",
       "cluster": "c8",
       "role": "member"

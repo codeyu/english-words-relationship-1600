@@ -37,306 +37,357 @@
   "words": [
     {
       "id": "interest",
+      "jp": "興味、関心",
       "zh": "兴趣",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "interested",
+      "jp": "興味を持った",
       "zh": "感兴趣的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "interesting",
+      "jp": "面白い、興味深い",
       "zh": "有趣的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "internet",
+      "jp": "インターネット",
       "zh": "互联网",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "international",
+      "jp": "国際的な",
       "zh": "国际的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "interview",
+      "jp": "面接、インタビュー",
       "zh": "面试",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "view",
+      "jp": "眺め、見方",
       "zh": "看",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "review",
+      "jp": "復習する、批評",
       "zh": "复习；回顾",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "revise",
+      "jp": "見直す、改訂する",
       "zh": "修订；校正",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "revision",
+      "jp": "改訂、復習",
       "zh": "修订本",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "rise",
+      "jp": "上がる、昇る",
       "zh": "上升",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "raise",
+      "jp": "上げる、育てる",
       "zh": "筹集",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "praise",
+      "jp": "ほめる、称賛",
       "zh": "称赞",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sunrise",
+      "jp": "日の出",
       "zh": "黎明",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "risk",
+      "jp": "危険、リスクを冒す",
       "zh": "风险",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "surprise",
+      "jp": "驚かせる、驚き",
       "zh": "惊奇",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "surprised",
+      "jp": "驚いた",
       "zh": "感到惊奇的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "surprising",
+      "jp": "驚くべき、意外な",
       "zh": "使人惊讶的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "contract",
+      "jp": "契約、収縮する",
       "zh": "收缩",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "practice",
+      "jp": "練習、実践",
       "zh": "练习",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "practical",
+      "jp": "実用的な、実際的な",
       "zh": "实践的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "continue",
+      "jp": "続ける、続く",
       "zh": "继续",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "contribute",
+      "jp": "貢献する、寄付する",
       "zh": "贡献",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "silent",
+      "jp": "静かな、黙っている",
       "zh": "安静的",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "silently",
+      "jp": "静かに、黙って",
       "zh": "安静地",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "silence",
+      "jp": "静けさ、沈黙",
       "zh": "安静",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "science",
+      "jp": "科学、理科",
       "zh": "科学",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "scientist",
+      "jp": "科学者",
       "zh": "科学家",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "audience",
+      "jp": "観客、聴衆",
       "zh": "听众",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "confident",
+      "jp": "自信のある、確信して",
       "zh": "自信的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "confidence",
+      "jp": "自信、信頼",
       "zh": "信任，信心",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "boss",
+      "jp": "上司、社長",
       "zh": "老板",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "possible",
+      "jp": "可能な、ありうる",
       "zh": "可能",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "impossible",
+      "jp": "不可能な",
       "zh": "不可能",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "cross",
+      "jp": "渡る、交差する",
       "zh": "交叉",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "crossing",
+      "jp": "交差点、横断",
       "zh": "十字路口",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "across",
+      "jp": "～を横切って、向こう側に",
       "zh": "穿过",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "toss",
+      "jp": "投げる、揺れる",
       "zh": "摇荡",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "fossil",
+      "jp": "化石",
       "zh": "化石",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "comment",
+      "jp": "コメント、論評",
       "zh": "评论",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "common",
+      "jp": "共通の、ありふれた",
       "zh": "普遍的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "committee",
+      "jp": "委員会",
       "zh": "委员会",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "commission",
+      "jp": "委員会、委託",
       "zh": "委员会",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "permission",
+      "jp": "許可、承認",
       "zh": "许可",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "permit",
+      "jp": "許可する、許可証",
       "zh": "允许",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "document",
+      "jp": "書類、文書",
       "zh": "文件",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "doctor",
+      "jp": "医者、博士",
       "zh": "医生",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "percent",
+      "jp": "パーセント、百分率",
       "zh": "百分数",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "recently",
+      "jp": "最近、近ごろ",
       "zh": "最近",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "perfect",
+      "jp": "完璧な、申し分ない",
       "zh": "完美的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "perhaps",
+      "jp": "たぶん、もしかすると",
       "zh": "也许",
       "cluster": "c8",
       "role": "member"

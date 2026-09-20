@@ -37,462 +37,539 @@
   "words": [
     {
       "id": "duck",
+      "jp": "アヒル、カモ",
       "zh": "鸭子",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "luck",
+      "jp": "運、幸運",
       "zh": "运气",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lucky",
+      "jp": "幸運な、運のよい",
       "zh": "幸运的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "luckily",
+      "jp": "運よく、幸いにも",
       "zh": "幸运地",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "truck",
+      "jp": "トラック",
       "zh": "卡车",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "true",
+      "jp": "本当の、真実の",
       "zh": "真实的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "truly",
+      "jp": "本当に、心から",
       "zh": "真实地",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "truth",
+      "jp": "真実、事実",
       "zh": "事实",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "trumpet",
+      "jp": "トランペット",
       "zh": "小喇叭",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "prove",
+      "jp": "証明する、～とわかる",
       "zh": "证明",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "improve",
+      "jp": "改善する、上達する",
       "zh": "改善",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "grove",
+      "jp": "木立、林",
       "zh": "树丛",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "provide",
+      "jp": "提供する、供給する",
       "zh": "提供",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "proverb",
+      "jp": "ことわざ、格言",
       "zh": "谚语",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "verb",
+      "jp": "動詞",
       "zh": "动词",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "adverb",
+      "jp": "副詞",
       "zh": "副词",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "thank",
+      "jp": "感謝する、礼を言う",
       "zh": "谢谢",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "that",
+      "jp": "あれ、その",
       "zh": "那个",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "what",
+      "jp": "何、どんな",
       "zh": "什么",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "than",
+      "jp": "～よりも",
       "zh": "比",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "thanks",
+      "jp": "ありがとう、感謝",
       "zh": "感谢",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "thanksgiving",
+      "jp": "感謝祭",
       "zh": "感恩节",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "thankful",
+      "jp": "感謝している、ありがたく思う",
       "zh": "感谢的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "bank",
+      "jp": "銀行、土手",
       "zh": "河岸",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "bang",
+      "jp": "バンと鳴る、強打",
       "zh": "猛击",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "seek",
+      "jp": "探す、求める",
       "zh": "寻找",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "see",
+      "jp": "見る、会う",
       "zh": "看见",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "seem",
+      "jp": "～のように見える、思われる",
       "zh": "似乎",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "week",
+      "jp": "週、一週間",
       "zh": "星期",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "weak",
+      "jp": "弱い、もろい",
       "zh": "弱的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "speak",
+      "jp": "話す、しゃべる",
       "zh": "说",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "speaker",
+      "jp": "話す人、スピーカー",
       "zh": "扩音器",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "wear",
+      "jp": "着る、身につける",
       "zh": "穿",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "weekly",
+      "jp": "毎週の、週刊の",
       "zh": "每周的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "weekday",
+      "jp": "平日、ウイークデー",
       "zh": "工作日",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "weekend",
+      "jp": "週末",
       "zh": "周末",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "face",
+      "jp": "顔、直面する",
       "zh": "面对",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "race",
+      "jp": "競走、人種",
       "zh": "比赛",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "space",
+      "jp": "宇宙、空間",
       "zh": "太空",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spaceship",
+      "jp": "宇宙船",
       "zh": "宇宙飞船",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spacecraft",
+      "jp": "宇宙船、宇宙機",
       "zh": "航天器",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spade",
+      "jp": "シャベル、スコップ",
       "zh": "铲子",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "spare",
+      "jp": "予備の、割く",
       "zh": "节省",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "surface",
+      "jp": "表面、水面",
       "zh": "表面",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "surf",
+      "jp": "波乗りをする、ネットを見て回る",
       "zh": "冲浪",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "surfer",
+      "jp": "サーファー",
       "zh": "冲浪运动员",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "surfing",
+      "jp": "サーフィン、波乗り",
       "zh": "冲浪运动",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "post",
+      "jp": "郵便、投稿する",
       "zh": "邮寄",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "postal",
+      "jp": "郵便の",
       "zh": "邮政的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "poster",
+      "jp": "ポスター、貼り紙",
       "zh": "海报",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "postman",
+      "jp": "郵便配達員",
       "zh": "邮递员",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "postcard",
+      "jp": "はがき、絵はがき",
       "zh": "明信片",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "pot",
+      "jp": "つぼ、なべ",
       "zh": "壶",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "potato",
+      "jp": "ジャガイモ",
       "zh": "马铃薯",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "tomato",
+      "jp": "トマト",
       "zh": "西红柿",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "cost",
+      "jp": "費用、値段がかかる",
       "zh": "价格",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "costume",
+      "jp": "衣装、コスチューム",
       "zh": "戏装",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "coast",
+      "jp": "海岸、沿岸",
       "zh": "海岸",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "ghost",
+      "jp": "幽霊、お化け",
       "zh": "幽灵",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "air",
+      "jp": "空気、空",
       "zh": "天空，空气",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "fair",
+      "jp": "公平な、かなりの",
       "zh": "公平的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "fail",
+      "jp": "失敗する、不合格になる",
       "zh": "在...失败",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "airport",
+      "jp": "空港",
       "zh": "机场",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "hair",
+      "jp": "髪、毛",
       "zh": "头发",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "pair",
+      "jp": "一組、一対",
       "zh": "一双",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "repair",
+      "jp": "修理する、直す",
       "zh": "修理",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "haircut",
+      "jp": "散髪、ヘアカット",
       "zh": "理发",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "chair",
+      "jp": "いす",
       "zh": "椅子",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "chain",
+      "jp": "鎖、チェーン",
       "zh": "链子",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "chairman",
+      "jp": "議長、委員長",
       "zh": "主席",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "tell",
+      "jp": "話す、伝える",
       "zh": "告诉",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "tall",
+      "jp": "背が高い、高い",
       "zh": "高的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "fall",
+      "jp": "落ちる、秋",
       "zh": "落下",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "fell",
+      "jp": "fallの過去形、落ちた",
       "zh": "落下（fall的过去式）",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "well",
+      "jp": "よく、上手に",
       "zh": "好地",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "bell",
+      "jp": "鐘、ベル",
       "zh": "铃",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "retell",
+      "jp": "語り直す、もう一度話す",
       "zh": "重述",
       "cluster": "c8",
       "role": "member"

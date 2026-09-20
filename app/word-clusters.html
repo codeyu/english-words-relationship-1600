@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>形近词图谱 · 速记1600单词 第1页</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
   box-sizing:border-box;
@@ -79,6 +79,7 @@ body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
 .node.center circle{fill:var(--center);stroke:var(--center)}
 .node .w{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:500;font-size:18px;fill:var(--ink);text-anchor:middle}
 .node .z{font-size:13px;fill:var(--ink2);text-anchor:middle}
+[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
 .node.center .w{fill:var(--center-ink);font-size:24px;font-weight:700}
 .node.center .z{fill:var(--center-ink);opacity:.8;font-size:14px}
 .node .hl{fill:var(--hl);font-weight:700}
@@ -123,7 +124,7 @@ body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
   <div class="tabs" id="tabs" role="tablist" aria-label="词簇"></div>
 
   <div class="toolbar">
-    <button class="tog" id="tZh" aria-pressed="true">显示中文</button>
+    <button class="tog" id="tZh" aria-pressed="true">显示日文</button>
     <button class="tog" id="tHl" aria-pressed="true">标出相同部分</button>
     <button class="tog" id="tShake">摇一摇</button>
     <button class="tog" id="tPin" aria-pressed="false" title="开启后，拖到哪里就停在哪里">固定位置</button>
@@ -143,20 +144,20 @@ body.dropping .board{outline:3px dashed var(--accent);outline-offset:4px}
 <script>
 // ---------- 数据 ----------
 const BUILTIN_W = {
-  best:"最好的",rest:"休息",restroom:"卫生间",restaurant:"饭店",restless:"焦躁不安的",forest:"森林",
-  harvest:"收获",vest:"马甲",test:"测试",text:"课文",textbook:"课本",
-  count:"计算",couple:"一对",course:"课程",cousin:"堂兄妹",country:"国家",countryside:"乡村",
-  discount:"折扣",mount:"山峰",mountain:"山脉",
-  fish:"鱼",wish:"希望",wise:"英明的",with:"和...在一起",witch:"女巫",without:"不和...在一起",
-  dish:"碟子",finish:"完成",punish:"惩罚",
-  round:"圆的",around:"在...周围",surround:"围绕",surrounding:"周围的",ground:"地面",group:"组",
-  underground:"地下",under:"在...下面",found:"建立",sound:"声音",pound:"磅",
-  meal:"饭",meat:"肉",meet:"遇见",meeting:"会议",mean:"意思是",meaning:"意思",
-  real:"真的",really:"真实的",realistic:"现实的",realize:"意识到",
-  arm:"胳膊",army:"军队",alarm:"警报",far:"远",farther:"更远的",farthest:"最远的",
-  farm:"农场",farmland:"耕地",land:"陆地",farming:"耕种",farmer:"农民",
-  son:"儿子",soon:"很快",less:"较少的",lesson:"课",reason:"原因",reasonable:"合理的",
-  prison:"监狱",person:"人",personal:"个人的",personally:"个人地"
+  best:"最高の、一番良い",rest:"休憩する、休む",restroom:"トイレ、化粧室",restaurant:"レストラン、飲食店",restless:"落ち着かない",forest:"森、森林",
+  harvest:"収穫、取り入れ",vest:"ベスト、チョッキ",test:"テスト、試験",text:"本文、テキスト",textbook:"教科書",
+  count:"数える、計算する",couple:"一組、夫婦",course:"コース、課程",cousin:"いとこ",country:"国、国家",countryside:"田舎、郊外",
+  discount:"割引",mount:"山、登る",mountain:"山、山脈",
+  fish:"魚",wish:"願う、望む",wise:"賢い、賢明な",with:"～と一緒に",witch:"魔女",without:"～なしで",
+  dish:"皿、料理",finish:"終える、完成する",punish:"罰する",
+  round:"丸い、円形の",around:"～の周りに",surround:"囲む、取り囲む",surrounding:"周囲の、周りの",ground:"地面、グラウンド",group:"グループ、組",
+  underground:"地下、地下鉄",under:"～の下に",found:"設立する、創立する",sound:"音、聞こえる",pound:"ポンド",
+  meal:"食事",meat:"肉",meet:"会う、出会う",meeting:"会議、集まり",mean:"意味する",meaning:"意味",
+  real:"本当の、現実の",really:"本当に",realistic:"現実的な",realize:"気づく、実現する",
+  arm:"腕",army:"軍隊、陸軍",alarm:"警報、目覚まし",far:"遠い、遠く",farther:"もっと遠い",farthest:"最も遠い",
+  farm:"農場",farmland:"農地、耕地",land:"陸地、土地",farming:"農業、耕作",farmer:"農民、農場主",
+  son:"息子",soon:"まもなく、すぐに",less:"より少ない",lesson:"授業、レッスン",reason:"理由、原因",reasonable:"合理的な、妥当な",
+  prison:"刑務所、監獄",person:"人、人物",personal:"個人の、個人的な",personally:"個人的に"
 };
 // [父, 子, 类型] s=拼写相近 d=派生变形 c=复合词
 const BUILTIN_CLUSTERS = [
@@ -185,7 +186,7 @@ function normalize(j, fallbackName){
   j.words.forEach(w=>{
     if(!w || !w.id) return;
     const id = String(w.id).toLowerCase();
-    Wd[id] = w.zh ? String(w.zh) : "";
+    Wd[id] = w.jp ? String(w.jp) : (w.zh ? String(w.zh) : "");
     if(w.cluster!=null){ wordCl[id]=String(w.cluster); const c=ensure(String(w.cluster)); if(w.role==="center") c.center=id; }
   });
   (Array.isArray(j.clusters)?j.clusters:[]).forEach(c=>{
@@ -197,7 +198,7 @@ function normalize(j, fallbackName){
   j.edges.forEach(e=>{
     if(!e || !e.from || !e.to) return;
     const p = String(e.from).toLowerCase(), ch = String(e.to).toLowerCase();
-    [p,ch].forEach(x=>{ if(!(x in Wd)){ Wd[x]=""; warn.push(`单词 ${x} 不在 words 里，已补上（无中文）`); } });
+    [p,ch].forEach(x=>{ if(!(x in Wd)){ Wd[x]=""; warn.push(`单词 ${x} 不在 words 里，已补上（无释义）`); } });
     const cid = wordCl[p] ?? wordCl[ch];
     if(cid==null){ warn.push(`边 ${p}→${ch} 找不到所属词簇，已跳过`); return; }
     const c = ensure(cid);
@@ -268,14 +269,54 @@ function buildTree(ci){
     const r = n.depth/maxD*R;
     n.hx = n===root ? cx : cx + Math.sin(n.a)*r*sx;   // 静止位置
     n.hy = n===root ? cy : cy - Math.cos(n.a)*r;
-    n.hw = n===root ? 54 : Math.max(38, (n.w.length*10.2+26)/2);
-    n.hh = n===root ? 54 : 26;
+    n.zl = glossLines(W[n.w] || "");
+    const two = n.zl.length > 1;
+    if(n===root){
+      n.wy = two ? -6 : -2;
+      n.zy = two ? [16,30] : [22];
+      let r = Math.max(54, measure(n.w,F_CWORD)/2 + 12);
+      n.zl.forEach((t,i)=>{ r = Math.max(r, Math.hypot(measure(t,F_GLOSS)/2+8, Math.abs(n.zy[i])+6)); });
+      n.hw = n.hh = Math.round(r);
+    }else{
+      n.wy = two ? -10 : -3;
+      n.zy = two ? [6,19] : [15];
+      const gw = n.zl.reduce((m,t)=>Math.max(m, measure(t,F_GLOSS)), 0);
+      n.hw = Math.round(Math.max(38, measure(n.w,F_WORD)/2 + 15, gw/2 + 12));
+      n.hh = two ? 29 : 26;
+    }
     n.ox=n.hx; n.oy=n.hy; n.x=n.hx; n.y=n.hy; n.vx=0; n.vy=0;
     all.push(n); n.kids.forEach(place);
   })(root);
   all.forEach(n=>{ n.L = n.parent ? Math.hypot(n.hx-n.parent.hx, n.hy-n.parent.hy) : 0; });
   return {root, all, map, VW, VH, cx, cy, ci};
 }
+// --- 文本测量：按真实字宽算框，日文释义过长时在「、」处折成两行 ---
+const F_WORD  = '500 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_CWORD = '700 24px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_GLOSS = '400 13px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
+const GLOSS_MAX = 110;                       // 单行释义最大宽度(px)
+const _mc = document.createElement("canvas").getContext("2d");
+function measure(t, font){ _mc.font = font; return _mc.measureText(t || "").width; }
+function glossLines(t){
+  if(!t) return [];
+  if(measure(t, F_GLOSS) <= GLOSS_MAX) return [t];
+  const wide = ls => Math.max(measure(ls[0],F_GLOSS), measure(ls[1],F_GLOSS));
+  const parts = t.split("、");
+  if(parts.length > 1){                      // 优先在顿号处断行，取最平衡的一处
+    let best = null;
+    for(let i=1;i<parts.length;i++){
+      const ls = [parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")];
+      if(!best || wide(ls) < wide(best)) best = ls;
+    }
+    return best;                             // 略宽也不从词中间切开
+  }
+  const NG = "ぁぃぅぇぉっゃゅょァィゥェォッャュョーヽ々、。）」";
+  let mid = Math.ceil(t.length/2);           // 没有顿号才按字数断，避开行首禁则字符
+  for(let k=0;k<3 && NG.includes(t[mid]); k++) mid++;
+  return [t.slice(0,mid), t.slice(mid)];
+}
+
+
 function exitDist(n, ux, uy){
   if(n.depth===0) return n.hw + 4;
   const tx = Math.abs(ux)>1e-6 ? n.hw/Math.abs(ux) : 1e9;
@@ -313,7 +354,7 @@ function render(keep){
     const isC = n.depth===0;
     const grp = el("g",{class:"node"+(isC?" center":""),tabindex:"0",role:"button","aria-label":n.w+" "+W[n.w]},nodeG);
     if(isC) el("circle",{r:n.hw},grp); else el("rect",{x:-n.hw,y:-n.hh,width:n.hw*2,height:n.hh*2,rx:14},grp);
-    const t = el("text",{class:"w",y:isC?-2:-3},grp);
+    const t = el("text",{class:"w",y:n.wy},grp);
     const hl = (!isC && state.showHl && n.parent) ? lcs(n.w, n.parent.w) : "";
     if(hl){
       const i = n.w.indexOf(hl);
@@ -321,7 +362,7 @@ function render(keep){
       el("tspan",{class:"hl"},t,hl);
       if(i+hl.length<n.w.length) el("tspan",{},t,n.w.slice(i+hl.length));
     } else t.textContent = n.w;
-    n.zEl = el("text",{class:"z",y:isC?22:15},grp);
+    n.zEl = el("text",{class:"z",lang:"ja"},grp);
     setZh(n);
     n.g = grp;
     bindDrag(n);
@@ -334,7 +375,10 @@ function render(keep){
 function setZh(n){
   const show = state.showZh || state.revealed.has(n.w);
   n.zEl.setAttribute("class","z"+(show?"":" hidden"));
-  n.zEl.textContent = show ? W[n.w] : "？？";
+  n.zEl.textContent = "";
+  const lines = show ? (n.zl.length ? n.zl : [""]) : ["？？"];
+  const ys = lines.length === n.zy.length ? n.zy : [n.zy[0]];
+  lines.forEach((t,i)=> el("tspan",{x:0,y:ys[i]},n.zEl,t));
 }
 
 function updateView(){
@@ -450,7 +494,7 @@ function renderDetail(n){
   const zshow = state.showZh || state.revealed.has(n.w);
   const row = document.createElement("div"); row.className="dword";
   const big = document.createElement("span"); big.className="big"; big.textContent=n.w; row.appendChild(big);
-  const zh = document.createElement("span"); zh.className="zh"+(zshow?"":" hidden"); zh.textContent = zshow?W[n.w]:"（点击图中单词显示中文）"; row.appendChild(zh);
+  const zh = document.createElement("span"); zh.className="zh"+(zshow?"":" hidden"); zh.lang="ja"; zh.textContent = zshow?W[n.w]:"（点击图中单词显示日文）"; row.appendChild(zh);
   const sp = document.createElement("button"); sp.className="speak"; sp.textContent="朗读";
   sp.onclick=()=>{ try{ const u=new SpeechSynthesisUtterance(n.w); u.lang="en-US"; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){} };
   row.appendChild(sp);
@@ -493,7 +537,7 @@ function renderTabs(){
     const b=document.createElement("button");
     b.className="tab"; b.setAttribute("role","tab"); b.setAttribute("aria-selected", i===state.ci);
     const a=document.createElement("b"); a.textContent=c.center;
-    const z=document.createElement("span"); z.textContent=state.showZh?W[c.center]:"？？";
+    const z=document.createElement("span"); z.lang="ja"; z.textContent=state.showZh?W[c.center]:"？？";
     b.append(a,z);
     b.onclick=()=>{ state.ci=i; state.sel=c.center; renderTabs(); render(false); };
     t.appendChild(b);
@@ -596,6 +640,7 @@ window.addEventListener("drop",e=>{
 state.di = 0;
 loadStore();
 setDataset(0);
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>{ if(tree) render(true); });
 </script>
 </body>
 </html>

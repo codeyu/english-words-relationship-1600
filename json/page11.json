@@ -37,396 +37,462 @@
   "words": [
     {
       "id": "life",
+      "jp": "命、生活",
       "zh": "生命",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "lie",
+      "jp": "横になる、うそをつく",
       "zh": "躺，说谎",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "wife",
+      "jp": "妻",
       "zh": "妻子",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "knife",
+      "jp": "ナイフ、包丁",
       "zh": "小刀",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lifeboat",
+      "jp": "救命ボート",
       "zh": "救生船",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lifetime",
+      "jp": "一生、生涯",
       "zh": "一生",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "wildlife",
+      "jp": "野生生物",
       "zh": "野生动植物",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lift",
+      "jp": "持ち上げる、エレベーター",
       "zh": "举起",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "gift",
+      "jp": "贈り物、才能",
       "zh": "礼物",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sing",
+      "jp": "歌う",
       "zh": "唱歌",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "singer",
+      "jp": "歌手",
       "zh": "歌唱家",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "single",
+      "jp": "一つだけの、独身の",
       "zh": "单一的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "raise",
+      "jp": "上げる、育てる",
       "zh": "增加，喂养",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "sink",
+      "jp": "沈む、流し",
       "zh": "沉没",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pink",
+      "jp": "ピンク色の",
       "zh": "粉红色的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "drink",
+      "jp": "飲む、飲み物",
       "zh": "喝",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "ear",
+      "jp": "耳",
       "zh": "耳朵",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "clean",
+      "jp": "掃除する、きれいな",
       "zh": "打扫",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "cleaner",
+      "jp": "掃除機、清掃員",
       "zh": "清洁工",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "clear",
+      "jp": "はっきりした、澄んだ",
       "zh": "清楚的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "clearly",
+      "jp": "はっきりと、明らかに",
       "zh": "清楚地",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "early",
+      "jp": "早い、早く",
       "zh": "早",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "earlier",
+      "jp": "より早く、以前に",
       "zh": "更早",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "earth",
+      "jp": "地球、土",
       "zh": "地球",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "earthquake",
+      "jp": "地震",
       "zh": "地震",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "ever",
+      "jp": "これまでに、かつて",
       "zh": "曾经",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "never",
+      "jp": "決して～ない",
       "zh": "从不",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "clever",
+      "jp": "賢い、利口な",
       "zh": "聪明的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "forever",
+      "jp": "永遠に、いつまでも",
       "zh": "永远",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "every",
+      "jp": "すべての、毎～",
       "zh": "每",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "everybody",
+      "jp": "誰もが、皆",
       "zh": "每个人",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "everything",
+      "jp": "すべてのこと、何もかも",
       "zh": "每件事",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "everywhere",
+      "jp": "どこでも、至る所に",
       "zh": "每个地方",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "several",
+      "jp": "いくつかの、数個の",
       "zh": "几个",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "severely",
+      "jp": "厳しく、ひどく",
       "zh": "严重地，严厉地",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "over",
+      "jp": "終わって、～の上に",
       "zh": "结束",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "govern",
+      "jp": "治める、統治する",
       "zh": "管理",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "government",
+      "jp": "政府、政治",
       "zh": "政府",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "cover",
+      "jp": "覆う、カバー",
       "zh": "盖上",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "discover",
+      "jp": "発見する、見つける",
       "zh": "v.发现",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "discovery",
+      "jp": "発見",
       "zh": "n.发现",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "poverty",
+      "jp": "貧困、貧しさ",
       "zh": "贫困",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "love",
+      "jp": "愛する、愛",
       "zh": "爱",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "novel",
+      "jp": "小説",
       "zh": "小说",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "lovely",
+      "jp": "かわいい、すてきな",
       "zh": "可爱的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "move",
+      "jp": "動く、引っ越す",
       "zh": "移动",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "moving",
+      "jp": "感動的な、動いている",
       "zh": "移动的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "movie",
+      "jp": "映画",
       "zh": "电影",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "glove",
+      "jp": "手袋、グローブ",
       "zh": "手套",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "globe",
+      "jp": "地球、地球儀",
       "zh": "地球",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "above",
+      "jp": "～の上に",
       "zh": "在...上",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "member",
+      "jp": "会員、メンバー",
       "zh": "成员",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "remember",
+      "jp": "覚えている、思い出す",
       "zh": "记得",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "memory",
+      "jp": "記憶、思い出",
       "zh": "记忆",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "memorial",
+      "jp": "記念碑、記念の",
       "zh": "纪念碑",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "number",
+      "jp": "数、番号",
       "zh": "数字",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "september",
+      "jp": "9月",
       "zh": "9月",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "november",
+      "jp": "11月",
       "zh": "11月",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "december",
+      "jp": "12月",
       "zh": "12月",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "low",
+      "jp": "低い",
       "zh": "低的",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "cloud",
+      "jp": "雲",
       "zh": "云",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "cloudy",
+      "jp": "曇りの、曇った",
       "zh": "多云的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "loudly",
+      "jp": "大声で、騒がしく",
       "zh": "大声地",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "loudspeaker",
+      "jp": "スピーカー、拡声器",
       "zh": "扬声器",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "aloud",
+      "jp": "声に出して、大声で",
       "zh": "大声地",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "proud",
+      "jp": "誇りに思う、自慢の",
       "zh": "自豪的",
       "cluster": "c8",
       "role": "member"

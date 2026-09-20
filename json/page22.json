@@ -37,372 +37,434 @@
   "words": [
     {
       "id": "sure",
+      "jp": "確信して、確かな",
       "zh": "确信的",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "leisure",
+      "jp": "余暇、レジャー",
       "zh": "悠闲",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "survey",
+      "jp": "調査、調査する",
       "zh": "调查",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "unsure",
+      "jp": "確信がない、自信がない",
       "zh": "不确定的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "pleasure",
+      "jp": "喜び、楽しみ",
       "zh": "愉快",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "please",
+      "jp": "どうぞ、喜ばせる",
       "zh": "请",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "pleased",
+      "jp": "喜んだ、満足した",
       "zh": "高兴的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "pleasant",
+      "jp": "楽しい、快い",
       "zh": "令人愉快的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "let",
+      "jp": "～させる、許す",
       "zh": "让",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "leg",
+      "jp": "脚、足",
       "zh": "腿",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "left",
+      "jp": "左、左の",
       "zh": "左边",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "vet",
+      "jp": "獣医",
       "zh": "兽医",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "very",
+      "jp": "とても、非常に",
       "zh": "非常",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "set",
+      "jp": "置く、セット",
       "zh": "摆放",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "rush",
+      "jp": "急ぐ、突進する",
       "zh": "冲",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "push",
+      "jp": "押す",
       "zh": "推",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "brush",
+      "jp": "ブラシ、磨く",
       "zh": "刷",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "toothbrush",
+      "jp": "歯ブラシ",
       "zh": "牙刷",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "russian",
+      "jp": "ロシア人、ロシア語",
       "zh": "俄罗斯人",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "pub",
+      "jp": "パブ、居酒屋",
       "zh": "酒吧",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "put",
+      "jp": "置く、入れる",
       "zh": "放",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "nut",
+      "jp": "木の実、ナッツ",
       "zh": "坚果",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "public",
+      "jp": "公共の、公の",
       "zh": "公共的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "cub",
+      "jp": "（動物の）子、幼獣",
       "zh": "幼兽",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "club",
+      "jp": "クラブ、部",
       "zh": "俱乐部",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "climb",
+      "jp": "登る、よじ登る",
       "zh": "爬",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "climate",
+      "jp": "気候",
       "zh": "气候",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "scuba",
+      "jp": "スキューバ、潜水器具",
       "zh": "水肺",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "ten",
+      "jp": "十、10",
       "zh": "十",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "sentence",
+      "jp": "文、判決",
       "zh": "句子",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "senior",
+      "jp": "年上の、上級の",
       "zh": "资深的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "term",
+      "jp": "学期、用語",
       "zh": "学期",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tennis",
+      "jp": "テニス",
       "zh": "网球",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "often",
+      "jp": "よく、しばしば",
       "zh": "经常",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "tent",
+      "jp": "テント",
       "zh": "帐篷",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "cent",
+      "jp": "セント",
       "zh": "一分钱硬币",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "century",
+      "jp": "世紀、100年",
       "zh": "世纪",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "centre",
+      "jp": "中心、センター",
       "zh": "中心",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "extent",
+      "jp": "程度、範囲",
       "zh": "程度",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "exit",
+      "jp": "出口、退出する",
       "zh": "出口",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "excite",
+      "jp": "興奮させる、わくわくさせる",
       "zh": "使兴奋",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "excited",
+      "jp": "わくわくした、興奮した",
       "zh": "兴奋的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "exciting",
+      "jp": "わくわくする、刺激的な",
       "zh": "令人兴奋的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "exercise",
+      "jp": "運動、練習",
       "zh": "练习",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "except",
+      "jp": "～を除いて",
       "zh": "除了",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "accept",
+      "jp": "受け入れる、承諾する",
       "zh": "接受",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "accident",
+      "jp": "事故、偶然",
       "zh": "事故",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "excellent",
+      "jp": "優秀な、非常に優れた",
       "zh": "优秀的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "was",
+      "jp": "～だった",
       "zh": "是",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "wag",
+      "jp": "振る、揺らす",
       "zh": "摇摆",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "wave",
+      "jp": "手を振る、波",
       "zh": "挥手",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "leave",
+      "jp": "去る、置いていく",
       "zh": "离开",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "pavement",
+      "jp": "歩道、舗装",
       "zh": "人行道",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "avenue",
+      "jp": "大通り、並木道",
       "zh": "林荫道",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "ill",
+      "jp": "病気の、具合が悪い",
       "zh": "病的",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "brilliant",
+      "jp": "すばらしい、輝かしい",
       "zh": "优秀的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "thriller",
+      "jp": "スリラー、怪奇小説",
       "zh": "惊险小说",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "kill",
+      "jp": "殺す",
       "zh": "杀",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "kilo",
+      "jp": "キロ",
       "zh": "千克",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "kilometer",
+      "jp": "キロメートル",
       "zh": "千米",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "meter",
+      "jp": "メートル、計量器",
       "zh": "米",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "metal",
+      "jp": "金属",
       "zh": "金属",
       "cluster": "c8",
       "role": "member"

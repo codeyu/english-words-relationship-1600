@@ -1,783 +1,163 @@
 {
-  "source": "速记1600单词 每周一页 第1页",
-  "clusters": [
-    {
-      "id": "c1",
-      "center": "best"
-    },
-    {
-      "id": "c2",
-      "center": "count"
-    },
-    {
-      "id": "c3",
-      "center": "fish"
-    },
-    {
-      "id": "c4",
-      "center": "round"
-    },
-    {
-      "id": "c5",
-      "center": "meal"
-    },
-    {
-      "id": "c6",
-      "center": "arm"
-    },
-    {
-      "id": "c7",
-      "center": "son"
-    }
-  ],
-  "words": [
-    {
-      "id": "best",
-      "zh": "最好的",
-      "cluster": "c1",
-      "role": "center"
-    },
-    {
-      "id": "rest",
-      "zh": "休息",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "restroom",
-      "zh": "卫生间",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "restaurant",
-      "zh": "饭店",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "restless",
-      "zh": "焦躁不安的",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "forest",
-      "zh": "森林",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "vest",
-      "zh": "马甲",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "harvest",
-      "zh": "收获",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "test",
-      "zh": "测试",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "text",
-      "zh": "课文",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "textbook",
-      "zh": "课本",
-      "cluster": "c1",
-      "role": "member"
-    },
-    {
-      "id": "count",
-      "zh": "计算",
-      "cluster": "c2",
-      "role": "center"
-    },
-    {
-      "id": "couple",
-      "zh": "一对",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "course",
-      "zh": "课程",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "cousin",
-      "zh": "堂兄妹",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "country",
-      "zh": "国家",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "countryside",
-      "zh": "乡村",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "discount",
-      "zh": "折扣",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "mount",
-      "zh": "山峰",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "mountain",
-      "zh": "山脉",
-      "cluster": "c2",
-      "role": "member"
-    },
-    {
-      "id": "fish",
-      "zh": "鱼",
-      "cluster": "c3",
-      "role": "center"
-    },
-    {
-      "id": "wish",
-      "zh": "希望",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "wise",
-      "zh": "英明的",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "with",
-      "zh": "和...在一起",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "witch",
-      "zh": "女巫",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "without",
-      "zh": "不和...在一起",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "dish",
-      "zh": "碟子",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "finish",
-      "zh": "完成",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "punish",
-      "zh": "惩罚",
-      "cluster": "c3",
-      "role": "member"
-    },
-    {
-      "id": "round",
-      "zh": "圆的",
-      "cluster": "c4",
-      "role": "center"
-    },
-    {
-      "id": "around",
-      "zh": "在...周围",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "surround",
-      "zh": "围绕",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "surrounding",
-      "zh": "周围的",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "ground",
-      "zh": "地面",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "group",
-      "zh": "组",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "underground",
-      "zh": "地下",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "under",
-      "zh": "在...下面",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "found",
-      "zh": "建立",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "sound",
-      "zh": "声音",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "pound",
-      "zh": "磅",
-      "cluster": "c4",
-      "role": "member"
-    },
-    {
-      "id": "meal",
-      "zh": "饭",
-      "cluster": "c5",
-      "role": "center"
-    },
-    {
-      "id": "meat",
-      "zh": "肉",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "meet",
-      "zh": "遇见",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "meeting",
-      "zh": "会议",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "mean",
-      "zh": "意思是",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "meaning",
-      "zh": "意思",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "real",
-      "zh": "真的",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "really",
-      "zh": "真实的",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "realistic",
-      "zh": "现实的",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "realize",
-      "zh": "意识到",
-      "cluster": "c5",
-      "role": "member"
-    },
-    {
-      "id": "arm",
-      "zh": "胳膊",
-      "cluster": "c6",
-      "role": "center"
-    },
-    {
-      "id": "army",
-      "zh": "军队",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "alarm",
-      "zh": "警报",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "far",
-      "zh": "远",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farther",
-      "zh": "更远的",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farthest",
-      "zh": "最远的",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farm",
-      "zh": "农场",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farmland",
-      "zh": "耕地",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "land",
-      "zh": "陆地",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farming",
-      "zh": "耕种",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "farmer",
-      "zh": "农民",
-      "cluster": "c6",
-      "role": "member"
-    },
-    {
-      "id": "son",
-      "zh": "儿子",
-      "cluster": "c7",
-      "role": "center"
-    },
-    {
-      "id": "soon",
-      "zh": "很快",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "lesson",
-      "zh": "课",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "less",
-      "zh": "较少的",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "reason",
-      "zh": "原因",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "reasonable",
-      "zh": "合理的",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "prison",
-      "zh": "监狱",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "person",
-      "zh": "人",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "personal",
-      "zh": "个人的",
-      "cluster": "c7",
-      "role": "member"
-    },
-    {
-      "id": "personally",
-      "zh": "个人地",
-      "cluster": "c7",
-      "role": "member"
-    }
-  ],
-  "edges": [
-    {
-      "from": "best",
-      "to": "rest",
-      "type": "spelling"
-    },
-    {
-      "from": "rest",
-      "to": "restroom",
-      "type": "derive"
-    },
-    {
-      "from": "restroom",
-      "to": "restaurant",
-      "type": "derive"
-    },
-    {
-      "from": "restroom",
-      "to": "restless",
-      "type": "derive"
-    },
-    {
-      "from": "rest",
-      "to": "forest",
-      "type": "spelling"
-    },
-    {
-      "from": "best",
-      "to": "vest",
-      "type": "spelling"
-    },
-    {
-      "from": "vest",
-      "to": "harvest",
-      "type": "spelling"
-    },
-    {
-      "from": "best",
-      "to": "test",
-      "type": "spelling"
-    },
-    {
-      "from": "test",
-      "to": "text",
-      "type": "spelling"
-    },
-    {
-      "from": "text",
-      "to": "textbook",
-      "type": "compound"
-    },
-    {
-      "from": "count",
-      "to": "couple",
-      "type": "spelling"
-    },
-    {
-      "from": "couple",
-      "to": "course",
-      "type": "spelling"
-    },
-    {
-      "from": "couple",
-      "to": "cousin",
-      "type": "spelling"
-    },
-    {
-      "from": "count",
-      "to": "country",
-      "type": "spelling"
-    },
-    {
-      "from": "country",
-      "to": "countryside",
-      "type": "compound"
-    },
-    {
-      "from": "count",
-      "to": "discount",
-      "type": "derive"
-    },
-    {
-      "from": "discount",
-      "to": "mount",
-      "type": "spelling"
-    },
-    {
-      "from": "mount",
-      "to": "mountain",
-      "type": "derive"
-    },
-    {
-      "from": "fish",
-      "to": "wish",
-      "type": "spelling"
-    },
-    {
-      "from": "wish",
-      "to": "wise",
-      "type": "spelling"
-    },
-    {
-      "from": "wish",
-      "to": "with",
-      "type": "spelling"
-    },
-    {
-      "from": "with",
-      "to": "witch",
-      "type": "spelling"
-    },
-    {
-      "from": "with",
-      "to": "without",
-      "type": "derive"
-    },
-    {
-      "from": "fish",
-      "to": "dish",
-      "type": "spelling"
-    },
-    {
-      "from": "dish",
-      "to": "finish",
-      "type": "spelling"
-    },
-    {
-      "from": "finish",
-      "to": "punish",
-      "type": "spelling"
-    },
-    {
-      "from": "round",
-      "to": "around",
-      "type": "spelling"
-    },
-    {
-      "from": "round",
-      "to": "surround",
-      "type": "spelling"
-    },
-    {
-      "from": "surround",
-      "to": "surrounding",
-      "type": "derive"
-    },
-    {
-      "from": "round",
-      "to": "ground",
-      "type": "spelling"
-    },
-    {
-      "from": "ground",
-      "to": "group",
-      "type": "spelling"
-    },
-    {
-      "from": "ground",
-      "to": "underground",
-      "type": "derive"
-    },
-    {
-      "from": "underground",
-      "to": "under",
-      "type": "derive"
-    },
-    {
-      "from": "round",
-      "to": "found",
-      "type": "spelling"
-    },
-    {
-      "from": "found",
-      "to": "sound",
-      "type": "spelling"
-    },
-    {
-      "from": "sound",
-      "to": "pound",
-      "type": "spelling"
-    },
-    {
-      "from": "meal",
-      "to": "meat",
-      "type": "spelling"
-    },
-    {
-      "from": "meat",
-      "to": "meet",
-      "type": "spelling"
-    },
-    {
-      "from": "meet",
-      "to": "meeting",
-      "type": "derive"
-    },
-    {
-      "from": "meal",
-      "to": "mean",
-      "type": "spelling"
-    },
-    {
-      "from": "mean",
-      "to": "meaning",
-      "type": "derive"
-    },
-    {
-      "from": "meal",
-      "to": "real",
-      "type": "spelling"
-    },
-    {
-      "from": "real",
-      "to": "really",
-      "type": "derive"
-    },
-    {
-      "from": "real",
-      "to": "realistic",
-      "type": "derive"
-    },
-    {
-      "from": "real",
-      "to": "realize",
-      "type": "derive"
-    },
-    {
-      "from": "arm",
-      "to": "army",
-      "type": "spelling"
-    },
-    {
-      "from": "arm",
-      "to": "alarm",
-      "type": "spelling"
-    },
-    {
-      "from": "arm",
-      "to": "far",
-      "type": "spelling"
-    },
-    {
-      "from": "far",
-      "to": "farther",
-      "type": "derive"
-    },
-    {
-      "from": "farther",
-      "to": "farthest",
-      "type": "derive"
-    },
-    {
-      "from": "arm",
-      "to": "farm",
-      "type": "spelling"
-    },
-    {
-      "from": "farm",
-      "to": "farmland",
-      "type": "compound"
-    },
-    {
-      "from": "farmland",
-      "to": "land",
-      "type": "compound"
-    },
-    {
-      "from": "farm",
-      "to": "farming",
-      "type": "derive"
-    },
-    {
-      "from": "farm",
-      "to": "farmer",
-      "type": "derive"
-    },
-    {
-      "from": "son",
-      "to": "soon",
-      "type": "spelling"
-    },
-    {
-      "from": "son",
-      "to": "lesson",
-      "type": "spelling"
-    },
-    {
-      "from": "lesson",
-      "to": "less",
-      "type": "spelling"
-    },
-    {
-      "from": "son",
-      "to": "reason",
-      "type": "spelling"
-    },
-    {
-      "from": "reason",
-      "to": "reasonable",
-      "type": "derive"
-    },
-    {
-      "from": "son",
-      "to": "prison",
-      "type": "spelling"
-    },
-    {
-      "from": "prison",
-      "to": "person",
-      "type": "spelling"
-    },
-    {
-      "from": "person",
-      "to": "personal",
-      "type": "derive"
-    },
-    {
-      "from": "personal",
-      "to": "personally",
-      "type": "derive"
-    }
-  ]
-}
+    "source": "速记1600单词 每周一页 第1页",
+    "clusters": [
+      {"id": "c1", "center": "best"},
+      {"id": "c2", "center": "count"},
+      {"id": "c3", "center": "fish"},
+      {"id": "c4", "center": "round"},
+      {"id": "c5", "center": "meal"},
+      {"id": "c6", "center": "arm"},
+      {"id": "c7", "center": "son"}
+    ],
+    "words": [
+      {"id":"best","jp":"最高の、一番良い","zh":"最好的","cluster":"c1","role":"center"},
+      {"id":"rest","jp":"休憩する、休む","zh":"休息","cluster":"c1","role":"member"},
+      {"id":"restroom","jp":"トイレ、化粧室","zh":"卫生间","cluster":"c1","role":"member"},
+      {"id":"restaurant","jp":"レストラン、飲食店","zh":"饭店","cluster":"c1","role":"member"},
+      {"id":"restless","jp":"落ち着かない","zh":"焦躁不安的","cluster":"c1","role":"member"},
+      {"id":"forest","jp":"森、森林","zh":"森林","cluster":"c1","role":"member"},
+      {"id":"harvest","jp":"収穫、取り入れ","zh":"收获","cluster":"c1","role":"member"},
+      {"id":"vest","jp":"ベスト、チョッキ","zh":"马甲","cluster":"c1","role":"member"},
+      {"id":"test","jp":"テスト、試験","zh":"测试","cluster":"c1","role":"member"},
+      {"id":"text","jp":"本文、テキスト","zh":"课文","cluster":"c1","role":"member"},
+      {"id":"textbook","jp":"教科書","zh":"课本","cluster":"c1","role":"member"},
+  
+      {"id":"count","jp":"数える、計算する","zh":"计算","cluster":"c2","role":"center"},
+      {"id":"couple","jp":"一組、夫婦","zh":"一对","cluster":"c2","role":"member"},
+      {"id":"course","jp":"コース、課程","zh":"课程","cluster":"c2","role":"member"},
+      {"id":"cousin","jp":"いとこ","zh":"堂兄妹","cluster":"c2","role":"member"},
+      {"id":"country","jp":"国、国家","zh":"国家","cluster":"c2","role":"member"},
+      {"id":"countryside","jp":"田舎、郊外","zh":"乡村","cluster":"c2","role":"member"},
+      {"id":"discount","jp":"割引","zh":"折扣","cluster":"c2","role":"member"},
+      {"id":"mount","jp":"山、登る","zh":"山峰","cluster":"c2","role":"member"},
+      {"id":"mountain","jp":"山、山脈","zh":"山脉","cluster":"c2","role":"member"},
+  
+      {"id":"fish","jp":"魚","zh":"鱼","cluster":"c3","role":"center"},
+      {"id":"wish","jp":"願う、望む","zh":"希望","cluster":"c3","role":"member"},
+      {"id":"wise","jp":"賢い、賢明な","zh":"英明的","cluster":"c3","role":"member"},
+      {"id":"with","jp":"～と一緒に","zh":"和...在一起","cluster":"c3","role":"member"},
+      {"id":"witch","jp":"魔女","zh":"女巫","cluster":"c3","role":"member"},
+      {"id":"without","jp":"～なしで","zh":"不和...在一起","cluster":"c3","role":"member"},
+      {"id":"dish","jp":"皿、料理","zh":"碟子","cluster":"c3","role":"member"},
+      {"id":"finish","jp":"終える、完成する","zh":"完成","cluster":"c3","role":"member"},
+      {"id":"punish","jp":"罰する","zh":"惩罚","cluster":"c3","role":"member"},
+  
+      {"id":"round","jp":"丸い、円形の","zh":"圆的","cluster":"c4","role":"center"},
+      {"id":"around","jp":"～の周りに","zh":"在...周围","cluster":"c4","role":"member"},
+      {"id":"surround","jp":"囲む、取り囲む","zh":"围绕","cluster":"c4","role":"member"},
+      {"id":"surrounding","jp":"周囲の、周りの","zh":"周围的","cluster":"c4","role":"member"},
+      {"id":"ground","jp":"地面、グラウンド","zh":"地面","cluster":"c4","role":"member"},
+      {"id":"group","jp":"グループ、組","zh":"组","cluster":"c4","role":"member"},
+      {"id":"underground","jp":"地下、地下鉄","zh":"地下","cluster":"c4","role":"member"},
+      {"id":"under","jp":"～の下に","zh":"在...下面","cluster":"c4","role":"member"},
+      {"id":"found","jp":"設立する、創立する","zh":"建立","cluster":"c4","role":"member"},
+      {"id":"sound","jp":"音、聞こえる","zh":"声音","cluster":"c4","role":"member"},
+      {"id":"pound","jp":"ポンド","zh":"磅","cluster":"c4","role":"member"},
+  
+      {"id":"meal","jp":"食事","zh":"饭","cluster":"c5","role":"center"},
+      {"id":"meat","jp":"肉","zh":"肉","cluster":"c5","role":"member"},
+      {"id":"meet","jp":"会う、出会う","zh":"遇见","cluster":"c5","role":"member"},
+      {"id":"meeting","jp":"会議、集まり","zh":"会议","cluster":"c5","role":"member"},
+      {"id":"mean","jp":"意味する","zh":"意思是","cluster":"c5","role":"member"},
+      {"id":"meaning","jp":"意味","zh":"意思","cluster":"c5","role":"member"},
+      {"id":"real","jp":"本当の、現実の","zh":"真的","cluster":"c5","role":"member"},
+      {"id":"really","jp":"本当に","zh":"真实的","cluster":"c5","role":"member"},
+      {"id":"realistic","jp":"現実的な","zh":"现实的","cluster":"c5","role":"member"},
+      {"id":"realize","jp":"気づく、実現する","zh":"意识到","cluster":"c5","role":"member"},
+  
+      {"id":"arm","jp":"腕","zh":"胳膊","cluster":"c6","role":"center"},
+      {"id":"army","jp":"軍隊、陸軍","zh":"军队","cluster":"c6","role":"member"},
+      {"id":"alarm","jp":"警報、目覚まし","zh":"警报","cluster":"c6","role":"member"},
+      {"id":"far","jp":"遠い、遠く","zh":"远","cluster":"c6","role":"member"},
+      {"id":"farther","jp":"もっと遠い","zh":"更远的","cluster":"c6","role":"member"},
+      {"id":"farthest","jp":"最も遠い","zh":"最远的","cluster":"c6","role":"member"},
+      {"id":"farm","jp":"農場","zh":"农场","cluster":"c6","role":"member"},
+      {"id":"farmland","jp":"農地、耕地","zh":"耕地","cluster":"c6","role":"member"},
+      {"id":"land","jp":"陸地、土地","zh":"陆地","cluster":"c6","role":"member"},
+      {"id":"farming","jp":"農業、耕作","zh":"耕种","cluster":"c6","role":"member"},
+      {"id":"farmer","jp":"農民、農場主","zh":"农民","cluster":"c6","role":"member"},
+  
+      {"id":"son","jp":"息子","zh":"儿子","cluster":"c7","role":"center"},
+      {"id":"soon","jp":"まもなく、すぐに","zh":"很快","cluster":"c7","role":"member"},
+      {"id":"less","jp":"より少ない","zh":"较少的","cluster":"c7","role":"member"},
+      {"id":"lesson","jp":"授業、レッスン","zh":"课","cluster":"c7","role":"member"},
+      {"id":"reason","jp":"理由、原因","zh":"原因","cluster":"c7","role":"member"},
+      {"id":"reasonable","jp":"合理的な、妥当な","zh":"合理的","cluster":"c7","role":"member"},
+      {"id":"prison","jp":"刑務所、監獄","zh":"监狱","cluster":"c7","role":"member"},
+      {"id":"person","jp":"人、人物","zh":"人","cluster":"c7","role":"member"},
+      {"id":"personal","jp":"個人の、個人的な","zh":"个人的","cluster":"c7","role":"member"},
+      {"id":"personally","jp":"個人的に","zh":"个人地","cluster":"c7","role":"member"}
+    ],
+    "edges": [
+      {"from":"best","to":"rest","type":"spelling"},
+      {"from":"rest","to":"restroom","type":"derive"},
+      {"from":"restroom","to":"restaurant","type":"derive"},
+      {"from":"restroom","to":"restless","type":"derive"},
+      {"from":"rest","to":"forest","type":"spelling"},
+      {"from":"best","to":"vest","type":"spelling"},
+      {"from":"vest","to":"harvest","type":"spelling"},
+      {"from":"best","to":"test","type":"spelling"},
+      {"from":"test","to":"text","type":"spelling"},
+      {"from":"text","to":"textbook","type":"compound"},
+  
+      {"from":"count","to":"couple","type":"spelling"},
+      {"from":"couple","to":"course","type":"spelling"},
+      {"from":"couple","to":"cousin","type":"spelling"},
+      {"from":"count","to":"country","type":"spelling"},
+      {"from":"country","to":"countryside","type":"compound"},
+      {"from":"count","to":"discount","type":"derive"},
+      {"from":"discount","to":"mount","type":"spelling"},
+      {"from":"mount","to":"mountain","type":"derive"},
+  
+      {"from":"fish","to":"wish","type":"spelling"},
+      {"from":"wish","to":"wise","type":"spelling"},
+      {"from":"wish","to":"with","type":"spelling"},
+      {"from":"with","to":"witch","type":"spelling"},
+      {"from":"with","to":"without","type":"derive"},
+      {"from":"fish","to":"dish","type":"spelling"},
+      {"from":"dish","to":"finish","type":"spelling"},
+      {"from":"finish","to":"punish","type":"spelling"},
+  
+      {"from":"round","to":"around","type":"spelling"},
+      {"from":"round","to":"surround","type":"spelling"},
+      {"from":"surround","to":"surrounding","type":"derive"},
+      {"from":"round","to":"ground","type":"spelling"},
+      {"from":"ground","to":"group","type":"spelling"},
+      {"from":"ground","to":"underground","type":"derive"},
+      {"from":"underground","to":"under","type":"derive"},
+      {"from":"round","to":"found","type":"spelling"},
+      {"from":"found","to":"sound","type":"spelling"},
+      {"from":"sound","to":"pound","type":"spelling"},
+  
+      {"from":"meal","to":"meat","type":"spelling"},
+      {"from":"meat","to":"meet","type":"spelling"},
+      {"from":"meet","to":"meeting","type":"derive"},
+      {"from":"meal","to":"mean","type":"spelling"},
+      {"from":"mean","to":"meaning","type":"derive"},
+      {"from":"meal","to":"real","type":"spelling"},
+      {"from":"real","to":"really","type":"derive"},
+      {"from":"real","to":"realistic","type":"derive"},
+      {"from":"real","to":"realize","type":"derive"},
+  
+      {"from":"arm","to":"army","type":"spelling"},
+      {"from":"arm","to":"alarm","type":"spelling"},
+      {"from":"arm","to":"far","type":"spelling"},
+      {"from":"far","to":"farther","type":"derive"},
+      {"from":"farther","to":"farthest","type":"derive"},
+      {"from":"arm","to":"farm","type":"spelling"},
+      {"from":"farm","to":"farmland","type":"compound"},
+      {"from":"farmland","to":"land","type":"compound"},
+      {"from":"farm","to":"farming","type":"derive"},
+      {"from":"farm","to":"farmer","type":"derive"},
+  
+      {"from":"son","to":"soon","type":"spelling"},
+      {"from":"son","to":"lesson","type":"spelling"},
+      {"from":"lesson","to":"less","type":"spelling"},
+      {"from":"son","to":"reason","type":"spelling"},
+      {"from":"reason","to":"reasonable","type":"derive"},
+      {"from":"son","to":"prison","type":"spelling"},
+      {"from":"prison","to":"person","type":"spelling"},
+      {"from":"person","to":"personal","type":"derive"},
+      {"from":"personal","to":"personally","type":"derive"}
+    ]
+  }

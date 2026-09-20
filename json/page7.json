@@ -37,450 +37,525 @@
   "words": [
     {
       "id": "watch",
+      "jp": "見る、腕時計",
       "zh": "观看",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "watchtower",
+      "jp": "見張り台、望楼",
       "zh": "瞭望塔",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "tower",
+      "jp": "塔、タワー",
       "zh": "塔",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "power",
+      "jp": "力、電力",
       "zh": "能力",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "flower",
+      "jp": "花",
       "zh": "花",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "match",
+      "jp": "試合、マッチする",
       "zh": "比赛",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "math",
+      "jp": "数学",
       "zh": "数学",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "maths",
+      "jp": "数学",
       "zh": "数学",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "catch",
+      "jp": "つかまえる、捕る",
       "zh": "抓住",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "cat",
+      "jp": "猫",
       "zh": "猫",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "five",
+      "jp": "五、5",
       "zh": "五",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "give",
+      "jp": "与える、あげる",
       "zh": "给",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "dive",
+      "jp": "飛び込む、潜る",
       "zh": "跳水",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "drive",
+      "jp": "運転する",
       "zh": "驾驶",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "driver",
+      "jp": "運転手、ドライバー",
       "zh": "司机",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "river",
+      "jp": "川",
       "zh": "河",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "arrive",
+      "jp": "到着する",
       "zh": "到达",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "divide",
+      "jp": "分ける、分割する",
       "zh": "分离",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "diver",
+      "jp": "飛び込み選手、潜水士",
       "zh": "跳水运动员",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "old",
+      "jp": "年老いた、古い",
       "zh": "老的",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "cold",
+      "jp": "寒い、冷たい",
       "zh": "冷的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "soldier",
+      "jp": "兵士、軍人",
       "zh": "士兵",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "bold",
+      "jp": "大胆な、太字の",
       "zh": "大胆的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "gold",
+      "jp": "金、黄金",
       "zh": "金子",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "golden",
+      "jp": "金色の、黄金の",
       "zh": "金黄的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "golf",
+      "jp": "ゴルフ",
       "zh": "高尔夫",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "wolf",
+      "jp": "オオカミ",
       "zh": "狼",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "end",
+      "jp": "終わる、終わり",
       "zh": "结束",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "send",
+      "jp": "送る",
       "zh": "送",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "lend",
+      "jp": "貸す",
       "zh": "借出",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "spend",
+      "jp": "費やす、過ごす",
       "zh": "花费",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "depend",
+      "jp": "頼る、依存する",
       "zh": "依靠",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "ending",
+      "jp": "結末、終わり",
       "zh": "结局",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "friend",
+      "jp": "友達、友人",
       "zh": "朋友",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "friendly",
+      "jp": "友好的な、親しみやすい",
       "zh": "友好的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "unfriendly",
+      "jp": "不親切な、よそよそしい",
       "zh": "不友好的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "friendship",
+      "jp": "友情",
       "zh": "友谊",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "shop",
+      "jp": "店、買い物をする",
       "zh": "商店",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "shopping",
+      "jp": "買い物、ショッピング",
       "zh": "购物",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "show",
+      "jp": "見せる、ショー",
       "zh": "展示",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shoe",
+      "jp": "靴",
       "zh": "鞋",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shower",
+      "jp": "シャワー、にわか雨",
       "zh": "阵雨",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "showery",
+      "jp": "にわか雨の",
       "zh": "阵雨的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shot",
+      "jp": "発砲、シュート",
       "zh": "开枪",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shout",
+      "jp": "叫ぶ、どなる",
       "zh": "喊",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shoot",
+      "jp": "撃つ、シュートする",
       "zh": "射击，开枪",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "short",
+      "jp": "短い、背が低い",
       "zh": "短的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "shut",
+      "jp": "閉める、閉じる",
       "zh": "关上",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "coat",
+      "jp": "コート、上着",
       "zh": "外套",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "boat",
+      "jp": "ボート、小舟",
       "zh": "小船",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "boating",
+      "jp": "ボート遊び",
       "zh": "划船",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "goat",
+      "jp": "ヤギ",
       "zh": "羊",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "goal",
+      "jp": "目標、ゴール",
       "zh": "目标",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "coal",
+      "jp": "石炭",
       "zh": "煤",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "coach",
+      "jp": "コーチ、指導する",
       "zh": "教练",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "cake",
+      "jp": "ケーキ",
       "zh": "蛋糕",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "take",
+      "jp": "取る、持っていく",
       "zh": "带走",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "task",
+      "jp": "仕事、課題",
       "zh": "任务",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "ask",
+      "jp": "尋ねる、頼む",
       "zh": "问",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "lake",
+      "jp": "湖",
       "zh": "湖",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "cafe",
+      "jp": "カフェ、喫茶店",
       "zh": "咖啡馆",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "wake",
+      "jp": "目を覚ます、起こす",
       "zh": "唤醒",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "awake",
+      "jp": "目が覚めている",
       "zh": "醒着的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "make",
+      "jp": "作る、～させる",
       "zh": "制作",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "bake",
+      "jp": "焼く、オーブンで焼く",
       "zh": "烘培",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "all",
+      "jp": "すべての、全部",
       "zh": "全部",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "ball",
+      "jp": "ボール、球",
       "zh": "球",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "call",
+      "jp": "呼ぶ、電話する",
       "zh": "喊",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "ballet",
+      "jp": "バレエ",
       "zh": "芭蕾舞",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "allow",
+      "jp": "許す、許可する",
       "zh": "允许",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "swallow",
+      "jp": "飲み込む、ツバメ",
       "zh": "吞下",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "hall",
+      "jp": "ホール、広間",
       "zh": "大厅",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "wall",
+      "jp": "壁、塀",
       "zh": "墙",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "wallet",
+      "jp": "財布",
       "zh": "钱夹",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "shall",
+      "jp": "～しましょうか",
       "zh": "将要",
       "cluster": "c8",
       "role": "member"

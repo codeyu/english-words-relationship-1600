@@ -37,450 +37,525 @@
   "words": [
     {
       "id": "world",
+      "jp": "世界",
       "zh": "世界",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "word",
+      "jp": "単語、言葉",
       "zh": "单词",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "work",
+      "jp": "働く、仕事",
       "zh": "工作",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "workplace",
+      "jp": "職場",
       "zh": "工作场所",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "workshop",
+      "jp": "作業場、講習会",
       "zh": "车间",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "worker",
+      "jp": "労働者、働く人",
       "zh": "工人",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "would",
+      "jp": "～だろう",
       "zh": "将会",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "could",
+      "jp": "～できた",
       "zh": "能",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "should",
+      "jp": "～すべきだ",
       "zh": "应该",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "shoulder",
+      "jp": "肩",
       "zh": "肩膀",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "our",
+      "jp": "私たちの",
       "zh": "我们的",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "tour",
+      "jp": "旅行、観光する",
       "zh": "旅游",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "tourist",
+      "jp": "観光客、旅行者",
       "zh": "旅游者",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "tourism",
+      "jp": "観光業",
       "zh": "旅游业",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "labour",
+      "jp": "労働、骨折り",
       "zh": "劳动",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "ours",
+      "jp": "私たちのもの",
       "zh": "我们的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "ourselves",
+      "jp": "私たち自身",
       "zh": "我们自己",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "label",
+      "jp": "ラベル、札を付ける",
       "zh": "标签，把....称为",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "sour",
+      "jp": "酸っぱい",
       "zh": "酸的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "soup",
+      "jp": "スープ",
       "zh": "汤",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pour",
+      "jp": "注ぐ、降り注ぐ",
       "zh": "涌出",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "night",
+      "jp": "夜、晩",
       "zh": "晚上",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "tonight",
+      "jp": "今夜、今晩",
       "zh": "今晚",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "midnight",
+      "jp": "真夜中、午前0時",
       "zh": "午夜",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "nightmare",
+      "jp": "悪夢",
       "zh": "噩梦",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "might",
+      "jp": "～かもしれない",
       "zh": "可以",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "tight",
+      "jp": "きつい、ぴんと張った",
       "zh": "紧的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sight",
+      "jp": "視力、光景",
       "zh": "视力",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sightseeing",
+      "jp": "観光、見物",
       "zh": "观光",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "ant",
+      "jp": "アリ",
       "zh": "蚂蚁",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "want",
+      "jp": "ほしい、したい",
       "zh": "想",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "plant",
+      "jp": "植える、植物",
       "zh": "种植",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "plan",
+      "jp": "計画、計画する",
       "zh": "计划",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "plane",
+      "jp": "飛行機",
       "zh": "飞机",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "planet",
+      "jp": "惑星",
       "zh": "星球",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "aeroplane",
+      "jp": "飛行機",
       "zh": "飞机",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "place",
+      "jp": "場所、置く",
       "zh": "地点",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "palace",
+      "jp": "宮殿、御殿",
       "zh": "宫殿",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "lay",
+      "jp": "置く、横たえる",
       "zh": "放置",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "lazy",
+      "jp": "怠け者の、ものぐさな",
       "zh": "懒惰的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "delay",
+      "jp": "遅らせる、遅れ",
       "zh": "耽搁",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "relay",
+      "jp": "リレー、中継する",
       "zh": "接力赛",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "relax",
+      "jp": "くつろぐ、リラックスする",
       "zh": "放松",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "relaxing",
+      "jp": "くつろげる、心地よい",
       "zh": "令人放松的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "galaxy",
+      "jp": "銀河",
       "zh": "星系",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "relative",
+      "jp": "親戚、相対的な",
       "zh": "相对的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "relation",
+      "jp": "関係、関連",
       "zh": "关系",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "book",
+      "jp": "本、予約する",
       "zh": "书",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "bookmark",
+      "jp": "しおり、ブックマーク",
       "zh": "书签",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "bookshop",
+      "jp": "書店、本屋",
       "zh": "书店",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "spoon",
+      "jp": "スプーン",
       "zh": "勺子",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "bush",
+      "jp": "低木、茂み",
       "zh": "灌木丛",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "boot",
+      "jp": "ブーツ、長靴",
       "zh": "长筒靴",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "notebook",
+      "jp": "ノート、手帳",
       "zh": "笔记簿",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "note",
+      "jp": "メモ、書き留める",
       "zh": "笔记",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "guidebook",
+      "jp": "ガイドブック、案内書",
       "zh": "旅行指南",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "guide",
+      "jp": "案内する、ガイド",
       "zh": "导游",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "part",
+      "jp": "部分、一部",
       "zh": "部分",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "partner",
+      "jp": "仲間、パートナー",
       "zh": "同伴",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "part-time",
+      "jp": "パートタイムの、非常勤の",
       "zh": "兼职的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "apart",
+      "jp": "離れて、別々に",
       "zh": "分开的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "depart",
+      "jp": "出発する、去る",
       "zh": "离开",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "department",
+      "jp": "部門、学科",
       "zh": "部，系",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "party",
+      "jp": "パーティー、政党",
       "zh": "聚会",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "park",
+      "jp": "公園、駐車する",
       "zh": "停车",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "parking",
+      "jp": "駐車、駐車場",
       "zh": "停车场",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "shame",
+      "jp": "恥、残念なこと",
       "zh": "蒙羞",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "shake",
+      "jp": "振る、揺れる",
       "zh": "摇动",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "snake",
+      "jp": "ヘビ",
       "zh": "蛇",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "shook",
+      "jp": "shakeの過去形、振った",
       "zh": "shake过去式",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "shape",
+      "jp": "形、形作る",
       "zh": "形状",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "share",
+      "jp": "分け合う、共有する",
       "zh": "分享",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "shark",
+      "jp": "サメ",
       "zh": "鲨鱼",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "sharp",
+      "jp": "鋭い、とがった",
       "zh": "削尖",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "sharpener",
+      "jp": "鉛筆削り",
       "zh": "卷笔刀",
       "cluster": "c8",
       "role": "member"

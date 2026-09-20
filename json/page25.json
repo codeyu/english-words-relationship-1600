@@ -37,432 +37,504 @@
   "words": [
     {
       "id": "come",
+      "jp": "来る",
       "zh": "来",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "welcome",
+      "jp": "歓迎する、ようこそ",
       "zh": "欢迎",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "become",
+      "jp": "～になる",
       "zh": "成为",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "camp",
+      "jp": "キャンプ、野営地",
       "zh": "营地",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lamp",
+      "jp": "ランプ、電灯",
       "zh": "台灯",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lamb",
+      "jp": "子羊、ラム肉",
       "zh": "小绵羊",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "stamp",
+      "jp": "切手、スタンプ",
       "zh": "邮票",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "bamboo",
+      "jp": "竹",
       "zh": "竹子",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "nine",
+      "jp": "九、9",
       "zh": "九",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "ninety",
+      "jp": "九十、90",
       "zh": "九十",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "nineteen",
+      "jp": "十九、19",
       "zh": "十九",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "ninth",
+      "jp": "九番目の、第九",
       "zh": "第九",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "fine",
+      "jp": "元気な、すばらしい",
       "zh": "好的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "define",
+      "jp": "定義する、明確にする",
       "zh": "确定",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "find",
+      "jp": "見つける、わかる",
       "zh": "找到",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "kind",
+      "jp": "親切な、種類",
       "zh": "亲切的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "behind",
+      "jp": "～の後ろに",
       "zh": "在...后面",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "kind-hearted",
+      "jp": "心の優しい、思いやりのある",
       "zh": "仁慈的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "kid",
+      "jp": "子供、からかう",
       "zh": "小孩",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "heart",
+      "jp": "心臓、心",
       "zh": "心脏",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "nose",
+      "jp": "鼻",
       "zh": "鼻子",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "noise",
+      "jp": "音、騒音",
       "zh": "噪音",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "noisy",
+      "jp": "うるさい、騒がしい",
       "zh": "嘈杂的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "daisy",
+      "jp": "ヒナギク、デイジー",
       "zh": "极好的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "daily",
+      "jp": "毎日の、日常の",
       "zh": "日常的，每日",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "those",
+      "jp": "それら、あれら",
       "zh": "那些",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "whose",
+      "jp": "誰の、誰のもの",
       "zh": "谁的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "these",
+      "jp": "これら",
       "zh": "这些",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "doll",
+      "jp": "人形",
       "zh": "玩偶",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "dull",
+      "jp": "鈍い、退屈な",
       "zh": "钝的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "full",
+      "jp": "いっぱいの、満ちた",
       "zh": "满的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "fuel",
+      "jp": "燃料",
       "zh": "燃料",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "pull",
+      "jp": "引く、引っ張る",
       "zh": "拉",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "dollar",
+      "jp": "ドル",
       "zh": "美元",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "poll",
+      "jp": "世論調査、投票",
       "zh": "投票",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "pollute",
+      "jp": "汚染する",
       "zh": "污染",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "pollution",
+      "jp": "汚染、公害",
       "zh": "污染",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "polluted",
+      "jp": "汚染された",
       "zh": "污染的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "ring",
+      "jp": "指輪、鳴る",
       "zh": "戒指",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "spring",
+      "jp": "春、ばね",
       "zh": "春季",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "bring",
+      "jp": "持ってくる、連れてくる",
       "zh": "带来",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "boring",
+      "jp": "退屈な、つまらない",
       "zh": "无趣的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "bored",
+      "jp": "退屈した、うんざりした",
       "zh": "感到无聊的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "red",
+      "jp": "赤、赤い",
       "zh": "红的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "during",
+      "jp": "～の間じゅう、～の間に",
       "zh": "在...期间",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "drum",
+      "jp": "ドラム、太鼓",
       "zh": "鼓",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "last",
+      "jp": "最後の、続く",
       "zh": "最后",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "fast",
+      "jp": "速い、速く",
       "zh": "快的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "fat",
+      "jp": "太った、脂肪",
       "zh": "胖的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "castle",
+      "jp": "城",
       "zh": "城堡",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "vast",
+      "jp": "広大な、莫大な",
       "zh": "巨大的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "vase",
+      "jp": "花瓶",
       "zh": "花瓶",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "base",
+      "jp": "土台、基地",
       "zh": "基础",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "baseball",
+      "jp": "野球",
       "zh": "棒球",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "tie",
+      "jp": "ネクタイ、結ぶ",
       "zh": "领带",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "pie",
+      "jp": "パイ",
       "zh": "馅饼",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "piece",
+      "jp": "一片、一つ",
       "zh": "片",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "die",
+      "jp": "死ぬ",
       "zh": "死亡",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "time",
+      "jp": "時間、時",
       "zh": "时间",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "timetable",
+      "jp": "時間割、時刻表",
       "zh": "时间表",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "toe",
+      "jp": "つま先、足の指",
       "zh": "脚趾",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "dime",
+      "jp": "10セント硬貨",
       "zh": "少量的钱",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "dim",
+      "jp": "薄暗い、ぼんやりした",
       "zh": "暗淡的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "rain",
+      "jp": "雨、雨が降る",
       "zh": "下雨",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "rail",
+      "jp": "レール、手すり",
       "zh": "围栏",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "railway",
+      "jp": "鉄道、線路",
       "zh": "铁路",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "train",
+      "jp": "列車、訓練する",
       "zh": "火车",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "training",
+      "jp": "訓練、トレーニング",
       "zh": "训练",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "trainer",
+      "jp": "トレーナー、指導者",
       "zh": "教练",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "rainy",
+      "jp": "雨の、雨降りの",
       "zh": "下雨的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "rainfall",
+      "jp": "降雨、降雨量",
       "zh": "降雨",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "raincoat",
+      "jp": "レインコート",
       "zh": "雨衣",
       "cluster": "c8",
       "role": "member"

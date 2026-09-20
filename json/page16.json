@@ -37,348 +37,406 @@
   "words": [
     {
       "id": "library",
+      "jp": "図書館",
       "zh": "图书馆",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "dictionary",
+      "jp": "辞書、辞典",
       "zh": "字典",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "february",
+      "jp": "2月",
       "zh": "二月",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "librarian",
+      "jp": "図書館員、司書",
       "zh": "图书管理员",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "necessary",
+      "jp": "必要な、不可欠な",
       "zh": "必须的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "primary",
+      "jp": "初等の、主要な",
       "zh": "初级的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "vocabulary",
+      "jp": "語彙、単語",
       "zh": "词汇",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "blue",
+      "jp": "青、青い",
       "zh": "蓝色的",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "blues",
+      "jp": "ブルース、憂鬱",
       "zh": "布鲁斯歌曲",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "june",
+      "jp": "6月",
       "zh": "六月",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "junior",
+      "jp": "年下の、下級の",
       "zh": "低级的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "senior",
+      "jp": "年上の、上級の",
       "zh": "高级的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "july",
+      "jp": "7月",
       "zh": "七月",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "nation",
+      "jp": "国家、国民",
       "zh": "国家",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "intonation",
+      "jp": "抑揚、イントネーション",
       "zh": "语调",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "into",
+      "jp": "～の中へ",
       "zh": "到...里",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "national",
+      "jp": "国家の、国民の",
       "zh": "国家的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "onion",
+      "jp": "タマネギ",
       "zh": "洋葱",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "only",
+      "jp": "ただ～だけ、唯一の",
       "zh": "仅仅",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "onto",
+      "jp": "～の上へ",
       "zh": "到...上",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "opinion",
+      "jp": "意見、考え",
       "zh": "意见",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "day",
+      "jp": "日、昼間",
       "zh": "白天",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "today",
+      "jp": "今日",
       "zh": "今天",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "holiday",
+      "jp": "休日、休暇",
       "zh": "假期",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "midday",
+      "jp": "正午、真昼",
       "zh": "中午",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "daytime",
+      "jp": "昼間、日中",
       "zh": "白天",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "tuesday",
+      "jp": "火曜日",
       "zh": "周二",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "saturday",
+      "jp": "土曜日",
       "zh": "周六",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "thursday",
+      "jp": "木曜日",
       "zh": "周四",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "popular",
+      "jp": "人気のある",
       "zh": "流行的",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "population",
+      "jp": "人口",
       "zh": "人口",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "punctuation",
+      "jp": "句読点",
       "zh": "标点符号",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "large",
+      "jp": "大きい、広い",
       "zh": "大的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "unpopular",
+      "jp": "人気のない",
       "zh": "不流行的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "pop",
+      "jp": "ポップス、ポンと鳴る",
       "zh": "流行音乐",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "able",
+      "jp": "～できる、有能な",
       "zh": "能",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "cable",
+      "jp": "ケーブル、電線",
       "zh": "电缆",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "cabin",
+      "jp": "小屋、船室",
       "zh": "小木屋",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "table",
+      "jp": "テーブル、表",
       "zh": "桌子",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "unable",
+      "jp": "～できない",
       "zh": "不能的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "believable",
+      "jp": "信じられる、信用できる",
       "zh": "可信的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "belief",
+      "jp": "信念、信じること",
       "zh": "n.相信",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "thief",
+      "jp": "泥棒、こそ泥",
       "zh": "小偷",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "believe",
+      "jp": "信じる",
       "zh": "v.相信",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "table",
+      "jp": "テーブル、表",
       "zh": "桌子",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "suitable",
+      "jp": "適した、ふさわしい",
       "zh": "适当地",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "suit",
+      "jp": "スーツ、似合う",
       "zh": "一套衣服",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "vegetable",
+      "jp": "野菜",
       "zh": "蔬菜",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "comfortable",
+      "jp": "快適な、心地よい",
       "zh": "舒适的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "uncomfortable",
+      "jp": "心地よくない、不快な",
       "zh": "不舒适的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "unforgettable",
+      "jp": "忘れられない",
       "zh": "难忘的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "comfort",
+      "jp": "慰める、快適さ",
       "zh": "安慰",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "trouble",
+      "jp": "困難、悩ませる",
       "zh": "困难",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "double",
+      "jp": "二倍の、二重の",
       "zh": "双人的，翻倍",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "trousers",
+      "jp": "ズボン",
       "zh": "裤子",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "terrible",
+      "jp": "ひどい、恐ろしい",
       "zh": "可怕的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "terrific",
+      "jp": "すばらしい、すごい",
       "zh": "极好的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "terrorist",
+      "jp": "テロリスト",
       "zh": "恐怖分子",
       "cluster": "c8",
       "role": "member"

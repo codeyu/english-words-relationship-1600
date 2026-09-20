@@ -37,492 +37,574 @@
   "words": [
     {
       "id": "long",
+      "jp": "長い",
       "zh": "长的",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "along",
+      "jp": "～に沿って",
       "zh": "沿着",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "alone",
+      "jp": "一人で、独りの",
       "zh": "独自的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "among",
+      "jp": "～の間に",
       "zh": "在...之中",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lonely",
+      "jp": "孤独な、寂しい",
       "zh": "孤独的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "belong",
+      "jp": "属する",
       "zh": "属于",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "song",
+      "jp": "歌",
       "zh": "歌",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "strong",
+      "jp": "強い、丈夫な",
       "zh": "强壮的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "string",
+      "jp": "糸、ひも、弦",
       "zh": "线、弦",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "wrong",
+      "jp": "間違った、誤った",
       "zh": "错误的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "play",
+      "jp": "遊ぶ、（球技を）する",
       "zh": "玩",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "playground",
+      "jp": "運動場、遊び場",
       "zh": "操场",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "display",
+      "jp": "展示する、陳列",
       "zh": "展出",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "player",
+      "jp": "選手、プレーヤー",
       "zh": "运动员",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "playhouse",
+      "jp": "劇場",
       "zh": "剧院",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "house",
+      "jp": "家、住宅",
       "zh": "房子",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "housewife",
+      "jp": "主婦",
       "zh": "家庭主妇",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "wife",
+      "jp": "妻",
       "zh": "妻子",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "housework",
+      "jp": "家事",
       "zh": "家务",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "mouse",
+      "jp": "ネズミ、マウス",
       "zh": "老鼠",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "have",
+      "jp": "持っている、ある",
       "zh": "有",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "hate",
+      "jp": "憎む、嫌う",
       "zh": "憎恨",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "gate",
+      "jp": "門、ゲート",
       "zh": "大门",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "gatekeeper",
+      "jp": "門番、守衛",
       "zh": "门卫",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "delegate",
+      "jp": "代表、代表者",
       "zh": "代表",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "delete",
+      "jp": "削除する",
       "zh": "删除",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "save",
+      "jp": "救う、保存する",
       "zh": "储存，挽救",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "hat",
+      "jp": "帽子",
       "zh": "帽子",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "date",
+      "jp": "日付、日にち",
       "zh": "日期",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "deer",
+      "jp": "鹿",
       "zh": "鹿",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "beer",
+      "jp": "ビール",
       "zh": "啤酒",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "bee",
+      "jp": "ミツバチ",
       "zh": "蜜蜂",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "beef",
+      "jp": "牛肉",
       "zh": "牛肉",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "cheer",
+      "jp": "歓声をあげる、応援する",
       "zh": "欢呼",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "cheese",
+      "jp": "チーズ",
       "zh": "奶酪",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "choose",
+      "jp": "選ぶ、選択する",
       "zh": "选择",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "cheerful",
+      "jp": "陽気な、機嫌のよい",
       "zh": "兴高采烈的",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "engineer",
+      "jp": "技術者、エンジニア",
       "zh": "工程师",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "pioneer",
+      "jp": "先駆者、開拓者",
       "zh": "先驱",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "engine",
+      "jp": "エンジン、発動機",
       "zh": "发动机",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "other",
+      "jp": "他の、ほかの",
       "zh": "其他的",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "brother",
+      "jp": "兄弟",
       "zh": "兄弟",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "together",
+      "jp": "一緒に",
       "zh": "一起",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "gather",
+      "jp": "集める、集まる",
       "zh": "收集、聚集",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "mother",
+      "jp": "母、母親",
       "zh": "妈妈",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "motherland",
+      "jp": "祖国、母国",
       "zh": "祖国",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "another",
+      "jp": "もう一つの、別の",
       "zh": "另一个",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "either",
+      "jp": "どちらか一方",
       "zh": "两者之一",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "neither",
+      "jp": "どちらも～ない",
       "zh": "两者都不",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "neighbour",
+      "jp": "隣人、近所の人",
       "zh": "邻居",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "neighbourhood",
+      "jp": "近所、地域",
       "zh": "街区，社区",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "out",
+      "jp": "外に、外へ",
       "zh": "在外面",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "outdoor",
+      "jp": "屋外の、野外の",
       "zh": "户外",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "door",
+      "jp": "ドア、戸",
       "zh": "门",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "doormat",
+      "jp": "玄関マット",
       "zh": "门垫",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "door-bell",
+      "jp": "呼び鈴、ドアベル",
       "zh": "门铃",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "sprout",
+      "jp": "芽が出る、新芽",
       "zh": "萌芽",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "about",
+      "jp": "～について",
       "zh": "关于",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "outlook",
+      "jp": "眺め、見通し",
       "zh": "景色",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "outline",
+      "jp": "輪郭、あらすじ",
       "zh": "轮廓",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "outside",
+      "jp": "外側、外で",
       "zh": "在外边",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "use",
+      "jp": "使う、使用する",
       "zh": "使用",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "pause",
+      "jp": "一時停止する、間を置く",
       "zh": "暂停",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "blouse",
+      "jp": "ブラウス",
       "zh": "女衬衫",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "refuse",
+      "jp": "断る、拒否する",
       "zh": "拒绝",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "excuse",
+      "jp": "言い訳、許す",
       "zh": "打扰，借口",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "cause",
+      "jp": "原因、引き起こす",
       "zh": "原因",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "because",
+      "jp": "なぜなら、～だから",
       "zh": "因为",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "used",
+      "jp": "中古の、使用済みの",
       "zh": "用过的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "useful",
+      "jp": "役に立つ、有用な",
       "zh": "有用的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "useless",
+      "jp": "役に立たない、無駄な",
       "zh": "无用的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "user",
+      "jp": "利用者、ユーザー",
       "zh": "使用者",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "east",
+      "jp": "東、東方",
       "zh": "东方",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "south",
+      "jp": "南、南方",
       "zh": "南方",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "mouth",
+      "jp": "口",
       "zh": "嘴",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "north",
+      "jp": "北、北方",
       "zh": "北方",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "northern",
+      "jp": "北の、北部の",
       "zh": "北方的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "west",
+      "jp": "西、西方",
       "zh": "西方",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "western",
+      "jp": "西の、西洋の",
       "zh": "西方的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "easter",
+      "jp": "イースター、復活祭",
       "zh": "复活节",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "easy",
+      "jp": "簡単な、易しい",
       "zh": "容易的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "least",
+      "jp": "最も少ない",
       "zh": "最少的",
       "cluster": "c8",
       "role": "member"

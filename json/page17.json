@@ -37,378 +37,441 @@
   "words": [
     {
       "id": "desk",
+      "jp": "机",
       "zh": "课桌",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "design",
+      "jp": "設計する、デザイン",
       "zh": "设计",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sign",
+      "jp": "記号、署名する",
       "zh": "符号",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "describe",
+      "jp": "描写する、説明する",
       "zh": "v.描述",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "description",
+      "jp": "描写、説明",
       "zh": "n.描述",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "destroy",
+      "jp": "破壊する、壊す",
       "zh": "破坏",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "destination",
+      "jp": "目的地、行き先",
       "zh": "目的地",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "festival",
+      "jp": "祭り、祝祭",
       "zh": "节日",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "subject",
+      "jp": "科目、主題",
       "zh": "学科，主题",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "adjective",
+      "jp": "形容詞",
       "zh": "形容词",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "inject",
+      "jp": "注射する、注入する",
       "zh": "v.注射",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "injection",
+      "jp": "注射、注入",
       "zh": "n.注射",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "project",
+      "jp": "計画、プロジェクト",
       "zh": "项目",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "protect",
+      "jp": "守る、保護する",
       "zh": "保护",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "protection",
+      "jp": "保護、防御",
       "zh": "保护",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "object",
+      "jp": "物、目的",
       "zh": "物体，目标",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "sail",
+      "jp": "航海する、帆",
       "zh": "v.航行",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "tail",
+      "jp": "尾、しっぽ",
       "zh": "尾巴",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "tailor",
+      "jp": "仕立屋",
       "zh": "裁缝",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sailor",
+      "jp": "船乗り、水兵",
       "zh": "水手",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "sailing",
+      "jp": "航海、ヨット競技",
       "zh": "n.航行",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "dumpling",
+      "jp": "ギョーザ、団子",
       "zh": "饺子",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "pumpkin",
+      "jp": "カボチャ",
       "zh": "南瓜",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "jump",
+      "jp": "跳ぶ、ジャンプする",
       "zh": "跳",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "jumper",
+      "jp": "跳ぶ人、ジャンパー",
       "zh": "跳跃者",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "bridge",
+      "jp": "橋",
       "zh": "桥",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "porridge",
+      "jp": "おかゆ、ポリッジ",
       "zh": "粥",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "fridge",
+      "jp": "冷蔵庫",
       "zh": "冰箱",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "friday",
+      "jp": "金曜日",
       "zh": "周五",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "hedge",
+      "jp": "生け垣、言葉を濁す",
       "zh": "篱笆，回避",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "edge",
+      "jp": "端、縁",
       "zh": "边缘",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "judge",
+      "jp": "裁判官、判断する",
       "zh": "法官",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "expect",
+      "jp": "予期する、期待する",
       "zh": "期盼，预料",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "inspect",
+      "jp": "検査する、調べる",
       "zh": "检查",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "inspector",
+      "jp": "検査官、調査員",
       "zh": "检查员",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "insect",
+      "jp": "昆虫、虫",
       "zh": "昆虫",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "expert",
+      "jp": "専門家、熟練者",
       "zh": "专家",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "experience",
+      "jp": "経験、体験",
       "zh": "经验",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "expensive",
+      "jp": "高価な、値段が高い",
       "zh": "贵的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "him",
+      "jp": "彼を、彼に",
       "zh": "他",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "rim",
+      "jp": "縁、へり",
       "zh": "圆形物的边缘",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "himself",
+      "jp": "彼自身",
       "zh": "他自己",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "hit",
+      "jp": "打つ、当たる",
       "zh": "打击",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "swim",
+      "jp": "泳ぐ",
       "zh": "v.游泳",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "swimsuit",
+      "jp": "水着",
       "zh": "游泳衣",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "swimming",
+      "jp": "水泳、泳ぐこと",
       "zh": "n.游泳",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "collect",
+      "jp": "集める、収集する",
       "zh": "收集",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "collection",
+      "jp": "収集、コレクション",
       "zh": "收集",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "college",
+      "jp": "大学、単科大学",
       "zh": "大学",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "collapse",
+      "jp": "崩れる、倒壊する",
       "zh": "倒塌",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "connect",
+      "jp": "つなぐ、接続する",
       "zh": "连接",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "correct",
+      "jp": "正しい、訂正する",
       "zh": "正确的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "pea",
+      "jp": "エンドウ豆",
       "zh": "豌豆",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "peace",
+      "jp": "平和",
       "zh": "和平",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "per",
+      "jp": "～につき、～ごとに",
       "zh": "每",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "pear",
+      "jp": "洋ナシ",
       "zh": "梨",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "year",
+      "jp": "年、一年",
       "zh": "年",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "near",
+      "jp": "近い、～の近くに",
       "zh": "在附近",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "nearby",
+      "jp": "近くの、近くに",
       "zh": "附近的，在附近",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "nearly",
+      "jp": "ほとんど、もう少しで",
       "zh": "几乎",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "appear",
+      "jp": "現れる、～に見える",
       "zh": "出现",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "disappear",
+      "jp": "消える、姿を消す",
       "zh": "消失",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "disappearance",
+      "jp": "消失、失踪",
       "zh": "消失",
       "cluster": "c8",
       "role": "member"

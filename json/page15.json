@@ -37,408 +37,476 @@
   "words": [
     {
       "id": "lunch",
+      "jp": "昼食、ランチ",
       "zh": "午饭",
       "cluster": "c1",
       "role": "center"
     },
     {
       "id": "much",
+      "jp": "たくさんの、非常に",
       "zh": "非常",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "such",
+      "jp": "そのような",
       "zh": "如此",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "lunchtime",
+      "jp": "昼食時間",
       "zh": "午饭时间",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "laugh",
+      "jp": "笑う、笑い",
       "zh": "笑，大笑",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "tough",
+      "jp": "丈夫な、厳しい",
       "zh": "坚强的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "touch",
+      "jp": "触れる、触る",
       "zh": "触摸",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "cough",
+      "jp": "咳をする、咳",
       "zh": "咳嗽",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "launch",
+      "jp": "打ち上げる、開始する",
       "zh": "发动",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "naughty",
+      "jp": "いたずらな、わんぱくな",
       "zh": "淘气的",
       "cluster": "c1",
       "role": "member"
     },
     {
       "id": "sad",
+      "jp": "悲しい",
       "zh": "伤心的",
       "cluster": "c2",
       "role": "center"
     },
     {
       "id": "sadly",
+      "jp": "悲しそうに、残念ながら",
       "zh": "伤心地",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "mad",
+      "jp": "気が狂った、夢中の",
       "zh": "狂热的",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "madam",
+      "jp": "奥様、ご婦人",
       "zh": "女士",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "map",
+      "jp": "地図",
       "zh": "地图",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "many",
+      "jp": "多くの、たくさんの",
       "zh": "许多",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "germany",
+      "jp": "ドイツ",
       "zh": "德国",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "german",
+      "jp": "ドイツ人、ドイツ語",
       "zh": "德国人",
       "cluster": "c2",
       "role": "member"
     },
     {
       "id": "pardon",
+      "jp": "許す、もう一度言ってください",
       "zh": "原谅",
       "cluster": "c3",
       "role": "center"
     },
     {
       "id": "parliament",
+      "jp": "議会、国会",
       "zh": "国会",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "paris",
+      "jp": "パリ",
       "zh": "巴黎",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "london",
+      "jp": "ロンドン",
       "zh": "伦敦",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "garden",
+      "jp": "庭、庭園",
       "zh": "花园",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "pond",
+      "jp": "池",
       "zh": "池塘",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "beyond",
+      "jp": "～を越えて、～の向こうに",
       "zh": "在那边，超出",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "obey",
+      "jp": "従う、守る",
       "zh": "遵守",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "second",
+      "jp": "二番目の、秒",
       "zh": "第二",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "secondhand",
+      "jp": "中古の",
       "zh": "二手的",
       "cluster": "c3",
       "role": "member"
     },
     {
       "id": "back",
+      "jp": "背中、後ろ",
       "zh": "后面/背",
       "cluster": "c4",
       "role": "center"
     },
     {
       "id": "neck",
+      "jp": "首",
       "zh": "脖子",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "necklace",
+      "jp": "ネックレス、首飾り",
       "zh": "项链",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "backyard",
+      "jp": "裏庭",
       "zh": "后院",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "record",
+      "jp": "記録する、レコード",
       "zh": "记录",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "recognize",
+      "jp": "見分ける、認識する",
       "zh": "认出",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "receive",
+      "jp": "受け取る、受ける",
       "zh": "收到",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "accept",
+      "jp": "受け入れる、承諾する",
       "zh": "接受",
       "cluster": "c4",
       "role": "member"
     },
     {
       "id": "famous",
+      "jp": "有名な",
       "zh": "著名的",
       "cluster": "c5",
       "role": "center"
     },
     {
       "id": "nervous",
+      "jp": "緊張した、神経質な",
       "zh": "担忧的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "serious",
+      "jp": "まじめな、深刻な",
       "zh": "严肃的",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "servant",
+      "jp": "使用人、召使い",
       "zh": "佣人",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "serve",
+      "jp": "仕える、給仕する",
       "zh": "服务",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "reserve",
+      "jp": "予約する、取っておく",
       "zh": "保留",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "deserve",
+      "jp": "～に値する、～を受けるに足る",
       "zh": "应得",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "desert",
+      "jp": "砂漠、見捨てる",
       "zh": "沙漠",
       "cluster": "c5",
       "role": "member"
     },
     {
       "id": "proper",
+      "jp": "適切な、ふさわしい",
       "zh": "适当地",
       "cluster": "c6",
       "role": "center"
     },
     {
       "id": "problem",
+      "jp": "問題、課題",
       "zh": "问题",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "probably",
+      "jp": "たぶん、おそらく",
       "zh": "大概",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "properly",
+      "jp": "適切に、きちんと",
       "zh": "适当的",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "provide",
+      "jp": "提供する、供給する",
       "zh": "提供",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "produce",
+      "jp": "生産する、作り出す",
       "zh": "生产",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "promise",
+      "jp": "約束する、約束",
       "zh": "承诺",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "introduce",
+      "jp": "紹介する、導入する",
       "zh": "v.介绍",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "introduction",
+      "jp": "紹介、導入",
       "zh": "n.介绍",
       "cluster": "c6",
       "role": "member"
     },
     {
       "id": "child",
+      "jp": "子供",
       "zh": "孩子",
       "cluster": "c7",
       "role": "center"
     },
     {
       "id": "chill",
+      "jp": "冷やす、冷気",
       "zh": "冷的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "challenge",
+      "jp": "挑戦する、課題",
       "zh": "挑战",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "chips",
+      "jp": "フライドポテト、チップス",
       "zh": "薯条",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "build",
+      "jp": "建てる、建設する",
       "zh": "建立",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "building",
+      "jp": "建物、建築",
       "zh": "建筑物",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "wild",
+      "jp": "野生の、荒れた",
       "zh": "野生的",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "wildlife",
+      "jp": "野生生物",
       "zh": "野生生物",
       "cluster": "c7",
       "role": "member"
     },
     {
       "id": "prefer",
+      "jp": "～のほうを好む",
       "zh": "更喜欢",
       "cluster": "c8",
       "role": "center"
     },
     {
       "id": "present",
+      "jp": "出席している、贈り物",
       "zh": "到场的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "president",
+      "jp": "大統領、社長",
       "zh": "总统",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "predict",
+      "jp": "予測する、予言する",
       "zh": "预言/预测",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "strict",
+      "jp": "厳しい、厳格な",
       "zh": "严格的，严厉的",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "strike",
+      "jp": "打つ、ストライキ",
       "zh": "罢工",
       "cluster": "c8",
       "role": "member"
     },
     {
       "id": "pretty",
+      "jp": "かわいい、かなり",
       "zh": "漂亮的",
       "cluster": "c8",
       "role": "member"
