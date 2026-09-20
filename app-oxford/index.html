@@ -3,35 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>形近词图谱 · 速记1600单词</title>
+<title>牛津3000 词图 · Oxford 3000</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#E9EFF6; --grid:rgba(31,95,208,.08); --panel:#FFFFFF; --line:#C9D5E6;
   --ink:#14233D; --ink2:#5A6B86; --accent:#1F5FD0; --accent-soft:#DCE8FB;
-  --spell:#1F5FD0; --derive:#0C8A74; --compound:#B8690F; --hl:#D6336C;
+  --spell:#1F5FD0; --derive:#0C8A74; --compound:#B8690F; --root:#7A4FD0; --hl:#D6336C;
   --node:#FFFFFF; --node-line:#9FB4D6; --center:#14233D; --center-ink:#F4F8FF;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0E2A22; --grid:rgba(255,255,255,.06); --panel:#143830; --line:#2B5A4D;
     --ink:#EEF4EC; --ink2:#9DBBAE; --accent:#8FC1FF; --accent-soft:#1E4A5E;
-    --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --hl:#FF8FB4;
+    --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --root:#C0A5FF; --hl:#FF8FB4;
     --node:#173F35; --node-line:#4E8676; --center:#EEF4EC; --center-ink:#0E2A22;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E2A22; --grid:rgba(255,255,255,.06); --panel:#143830; --line:#2B5A4D;
   --ink:#EEF4EC; --ink2:#9DBBAE; --accent:#8FC1FF; --accent-soft:#1E4A5E;
-  --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --hl:#FF8FB4;
+  --spell:#8FC1FF; --derive:#7EE0B8; --compound:#F2BE6B; --root:#C0A5FF; --hl:#FF8FB4;
   --node:#173F35; --node-line:#4E8676; --center:#EEF4EC; --center-ink:#0E2A22;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
   font-family:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
-[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
+
 button,input,select{font:inherit}
 button:focus-visible,input:focus-visible,g[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
@@ -49,6 +49,7 @@ body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
   writing-mode:vertical-rl;border:1.5px solid var(--line);border-radius:16px;background:var(--panel);
   color:var(--ink2);font-size:13px;letter-spacing:.1em;padding:10px 0}
 .rail:hover{border-color:var(--accent);color:var(--ink)}
+[lang="ja"]{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",system-ui,sans-serif}
 .hd{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .fold{border:0;background:transparent;color:var(--ink2);cursor:pointer;font-size:16px;line-height:1;
   padding:2px 6px;border-radius:8px}
@@ -84,6 +85,51 @@ body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
 .wItem.cen b{font-weight:700}
 .sub-list{padding-left:6px;border-left:2px solid var(--line);margin:2px 0 8px 12px}
 .empty{padding:16px 10px;font-size:13px;color:var(--ink2)}
+.lv{font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:1px 4px;border-radius:4px;
+  border:1px solid currentColor;flex:none;opacity:.85}
+.lv-a1{color:#0C8A74} .lv-a2{color:#1F5FD0} .lv-b1{color:#B8690F} .lv-b2{color:#7A4FD0} .lv-c1{color:#D6336C}
+.wItem.on .lv{color:var(--bg)}
+.lvbar{display:flex;gap:4px;flex-wrap:wrap}
+.lvbar button{flex:1;min-width:34px;font-size:11.5px;padding:3px 0;border-radius:7px;cursor:pointer;
+  border:1.5px solid var(--line);background:transparent;color:var(--ink2)}
+.lvbar button[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink);font-weight:600}
+.ipa{display:flex;flex-wrap:wrap;gap:6px}
+.play{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;cursor:pointer;
+  border:1.5px solid var(--line);background:transparent;color:var(--ink2);
+  border-radius:999px;padding:3px 11px 3px 9px;font-size:12.5px;
+  transition:border-color .15s,color .15s,background .15s}
+.play:hover{border-color:var(--accent);color:var(--ink);background:var(--accent-soft)}
+.play .lab{font-size:10px;font-weight:700;letter-spacing:.06em;opacity:.75}
+.play .ph{font-family:"Bricolage Grotesque",sans-serif;color:var(--ink)}
+.play svg{flex:none;display:block}
+.play.on{border-color:var(--accent);color:var(--ink);background:var(--accent-soft)}
+.play.tts{border-style:dashed;opacity:.8}
+.jp{display:grid;gap:5px;margin:2px 0}
+.jprow{display:grid;grid-template-columns:20px 1fr;align-items:baseline;gap:9px}
+.jppos{font-size:10.5px;font-weight:700;color:var(--accent);background:var(--accent-soft);
+  border-radius:5px;padding:2px 0;text-align:center;line-height:1.15}
+.jprow.dup .jppos{visibility:hidden}
+.jptext{font-size:14.5px;font-weight:500;line-height:1.55;letter-spacing:.01em;color:var(--ink2)}
+.ensenses summary{cursor:pointer;font-size:12px;color:var(--ink2);letter-spacing:.04em}
+.ensenses[open] summary{margin-bottom:6px}
+.ensenses{border-top:1px solid var(--line);padding-top:8px}
+.sense{margin:0 0 6px;font-size:13px;line-height:1.5}
+.sense .pos{font-style:italic;color:var(--ink2);margin-right:6px}
+.sense .ex{display:block;color:var(--ink2);font-size:12.5px;margin-top:3px;padding-left:9px;
+  border-left:2px solid var(--line)}
+.yg{font-size:12px;color:var(--ink2);line-height:1.5;
+  border-top:1.5px solid var(--line);padding-top:10px;margin-top:2px}
+.yg summary{cursor:pointer;color:var(--ink);font-size:12px}
+.yg[open] summary{margin-bottom:6px}
+.ygbody{font-size:11px;color:var(--ink2);line-height:1.5}
+.ygbody a{color:var(--ink2)}
+.ygbody a:hover{color:var(--accent)}
+#ygHost{margin-top:6px}
+#ygHost[hidden]{display:none}
+#ygHost iframe{max-width:100%}
+.origin{font-size:12px;color:var(--ink2);line-height:1.5}
+.origin summary{cursor:pointer;color:var(--ink);font-size:12px}
+.forms{font-size:12px;color:var(--ink2)}
 
 /* ---------- 中：搜索 / 最近 / 工具栏 / 图 ---------- */
 .searchbar{display:flex;gap:8px;align-items:center}
@@ -105,7 +151,7 @@ body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
 .board{flex:1;min-height:0;border:1.5px solid var(--line);border-radius:16px;background-color:var(--panel);
   background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
   background-size:26px 26px;overflow:auto}
-#graph{display:block;width:100%;height:100%;min-width:760px;min-height:560px}
+#graph{display:block;width:100%;height:100%}
 .msg{font-size:12px;color:var(--ink2);margin:0}
 .msg:empty{display:none}
 .msg.err{color:var(--hl)}
@@ -114,8 +160,9 @@ body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
 .link{fill:none;stroke-width:2.2;transition:opacity .2s}
 .link.s{stroke:var(--spell)} .link.d{stroke:var(--derive);stroke-dasharray:7 5}
 .link.c{stroke:var(--compound);stroke-dasharray:2 5;stroke-linecap:round}
+.link.r{stroke:var(--root);stroke-width:2.6}
 .link.dim{opacity:.22}
-.mk-s{fill:var(--spell)} .mk-d{fill:var(--derive)} .mk-c{fill:var(--compound)}
+.mk-s{fill:var(--spell)} .mk-d{fill:var(--derive)} .mk-c{fill:var(--compound)} .mk-r{fill:var(--root)}
 .node{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
 .node.dragging{cursor:grabbing}
 .node.dragging rect,.node.dragging circle{stroke:var(--accent);stroke-width:3.2}
@@ -123,10 +170,11 @@ body.l-closed .col-left .rail,body.r-closed .col-right .rail{display:flex}
 .node:hover rect,.node:hover circle{stroke:var(--accent)}
 .node.sel rect,.node.sel circle{stroke:var(--accent);stroke-width:3.2}
 .node.center circle{fill:var(--center);stroke:var(--center)}
-.node .w{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:500;font-size:18px;fill:var(--ink);text-anchor:middle}
-.node .z{font-size:13px;fill:var(--ink2);text-anchor:middle}
-.node.center .w{fill:var(--center-ink);font-size:24px;font-weight:700}
-.node.center .z{fill:var(--center-ink);opacity:.8;font-size:14px}
+.node .w{font-family:"Bricolage Grotesque","Noto Sans SC",sans-serif;font-weight:500;font-size:15px;fill:var(--ink);text-anchor:middle}
+.node .z{font-size:11px;fill:var(--ink2);text-anchor:middle}
+.node.center .w{fill:var(--center-ink);font-size:18px;font-weight:700}
+.node.center .z{fill:var(--center-ink);opacity:.8;font-size:11px}
+.node .zoom{transition:transform .2s cubic-bezier(.2,.75,.3,1)}
 .node .hl{fill:var(--hl);font-weight:700}
 .node .z.hidden{opacity:.45;letter-spacing:.1em}
 
@@ -168,7 +216,7 @@ h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--
     <div class="panel">
       <div class="lhead">
         <div class="hd">
-          <h1>形近词图谱</h1>
+          <h1>Oxford 3000</h1>
           <button class="fold" id="foldL" title="收起单词一览" aria-label="收起单词一览">«</button>
         </div>
         <div class="seg" role="group" aria-label="排列方式">
@@ -176,6 +224,7 @@ h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--
           <button id="mCl" aria-pressed="false">按词簇</button>
         </div>
         <input id="filter" type="search" placeholder="筛选一览" aria-label="筛选单词一览" autocomplete="off" spellcheck="false">
+        <div class="lvbar" id="lvbar" role="group" aria-label="按 CEFR 等级筛选"></div>
         <div class="cnt" id="cnt"></div>
       </div>
       <div class="list" id="list"></div>
@@ -185,11 +234,11 @@ h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--
   <!-- ============ 中：搜索 + 图 ============ -->
   <main class="col col-mid">
     <div class="searchbar">
-      <input id="q" type="search" placeholder="搜索单词，如 mountain" aria-label="搜索单词" autocomplete="off" autocapitalize="none" spellcheck="false">
+      <input id="q" type="search" placeholder="搜索单词，如 attract" aria-label="搜索单词" autocomplete="off" autocapitalize="none" spellcheck="false">
     </div>
     <div class="recent" id="recent" aria-label="最近查询"></div>
     <div class="toolbar">
-      <button class="tog" id="tZh" aria-pressed="true">显示日文</button>
+      <button class="tog" id="tZh" aria-pressed="true">显示释义</button>
       <button class="tog" id="tHl" aria-pressed="true">标出相同部分</button>
       <button class="tog" id="tShake">摇一摇</button>
       <button class="tog" id="tPin" aria-pressed="false" title="开启后，拖到哪里就停在哪里">固定位置</button>
@@ -198,6 +247,7 @@ h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--
         <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--spell)" stroke-width="2.4"/></svg>拼写相近</span>
         <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--derive)" stroke-width="2.4" stroke-dasharray="7 5"/></svg>派生变形</span>
         <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--compound)" stroke-width="2.4" stroke-dasharray="2 5" stroke-linecap="round"/></svg>复合词</span>
+        <span><svg viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--root)" stroke-width="2.8"/></svg>同词源</span>
       </div>
     </div>
     <div class="crumb" id="crumb"></div>
@@ -211,16 +261,18 @@ h3.sec{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--
     <div class="panel">
       <button class="fold" id="foldR" title="收起词条详情" aria-label="收起词条详情">×</button>
       <div id="detail" aria-live="polite"></div>
+      <div id="ygHost" hidden></div>
     </div>
   </aside>
 
 </div>
 
 <script src="data.js"></script>
+<script src="detail.js"></script>
 <script>
 // ---------- 词表：data.js 打包了 json/ 下的全部单元 ----------
-const TYPE_NAME = {s:"拼写相近", d:"派生变形", c:"复合词"};
-const TYPE_MAP  = {spelling:"s",derive:"d",compound:"c",s:"s",d:"d",c:"c"};
+const TYPE_NAME = {s:"拼写相近", d:"派生变形", c:"复合词", r:"同词源"};
+const TYPE_MAP  = {spelling:"s",derive:"d",compound:"c",root:"r",s:"s",d:"d",c:"c",r:"r"};
 
 function normalize(j, fallbackName){
   if(!j || typeof j!=="object" || Array.isArray(j)) throw new Error("内容不是 JSON 对象");
@@ -295,9 +347,133 @@ function reindex(){
 }
 function glossOf(w){ const at = INDEX[w]; return at ? (PAGES[at.pi].W[w] || "") : ""; }
 
+// ---------- 牛津词条详情（detail.js） ----------
+const DETAIL = window.WC_DETAIL || {};
+// 音频路径按顺序试：自包含目录 → 同级 oxford 仓库。
+// 想自包含就跑 tools/build_oxford.py --copy-audio app-oxford/audio
+const AUDIO_BASES = ["audio/", "../../oxford-3000-and-5000/data/mp3/"];
+let AUDIO_BASE = null;          // 命中一次就记住，后面不再试错
+const LEVELS = ["a1","a2","b1","b2"];
+function D(w){ return DETAIL[w] || {}; }
+function levelOf(w){ return D(w).level || ""; }
+function playWord(w, which, btn){
+  const d = D(w), fn = (d.audio || {})[which];
+  const tts = ()=>{
+    // 退回浏览器合成音：跟真人录音不是一回事，得让用户看得见
+    if(btn){ btn.classList.add("tts"); btn.title = "找不到音频文件，改用浏览器朗读（非真人录音）"; }
+    try{
+      const u = new SpeechSynthesisUtterance(w);
+      u.lang = which === "uk" ? "en-GB" : "en-US";
+      speechSynthesis.cancel(); speechSynthesis.speak(u);
+    }catch(e){}
+  };
+  if(!fn) return tts();
+  const bases = AUDIO_BASE ? [AUDIO_BASE] : AUDIO_BASES;
+  (function tryAt(i){
+    if(i >= bases.length) return tts();
+    const a = new Audio(bases[i] + fn);
+    a.play().then(()=>{
+      AUDIO_BASE = bases[i];
+      if(btn){ btn.classList.remove("tts"); btn.title = (which==="uk"?"UK":"US") + " 发音（真人录音）"; }
+    }).catch(err=>{
+      // 被自动播放策略拦下不代表文件不存在，别误判成缺文件去退 TTS
+      if(err && err.name === "NotAllowedError"){ AUDIO_BASE = bases[i]; return; }
+      tryAt(i + 1);
+    });
+  })(0);
+}
+
+// ---------- YouGlish：真实语境发音（点了才加载，不自动查询） ----------
+// 组件位掩码：标题4 + 字幕8 + 变速16 + 控制条64 = 92（窄栏里够用，不要搜索框/口音面板）
+// 其余可选位：搜索框1 / 口音面板2 / 全部字幕8192 / 词典128 / 附近词256 / 音标512
+let YG_COMPONENTS = 4 + 8 + 16 + 64;
+
+// 裁掉底部广告区：>0 时把播放器容器裁到这个像素高度（父容器 overflow:hidden）。
+// 实测结论——只有在「关掉字幕组件」时才稳：
+//   带字幕(92)：上报总高在 661/686/711/731 之间跳，字幕行数还随视频变，
+//               固定裁切要么切掉字幕、要么漏出半截广告；
+//   无字幕(84)：连续 5 条视频总高恒为 590px，标题+播放器+控制条高度固定，可安全裁切。
+// 要开就这么配：YG_COMPONENTS = 4 + 16 + 64;（去掉字幕）YG_CLIP = 335;
+// 实测裁切值（iframe 宽 226px 时）：250 会切掉控制条，300 只剩半条，335 刚好完整。
+let YG_CLIP = 0;
+const YGS = {widget:null, word:"", ready:false, loading:false, pending:null, err:"", opened:false, shown:false};
+
+function speakerIcon(){
+  const svg = el("svg", {viewBox:"0 0 16 16", width:"13", height:"13", "aria-hidden":"true"});
+  el("path", {fill:"currentColor", d:"M7.6 2.7 4.5 5.2H2.4c-.5 0-.9.4-.9.9v3.8c0 .5.4.9.9.9h2.1l3.1 2.5c.5.4 1.3 0 1.3-.7V3.4c0-.7-.8-1.1-1.3-.7Z"}, svg);
+  el("path", {fill:"currentColor", d:"M10.9 5.5a.7.7 0 0 0-.1 1 2.3 2.3 0 0 1 0 3 .7.7 0 1 0 1.1 1 3.7 3.7 0 0 0 0-5 .7.7 0 0 0-1 0Z"}, svg);
+  el("path", {fill:"currentColor", d:"M12.9 3.1a.7.7 0 0 0-.2 1 5.5 5.5 0 0 1 0 7.8.7.7 0 1 0 1 1 7 7 0 0 0 0-9.8.7.7 0 0 0-.8 0Z"}, svg);
+  return svg;
+}
+function ygHost(){ return document.getElementById("ygHost"); }
+function ygWidth(){
+  const p = document.querySelector(".col-right .panel");
+  const w = p ? p.clientWidth - 38 : 280;
+  return Math.max(240, Math.min(560, w));      // 官方要求播放器不小于 200px
+}
+function ygLoad(){
+  if(YGS.ready || YGS.loading) return;
+  YGS.loading = true;
+  // widget.js 下载完会回调这个全局函数；注意 widget 会把目标节点整个替换掉，
+  // 所以目标必须是已经挂在文档里的元素，而且只能创建一次。
+  window.onYouglishAPIReady = function(){
+    try{
+      const host = ygHost();
+      host.hidden = false;
+      host.textContent = "";
+      const slot = document.createElement("div");
+      slot.id = "yg-player";
+      host.appendChild(slot);
+      YGS.widget = new YG.Widget(slot, {
+        width: ygWidth(),
+        components: YG_COMPONENTS,
+        events: {onFetchDone: ygOnFetchDone, onError: ygOnError}
+      });
+      YGS.ready = true; YGS.loading = false;
+      ygApplyClip();
+      if(YGS.pending){ const q = YGS.pending; YGS.pending = null; ygFetch(q); }
+    }catch(e){ ygOnError(e); }
+  };
+  const t = document.createElement("script");
+  t.src = "https://youglish.com/public/emb/widget.js";
+  t.async = true; t.charset = "utf-8";
+  t.onerror = ()=>{ YGS.loading = false; ygOnError({message:"加载失败，检查网络"}); };
+  document.head.appendChild(t);
+}
+function ygApplyClip(){
+  const h = ygHost();
+  if(!h) return;
+  if(YG_CLIP > 0){ h.style.height = YG_CLIP + "px"; h.style.overflow = "hidden"; }
+  else { h.style.height = ""; h.style.overflow = ""; }
+}
+function ygFetch(word){
+  YGS.word = word; YGS.err = ""; YGS.shown = false;
+  if(!YGS.ready){ YGS.pending = word; ygLoad(); return; }
+  ygHost().hidden = false;
+  ygApplyClip();
+  try{ YGS.widget.fetch(word, "english", "us"); }catch(e){ ygOnError(e); }
+}
+function ygOnFetchDone(ev){
+  // 播放期间广告区会不停改高度，这个回调会被反复触发；
+  // 无条件重建详情面板的话，用户刚展开的折叠项会被立刻重建成关闭状态。
+  const err = (ev && ev.totalResult === 0) ? "没有找到这个词的视频片段。" : "";
+  if(err === YGS.err && YGS.shown) return;
+  YGS.err = err; YGS.shown = true;
+  const n = tree && tree.map[state.sel];
+  if(n) renderDetail(n);
+}
+function ygOnError(e){
+  YGS.ready = false; YGS.loading = false; YGS.widget = null;
+  const h = ygHost(); if(h){ h.hidden = true; h.textContent = ""; }
+  YGS.err = "YouGlish 打不开" + (e && e.message ? "：" + e.message : "（需要联网）");
+  const n = tree && tree.map[state.sel];
+  if(n) renderDetail(n);
+}
+
 // ---------- 状态 ----------
 const state = {pi:0, ci:0, sel:null, showZh:true, showHl:true, pin:false,
-               revealed:new Set(), mode:"abc", openPage:0, leftOpen:true, rightOpen:false};
+               revealed:new Set(), mode:"abc", openPage:0, leftOpen:true, rightOpen:false,
+               lv:new Set()};
 let W = {}, CLUSTERS = [];
 const $ = id => document.getElementById(id);
 const NS = "http://www.w3.org/2000/svg";
@@ -319,30 +495,36 @@ function lcs(a,b){
 function say(text, isErr){ const m=$("msg"); m.textContent=text||""; m.className="msg"+(isErr?" err":""); }
 
 // --- 文本测量：按真实字宽算框，日文释义过长时在「、」处折成两行 ---
-const F_WORD  = '500 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
-const F_CWORD = '700 24px "Bricolage Grotesque","Noto Sans SC",sans-serif';
-const F_GLOSS = '400 13px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
-const GLOSS_MAX = 110;
+const F_WORD  = '500 15px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_CWORD = '700 18px "Bricolage Grotesque","Noto Sans SC",sans-serif';
+const F_GLOSS  = '400 11px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
+const F_CGLOSS = '400 11px "Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif';
+const GLOSS_MAX = 94;
 const _mc = document.createElement("canvas").getContext("2d");
 function measure(t, font){ _mc.font = font; return _mc.measureText(t || "").width; }
 function glossLines(t){
   if(!t) return [];
   if(measure(t, F_GLOSS) <= GLOSS_MAX) return [t];
   const wide = ls => Math.max(measure(ls[0],F_GLOSS), measure(ls[1],F_GLOSS));
+  // 日文：优先在词性标记 [動] 前断，其次顿号；英文兜底按空格断
+  const marks = [...t.matchAll(/\s*\[[^\]]+\]/g)].map(m=>m.index).filter(i=>i>0);
+  const cands = [];
+  marks.forEach(i=>cands.push([t.slice(0,i).trim(), t.slice(i).trim()]));
   const parts = t.split("、");
-  if(parts.length > 1){
-    let best = null;
-    for(let i=1;i<parts.length;i++){
-      const ls = [parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")];
-      if(!best || wide(ls) < wide(best)) best = ls;
-    }
-    return best;
+  for(let i=1;i<parts.length;i++)
+    cands.push([parts.slice(0,i).join("、")+"、", parts.slice(i).join("、")]);
+  const ws = t.split(" ");
+  for(let i=1;i<ws.length;i++)
+    cands.push([ws.slice(0,i).join(" "), ws.slice(i).join(" ")]);
+  if(!cands.length){
+    const mid = Math.ceil(t.length/2);
+    return [t.slice(0,mid), t.slice(mid)];
   }
-  const NG = "ぁぃぅぇぉっゃゅょァィゥェォッャュョーヽ々、。）」";
-  let mid = Math.ceil(t.length/2);
-  for(let k=0;k<3 && NG.includes(t[mid]); k++) mid++;
-  return [t.slice(0,mid), t.slice(mid)];
+  cands.sort((a,b)=>wide(a)-wide(b));
+  return cands[0];
 }
+
+
 
 // ---------- 建树与静止位置 ----------
 function buildTree(ci){
@@ -359,37 +541,81 @@ function buildTree(ci){
     n.kids.forEach(ang);
     n.a = (n.kids[0].a + n.kids[n.kids.length-1].a)/2;
   })(root);
-  const VW=1100, VH=820, cx=VW/2, cy=VH/2, R=350, sx=1.3;
+  // ---- 先量尺寸：框多大只跟文字有关，跟位置无关 ----
   const all = [];
-  (function place(n){
-    const r = n.depth/maxD*R;
-    n.hx = n===root ? cx : cx + Math.sin(n.a)*r*sx;
-    n.hy = n===root ? cy : cy - Math.cos(n.a)*r;
+  (function size(n){
     n.zl = glossLines(W[n.w] || "");
     const two = n.zl.length > 1;
-    if(n===root){
-      n.wy = two ? -6 : -2;
-      n.zy = two ? [16,30] : [22];
-      let rr = Math.max(54, measure(n.w,F_CWORD)/2 + 12);
-      n.zl.forEach((t,i)=>{ rr = Math.max(rr, Math.hypot(measure(t,F_GLOSS)/2+8, Math.abs(n.zy[i])+6)); });
+    if(n === root){
+      n.wy = two ? -4 : -2;
+      n.zy = two ? [11,22] : [15];
+      let rr = Math.max(36, measure(n.w,F_CWORD)/2 + 9);
+      n.zl.forEach((t,i)=>{ rr = Math.max(rr, Math.hypot(measure(t,F_CGLOSS)/2+7, Math.abs(n.zy[i])+4)); });
       n.hw = n.hh = Math.round(rr);
     }else{
-      n.wy = two ? -10 : -3;
-      n.zy = two ? [6,19] : [15];
+      n.wy = two ? -9 : -2;
+      n.zy = two ? [4,16] : [13];
       const gw = n.zl.reduce((m,t)=>Math.max(m, measure(t,F_GLOSS)), 0);
-      n.hw = Math.round(Math.max(38, measure(n.w,F_WORD)/2 + 15, gw/2 + 12));
-      n.hh = two ? 29 : 26;
+      n.hw = Math.round(Math.max(31, measure(n.w,F_WORD)/2 + 12, gw/2 + 10));
+      n.hh = two ? 25 : 22;
     }
-    n.ox=n.hx; n.oy=n.hy; n.x=n.hx; n.y=n.hy; n.vx=0; n.vy=0;
-    all.push(n); n.kids.forEach(place);
+    all.push(n); n.kids.forEach(size);
   })(root);
+
+  // ---- 几何沿用原版：等距同心环 + 横向拉伸 ----
+  // 唯一的改动在下面：画布按内容包围盒收紧，不再固定 1340x980 白留一圈边。
+  const R = 540, sx = 1.28;   // 框小了，半径放大，连线更舒展
+  (function place(n){
+    const r = (maxD ? n.depth/maxD : 0) * R;
+    n.hx = n === root ? 0 : Math.sin(n.a)*r*sx;
+    n.hy = n === root ? 0 : -Math.cos(n.a)*r;
+    n.ox=n.hx; n.oy=n.hy; n.x=n.hx; n.y=n.hy; n.vx=0; n.vy=0;
+    n.kids.forEach(place);
+  })(root);
+  // 静止位置先做矩形分离：回位目标本身不重叠，运行时的弹簧才不会把节点又拽回去叠在一起
+  for(let it=0; it<200; it++){
+    let moved = false;
+    for(let i=0;i<all.length;i++) for(let j=i+1;j<all.length;j++){
+      const a=all[i], b=all[j];
+      const dx=b.hx-a.hx, dy=b.hy-a.hy;
+      const ox=(a.hw+b.hw+34)-Math.abs(dx);
+      const oy=(a.hh+b.hh+30)-Math.abs(dy);
+      if(ox<=0 || oy<=0) continue;
+      moved = true;
+      const wa = a===root ? 0 : 1, wb = b===root ? 0 : 1;   // 中心词钉住不动
+      const tot = wa + wb || 1;
+      if(ox < oy){
+        const push = (ox + 1) * (dx < 0 ? -1 : 1);
+        a.hx -= push * wa / tot; b.hx += push * wb / tot;
+      }else{
+        const push = (oy + 1) * (dy < 0 ? -1 : 1);
+        a.hy -= push * wa / tot; b.hy += push * wb / tot;
+      }
+    }
+    if(!moved) break;
+  }
+  all.forEach(n=>{ n.ox=n.hx; n.oy=n.hy; n.x=n.hx; n.y=n.hy; });
   all.forEach(n=>{ n.L = n.parent ? Math.hypot(n.hx-n.parent.hx, n.hy-n.parent.hy) : 0; });
-  return {root, all, map, VW, VH, cx, cy, ci};
+
+  const bbox = ()=>{
+    let x0=Infinity,y0=Infinity,x1=-Infinity,y1=-Infinity;
+    all.forEach(n=>{
+      x0=Math.min(x0,n.hx-n.hw); x1=Math.max(x1,n.hx+n.hw);
+      y0=Math.min(y0,n.hy-n.hh); y1=Math.max(y1,n.hy+n.hh);
+    });
+    return {x0,y0,x1,y1,w:x1-x0,h:y1-y0};
+  };
+
+  // ---- 画布按实际包围盒收紧，图形自动填满面板 ----
+  const b = bbox(), pad = 48;
+  return {root, all, map, ci, cx:0, cy:0,
+          VX:b.x0-pad, VY:b.y0-pad, VW:b.w+pad*2, VH:b.h+pad*2};
 }
 function exitDist(n, ux, uy){
-  if(n.depth===0) return n.hw + 4;
-  const tx = Math.abs(ux)>1e-6 ? n.hw/Math.abs(ux) : 1e9;
-  const ty = Math.abs(uy)>1e-6 ? n.hh/Math.abs(uy) : 1e9;
+  const k = n.k || 1;                          // 放大时连线也停在放大后的边界
+  if(n.depth===0) return n.hw*k + 4;
+  const tx = Math.abs(ux)>1e-6 ? n.hw*k/Math.abs(ux) : 1e9;
+  const ty = Math.abs(uy)>1e-6 ? n.hh*k/Math.abs(uy) : 1e9;
   return Math.min(tx,ty) + 5;
 }
 
@@ -400,9 +626,10 @@ function render(keep){
   const old = (keep && tree && tree.ci===state.ci) ? tree.map : null;
   svg.innerHTML = "";
   tree = buildTree(state.ci);
-  svg.setAttribute("viewBox", `0 0 ${tree.VW} ${tree.VH}`);
+  svg.setAttribute("viewBox", `${tree.VX} ${tree.VY} ${tree.VW} ${tree.VH}`);
+  fitCanvas(svg);
   const defs = el("defs",{},svg);
-  ["s","d","c"].forEach(t=>{
+  ["s","d","c","r"].forEach(t=>{
     const m = el("marker",{id:"mk-"+t,viewBox:"0 0 10 10",refX:"8",refY:"5",markerWidth:"7",markerHeight:"7",orient:"auto-start-reverse"},defs);
     el("path",{d:"M0,0 L10,5 L0,10 z",class:"mk-"+t},m);
   });
@@ -420,8 +647,11 @@ function render(keep){
   tree.all.forEach(n=>{
     const isC = n.depth===0;
     const grp = el("g",{class:"node"+(isC?" center":""),tabindex:"0",role:"button","aria-label":n.w+" "+(W[n.w]||"")},nodeG);
-    if(isC) el("circle",{r:n.hw},grp); else el("rect",{x:-n.hw,y:-n.hh,width:n.hw*2,height:n.hh*2,rx:14},grp);
-    const t = el("text",{class:"w",y:n.wy},grp);
+    // 外层 g 每帧被物理改 translate，缩放放在内层，才能用 CSS 过渡做出放大动画
+    const zg = el("g",{class:"zoom"},grp);
+    n.zoomEl = zg; n.k = 1;
+    if(isC) el("circle",{r:n.hw},zg); else el("rect",{x:-n.hw,y:-n.hh,width:n.hw*2,height:n.hh*2,rx:12},zg);
+    const t = el("text",{class:"w",y:n.wy},zg);
     const hl = (!isC && state.showHl && n.parent) ? lcs(n.w, n.parent.w) : "";
     if(hl){
       const i = n.w.indexOf(hl);
@@ -429,7 +659,7 @@ function render(keep){
       el("tspan",{class:"hl"},t,hl);
       if(i+hl.length<n.w.length) el("tspan",{},t,n.w.slice(i+hl.length));
     } else t.textContent = n.w;
-    n.zEl = el("text",{class:"z",lang:"ja"},grp);
+    n.zEl = el("text",{class:"z",lang:"ja"},zg);
     setZh(n);
     n.g = grp;
     bindDrag(n);
@@ -438,6 +668,12 @@ function render(keep){
   updateView();
   kick();
 }
+// 布局尺度本身就是按画板算的，这里只负责铺满，不出滚动条
+function fitCanvas(svg){
+  svg.style.width = "100%"; svg.style.height = "100%";
+}
+addEventListener("resize", ()=>{ if(tree) fitCanvas($("graph")); });
+
 function setZh(n){
   const show = state.showZh || state.revealed.has(n.w);
   n.zEl.setAttribute("class","z"+(show?"":" hidden"));
@@ -470,9 +706,19 @@ function step(){
     const p=n.parent, dx=n.x-p.x, dy=n.y-p.y, d=Math.hypot(dx,dy)||1, f=(d-n.L)*.035, ux=dx/d, uy=dy/d;
     n.fx -= ux*f; n.fy -= uy*f; p.fx += ux*f; p.fy += uy*f;
   });
+  // 矩形分离：节点框是又宽又扁的矩形，按圆算的话横向推不开、纵向白推。
+  // 只在真的重叠时发力，并沿穿透较浅的那个轴推开，分开了就不再互相干扰。
   for(let i=0;i<ns.length;i++) for(let j=i+1;j<ns.length;j++){
-    const a=ns[i], b=ns[j], dx=b.x-a.x, dy=b.y-a.y, d=Math.hypot(dx,dy)||1, min=(a.hw+b.hw)*.9+20;
-    if(d<min){ const f=(min-d)*.03, ux=dx/d, uy=dy/d; a.fx-=ux*f; a.fy-=uy*f; b.fx+=ux*f; b.fy+=uy*f; }
+    const a=ns[i], b=ns[j];
+    const dx=b.x-a.x, dy=b.y-a.y;
+    const ox=(a.hw+b.hw+16)-Math.abs(dx);
+    const oy=(a.hh+b.hh+14)-Math.abs(dy);
+    if(ox<=0 || oy<=0) continue;
+    if(ox < oy){
+      const f=ox*.055*(dx<0?-1:1); a.fx-=f; b.fx+=f;
+    }else{
+      const f=oy*.055*(dy<0?-1:1); a.fy-=f; b.fy+=f;
+    }
   }
   ns.forEach(n=>{
     if(drag && drag.n===n){ n.vx=0; n.vy=0; return; }
@@ -537,33 +783,107 @@ function resetHomes(){
   recomputeL(); kick();
 }
 
+// 右列折叠项的开合状态：详情面板会被重建，状态得存在外面
+const SEC_OPEN = {en:false, origin:false};
+function keepOpen(dt, key){
+  dt.open = SEC_OPEN[key];
+  dt.addEventListener("toggle", ()=>{ SEC_OPEN[key] = dt.open; });
+  return dt;
+}
+
 // ---------- 选中与详情（右列） ----------
 function pathTo(n){ const p=[]; for(let x=n;x;x=x.parent) p.unshift(x); return p; }
 function applySelection(){
   const sel = tree.map[state.sel] || tree.root;
   const path = new Set(pathTo(sel));
   tree.all.forEach(n=>{
-    n.g.classList.toggle("sel", n===sel);
+    const on = n===sel;
+    n.g.classList.toggle("sel", on);
+    n.k = on ? 1.22 : 1;                       // 选中的放大一点
+    if(n.zoomEl) n.zoomEl.setAttribute("transform", on ? "scale(1.22)" : "scale(1)");
     if(n.link) n.link.classList.toggle("dim", !path.has(n));
   });
+  updateView();
   renderDetail(sel);
   markList();
 }
 function renderDetail(n){
-  const d = $("detail");
+  const d = $("detail"), det = D(n.w);
   d.innerHTML = "";
   const zshow = state.showZh || state.revealed.has(n.w);
 
   const row = document.createElement("div"); row.className="dword";
   const big = document.createElement("span"); big.className="big"; big.textContent=n.w; row.appendChild(big);
-  const sp = document.createElement("button"); sp.className="speak"; sp.textContent="朗读";
-  sp.onclick=()=>{ try{ const u=new SpeechSynthesisUtterance(n.w); u.lang="en-US"; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){} };
-  row.appendChild(sp);
+  if(det.level){
+    const lv = document.createElement("span"); lv.className="lv lv-"+det.level;
+    lv.textContent = det.level.toUpperCase(); row.appendChild(lv);
+  }
+  if((det.pos||[]).length){
+    const ps = document.createElement("span"); ps.className="where"; ps.textContent = det.pos.join(" · ");
+    row.appendChild(ps);
+  }
   d.appendChild(row);
 
-  const zh = document.createElement("div"); zh.className="zh"+(zshow?"":" hidden"); zh.lang="ja";
-  zh.textContent = zshow ? (W[n.w] || "（无释义）") : "（点击图中单词显示日文）";
-  d.appendChild(zh);
+  // 音标 + 真人发音：整条胶囊都可点，喇叭图标跟主题色走
+  const ipa = det.ipa || {};
+  if(ipa.uk || ipa.us){
+    const box = document.createElement("div"); box.className="ipa";
+    [["uk","UK"],["us","US"]].forEach(([k,label])=>{
+      if(!ipa[k]) return;
+      const btn = document.createElement("button"); btn.className = "play";
+      btn.title = label + " 发音";
+      btn.appendChild(speakerIcon());
+      const lab = document.createElement("span"); lab.className="lab"; lab.textContent = label;
+      const ph = document.createElement("span"); ph.className="ph"; ph.textContent = ipa[k];
+      btn.append(lab, ph);
+      btn.onclick = ()=>{
+        playWord(n.w, k, btn);
+        btn.classList.add("on");
+        setTimeout(()=>btn.classList.remove("on"), 900);
+      };
+      box.appendChild(btn);
+    });
+    d.appendChild(box);
+  }
+
+  // 日文释义为主；英文释义+例句折叠在下面
+  if(!zshow){
+    const hint = document.createElement("div"); hint.className="zh hidden";
+    hint.textContent = "（点击图中单词显示释义）"; d.appendChild(hint);
+  }else{
+    const jp = det.jp || W[n.w] || "";
+    if(jp){
+      const box = document.createElement("div"); box.className="jp"; box.lang="ja";
+      const pairs = det.jp_pairs && det.jp_pairs.length ? det.jp_pairs : [["", jp]];
+      let prev = null;
+      pairs.forEach(([pos,g])=>{
+        const row = document.createElement("div");
+        row.className = "jprow" + (pos && pos === prev ? " dup" : "");   // 同词性只标第一行
+        const t = document.createElement("span"); t.className="jppos"; t.textContent = pos || "";
+        const x = document.createElement("span"); x.className="jptext"; x.textContent = g;
+        row.append(t, x);
+        box.appendChild(row);
+        prev = pos;
+      });
+      d.appendChild(box);
+    }
+    const senses = det.senses || [];
+    if(senses.length){
+      const dt = document.createElement("details"); dt.className="ensenses";
+      const sm = document.createElement("summary"); sm.textContent = "英文释义・例句"; dt.appendChild(sm);
+      keepOpen(dt, "en");
+      senses.slice(0,3).forEach((se,i)=>{
+        const p0 = document.createElement("p"); p0.className="sense"; p0.lang="en";
+        if(se.pos){ const sp=document.createElement("span"); sp.className="pos"; sp.textContent=se.pos; p0.appendChild(sp); }
+        p0.append((i+1) + ". " + se.def);
+        (se.ex||[]).slice(0,1).forEach(t=>{
+          const e=document.createElement("span"); e.className="ex"; e.textContent=t; p0.appendChild(e);
+        });
+        dt.appendChild(p0);
+      });
+      d.appendChild(dt);
+    }
+  }
 
   const where = document.createElement("div"); where.className="where";
   where.textContent = `${PAGES[state.pi].title} · 词簇 ${CLUSTERS[state.ci].center}`;
@@ -581,7 +901,12 @@ function renderDetail(n){
     const hl = lcs(n.w, n.parent.w);
     const note = document.createElement("p"); note.className="note";
     note.append(`${n.w} 由 ${n.parent.w} 连出，关系：${TYPE_NAME[n.type]}。`);
-    if(hl){ note.append(" 相同部分："); const s=document.createElement("span"); s.className="hl"; s.textContent=hl; note.appendChild(s); note.append("。"); }
+    if(n.type === "r"){
+      note.append(" 同一个词源。");
+    }else if(hl){
+      note.append(" 相同部分："); const sp=document.createElement("span"); sp.className="hl"; sp.textContent=hl;
+      note.appendChild(sp); note.append("。");
+    }
     d.appendChild(note);
   } else {
     const note = document.createElement("p"); note.className="note";
@@ -595,6 +920,65 @@ function renderDetail(n){
     n.kids.forEach(k=>{ const b=document.createElement("button"); b.textContent=k.w; b.title=W[k.w]||""; b.onclick=()=>pick(k.w); ks.appendChild(b); });
     d.appendChild(ks);
   }
+
+  if((det.forms||[]).length){
+    const h = document.createElement("h3"); h.className="sec"; h.textContent="词形变化"; d.appendChild(h);
+    const f = document.createElement("div"); f.className="forms";
+    f.textContent = det.forms.map(x=>(x.label? x.label+"：" : "") + x.word).join("， ");
+    d.appendChild(f);
+  }
+
+  if(det.origin){
+    const dt = document.createElement("details"); dt.className="origin";
+    const sm = document.createElement("summary"); sm.textContent="词源"; dt.appendChild(sm);
+    keepOpen(dt, "origin");
+    dt.append(det.origin);
+    if((det.roots||[]).length) dt.append(" ｜ 词根：" + det.roots.join(", "));
+    d.appendChild(dt);
+  }
+
+  d.appendChild(ygSection(n.w));
+}
+
+// YouGlish：折叠成和「词源」一样的一行，展开才发起查询、才加载 widget
+function ygSection(word){
+  const dt = document.createElement("details"); dt.className = "yg";
+  const sm = document.createElement("summary"); sm.textContent = "YouGlish";
+  dt.appendChild(sm);
+
+  const open = YGS.opened && YGS.word === word;
+  dt.open = open;                     // 先设好再挂监听，免得初始化就触发 toggle
+
+  // 只在加载中／出错时显示一行提示；正常就是标题下面直接跟播放器
+  if(open && (YGS.err || !YGS.ready)){
+    const body = document.createElement("div"); body.className = "ygbody";
+    body.textContent = YGS.err || "加载中…";
+    dt.appendChild(body);
+  }
+
+  dt.addEventListener("toggle", ()=>{
+    // toggle 是异步派发的：上面那句 dt.open = open 也会触发到这里，
+    // 而那时监听器已经挂上了。状态没变就直接返回，否则会自己把自己循环起来。
+    if(dt.open === YGS.opened) return;
+    YGS.opened = dt.open;
+    if(dt.open){
+      if(YGS.word !== word || !YGS.ready) ygFetch(word);   // 展开这一刻才去查
+      else { ygHost().hidden = false; ygApplyClip(); }
+      setTimeout(()=>{ const n = tree && tree.map[state.sel]; if(n) renderDetail(n); }, 300);
+    }else{
+      const h = ygHost(); if(h) h.hidden = true;
+      if(YGS.widget){ try{ YGS.widget.pause(); }catch(e){} }
+    }
+  });
+
+  // 播放器常驻在 #ygHost：当前词、已就绪、且这一节展开时才显示
+  const host = ygHost();
+  if(host){
+    const show = open && YGS.ready && !YGS.err;
+    host.hidden = !show;
+    if(!show && YGS.widget){ try{ YGS.widget.pause(); }catch(e){} }
+  }
+  return dt;
 }
 
 // ---------- 单元 / 词簇切换 ----------
@@ -645,19 +1029,21 @@ function renderList(){
   const frag = document.createDocumentFragment();
 
   if(state.mode === "abc"){
-    const words = kw ? ALL.filter(w=>w.includes(kw)) : ALL;
+    const words = (kw ? ALL.filter(w=>w.includes(kw)) : ALL).filter(passLv);
     let letter = "";
     words.forEach(w=>{
       const L = w[0].toUpperCase();
       if(L !== letter){ letter = L; const h=document.createElement("div"); h.className="grp"; h.textContent=L; frag.appendChild(h); }
       frag.appendChild(wordButton(w, INDEX[w]));
     });
-    $("cnt").textContent = `共 ${ALL.length} 个单词` + (kw ? `，筛出 ${words.length} 个` : "");
+    $("cnt").textContent = `共 ${ALL.length} 个单词` + (kw || state.lv.size ? `，筛出 ${words.length} 个` : "");
     if(!words.length) frag.appendChild(emptyHint(kw));
   }else{
     let shown = 0;
     PAGES.forEach((p,pi)=>{
-      const cls = p.CLUSTERS.filter(c=>!kw || c.center.includes(kw) || c.edges.some(e=>e[1].includes(kw)));
+      const cls = p.CLUSTERS.filter(c=>
+        (!kw || c.center.includes(kw) || c.edges.some(e=>e[1].includes(kw))) &&
+        (!state.lv.size || passLv(c.center) || c.edges.some(e=>passLv(e[1]))));
       if(!cls.length) return;
       shown += cls.length;
       const head = document.createElement("button");
@@ -672,7 +1058,7 @@ function renderList(){
       cls.forEach(c=>{
         const ci = p.CLUSTERS.indexOf(c);
         sub.appendChild(wordButton(c.center, {pi, ci, center:true}));
-        c.edges.forEach(e=>sub.appendChild(wordButton(e[1], {pi, ci})));
+        c.edges.forEach(e=>{ if(!state.lv.size || passLv(e[1])) sub.appendChild(wordButton(e[1], {pi, ci})); });
       });
       frag.appendChild(sub);
     });
@@ -692,9 +1078,11 @@ function wordButton(w, at){
   b.className = "wItem" + (at && at.center ? " cen" : "");
   b.dataset.w = w;
   const s = document.createElement("b"); s.textContent = w;
+  const L = levelOf(w);
+  if(L){ const t=document.createElement("span"); t.className="lv lv-"+L; t.textContent=L.toUpperCase(); b.appendChild(t); }
   const i = document.createElement("i"); i.lang = "ja";
   i.textContent = (at ? (PAGES[at.pi].W[w] || "") : glossOf(w));
-  b.append(s, i);
+  b.insertBefore(s, b.firstChild); b.appendChild(i);
   b.onclick = ()=>{
     if(at) goto(at.pi, at.ci, w); else pick(w);
     pushRecent(w);
@@ -702,6 +1090,26 @@ function wordButton(w, at){
   };
   return b;
 }
+function passLv(w){ return !state.lv.size || state.lv.has(levelOf(w)); }
+function renderLvBar(){
+  const bar = $("lvbar"); bar.textContent = "";
+  const mk = (label, key)=>{
+    const b = document.createElement("button");
+    b.textContent = label;
+    const on = key ? state.lv.has(key) : !state.lv.size;
+    b.setAttribute("aria-pressed", on);
+    b.onclick = ()=>{
+      if(!key) state.lv.clear();
+      else if(state.lv.has(key)) state.lv.delete(key);
+      else state.lv.add(key);
+      renderLvBar(); renderList();
+    };
+    bar.appendChild(b);
+  };
+  mk("全部", null);
+  LEVELS.forEach(l=>mk(l.toUpperCase(), l));
+}
+
 function markList(){
   document.querySelectorAll(".wItem").forEach(b=>b.classList.toggle("on", b.dataset.w === state.sel));
 }
@@ -799,9 +1207,10 @@ let ui = {}; try{ ui = JSON.parse(localStorage.getItem(UI_KEY)) || {}; }catch(e)
 setLeft(ui.left !== false);   // 左列记住上次的开合
 setRight(false);              // 右列默认收起，点图里的单词才展开
 if(!PAGES.length){
-  say("没读到词表数据（app/data.js）。请运行：python tools/build_data.py", true);
+  say("没读到词表数据。请运行：python tools/build_oxford.py --js app-oxford 和 python tools/build_data.py --src out-o3k --out app-oxford/data.js", true);
 }else{
   setPage(0);
+  renderLvBar();
   render(false); crumb(); renderList();
 }
 if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>{ if(tree) render(true); });

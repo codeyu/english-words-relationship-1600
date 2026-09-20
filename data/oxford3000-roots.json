@@ -1,0 +1,2844 @@
+{
+ "habil": [
+  "ability",
+  "able"
+ ],
+ "broad": [
+  "abroad",
+  "broadcast"
+ ],
+ "solv": [
+  "absolute",
+  "resolution",
+  "resolve",
+  "solution",
+  "solve"
+ ],
+ "trah": [
+  "abstract",
+  "attract",
+  "attraction",
+  "attractive",
+  "contract",
+  "distract",
+  "extract",
+  "trace",
+  "train",
+  "trait"
+ ],
+ "accept": [
+  "accept",
+  "acceptable"
+ ],
+ "accommod": [
+  "accommodate",
+  "accommodation"
+ ],
+ "commod": [
+  "accommodate",
+  "accommodation"
+ ],
+ "compaignon": [
+  "accompany",
+  "company"
+ ],
+ "compl": [
+  "accomplish",
+  "completion"
+ ],
+ "conter": [
+  "account",
+  "accountant"
+ ],
+ "cura": [
+  "accurate",
+  "assure",
+  "cure",
+  "curious",
+  "ensure",
+  "insurance",
+  "secure",
+  "security"
+ ],
+ "causa": [
+  "accuse",
+  "cause",
+  "excuse"
+ ],
+ "chief": [
+  "achieve",
+  "chief"
+ ],
+ "quaer": [
+  "acquire",
+  "question",
+  "request",
+  "require"
+ ],
+ "agere": [
+  "act",
+  "action",
+  "active",
+  "activity",
+  "actor",
+  "actual",
+  "agency",
+  "agent",
+  "exact",
+  "navigation"
+ ],
+ "actus": [
+  "act",
+  "actual"
+ ],
+ "aptus": [
+  "adapt",
+  "attitude"
+ ],
+ "dare": [
+  "add",
+  "addition",
+  "edition",
+  "tradition"
+ ],
+ "direct": [
+  "address",
+  "direct",
+  "dress",
+  "indirect"
+ ],
+ "aequ": [
+  "adequate",
+  "equal"
+ ],
+ "minister": [
+  "administration",
+  "minister"
+ ],
+ "minus": [
+  "administration",
+  "minister"
+ ],
+ "mitt": [
+  "admit",
+  "commission",
+  "commit",
+  "emission",
+  "permission",
+  "permit",
+  "promise",
+  "submit",
+  "transmit"
+ ],
+ "abant": [
+  "advance",
+  "advantage"
+ ],
+ "ante": [
+  "advance",
+  "advantage",
+  "ancestor",
+  "ancient",
+  "anticipate",
+  "aunt"
+ ],
+ "avantag": [
+  "advantage",
+  "disadvantage"
+ ],
+ "advert": [
+  "advertise",
+  "advertisement"
+ ],
+ "vert": [
+  "advertise",
+  "advertisement",
+  "convert",
+  "diversity",
+  "version",
+  "vertical"
+ ],
+ "forth": [
+  "afford",
+  "further"
+ ],
+ "agent": [
+  "agency",
+  "agent"
+ ],
+ "agreer": [
+  "agree",
+  "agreement"
+ ],
+ "grat": [
+  "agree",
+  "agreement",
+  "grateful"
+ ],
+ "ager": [
+  "agriculture",
+  "air"
+ ],
+ "cultura": [
+  "agriculture",
+  "cultural",
+  "culture"
+ ],
+ "aestim": [
+  "aim",
+  "estimate"
+ ],
+ "locus": [
+  "allow",
+  "local",
+  "locate",
+  "location"
+ ],
+ "long": [
+  "along",
+  "lung"
+ ],
+ "alter": [
+  "alter",
+  "alternative"
+ ],
+ "ambitio": [
+  "ambition",
+  "ambitious"
+ ],
+ "analuein": [
+  "analyse",
+  "analysis",
+  "analyst"
+ ],
+ "analus": [
+  "analyse",
+  "analysis",
+  "analyst"
+ ],
+ "analys": [
+  "analyse",
+  "analyst"
+ ],
+ "luein": [
+  "analyse",
+  "analysis",
+  "analyst"
+ ],
+ "anima": [
+  "animal",
+  "animation"
+ ],
+ "animal": [
+  "animal",
+  "insect"
+ ],
+ "annus": [
+  "anniversary",
+  "annual"
+ ],
+ "vers": [
+  "anniversary",
+  "controversial",
+  "controversy",
+  "conversation",
+  "fresh",
+  "universal",
+  "universe",
+  "university"
+ ],
+ "nunti": [
+  "announce",
+  "pronounce"
+ ],
+ "anxi": [
+  "anxiety",
+  "anxious"
+ ],
+ "parte": [
+  "apart",
+  "apartment"
+ ],
+ "logia": [
+  "apology",
+  "technology"
+ ],
+ "appar": [
+  "apparent",
+  "appear",
+  "appearance"
+ ],
+ "pell": [
+  "appeal",
+  "compulsory"
+ ],
+ "applic": [
+  "application",
+  "apply"
+ ],
+ "plic": [
+  "application",
+  "apply",
+  "employ",
+  "exploit",
+  "implication",
+  "imply",
+  "reply"
+ ],
+ "point": [
+  "appointment",
+  "point"
+ ],
+ "preti": [
+  "appreciate",
+  "praise",
+  "precious",
+  "price",
+  "prize"
+ ],
+ "prob": [
+  "approve",
+  "probability",
+  "probable",
+  "proof",
+  "prove"
+ ],
+ "architect": [
+  "architect",
+  "architecture"
+ ],
+ "arkhi": [
+  "architect",
+  "architecture"
+ ],
+ "arkhitektōn": [
+  "architect",
+  "architecture"
+ ],
+ "tektōn": [
+  "architect",
+  "architecture"
+ ],
+ "arma": [
+  "arm",
+  "arms"
+ ],
+ "rang": [
+  "arrange",
+  "range"
+ ],
+ "rangier": [
+  "arrange",
+  "range"
+ ],
+ "rest": [
+  "arrest",
+  "rest"
+ ],
+ "ripa": [
+  "arrival",
+  "arrive",
+  "river"
+ ],
+ "legal": [
+  "asset",
+  "illegal",
+  "legal",
+  "loyal"
+ ],
+ "satis": [
+  "asset",
+  "satisfaction",
+  "satisfy"
+ ],
+ "assign": [
+  "assign",
+  "assignment"
+ ],
+ "sign": [
+  "assign",
+  "assignment",
+  "resign",
+  "sign",
+  "signal",
+  "signature",
+  "significant"
+ ],
+ "assist": [
+  "assist",
+  "assistance"
+ ],
+ "associ": [
+  "associate",
+  "association"
+ ],
+ "soci": [
+  "associate",
+  "association",
+  "social",
+  "society"
+ ],
+ "assum": [
+  "assume",
+  "assumption"
+ ],
+ "secur": [
+  "assure",
+  "ensure",
+  "insurance",
+  "secure",
+  "security",
+  "sure"
+ ],
+ "atachier": [
+  "attach",
+  "attachment"
+ ],
+ "stake": [
+  "attach",
+  "attachment"
+ ],
+ "attend": [
+  "attend",
+  "attention"
+ ],
+ "attrah": [
+  "attract",
+  "attraction",
+  "attractive"
+ ],
+ "auctor": [
+  "author",
+  "authority"
+ ],
+ "able": [
+  "available",
+  "enable"
+ ],
+ "ward": [
+  "award",
+  "awkward"
+ ],
+ "libra": [
+  "balance",
+  "deliberate",
+  "pound"
+ ],
+ "ball": [
+  "ball",
+  "ballet"
+ ],
+ "ballizein": [
+  "ball",
+  "ballet"
+ ],
+ "reinforced": [
+  "band",
+  "rich"
+ ],
+ "other": [
+  "bank",
+  "otherwise"
+ ],
+ "archaic": [
+  "basement",
+  "belong",
+  "practical",
+  "punk",
+  "romantic",
+  "trousers"
+ ],
+ "with": [
+  "basis",
+  "employ",
+  "packet",
+  "starve",
+  "tonne"
+ ],
+ "batt": [
+  "bat",
+  "battery",
+  "debate"
+ ],
+ "battu": [
+  "battery",
+  "battle"
+ ],
+ "have": [
+  "behave",
+  "behaviour"
+ ],
+ "bene": [
+  "beneficial",
+  "benefit"
+ ],
+ "kuklos": [
+  "bicycle",
+  "cycle"
+ ],
+ "million": [
+  "billion",
+  "trillion"
+ ],
+ "bulla": [
+  "bill",
+  "boil",
+  "bowl",
+  "bullet"
+ ],
+ "welsh": [
+  "bin",
+  "wood"
+ ],
+ "popular": [
+  "blame",
+  "cook",
+  "cup",
+  "popular"
+ ],
+ "blanc": [
+  "blank",
+  "blanket"
+ ],
+ "board": [
+  "border",
+  "cupboard"
+ ],
+ "irish": [
+  "bother",
+  "crack",
+  "trousers"
+ ],
+ "brood": [
+  "bread",
+  "breath"
+ ],
+ "fast": [
+  "breakfast",
+  "fasten"
+ ],
+ "camp": [
+  "camp",
+  "campaign",
+  "campus",
+  "champion"
+ ],
+ "canal": [
+  "canal",
+  "channel"
+ ],
+ "canna": [
+  "canal",
+  "channel"
+ ],
+ "chanel": [
+  "canal",
+  "channel"
+ ],
+ "translating": [
+  "cancer",
+  "case"
+ ],
+ "caput": [
+  "cap",
+  "capital",
+  "captain",
+  "chief"
+ ],
+ "capitain": [
+  "captain",
+  "general"
+ ],
+ "capt": [
+  "capture",
+  "catch",
+  "chase"
+ ],
+ "cappa": [
+  "cap",
+  "escape"
+ ],
+ "carr": [
+  "car",
+  "career",
+  "carry",
+  "charge"
+ ],
+ "carta": [
+  "card",
+  "cartoon"
+ ],
+ "khartēs": [
+  "card",
+  "cartoon",
+  "chart"
+ ],
+ "capsa": [
+  "case",
+  "cash"
+ ],
+ "casse": [
+  "case",
+  "cash"
+ ],
+ "casus": [
+  "case",
+  "casual"
+ ],
+ "celeber": [
+  "celebrate",
+  "celebration",
+  "celebrity"
+ ],
+ "celebr": [
+  "celebrate",
+  "celebration"
+ ],
+ "centr": [
+  "central",
+  "centre",
+  "concentrate"
+ ],
+ "central": [
+  "central",
+  "stock"
+ ],
+ "kentein": [
+  "central",
+  "centre"
+ ],
+ "kentron": [
+  "central",
+  "centre"
+ ],
+ "cent": [
+  "cent",
+  "century"
+ ],
+ "cert": [
+  "certain",
+  "certainty",
+  "certificate"
+ ],
+ "camb": [
+  "change",
+  "exchange"
+ ],
+ "cambi": [
+  "change",
+  "exchange"
+ ],
+ "caract": [
+  "character",
+  "characteristic"
+ ],
+ "kharaktēr": [
+  "character",
+  "characteristic"
+ ],
+ "cēap": [
+  "cheap",
+  "chop"
+ ],
+ "nahuatl": [
+  "chocolate",
+  "tomato"
+ ],
+ "circ": [
+  "circuit",
+  "circumstance",
+  "search"
+ ],
+ "civis": [
+  "citizen",
+  "city",
+  "civil"
+ ],
+ "civitas": [
+  "citizen",
+  "city"
+ ],
+ "clar": [
+  "clarify",
+  "clear",
+  "declare"
+ ],
+ "class": [
+  "class",
+  "classic",
+  "classical",
+  "classify"
+ ],
+ "claud": [
+  "clause",
+  "conclude",
+  "conclusion",
+  "exclude",
+  "include"
+ ],
+ "kleed": [
+  "cloth",
+  "clothes"
+ ],
+ "incid": [
+  "coincidence",
+  "incident"
+ ],
+ "medical": [
+  "collapse",
+  "medical",
+  "virus"
+ ],
+ "collega": [
+  "colleague",
+  "college"
+ ],
+ "collig": [
+  "collect",
+  "collection",
+  "collector"
+ ],
+ "collect": [
+  "collect",
+  "collector"
+ ],
+ "bini": [
+  "combination",
+  "combine"
+ ],
+ "kōmos": [
+  "comedy",
+  "comic"
+ ],
+ "confort": [
+  "comfort",
+  "comfortable"
+ ],
+ "fort": [
+  "comfort",
+  "comfortable",
+  "effort",
+  "force"
+ ],
+ "command": [
+  "command",
+  "commander"
+ ],
+ "mand": [
+  "command",
+  "commander",
+  "demand"
+ ],
+ "committ": [
+  "commission",
+  "commit"
+ ],
+ "commun": [
+  "common",
+  "communicate",
+  "communication",
+  "community"
+ ],
+ "communic": [
+  "communicate",
+  "communication"
+ ],
+ "compar": [
+  "comparative",
+  "compare",
+  "comparison"
+ ],
+ "compet": [
+  "compete",
+  "competition",
+  "competitive",
+  "competitor"
+ ],
+ "competit": [
+  "competitive",
+  "competitor"
+ ],
+ "complang": [
+  "complain",
+  "complaint"
+ ],
+ "plang": [
+  "complain",
+  "complaint"
+ ],
+ "plere": [
+  "complete",
+  "completion",
+  "implement",
+  "supply"
+ ],
+ "compon": [
+  "component",
+  "compose",
+  "compound"
+ ],
+ "prehend": [
+  "comprise",
+  "prison",
+  "prisoner"
+ ],
+ "cern": [
+  "concern",
+  "crime",
+  "criminal",
+  "secret",
+  "secretary"
+ ],
+ "conclud": [
+  "conclude",
+  "conclusion"
+ ],
+ "conf": [
+  "conference",
+  "confuse"
+ ],
+ "fateri": [
+  "confess",
+  "profession",
+  "professor"
+ ],
+ "confid": [
+  "confidence",
+  "confident"
+ ],
+ "firm": [
+  "confirm",
+  "farm",
+  "farmer",
+  "firm"
+ ],
+ "connect": [
+  "connect",
+  "connection"
+ ],
+ "nect": [
+  "connect",
+  "connection"
+ ],
+ "conserv": [
+  "conservation",
+  "conservative"
+ ],
+ "serv": [
+  "conservation",
+  "conservative",
+  "observation",
+  "observe",
+  "preserve",
+  "reservation",
+  "reserve",
+  "serve",
+  "service"
+ ],
+ "consider": [
+  "consider",
+  "considerable",
+  "consideration"
+ ],
+ "sidus": [
+  "consider",
+  "considerable",
+  "desire"
+ ],
+ "consist": [
+  "consist",
+  "consistent"
+ ],
+ "sist": [
+  "consist",
+  "consistent",
+  "existence",
+  "insist",
+  "resist"
+ ],
+ "spir": [
+  "conspiracy",
+  "inspire",
+  "spirit",
+  "spiritual"
+ ],
+ "const": [
+  "constant",
+  "cost"
+ ],
+ "constru": [
+  "construct",
+  "construction"
+ ],
+ "stru": [
+  "construct",
+  "construction",
+  "destroy",
+  "destruction",
+  "instruction",
+  "structure"
+ ],
+ "consult": [
+  "consult",
+  "consultant"
+ ],
+ "consum": [
+  "consume",
+  "consumption"
+ ],
+ "tang": [
+  "contact",
+  "entire",
+  "integrate",
+  "taste"
+ ],
+ "contin": [
+  "contain",
+  "continue",
+  "continuous"
+ ],
+ "temp": [
+  "contemporary",
+  "temperature",
+  "temporary"
+ ],
+ "test": [
+  "contest",
+  "protest"
+ ],
+ "terra": [
+  "continent",
+  "territory"
+ ],
+ "continu": [
+  "continue",
+  "continuous"
+ ],
+ "contribu": [
+  "contribute",
+  "contribution"
+ ],
+ "tribu": [
+  "contribute",
+  "contribution",
+  "distribute",
+  "distribution",
+  "tribe"
+ ],
+ "rotul": [
+  "control",
+  "roll"
+ ],
+ "contro": [
+  "controversial",
+  "controversy"
+ ],
+ "controvers": [
+  "controversial",
+  "controversy"
+ ],
+ "controversia": [
+  "controversial",
+  "controversy"
+ ],
+ "conven": [
+  "convenience",
+  "convenient",
+  "convention",
+  "conventional"
+ ],
+ "convenient": [
+  "convenience",
+  "convenient"
+ ],
+ "conventio": [
+  "convention",
+  "conventional"
+ ],
+ "coqu": [
+  "cook",
+  "kitchen"
+ ],
+ "corp": [
+  "corporate",
+  "corporation",
+  "incorporate"
+ ],
+ "corpor": [
+  "corporation",
+  "incorporate"
+ ],
+ "correct": [
+  "correct",
+  "incorrect"
+ ],
+ "corrig": [
+  "correct",
+  "incorrect"
+ ],
+ "curr": [
+  "corridor",
+  "course",
+  "current",
+  "curriculum",
+  "occur"
+ ],
+ "consuet": [
+  "costume",
+  "custom"
+ ],
+ "consuetudo": [
+  "costume",
+  "custom"
+ ],
+ "suesc": [
+  "costume",
+  "custom"
+ ],
+ "comput": [
+  "count",
+  "counter",
+  "discount"
+ ],
+ "comes": [
+  "count",
+  "county"
+ ],
+ "conte": [
+  "count",
+  "county"
+ ],
+ "corag": [
+  "courage",
+  "discourage",
+  "encourage"
+ ],
+ "cooper": [
+  "cover",
+  "discover"
+ ],
+ "oper": [
+  "cover",
+  "discover"
+ ],
+ "cresc": [
+  "crew",
+  "decrease",
+  "increase",
+  "recruit"
+ ],
+ "crimen": [
+  "crime",
+  "criminal"
+ ],
+ "krinein": [
+  "crisis",
+  "criterion",
+  "critic",
+  "critical"
+ ],
+ "kritēs": [
+  "criterion",
+  "critic",
+  "critical"
+ ],
+ "critic": [
+  "critic",
+  "critical",
+  "criticism"
+ ],
+ "kritikos": [
+  "critic",
+  "critical"
+ ],
+ "crux": [
+  "cross",
+  "crucial",
+  "cruise"
+ ],
+ "dangier": [
+  "danger",
+  "dangerous"
+ ],
+ "domin": [
+  "danger",
+  "dangerous",
+  "dominant",
+  "dominate"
+ ],
+ "dood": [
+  "dead",
+  "death"
+ ],
+ "debit": [
+  "debt",
+  "due",
+  "duty"
+ ],
+ "caed": [
+  "decide",
+  "decision",
+  "precise"
+ ],
+ "decid": [
+  "decide",
+  "decision"
+ ],
+ "decus": [
+  "decorate",
+  "decoration"
+ ],
+ "defin": [
+  "define",
+  "definition"
+ ],
+ "finis": [
+  "define",
+  "final",
+  "finance",
+  "fine",
+  "finish"
+ ],
+ "grad": [
+  "degree",
+  "grade",
+  "graduate"
+ ],
+ "liber": [
+  "deliver",
+  "delivery",
+  "library"
+ ],
+ "dēmokratia": [
+  "democracy",
+  "democratic"
+ ],
+ "dēmos": [
+  "democracy",
+  "democratic"
+ ],
+ "kratia": [
+  "democracy",
+  "democratic"
+ ],
+ "demonstr": [
+  "demonstrate",
+  "demonstration"
+ ],
+ "departir": [
+  "depart",
+  "department",
+  "departure"
+ ],
+ "dispert": [
+  "depart",
+  "department",
+  "departure"
+ ],
+ "depend": [
+  "depend",
+  "dependent"
+ ],
+ "pend": [
+  "depend",
+  "dependent",
+  "expense",
+  "expensive",
+  "suspend"
+ ],
+ "deep": [
+  "depth",
+  "dive"
+ ],
+ "rivus": [
+  "derive",
+  "rival"
+ ],
+ "describ": [
+  "describe",
+  "description"
+ ],
+ "disc": [
+  "desk",
+  "discipline",
+  "dish"
+ ],
+ "diskos": [
+  "desk",
+  "disc",
+  "dish"
+ ],
+ "destru": [
+  "destroy",
+  "destruction"
+ ],
+ "tailler": [
+  "detail",
+  "retail"
+ ],
+ "detect": [
+  "detect",
+  "detective"
+ ],
+ "determin": [
+  "determination",
+  "determine"
+ ],
+ "termin": [
+  "determination",
+  "determine",
+  "term",
+  "terminal"
+ ],
+ "divid": [
+  "device",
+  "divide",
+  "division",
+  "individual"
+ ],
+ "graphein": [
+  "diagram",
+  "paragraph",
+  "programme"
+ ],
+ "dies": [
+  "diary",
+  "journal",
+  "journey"
+ ],
+ "differ": [
+  "differ",
+  "difference",
+  "different"
+ ],
+ "different": [
+  "difference",
+  "different"
+ ],
+ "dirig": [
+  "direction",
+  "director"
+ ],
+ "discut": [
+  "discuss",
+  "discussion"
+ ],
+ "quat": [
+  "discuss",
+  "discussion"
+ ],
+ "dist": [
+  "distance",
+  "distant"
+ ],
+ "distant": [
+  "distance",
+  "distant"
+ ],
+ "stingu": [
+  "distinct",
+  "distinguish"
+ ],
+ "distribu": [
+  "distribute",
+  "distribution"
+ ],
+ "turba": [
+  "disturb",
+  "trouble"
+ ],
+ "dominari": [
+  "dominant",
+  "dominate"
+ ],
+ "drama": [
+  "drama",
+  "dramatic"
+ ],
+ "dran": [
+  "drama",
+  "dramatic"
+ ],
+ "durus": [
+  "duration",
+  "during"
+ ],
+ "west": [
+  "each",
+  "pretty",
+  "show",
+  "silly",
+  "together",
+  "warn",
+  "western"
+ ],
+ "nemein": [
+  "economic",
+  "economist",
+  "economy"
+ ],
+ "oikonomia": [
+  "economic",
+  "economist",
+  "economy"
+ ],
+ "oikos": [
+  "economic",
+  "economist",
+  "economy"
+ ],
+ "dition": [
+  "edit",
+  "edition"
+ ],
+ "edere": [
+  "edition",
+  "editor"
+ ],
+ "educ": [
+  "educate",
+  "education"
+ ],
+ "effic": [
+  "effect",
+  "effective",
+  "efficient"
+ ],
+ "elig": [
+  "elect",
+  "election",
+  "elegant"
+ ],
+ "emerg": [
+  "emerge",
+  "emergency"
+ ],
+ "merg": [
+  "emerge",
+  "emergency"
+ ],
+ "figu": [
+  "emphasis",
+  "figure"
+ ],
+ "phainein": [
+  "emphasis",
+  "fantastic",
+  "phase",
+  "phenomenon"
+ ],
+ "ergon": [
+  "energy",
+  "surgeon",
+  "surgery"
+ ],
+ "gage": [
+  "engage",
+  "mortgage"
+ ],
+ "gign": [
+  "engine",
+  "engineer",
+  "gentle"
+ ],
+ "ingeni": [
+  "engine",
+  "engineer"
+ ],
+ "gaud": [
+  "enjoy",
+  "joy"
+ ],
+ "norma": [
+  "enormous",
+  "norm",
+  "normal"
+ ],
+ "enseurer": [
+  "ensure",
+  "insurance"
+ ],
+ "entho": [
+  "enthusiasm",
+  "enthusiastic"
+ ],
+ "theos": [
+  "enthusiasm",
+  "enthusiastic"
+ ],
+ "integer": [
+  "entire",
+  "integrate"
+ ],
+ "hodos": [
+  "episode",
+  "method",
+  "period"
+ ],
+ "quiper": [
+  "equip",
+  "equipment"
+ ],
+ "rump": [
+  "erupt",
+  "interrupt",
+  "route",
+  "routine"
+ ],
+ "exig": [
+  "essay",
+  "exact"
+ ],
+ "esse": [
+  "essential",
+  "interest",
+  "presence",
+  "present",
+  "presentation"
+ ],
+ "stabil": [
+  "establish",
+  "stable"
+ ],
+ "stat": [
+  "estate",
+  "state"
+ ],
+ "even": [
+  "even",
+  "event"
+ ],
+ "evolv": [
+  "evolution",
+  "evolve"
+ ],
+ "notion": [
+  "evolution",
+  "profession"
+ ],
+ "volv": [
+  "evolution",
+  "evolve",
+  "involve",
+  "revolution",
+  "volume"
+ ],
+ "examen": [
+  "examination",
+  "examine"
+ ],
+ "examin": [
+  "examination",
+  "examine"
+ ],
+ "exced": [
+  "exceed",
+  "excessive"
+ ],
+ "excip": [
+  "except",
+  "exception"
+ ],
+ "sequi": [
+  "executive",
+  "secondary",
+  "sequence",
+  "suit"
+ ],
+ "exhib": [
+  "exhibit",
+  "exhibition"
+ ],
+ "exit": [
+  "exit",
+  "issue"
+ ],
+ "expand": [
+  "expand",
+  "expansion"
+ ],
+ "pand": [
+  "expand",
+  "expansion"
+ ],
+ "spect": [
+  "expect",
+  "spectator"
+ ],
+ "expend": [
+  "expense",
+  "expensive",
+  "spend"
+ ],
+ "experiri": [
+  "experience",
+  "experiment"
+ ],
+ "expert": [
+  "expert",
+  "expertise"
+ ],
+ "explan": [
+  "explain",
+  "explanation"
+ ],
+ "plan": [
+  "explain",
+  "explanation",
+  "plain",
+  "plane"
+ ],
+ "explod": [
+  "explode",
+  "explosion"
+ ],
+ "original": [
+  "explode",
+  "original",
+  "smart"
+ ],
+ "plaud": [
+  "explode",
+  "explosion"
+ ],
+ "modern": [
+  "exploit",
+  "modern"
+ ],
+ "explor": [
+  "exploration",
+  "explore"
+ ],
+ "plor": [
+  "exploration",
+  "explore"
+ ],
+ "port": [
+  "export",
+  "import",
+  "importance",
+  "important",
+  "passport",
+  "port",
+  "report",
+  "support",
+  "transport"
+ ],
+ "press": [
+  "express",
+  "press",
+  "pressure"
+ ],
+ "extend": [
+  "extend",
+  "extension",
+  "extensive"
+ ],
+ "fact": [
+  "fact",
+  "factor"
+ ],
+ "fall": [
+  "fail",
+  "failure",
+  "fall",
+  "fault"
+ ],
+ "fama": [
+  "fame",
+  "famous"
+ ],
+ "familia": [
+  "familiar",
+  "family"
+ ],
+ "famul": [
+  "familiar",
+  "family"
+ ],
+ "phantazein": [
+  "fantastic",
+  "fantasy"
+ ],
+ "idea": [
+  "fare",
+  "fund",
+  "idea",
+  "ideal",
+  "kit",
+  "pattern"
+ ],
+ "firma": [
+  "farm",
+  "farmer"
+ ],
+ "ferme": [
+  "farm",
+  "firm"
+ ],
+ "vast": [
+  "fast",
+  "vast",
+  "waste"
+ ],
+ "favor": [
+  "favour",
+  "favourite"
+ ],
+ "fing": [
+  "fiction",
+  "figure"
+ ],
+ "filum": [
+  "file",
+  "profile"
+ ],
+ "flat": [
+  "flat",
+  "flavour"
+ ],
+ "flect": [
+  "flexible",
+  "reflect"
+ ],
+ "fores": [
+  "foreign",
+  "forest",
+  "forum"
+ ],
+ "forest": [
+  "forest",
+  "park"
+ ],
+ "forma": [
+  "form",
+  "formal",
+  "formation",
+  "former",
+  "inform",
+  "information"
+ ],
+ "fortuna": [
+  "fortunate",
+  "fortune"
+ ],
+ "fund": [
+  "found",
+  "foundation",
+  "fund",
+  "fundamental"
+ ],
+ "frang": [
+  "fraction",
+  "fragment"
+ ],
+ "general": [
+  "frame",
+  "general"
+ ],
+ "frequens": [
+  "frequency",
+  "frequent"
+ ],
+ "fournir": [
+  "furniture",
+  "perform"
+ ],
+ "scottish": [
+  "gang",
+  "slogan"
+ ],
+ "genus": [
+  "gender",
+  "general",
+  "generate",
+  "generation",
+  "generous",
+  "genre"
+ ],
+ "gener": [
+  "generate",
+  "generation"
+ ],
+ "governer": [
+  "govern",
+  "government"
+ ],
+ "gubern": [
+  "govern",
+  "government",
+  "governor"
+ ],
+ "kubernan": [
+  "govern",
+  "government",
+  "governor"
+ ],
+ "cred": [
+  "grant",
+  "incredible"
+ ],
+ "habit": [
+  "habit",
+  "habitat"
+ ],
+ "hand": [
+  "hand",
+  "handle"
+ ],
+ "historia": [
+  "historian",
+  "historic",
+  "historical",
+  "history",
+  "story"
+ ],
+ "histōr": [
+  "historian",
+  "historic",
+  "historical",
+  "history",
+  "story"
+ ],
+ "historikos": [
+  "historic",
+  "historical"
+ ],
+ "honest": [
+  "honest",
+  "honesty"
+ ],
+ "honos": [
+  "honest",
+  "honesty",
+  "honour"
+ ],
+ "horr": [
+  "horrible",
+  "horror"
+ ],
+ "hospes": [
+  "hospital",
+  "host",
+  "hotel"
+ ],
+ "hospital": [
+  "hospital",
+  "hotel"
+ ],
+ "idein": [
+  "idea",
+  "ideal"
+ ],
+ "idem": [
+  "identical",
+  "identify",
+  "identity"
+ ],
+ "identitas": [
+  "identical",
+  "identify",
+  "identity"
+ ],
+ "illustr": [
+  "illustrate",
+  "illustration"
+ ],
+ "lustr": [
+  "illustrate",
+  "illustration"
+ ],
+ "imago": [
+  "image",
+  "imaginary",
+  "imagination",
+  "imagine"
+ ],
+ "imaginari": [
+  "imaginary",
+  "imagination"
+ ],
+ "medi": [
+  "immediate",
+  "medium"
+ ],
+ "pang": [
+  "impact",
+  "page"
+ ],
+ "pati": [
+  "impatient",
+  "passion",
+  "passionate",
+  "patience",
+  "patient"
+ ],
+ "implic": [
+  "implication",
+  "imply"
+ ],
+ "import": [
+  "import",
+  "importance",
+  "important"
+ ],
+ "important": [
+  "importance",
+  "important"
+ ],
+ "posse": [
+  "impossible",
+  "possibility",
+  "possible",
+  "potential",
+  "power"
+ ],
+ "possibil": [
+  "impossible",
+  "possibility",
+  "possible"
+ ],
+ "prem": [
+  "impress",
+  "impression",
+  "pressure",
+  "print"
+ ],
+ "emprower": [
+  "improve",
+  "improvement"
+ ],
+ "prodest": [
+  "improve",
+  "improvement"
+ ],
+ "prou": [
+  "improve",
+  "improvement"
+ ],
+ "unus": [
+  "inch",
+  "union",
+  "unique",
+  "unit",
+  "unite",
+  "unity"
+ ],
+ "indic": [
+  "indicate",
+  "indication"
+ ],
+ "door": [
+  "indoor",
+  "through"
+ ],
+ "inform": [
+  "inform",
+  "information"
+ ],
+ "gradi": [
+  "ingredient",
+  "progress",
+  "progressive"
+ ],
+ "initi": [
+  "initial",
+  "initiative"
+ ],
+ "novus": [
+  "innovation",
+  "novel"
+ ],
+ "install": [
+  "install",
+  "installation"
+ ],
+ "stall": [
+  "install",
+  "installation"
+ ],
+ "stead": [
+  "instead",
+  "steady"
+ ],
+ "institu": [
+  "institute",
+  "institution"
+ ],
+ "statu": [
+  "institute",
+  "institution"
+ ],
+ "instru": [
+  "instruction",
+  "instrument"
+ ],
+ "intellig": [
+  "intelligence",
+  "intelligent"
+ ],
+ "intend": [
+  "intend",
+  "intention"
+ ],
+ "interpres": [
+  "interpret",
+  "interpretation"
+ ],
+ "vall": [
+  "interval",
+  "valley",
+  "wall"
+ ],
+ "intro": [
+  "introduce",
+  "introduction"
+ ],
+ "introduc": [
+  "introduce",
+  "introduction"
+ ],
+ "invad": [
+  "invade",
+  "invasion"
+ ],
+ "inven": [
+  "invent",
+  "invention"
+ ],
+ "investig": [
+  "investigate",
+  "investigation"
+ ],
+ "vestig": [
+  "investigate",
+  "investigation"
+ ],
+ "invit": [
+  "invitation",
+  "invite"
+ ],
+ "land": [
+  "island",
+  "land",
+  "landscape"
+ ],
+ "arose": [
+  "item",
+  "smart",
+  "start"
+ ],
+ "jocus": [
+  "jewellery",
+  "joke"
+ ],
+ "joind": [
+  "join",
+  "joint"
+ ],
+ "jung": [
+  "join",
+  "joint"
+ ],
+ "diurn": [
+  "journal",
+  "journey"
+ ],
+ "just": [
+  "just",
+  "justice",
+  "justify"
+ ],
+ "labor": [
+  "laboratory",
+  "labour"
+ ],
+ "leer": [
+  "ladder",
+  "leather"
+ ],
+ "less": [
+  "least",
+  "unless"
+ ],
+ "lect": [
+  "lecture",
+  "litter"
+ ],
+ "alike": [
+  "like",
+  "likely"
+ ],
+ "limes": [
+  "limit",
+  "limitation"
+ ],
+ "limit": [
+  "limit",
+  "limitation"
+ ],
+ "littera": [
+  "literary",
+  "literature"
+ ],
+ "mēkhos": [
+  "machine",
+  "mechanic",
+  "mechanical",
+  "mechanism"
+ ],
+ "magn": [
+  "magnificent",
+  "major"
+ ],
+ "major": [
+  "majority",
+  "mayor"
+ ],
+ "manus": [
+  "manage",
+  "manner"
+ ],
+ "marier": [
+  "marriage",
+  "marry"
+ ],
+ "massa": [
+  "mass",
+  "massive"
+ ],
+ "maza": [
+  "mass",
+  "massive"
+ ],
+ "materia": [
+  "material",
+  "matter"
+ ],
+ "mater": [
+  "mate",
+  "matter"
+ ],
+ "mean": [
+  "meaning",
+  "meanwhile"
+ ],
+ "mens": [
+  "measure",
+  "mental"
+ ],
+ "mēkhanikos": [
+  "mechanic",
+  "mechanical"
+ ],
+ "mēkhanē": [
+  "mechanic",
+  "mechanical",
+  "mechanism"
+ ],
+ "medic": [
+  "medical",
+  "medicine"
+ ],
+ "moeten": [
+  "meet",
+  "must"
+ ],
+ "memor": [
+  "memorable",
+  "memory",
+  "remember"
+ ],
+ "mind": [
+  "mention",
+  "remind"
+ ],
+ "miss": [
+  "mess",
+  "message"
+ ],
+ "modus": [
+  "mode",
+  "modest",
+  "modify"
+ ],
+ "moviment": [
+  "moment",
+  "movement"
+ ],
+ "mons": [
+  "mount",
+  "mountain"
+ ],
+ "mousa": [
+  "museum",
+  "music",
+  "musical",
+  "musician"
+ ],
+ "mousikē": [
+  "music",
+  "musical",
+  "musician"
+ ],
+ "musica": [
+  "musical",
+  "musician"
+ ],
+ "nasci": [
+  "nation",
+  "national",
+  "native",
+  "natural",
+  "nature"
+ ],
+ "natio": [
+  "nation",
+  "national"
+ ],
+ "natura": [
+  "natural",
+  "nature"
+ ],
+ "nitid": [
+  "neat",
+  "net"
+ ],
+ "necess": [
+  "necessary",
+  "necessity"
+ ],
+ "negoti": [
+  "negotiate",
+  "negotiation"
+ ],
+ "negotiari": [
+  "negotiate",
+  "negotiation"
+ ],
+ "otium": [
+  "negotiate",
+  "negotiation"
+ ],
+ "nerv": [
+  "nerve",
+  "nervous"
+ ],
+ "neuron": [
+  "nerve",
+  "nervous"
+ ],
+ "night": [
+  "nightmare",
+  "tonight"
+ ],
+ "notus": [
+  "notice",
+  "notion"
+ ],
+ "numer": [
+  "number",
+  "numerous"
+ ],
+ "nutr": [
+  "nurse",
+  "nutrition"
+ ],
+ "object": [
+  "object",
+  "objective"
+ ],
+ "observ": [
+  "observation",
+  "observe",
+  "observer"
+ ],
+ "occup": [
+  "occupation",
+  "occupy"
+ ],
+ "offend": [
+  "offence",
+  "offend",
+  "offensive"
+ ],
+ "offens": [
+  "offence",
+  "offensive"
+ ],
+ "offici": [
+  "office",
+  "officer",
+  "official"
+ ],
+ "opus": [
+  "office",
+  "officer",
+  "official",
+  "operate",
+  "operation"
+ ],
+ "oleum": [
+  "oil",
+  "petrol"
+ ],
+ "unio": [
+  "onion",
+  "union"
+ ],
+ "operari": [
+  "operate",
+  "operation"
+ ],
+ "oppon": [
+  "opponent",
+  "oppose",
+  "opposition"
+ ],
+ "ordo": [
+  "order",
+  "ordinary"
+ ],
+ "organon": [
+  "organ",
+  "organize"
+ ],
+ "oriri": [
+  "origin",
+  "original"
+ ],
+ "ping": [
+  "paint",
+  "painter",
+  "picture"
+ ],
+ "poena": [
+  "pain",
+  "penalty",
+  "punish",
+  "punishment"
+ ],
+ "pale": [
+  "palace",
+  "pale"
+ ],
+ "para": [
+  "paragraph",
+  "parallel"
+ ],
+ "pars": [
+  "part",
+  "participant",
+  "participate",
+  "participation"
+ ],
+ "particip": [
+  "participant",
+  "participate",
+  "participation"
+ ],
+ "participat": [
+  "participate",
+  "participation"
+ ],
+ "pass": [
+  "pass",
+  "passage",
+  "passenger"
+ ],
+ "passio": [
+  "passion",
+  "passionate"
+ ],
+ "passer": [
+  "pass",
+  "passport"
+ ],
+ "patient": [
+  "patience",
+  "patient"
+ ],
+ "paus": [
+  "pause",
+  "pose"
+ ],
+ "popul": [
+  "people",
+  "popular",
+  "population",
+  "public",
+  "publication",
+  "publicity",
+  "publish"
+ ],
+ "percip": [
+  "perceive",
+  "perception"
+ ],
+ "permitt": [
+  "permission",
+  "permit"
+ ],
+ "persona": [
+  "person",
+  "personal",
+  "personality"
+ ],
+ "personal": [
+  "personal",
+  "personality"
+ ],
+ "first": [
+  "pig",
+  "recipe",
+  "stone"
+ ],
+ "plac": [
+  "pleasant",
+  "please"
+ ],
+ "plaisir": [
+  "pleasant",
+  "please",
+  "pleasure"
+ ],
+ "poiein": [
+  "poem",
+  "poet"
+ ],
+ "polis": [
+  "police",
+  "policy"
+ ],
+ "politeia": [
+  "police",
+  "policy"
+ ],
+ "politēs": [
+  "police",
+  "policy"
+ ],
+ "possid": [
+  "possess",
+  "possession"
+ ],
+ "potis": [
+  "possess",
+  "possession"
+ ],
+ "prattein": [
+  "practical",
+  "practise"
+ ],
+ "praedic": [
+  "predict",
+  "prediction"
+ ],
+ "praefer": [
+  "prefer",
+  "preference"
+ ],
+ "praesent": [
+  "present",
+  "presentation",
+  "represent",
+  "representative"
+ ],
+ "pris": [
+  "price",
+  "prize"
+ ],
+ "prim": [
+  "primary",
+  "prime",
+  "prince",
+  "princess"
+ ],
+ "princeps": [
+  "prince",
+  "princess",
+  "principal",
+  "principle"
+ ],
+ "prensio": [
+  "prison",
+  "prisoner"
+ ],
+ "probabil": [
+  "probability",
+  "probable"
+ ],
+ "proced": [
+  "procedure",
+  "proceed"
+ ],
+ "produc": [
+  "produce",
+  "production"
+ ],
+ "profiteri": [
+  "profession",
+  "professor"
+ ],
+ "progredi": [
+  "progress",
+  "progressive"
+ ],
+ "progress": [
+  "progress",
+  "progressive"
+ ],
+ "promov": [
+  "promote",
+  "promotion"
+ ],
+ "propri": [
+  "proper",
+  "property"
+ ],
+ "propon": [
+  "propose",
+  "purpose"
+ ],
+ "proteg": [
+  "protect",
+  "protection"
+ ],
+ "public": [
+  "public",
+  "publication",
+  "publicity",
+  "publish"
+ ],
+ "prosequi": [
+  "pursue",
+  "pursuit"
+ ],
+ "pursuer": [
+  "pursue",
+  "pursuit"
+ ],
+ "qual": [
+  "qualification",
+  "qualify",
+  "quality"
+ ],
+ "qualific": [
+  "qualification",
+  "qualify"
+ ],
+ "quies": [
+  "quiet",
+  "quit"
+ ],
+ "quot": [
+  "quotation",
+  "quote"
+ ],
+ "quota": [
+  "quotation",
+  "quote"
+ ],
+ "regula": [
+  "rail",
+  "regular",
+  "regulate",
+  "rule"
+ ],
+ "reag": [
+  "react",
+  "reaction"
+ ],
+ "real": [
+  "real",
+  "reality",
+  "realize"
+ ],
+ "ratio": [
+  "reason",
+  "reasonable"
+ ],
+ "reri": [
+  "reason",
+  "reasonable"
+ ],
+ "recip": [
+  "receive",
+  "reception"
+ ],
+ "cognosc": [
+  "recognition",
+  "recognize"
+ ],
+ "recognosc": [
+  "recognition",
+  "recognize"
+ ],
+ "reduc": [
+  "reduce",
+  "reduction"
+ ],
+ "reger": [
+  "register",
+  "registration"
+ ],
+ "regul": [
+  "regulate",
+  "rule"
+ ],
+ "refer": [
+  "relate",
+  "relation",
+  "relative"
+ ],
+ "laxus": [
+  "relax",
+  "release"
+ ],
+ "relax": [
+  "relax",
+  "release"
+ ],
+ "relev": [
+  "relevant",
+  "relief",
+  "relieve"
+ ],
+ "relever": [
+  "relief",
+  "relieve"
+ ],
+ "relig": [
+  "religion",
+  "religious",
+  "rely"
+ ],
+ "religio": [
+  "religion",
+  "religious"
+ ],
+ "marquer": [
+  "remark",
+  "remarkable"
+ ],
+ "remarquer": [
+  "remark",
+  "remarkable"
+ ],
+ "requir": [
+  "request",
+  "require"
+ ],
+ "cerchier": [
+  "research",
+  "search"
+ ],
+ "reserv": [
+  "reservation",
+  "reserve"
+ ],
+ "resolv": [
+  "resolution",
+  "resolve"
+ ],
+ "surg": [
+  "resource",
+  "source"
+ ],
+ "respond": [
+  "respond",
+  "responsible"
+ ],
+ "spond": [
+  "respond",
+  "response",
+  "responsible",
+  "sponsor"
+ ],
+ "respons": [
+  "response",
+  "responsible"
+ ],
+ "restring": [
+  "restrict",
+  "restriction"
+ ],
+ "string": [
+  "restrict",
+  "restriction"
+ ],
+ "torn": [
+  "return",
+  "tournament",
+  "turn"
+ ],
+ "rober": [
+  "rob",
+  "robbery"
+ ],
+ "romanc": [
+  "romance",
+  "suit",
+  "touch"
+ ],
+ "rupta": [
+  "route",
+  "routine"
+ ],
+ "rute": [
+  "route",
+  "routine"
+ ],
+ "salv": [
+  "safe",
+  "safety",
+  "save",
+  "solid"
+ ],
+ "save": [
+  "safe",
+  "saving"
+ ],
+ "satisfac": [
+  "satisfaction",
+  "satisfy"
+ ],
+ "scand": [
+  "scale",
+  "scan"
+ ],
+ "scena": [
+  "scenario",
+  "scene"
+ ],
+ "skholē": [
+  "scholar",
+  "school"
+ ],
+ "scientia": [
+  "science",
+  "scientific"
+ ],
+ "scire": [
+  "science",
+  "scientific"
+ ],
+ "shear": [
+  "score",
+  "shore"
+ ],
+ "secern": [
+  "secret",
+  "secretary"
+ ],
+ "secret": [
+  "secret",
+  "secretary"
+ ],
+ "selig": [
+  "select",
+  "selection"
+ ],
+ "sens": [
+  "sense",
+  "sensible"
+ ],
+ "sent": [
+  "sense",
+  "sensible",
+  "sensitive"
+ ],
+ "separ": [
+  "separate",
+  "several"
+ ],
+ "shoot": [
+  "sheet",
+  "shot",
+  "shout"
+ ],
+ "skyrta": [
+  "shirt",
+  "skirt"
+ ],
+ "signific": [
+  "significance",
+  "significant"
+ ],
+ "simpl": [
+  "simple",
+  "single"
+ ],
+ "unda": [
+  "sound",
+  "surround"
+ ],
+ "species": [
+  "special",
+  "specific",
+  "specify",
+  "spice"
+ ],
+ "spirit": [
+  "spirit",
+  "spiritual"
+ ],
+ "extrane": [
+  "strange",
+  "stranger"
+ ],
+ "strict": [
+  "stress",
+  "strict"
+ ],
+ "studi": [
+  "student",
+  "studio",
+  "study"
+ ],
+ "urbs": [
+  "suburb",
+  "urban"
+ ],
+ "bases": [
+  "such",
+  "which"
+ ],
+ "sugger": [
+  "suggest",
+  "suggestion"
+ ],
+ "dates": [
+  "suit",
+  "tool"
+ ],
+ "summa": [
+  "sum",
+  "summary"
+ ],
+ "chirurgia": [
+  "surgeon",
+  "surgery"
+ ],
+ "kheir": [
+  "surgeon",
+  "surgery"
+ ],
+ "kheirourgia": [
+  "surgeon",
+  "surgery"
+ ],
+ "tabula": [
+  "table",
+  "tablet"
+ ],
+ "tassein": [
+  "task",
+  "tax"
+ ],
+ "taxer": [
+  "tax",
+  "taxi"
+ ],
+ "tekhnē": [
+  "technique",
+  "technology"
+ ],
+ "terr": [
+  "terrible",
+  "terrify",
+  "terrorist"
+ ],
+ "their": [
+  "their",
+  "theirs",
+  "them",
+  "they"
+ ],
+ "them": [
+  "their",
+  "they"
+ ],
+ "tithenai": [
+  "theme",
+  "thesis"
+ ],
+ "tide": [
+  "tidy",
+  "time"
+ ],
+ "preposition": [
+  "together",
+  "tomorrow",
+  "tonight"
+ ],
+ "tornos": [
+  "tour",
+  "turn"
+ ],
+ "tract": [
+  "trace",
+  "trait",
+  "treat"
+ ],
+ "tragos": [
+  "tragedy",
+  "tragic"
+ ],
+ "translat": [
+  "translate",
+  "translation"
+ ],
+ "tupos": [
+  "type",
+  "typical"
+ ],
+ "tuptein": [
+  "type",
+  "typical"
+ ],
+ "univers": [
+  "universal",
+  "universe",
+  "university"
+ ],
+ "usus": [
+  "usage",
+  "use",
+  "usual"
+ ],
+ "vari": [
+  "variation",
+  "variety",
+  "various",
+  "vary"
+ ],
+ "violent": [
+  "violence",
+  "violent"
+ ],
+ "visiter": [
+  "visit",
+  "visitor"
+ ],
+ "vita": [
+  "vital",
+  "vitamin"
+ ],
+ "volonta": [
+  "voluntary",
+  "volunteer"
+ ],
+ "wake": [
+  "wait",
+  "watch"
+ ],
+ "water": [
+  "water",
+  "wet"
+ ],
+ "well": [
+  "wealth",
+  "welfare"
+ ]
+}

@@ -1,0 +1,15 @@
+__pycache__/
+out/
+out-*/
+
+# 第三方词典数据的衍生文件：本地生成、本地使用，不进仓库。
+#   *-jp.json / detail.js  含 WISDOM3（ウィズダム英和辞典）的日文释义
+#   *-detail.json/.js      含牛津的英文释义与例句
+# 工具（tools/*.py）不含任何词典内容，照常提交；
+# 别人拿到工具，自己有词典就能跑出同样的结果。
+# 要连数据一起公开时，改用开放许可的释义源（日本語WordNet / JMdict / ejdict）。
+data/oxford3000-jp.json
+data/oxford3000-detail.json
+app-oxford/detail.js
+app-oxford/data.js
+app-oxford/audio/
